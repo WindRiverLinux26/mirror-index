@@ -1,0 +1,1425 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_26_LTS",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44223,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44224,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44226,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44227,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44228,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44229,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0"
+        },
+        {
+            "description": "",
+            "id": 44230,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44231,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44232,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_26_LTS",
+            "comparison": false,
+            "hidden": false,
+            "id": 492,
+            "name": "WRLINUX_10_26_LTS",
+            "short_description": "Wind River Linux 10_26 Long Term Support",
+            "sort_priority": 4,
+            "update_environment": null,
+            "updated": "2026-05-01T00:05:10+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "meta-python",
+            "id": 1075080,
+            "layer": 12,
+            "local_path": "",
+            "updated": "2026-04-29T21:04:15+0000",
+            "vcs_last_commit": "2026-04-29T20:04:20+0000",
+            "vcs_last_fetch": "2026-04-29T21:04:15+0000",
+            "vcs_last_rev": "a80670e46e208f852d010a6fe85210e78668af69",
+            "vcs_subdir": "meta-python",
+            "version": "1",
+            "yp_compatible_version": 44228
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "freescale-layer",
+            "id": 1075092,
+            "layer": 231,
+            "local_path": "",
+            "updated": "2026-04-23T04:04:33+0000",
+            "vcs_last_commit": "2026-04-19T22:04:48+0000",
+            "vcs_last_fetch": "2026-04-23T04:04:33+0000",
+            "vcs_last_rev": "66c3d7fa035248cbe2e316cb29627a0c0d765b45",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44228
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "meta-freescale-ml",
+            "id": 1075506,
+            "layer": 578,
+            "local_path": "",
+            "updated": "2026-04-28T00:04:52+0000",
+            "vcs_last_commit": "2026-04-13T21:04:16+0000",
+            "vcs_last_fetch": "2026-04-28T00:04:52+0000",
+            "vcs_last_rev": "8c4f628daa58493dd2d2f51997f520a87d8d7f85",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44232
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 231,
+            "id": 154577,
+            "layerbranch": 1075506,
+            "required": true
+        },
+        {
+            "dependency": 12,
+            "id": 154578,
+            "layerbranch": 1075506,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "meta-python",
+            "comparison": false,
+            "description": "PYTHON Language related items",
+            "id": 12,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-python",
+            "status": "P",
+            "summary": "PYTHON Language related items",
+            "updated": "2018-05-30T22:05:58+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "freescale-layer",
+            "comparison": false,
+            "description": "This layer provides support for Freescale's platforms for use with\r\nOpenEmbedded and/or Yocto.",
+            "id": 231,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-freescale",
+            "status": "P",
+            "summary": "This layer provides support for Freescale's platforms for use with OpenEmbedded and/or Yocto.",
+            "updated": "2018-05-30T22:05:30+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-freescale",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-freescale-ml",
+            "comparison": false,
+            "description": "meta-freescale-ml",
+            "id": 578,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-freescale-ml",
+            "status": "P",
+            "summary": "meta-freescale-ml",
+            "updated": "2026-04-28T00:04:02+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-freescale-ml",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Add packages for AI/ML build",
+            "filename": "packagegroup-fsl-ml.bb",
+            "filepath": "recipes-fsl/packagegroups",
+            "homepage": "",
+            "id": 2434994,
+            "inherits": "gcc gcc-native packagegroup",
+            "layerbranch": 1075506,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-fsl-ml",
+            "pr": "r0",
+            "provides": "packagegroup-fsl-ml ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-28T00:04:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "python3-flatbuffers_24.3.25.bb",
+            "filepath": "recipes-devtools/flatbuffers",
+            "homepage": "https://github.com/google/flatbuffers",
+            "id": 2434995,
+            "inherits": "gcc gcc-native python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "python3-flatbuffers",
+            "pr": "r0",
+            "provides": "python3-flatbuffers ",
+            "pv": "24.3.25",
+            "section": "console/tools",
+            "srcrev": "e6463926479bd6b330cbcf673f7e917803fd5831",
+            "summary": "Memory Efficient Serialization Library - Python3 Modules",
+            "updated": "2026-04-28T00:04:47+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DFLATBUFFERS_BUILD_TESTS=OFF     -DFLATBUFFERS_BUILD_SHAREDLIB=ON  -DFLATBUFFERS_FLATC_EXECUTABLE=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/flatbuffers/24.3.25/recipe-sysroot-native/usr/bin/flatc ",
+            "description": "",
+            "filename": "flatbuffers_24.3.25.bb",
+            "filepath": "recipes-devtools/flatbuffers",
+            "homepage": "https://github.com/google/flatbuffers",
+            "id": 2434996,
+            "inherits": "cmake gcc gcc-native python3-dir python3native",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "flatbuffers",
+            "pr": "r0",
+            "provides": "flatbuffers ",
+            "pv": "24.3.25",
+            "section": "console/tools",
+            "srcrev": "e6463926479bd6b330cbcf673f7e917803fd5831",
+            "summary": "Memory Efficient Serialization Library",
+            "updated": "2026-04-28T00:04:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DCMAKE_BUILD_TYPE=RelWithDebInfo     -Donnxruntime_BUILD_UNIT_TESTS=ON     -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON     -DCMAKE_POLICY_VERSION_MINIMUM=3.5    -Donnxruntime_ARMNN_BN_USE_CPU=OFF  -Donnxruntime_ARMNN_RELU_USE_CPU=OFF  -Donnxruntime_USE_AUTOML=OFF  -Donnxruntime_USE_BRAINSLICE=OFF -Donnxruntime_CROSS_COMPILING=ON  -Donnxruntime_BUILD_CSHARP=OFF  -Donnxruntime_USE_CUDA=OFF  -Donnxruntime_DEV_MODE=OFF  -Donnxruntime_USE_DML=OFF  -Donnxruntime_USE_DNNL=OFF  -Donnxruntime_USE_EIGEN_FOR_BLAS=OFF  -Donnxruntime_USE_EIGEN_THREADPOOL=OFF  -Donnxruntime_USE_FULL_PROTOBUF=OFF  -Donnxruntime_USE_GEMMLOWP=OFF  -Donnxruntime_ENABLE_LANGUAGE_INTEROP_OPS=OFF  -Donnxruntime_BUILD_JAVA=OFF  -Donnxruntime_USE_JEMALLOC=OFF -Donnxruntime_USE_KLEIDIAI=ON  -Donnxruntime_USE_LLVM=OFF  -Donnxruntime_ENABLE_MICROSOFT_INTERNAL=OFF  -Donnxruntime_USE_MIMALLOC=OFF  -Donnxruntime_USE_MKLML=OFF  -Donnxruntime_USE_NEUTRON=OFF  -Donnxruntime_USE_NGRAPH=OFF  -Donnxruntime_USE_NNAPI_BUILTIN=OFF  -Donnxruntime_USE_NSYNC=OFF  -Donnxruntime_USE_NUPHAR=OFF  -Donnxruntime_USE_OPENBLAS=OFF  -Donnxruntime_USE_OPENMP=OFF  -Donnxruntime_USE_OPENVINO=OFF  -Donnxruntime_DISABLE_CONTRIB_OPS=OFF  -Donnxruntime_PYBIND_EXPORT_OPSCHEMA=OFF  -Donnxruntime_USE_PREBUILT_PB=OFF -Donnxruntime_ENABLE_PYTHON=ON  -Donnxruntime_GENERATE_TEST_REPORTS=OFF  -Donnxruntime_RUN_ONNX_TESTS=OFF  -Donnxruntime_BUILD_SERVER=OFF -Donnxruntime_BUILD_SHARED_LIB=ON  -Donnxruntime_MSVC_STATIC_RUNTIME=OFF  -Donnxruntime_USE_TELEMETRY=OFF  -Donnxruntime_USE_TENSORRT=OFF  -Donnxruntime_USE_TRT=OFF  -Donnxruntime_USE_TVM=OFF  -Donnxruntime_USE_VSINPU=OFF  -Donnxruntime_BUILD:x86=OFF",
+            "description": "cross-platform, high performance scoring engine for ML models",
+            "filename": "onnxruntime_1.22.0.bb",
+            "filepath": "recipes-libraries/onnxruntime",
+            "homepage": "",
+            "id": 2434997,
+            "inherits": "cmake gcc gcc-native python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 1075506,
+            "license": "MIT & Apache-2.0",
+            "pe": "",
+            "pn": "onnxruntime",
+            "pr": "r0",
+            "provides": "onnxruntime ",
+            "pv": "1.22.0",
+            "section": "devel",
+            "srcrev": "868cb88cd799d12d201829d51f93c72365567957",
+            "summary": "",
+            "updated": "2026-04-28T00:04:48+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}  ",
+            "description": "Host tools required for build of TensorFlow Lite C++ Library unit tests and Evaluation Tools",
+            "filename": "tensorflow-lite-host-tools_2.19.0.bb",
+            "filepath": "recipes-libraries/tensorflow-lite",
+            "homepage": "",
+            "id": 2434998,
+            "inherits": "cmake gcc gcc-native",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "tensorflow-lite-host-tools",
+            "pr": "r0",
+            "provides": "tensorflow-lite-host-tools ",
+            "pv": "2.19.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-28T00:04:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/recipe-sysroot-native/usr/bin      -DTIM_VX_INSTALL=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/recipe-sysroot/usr      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/sources/tfgit      -DTFLITE_LIB_LOC=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/sources/tensorflow-lite-vx-delegate-2.19.0  ",
+            "description": "TensorFlow Lite VX Delegate",
+            "filename": "tensorflow-lite-vx-delegate_2.19.0.bb",
+            "filepath": "recipes-libraries/tensorflow-lite",
+            "homepage": "",
+            "id": 2434999,
+            "inherits": "cmake gcc gcc-native python3-dir python3native",
+            "layerbranch": 1075506,
+            "license": "MIT",
+            "pe": "",
+            "pn": "tensorflow-lite-vx-delegate",
+            "pr": "r0",
+            "provides": "tensorflow-lite-vx-delegate ",
+            "pv": "2.19.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-28T00:04:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.19.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.19.0/sources/tfgit      -DTFLITE_LIB_LOC=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.19.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.19.0/sources/tensorflow-lite-neutron-delegate-2.19.0  ",
+            "description": "TensorFlow Lite Neutron Delegate",
+            "filename": "tensorflow-lite-neutron-delegate_2.19.0.bb",
+            "filepath": "recipes-libraries/tensorflow-lite",
+            "homepage": "",
+            "id": 2435000,
+            "inherits": "cmake gcc gcc-native python3-dir python3native",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "tensorflow-lite-neutron-delegate",
+            "pr": "r0",
+            "provides": "tensorflow-lite-neutron-delegate ",
+            "pv": "2.19.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-28T00:04:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DTFLITE_EVAL_TOOLS=on     -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/${MACHINE_SOCARCH}-oe-linux/tensorflow-lite/2.19.0/recipe-sysroot-native/usr/bin     -DTFLITE_BUILD_SHARED_LIB=on     -DTFLITE_ENABLE_NNAPI=off     -DTFLITE_ENABLE_NNAPI_VERBOSE_VALIDATION=on     -DTFLITE_ENABLE_RUY=on     -DTFLITE_ENABLE_XNNPACK=on     -DTFLITE_PYTHON_WRAPPER_BUILD_CMAKE2=on     -DTFLITE_ENABLE_EXTERNAL_DELEGATE=on     /tmp/tmph3_1mclb/tmp/work/${MACHINE_SOCARCH}-oe-linux/tensorflow-lite/2.19.0/sources/tensorflow-lite-2.19.0/tensorflow/lite/   -DTFLITE_ENABLE_GPU=off",
+            "description": "TensorFlow Lite C++ Library",
+            "filename": "tensorflow-lite_2.19.0.bb",
+            "filepath": "recipes-libraries/tensorflow-lite",
+            "homepage": "",
+            "id": 2435001,
+            "inherits": "cmake gcc gcc-native python3-dir python3native",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "tensorflow-lite",
+            "pr": "r0",
+            "provides": "tensorflow-lite ",
+            "pv": "2.19.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-28T00:04:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.19.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.19.0/sources/tfgit      -DTFLITE_LIB_LOC=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.19.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.19.0/sources/tensorflow-lite-ethosu-delegate-2.19.0  ",
+            "description": "TensorFlow Lite Ethos-u Delegate",
+            "filename": "tensorflow-lite-ethosu-delegate_2.19.0.bb",
+            "filepath": "recipes-libraries/tensorflow-lite",
+            "homepage": "",
+            "id": 2435002,
+            "inherits": "cmake gcc gcc-native python3-dir python3native",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "tensorflow-lite-ethosu-delegate",
+            "pr": "r0",
+            "provides": "tensorflow-lite-ethosu-delegate ",
+            "pv": "2.19.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-28T00:04:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "The firmware library and converter for i.MX Neutron NPU",
+            "filename": "neutron_1.0.0.bb",
+            "filepath": "recipes-libraries/neutron",
+            "homepage": "",
+            "id": 2435003,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1075506,
+            "license": "Proprietary",
+            "pe": "",
+            "pn": "neutron",
+            "pr": "r0",
+            "provides": "neutron ",
+            "pv": "1.0.0",
+            "section": "base",
+            "srcrev": "2887d2dcf47eda7e3f20afe3c2c1f4d1a2970386",
+            "summary": "The firmware, library and converter for i.MX Neutron NPU",
+            "updated": "2026-04-28T00:04:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "pytorch_git.bb",
+            "filepath": "recipes-libraries/pytorch",
+            "homepage": "",
+            "id": 2435004,
+            "inherits": "gcc gcc-native python3-dir python3native",
+            "layerbranch": 1075506,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "pytorch",
+            "pr": "r0",
+            "provides": "pytorch ",
+            "pv": "2.0.0",
+            "section": "base",
+            "srcrev": "cc03fda98c2ef26db2f823eaba36ca96107eee23",
+            "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+            "updated": "2026-04-28T00:04:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "The eiq examples based on Tf-lite",
+            "filename": "eiq-examples_git.bb",
+            "filepath": "recipes-libraries/eiq-examples",
+            "homepage": "",
+            "id": 2435005,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "eiq-examples",
+            "pr": "r0",
+            "provides": "eiq-examples ",
+            "pv": "git",
+            "section": "base",
+            "srcrev": "a900ed92dd27f79e832dca7b184c7f621ea0c97f",
+            "summary": "The eiq examples based on Tf-lite",
+            "updated": "2026-04-28T00:04:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/${MACHINE_SOCARCH}-oe-linux/litert/1.2.0/recipe-sysroot-native/usr/bin     -DTFLITE_ENABLE_NNAPI=off     -DTFLITE_ENABLE_NNAPI_VERBOSE_VALIDATION=on     -DTFLITE_ENABLE_RUY=on     -DTFLITE_ENABLE_XNNPACK=on     -DTFLITE_ENABLE_EXTERNAL_DELEGATE=on     -DTFLITE_PYTHON_WRAPPER_BUILD=on     /tmp/tmph3_1mclb/tmp/work/${MACHINE_SOCARCH}-oe-linux/litert/1.2.0/sources/litert-1.2.0/tflite/   -DTFLITE_ENABLE_GPU=off",
+            "description": "Google's open-source high-performance runtime for on-device AI",
+            "filename": "litert_1.2.0.bb",
+            "filepath": "recipes-libraries/litert",
+            "homepage": "",
+            "id": 2435006,
+            "inherits": "cmake gcc gcc-native python3-dir python3native",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "litert",
+            "pr": "r0",
+            "provides": "litert ",
+            "pv": "1.2.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-28T00:04:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DBUILD_FOR_LITERT=ON      -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DGIT_COMMIT_HASH=be8bf3997c70247bf46649f2304209fef82d4802      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-neutron-delegate/1.2.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-neutron-delegate/1.2.0/sources/litertgit      /tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-neutron-delegate/1.2.0/sources/litert-neutron-delegate-1.2.0  ",
+            "description": "TensorFlow Lite Neutron Delegate",
+            "filename": "litert-neutron-delegate_1.2.0.bb",
+            "filepath": "recipes-libraries/litert",
+            "homepage": "",
+            "id": 2435007,
+            "inherits": "cmake gcc gcc-native python3-dir python3native",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "litert-neutron-delegate",
+            "pr": "r0",
+            "provides": "litert-neutron-delegate ",
+            "pv": "1.2.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-28T00:04:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DBUILD_FOR_LITERT=ON      -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-vx-delegate/1.2.0/recipe-sysroot-native/usr/bin      -DTIM_VX_INSTALL=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-vx-delegate/1.2.0/recipe-sysroot/usr      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-vx-delegate/1.2.0/sources/litertgit      /tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-vx-delegate/1.2.0/sources/litert-vx-delegate-1.2.0  ",
+            "description": "LiteRT VX Delegate",
+            "filename": "litert-vx-delegate_1.2.0.bb",
+            "filepath": "recipes-libraries/litert",
+            "homepage": "",
+            "id": 2435008,
+            "inherits": "cmake gcc gcc-native python3-dir python3native",
+            "layerbranch": 1075506,
+            "license": "MIT",
+            "pe": "",
+            "pn": "litert-vx-delegate",
+            "pr": "r0",
+            "provides": "litert-vx-delegate ",
+            "pv": "1.2.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-28T00:04:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DBUILD_FOR_LITERT=ON      -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-ethosu-delegate/1.2.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-ethosu-delegate/1.2.0/sources/litertgit      /tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-ethosu-delegate/1.2.0/sources/litert-ethosu-delegate-1.2.0  ",
+            "description": "LiteRT Ethos-u Delegate",
+            "filename": "litert-ethosu-delegate_1.2.0.bb",
+            "filepath": "recipes-libraries/litert",
+            "homepage": "",
+            "id": 2435009,
+            "inherits": "cmake gcc gcc-native python3-dir python3native",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "litert-ethosu-delegate",
+            "pr": "r0",
+            "provides": "litert-ethosu-delegate ",
+            "pv": "1.2.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-28T00:04:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DCONFIG=YOCTO     -DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}     -DTIM_VX_ENABLE_TEST=off     -DTIM_VX_USE_EXTERNAL_OVXLIB=off  ",
+            "description": "TIM-VX is a software integration module provided by VeriSilicon to facilitate deployment of Neural-Networks on OpenVX enabled ML accelerators. It serves as the backend binding for runtime frameworks such as Android NN, Tensorflow-Lite, MLIR, TVM and more.",
+            "filename": "tim-vx_1.2.2.bb",
+            "filepath": "recipes-libraries/tim-vx",
+            "homepage": "",
+            "id": 2435010,
+            "inherits": "cmake gcc gcc-native",
+            "layerbranch": 1075506,
+            "license": "MIT",
+            "pe": "",
+            "pn": "tim-vx",
+            "pr": "r0",
+            "provides": "tim-vx ",
+            "pv": "1.2.2",
+            "section": "base",
+            "srcrev": "81d8d14cef8a8fe6987b2ae27eddd6c87bbaff81",
+            "summary": "Tensor Interface Module for OpenVX",
+            "updated": "2026-04-28T00:04:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -DUSE_VSI_NPU=ON -DUSE_VSI_NPU_RUNTIME=ON ",
+            "description": "Apache TVM (incubating) is a compiler stack for deep learning systems. It is designed to close the gap between the productivity-focused deep learning frameworks, and the performance- and efficiency-focused hardware backends. TVM works with deep learning frameworks to provide end to end compilation to different backends.",
+            "filename": "tvm_0.7.0.bb",
+            "filepath": "recipes-libraries/tvm",
+            "homepage": "",
+            "id": 2435011,
+            "inherits": "cmake gcc gcc-native python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0 & BSD-3-Clause",
+            "pe": "",
+            "pn": "tvm",
+            "pr": "r0",
+            "provides": "tvm ",
+            "pv": "0.7.0",
+            "section": "base",
+            "srcrev": "2a0afb968fb985ceace4587c6ffd4f9173a550d2",
+            "summary": "Open Deep Learning Compiler Stack",
+            "updated": "2026-04-28T00:04:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "The firmware of Cortex(R)-M33 for Arm(R) Ethos(TM)-U NPU",
+            "filename": "ethos-u-firmware_24.05.bb",
+            "filepath": "recipes-libraries/ethos-u-driver-stack",
+            "homepage": "",
+            "id": 2435012,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0 & GPL-2.0-only & BSD-3-Clause",
+            "pe": "",
+            "pn": "ethos-u-firmware",
+            "pr": "r0",
+            "provides": "ethos-u-firmware ",
+            "pv": "24.05",
+            "section": "base",
+            "srcrev": "79362654c657575920a0ef3dfc3d346f63114db8",
+            "summary": "The firmware of Cortex(R)-M33 for Arm(R) Ethos(TM)-U NPU",
+            "updated": "2026-04-28T00:04:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DCMAKE_POLICY_VERSION_MINIMUM=3.5  ",
+            "description": "The Linux driver stack for Arm(R) Ethos(TM)-U provides an example of how a rich operating system like Linux can dispatch inferences to an Arm Cortex(R)-M subsystem, consisting of an Arm Cortex-M of choice and an Arm Ethos-U NPU.",
+            "filename": "ethos-u-driver-stack_24.05.bb",
+            "filepath": "recipes-libraries/ethos-u-driver-stack",
+            "homepage": "",
+            "id": 2435013,
+            "inherits": "cmake gcc gcc-native python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "ethos-u-driver-stack",
+            "pr": "r0",
+            "provides": "ethos-u-driver-stack ",
+            "pv": "24.05",
+            "section": "base",
+            "srcrev": "caf5daf63fc2a69733eb92387ba69bef033926b3",
+            "summary": "The Linux driver stack for Arm(R) Ethos(TM)-U NPU",
+            "updated": "2026-04-28T00:04:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "The vela tool is used to compile a TensorFlow Lite for Microcontrollers neural network model into an optimised version that can run on an embedded system containing an Arm Ethos-U NPU",
+            "filename": "ethos-u-vela_4.3.0.bb",
+            "filepath": "recipes-libraries/ethos-u-vela",
+            "homepage": "",
+            "id": 2435014,
+            "inherits": "gcc gcc-native python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "ethos-u-vela",
+            "pr": "r0",
+            "provides": "ethos-u-vela ",
+            "pv": "4.3.0",
+            "section": "base",
+            "srcrev": "7c3791e2b659fc3a11e28b2bbc5635bba05434e9",
+            "summary": "",
+            "updated": "2026-04-28T00:04:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "         --disable-graphviz         --disable-gtk-doc  --disable-static ",
+            "description": "",
+            "filename": "nnshark_2023.11.imx.bb",
+            "filepath": "recipes-nnstreamer/nnshark",
+            "homepage": "https://github.com/nnstreamer/nnshark",
+            "id": 2435015,
+            "inherits": "autotools autotools-brokensep gcc gcc-native pkgconfig siteinfo",
+            "layerbranch": 1075506,
+            "license": "GPL-2.0-only & LGPL-2.1-only",
+            "pe": "",
+            "pn": "nnshark",
+            "pr": "r0",
+            "provides": "nnshark ",
+            "pv": "2023.11.imx",
+            "section": "base",
+            "srcrev": "cedca5ab20a0230042b7c14be1a00532f0387f1e",
+            "summary": "A GStreamer NNstreamer pipelines real-time profiling plugin",
+            "updated": "2026-04-28T00:04:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " \t-Denable-float16=true \t-Denable-test=true \t-Dinstall-test=true    \t-Dflatbuf-support=disabled  \t-Dgrpc-support=disabled \t-Dprotobuf-support=enabled \t-Dpython3-support=enabled \t-Dnnstreamer-edge-support=enabled  \t-Dtflite2-support=disabled  \t-Dtvm-support=disabled",
+            "description": "NNStreamer is a GStreamer plugin allowing to construct neural network applications with stream pipeline paradigm.",
+            "filename": "nnstreamer_2.4.2.bb",
+            "filepath": "recipes-nnstreamer/nnstreamer",
+            "homepage": "",
+            "id": 2435016,
+            "inherits": "gcc gcc-native meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 1075506,
+            "license": "LGPL-2.0-or-later",
+            "pe": "",
+            "pn": "nnstreamer",
+            "pr": "r0",
+            "provides": "nnstreamer ",
+            "pv": "2.4.2",
+            "section": "AI",
+            "srcrev": "9cf11e0768892636622480fe1b5fc042b5a224ad",
+            "summary": "NNStreamer, Stream Pipeline Paradigm for Neural Network Applications",
+            "updated": "2026-04-28T00:04:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Shell Script Automated Tester (unit testing executable files)",
+            "filename": "ssat_1.2.0.bb",
+            "filepath": "recipes-nnstreamer/ssat",
+            "homepage": "",
+            "id": 2435017,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "ssat",
+            "pr": "r0",
+            "provides": "ssat ",
+            "pv": "1.2.0+gitX",
+            "section": "Development",
+            "srcrev": "163516897314d6e0c437a84272e348f278038be3",
+            "summary": "Shell Script Automated Tester (unit testing executable files)",
+            "updated": "2026-04-28T00:04:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DENABLE_TEST=ON  ",
+            "description": "Remote source nodes for NNStreamer pipelines without GStreamer dependencies",
+            "filename": "nnstreamer-edge_0.2.6.bb",
+            "filepath": "recipes-nnstreamer/nnstreamer-edge",
+            "homepage": "",
+            "id": 2435018,
+            "inherits": "cmake gcc gcc-native pkgconfig",
+            "layerbranch": 1075506,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "nnstreamer-edge",
+            "pr": "r0",
+            "provides": "nnstreamer-edge ",
+            "pv": "0.2.6",
+            "section": "base",
+            "srcrev": "e73acb740dce3ecbf8a650f45fab790afb400a95",
+            "summary": "NNStreamer-Edge library",
+            "updated": "2026-04-28T00:04:52+0000"
+        }
+    ],
+    "wrtemplates": []
+}

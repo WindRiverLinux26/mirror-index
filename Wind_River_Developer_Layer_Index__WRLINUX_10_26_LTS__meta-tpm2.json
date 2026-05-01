@@ -1,0 +1,1120 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_26_LTS",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44223,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44224,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44226,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44227,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44228,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44229,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0"
+        },
+        {
+            "description": "",
+            "id": 44230,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44231,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44232,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_26_LTS",
+            "comparison": false,
+            "hidden": false,
+            "id": 492,
+            "name": "WRLINUX_10_26_LTS",
+            "short_description": "Wind River Linux 10_26 Long Term Support",
+            "sort_priority": 4,
+            "update_environment": null,
+            "updated": "2026-05-01T00:05:10+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "core",
+            "id": 1075067,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2026-04-29T01:04:40+0000",
+            "vcs_last_commit": "2026-04-28T23:04:47+0000",
+            "vcs_last_fetch": "2026-04-29T01:04:40+0000",
+            "vcs_last_rev": "d57564a8342379fd140277559088bd75f093a498",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44226
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "openembedded-layer",
+            "id": 1075078,
+            "layer": 7,
+            "local_path": "",
+            "updated": "2026-04-27T19:04:20+0000",
+            "vcs_last_commit": "2026-04-24T04:04:22+0000",
+            "vcs_last_fetch": "2026-04-27T19:04:20+0000",
+            "vcs_last_rev": "818046faabbf8d6e3c81b0baaa0e5a583eaedf49",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": 44228
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "meta-python",
+            "id": 1075080,
+            "layer": 12,
+            "local_path": "",
+            "updated": "2026-04-29T21:04:15+0000",
+            "vcs_last_commit": "2026-04-29T20:04:20+0000",
+            "vcs_last_fetch": "2026-04-29T21:04:15+0000",
+            "vcs_last_rev": "a80670e46e208f852d010a6fe85210e78668af69",
+            "vcs_subdir": "meta-python",
+            "version": "1",
+            "yp_compatible_version": 44228
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "tpm2",
+            "id": 1075089,
+            "layer": 152,
+            "local_path": "",
+            "updated": "2026-04-23T04:04:36+0000",
+            "vcs_last_commit": "2026-03-19T07:03:24+0000",
+            "vcs_last_fetch": "2026-04-23T04:04:36+0000",
+            "vcs_last_rev": "297d2cf2233f7351cfcd365f0cb3a8e024b693ee",
+            "vcs_subdir": "meta-tpm2",
+            "version": null,
+            "yp_compatible_version": 44229
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 154376,
+            "layerbranch": 1075089,
+            "required": true
+        },
+        {
+            "dependency": 12,
+            "id": 154377,
+            "layerbranch": 1075089,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 154378,
+            "layerbranch": 1075089,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "openembedded-layer",
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-python",
+            "comparison": false,
+            "description": "PYTHON Language related items",
+            "id": 12,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-python",
+            "status": "P",
+            "summary": "PYTHON Language related items",
+            "updated": "2018-05-30T22:05:58+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "tpm2",
+            "comparison": false,
+            "description": "This layer enables Trusted Platform Module (TPM 2.0) support, including kernel option changes to enable tpm drivers, and picking up TPM 2.0 packages.",
+            "id": 152,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-tpm2",
+            "status": "P",
+            "summary": "Provide TPM 2.x support",
+            "updated": "2018-05-30T22:05:55+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "--disable-ptool-checks --disable-static ",
+            "description": "PKCS #11 is a Public-Key Cryptography Standard that defines a standard method to access cryptographic services from tokens/ devices such as hardware security modules (HSM), smart cards, etc. In this project we intend to use a TPM2 device as the cryptographic token.",
+            "filename": "tpm2-pkcs11_1.9.1.bb",
+            "filepath": "recipes-tpm/tpm2-pkcs11",
+            "homepage": "https://github.com/tpm2-software/tpm2-pkcs11",
+            "id": 2431061,
+            "inherits": "autotools gcc gcc-native pkgconfig python3-dir python3native siteinfo",
+            "layerbranch": 1075089,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "tpm2-pkcs11",
+            "pr": "r0",
+            "provides": "tpm2-pkcs11 ",
+            "pv": "1.9.1",
+            "section": "tpm",
+            "srcrev": "",
+            "summary": "A PKCS#11 interface for TPM2 hardware",
+            "updated": "2026-04-23T04:04:34+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --enable-static --with-udevrulesdir=/usr/lib/udev/rules.d/   --disable-fapi --disable-doxygen-doc --disable-policy",
+            "description": "OSS implementation of the TCG TPM2 Software Stack (TSS2) ",
+            "filename": "tpm2-tss_4.1.3.bb",
+            "filepath": "recipes-tpm/tpm2-tss",
+            "homepage": "",
+            "id": 2431062,
+            "inherits": "autotools gcc gcc-native pkgconfig siteinfo systemd useradd useradd_base",
+            "layerbranch": 1075089,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "tpm2-tss",
+            "pr": "r0",
+            "provides": "tpm2-tss      tpm2-tss     tpm2-tss-dbg     tpm2-tss-doc     libtss2-mu     libtss2-mu-dev     libtss2-mu-staticdev     libtss2-tcti-device     libtss2-tcti-device-dev     libtss2-tcti-device-staticdev     libtss2-tcti-mssim     libtss2-tcti-mssim-dev     libtss2-tcti-mssim-staticdev     libtss2     libtss2-dev     libtss2-staticdev ",
+            "pv": "4.1.3",
+            "section": "tpm",
+            "srcrev": "",
+            "summary": "Software stack for TPM2.",
+            "updated": "2026-04-23T04:04:35+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static  --with-systemdsystemunitdir=/usr/lib/systemd/system",
+            "description": "This is a system daemon implementing the TPM2 access broker (TAB) & Resource Manager (RM) spec from the TCG. The daemon (tpm2-abrmd) is implemented using Glib and the GObject system. In this documentation and in the code we use `tpm2-abrmd` and `tabrmd` interchangeably. ",
+            "filename": "tpm2-abrmd_3.0.0.bb",
+            "filepath": "recipes-tpm/tpm2-abrmd",
+            "homepage": "",
+            "id": 2431063,
+            "inherits": "autotools gcc gcc-native pkgconfig siteinfo systemd update-rc.d",
+            "layerbranch": 1075089,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "tpm2-abrmd",
+            "pr": "r0",
+            "provides": "tpm2-abrmd ",
+            "pv": "3.0.0",
+            "section": "tpm",
+            "srcrev": "",
+            "summary": "TPM2 Access Broker & Resource Manager",
+            "updated": "2026-04-23T04:04:35+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static ",
+            "description": "This is a reimplementation of tpmtotp software for TPM 2.0 using the tpm2-tss software stack. Its purpose is to attest the trustworthiness of a device against a human using time-based one-time passwords (TOTP), facilitating the Trusted Platform Module (TPM) to bind the TOTP secret to the known trustworthy system state.",
+            "filename": "tpm2-totp_0.3.0.bb",
+            "filepath": "recipes-tpm/tpm2-totp",
+            "homepage": "https://github.com/tpm2-software/tpm2-totp",
+            "id": 2431064,
+            "inherits": "autotools gcc gcc-native pkgconfig siteinfo",
+            "layerbranch": 1075089,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "tpm2-totp",
+            "pr": "r0",
+            "provides": "tpm2-totp ",
+            "pv": "0.3.0",
+            "section": "tpm",
+            "srcrev": "",
+            "summary": "Attest the trustworthiness of a device against a human using time-based one-time passwords",
+            "updated": "2026-04-23T04:04:35+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static ",
+            "description": "The tpm2-tss-engine project implements a cryptographic engine for OpenSSL for Trusted Platform Module (TPM 2.0) using the tpm2-tss software stack that follows the Trusted Computing Groups (TCG) TPM Software Stack (TSS 2.0). It uses the Enhanced System API (ESAPI) interface of the TSS 2.0 for downwards communication. It supports RSA decryption and signatures as well as ECDSA signatures.",
+            "filename": "tpm2-tss-engine_1.2.0.bb",
+            "filepath": "recipes-tpm/tpm2-tss-engine",
+            "homepage": "https://github.com/tpm2-software/tpm2-tss-engine",
+            "id": 2431065,
+            "inherits": "autotools gcc gcc-native pkgconfig siteinfo",
+            "layerbranch": 1075089,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "tpm2-tss-engine",
+            "pr": "r0",
+            "provides": "tpm2-tss-engine ",
+            "pv": "1.2.0",
+            "section": "tpm",
+            "srcrev": "",
+            "summary": "A cryptographic engine for OpenSSL for TPM 2.0",
+            "updated": "2026-04-23T04:04:35+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static ",
+            "description": "Trusted Platform Module (TPM2.0) tools based on tpm2-tss.",
+            "filename": "tpm2-tools_5.7.bb",
+            "filepath": "recipes-tpm/tpm2-tools",
+            "homepage": "",
+            "id": 2431066,
+            "inherits": "autotools bash-completion gcc gcc-native pkgconfig siteinfo",
+            "layerbranch": 1075089,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "tpm2-tools",
+            "pr": "r0",
+            "provides": "tpm2-tools ",
+            "pv": "5.7",
+            "section": "tpm",
+            "srcrev": "",
+            "summary": "Trusted Platform Module 2.0 tools",
+            "updated": "2026-04-23T04:04:35+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static ",
+            "description": "The tpm2-openssl project implements a provider that integrates the Trusted Platform Module (TPM 2.0) operations to the OpenSSL 3.x, which is the next version of OpenSSL after 1.1.1.",
+            "filename": "tpm2-openssl_1.3.0.bb",
+            "filepath": "recipes-tpm/tpm2-openssl",
+            "homepage": "https://github.com/tpm2-software/tpm2-openssl",
+            "id": 2431067,
+            "inherits": "autotools gcc gcc-native pkgconfig siteinfo",
+            "layerbranch": 1075089,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "tpm2-openssl",
+            "pr": "r0",
+            "provides": "tpm2-openssl ",
+            "pv": "1.3.0",
+            "section": "tpm",
+            "srcrev": "",
+            "summary": "Provider for integration of TPM 2.0 to OpenSSL 3.X",
+            "updated": "2026-04-23T04:04:36+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "TPM2 TSS Python bindings for Enhanced System API (ESYS), Feature API (FAPI), Marshaling (MU), TCTI Loader (TCTILdr), TCTIs, policy, and RC Decoding (rcdecode) libraries.",
+            "filename": "tpm2-pytss_2.3.0.bb",
+            "filepath": "recipes-tpm/tpm2-pytss",
+            "homepage": "https://github.com/tpm2-software/tpm2-pytss",
+            "id": 2431068,
+            "inherits": "gcc gcc-native pkgconfig pypi python3-dir python3native python3targetconfig python_pep517 python_setuptools_build_meta setuptools3-base",
+            "layerbranch": 1075089,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "tpm2-pytss",
+            "pr": "r0",
+            "provides": "tpm2-pytss ",
+            "pv": "2.3.0",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "Python bindings for TSS",
+            "updated": "2026-04-23T04:04:36+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Packagegroup for TPM2 TCG TSS userspace and utilities.",
+            "filename": "packagegroup-tpm2.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 2431069,
+            "inherits": "allarch gcc gcc-native packagegroup",
+            "layerbranch": 1075089,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-tpm2",
+            "pr": "r0",
+            "provides": "packagegroup-tpm2 ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-23T04:04:36+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Packagegroup for TPM2 TCG TSS userspace and utilities.",
+            "filename": "packagegroup-tpm2-initramfs.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 2431070,
+            "inherits": "allarch gcc gcc-native packagegroup",
+            "layerbranch": 1075089,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-tpm2-initramfs",
+            "pr": "r0",
+            "provides": "packagegroup-tpm2-initramfs ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-23T04:04:36+0000"
+        }
+    ],
+    "wrtemplates": []
+}
