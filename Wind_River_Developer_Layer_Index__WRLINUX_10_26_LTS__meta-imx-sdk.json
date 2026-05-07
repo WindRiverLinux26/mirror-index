@@ -718,7 +718,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-01T00:05:10+0000",
+            "updated": "2026-05-06T00:05:09+0000",
             "updates_enabled": true
         }
     ],
@@ -805,10 +805,10 @@
             "id": 1075115,
             "layer": 553,
             "local_path": "",
-            "updated": "2026-04-23T04:04:09+0000",
-            "vcs_last_commit": "2026-04-02T20:04:50+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:09+0000",
-            "vcs_last_rev": "dc078884d1e8904f607e712d72e9ec6f2d9e04ae",
+            "updated": "2026-05-06T02:05:38+0000",
+            "vcs_last_commit": "2026-05-05T23:05:41+0000",
+            "vcs_last_fetch": "2026-05-06T02:05:38+0000",
+            "vcs_last_rev": "bf6efb78b3f32da907408be9ce86f127376e10d1",
             "vcs_subdir": "meta-imx-bsp",
             "version": null,
             "yp_compatible_version": 44231
@@ -820,10 +820,10 @@
             "id": 1075123,
             "layer": 552,
             "local_path": "",
-            "updated": "2026-04-23T04:04:16+0000",
-            "vcs_last_commit": "2026-04-02T20:04:50+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:16+0000",
-            "vcs_last_rev": "5b6c21e5979690ae236ffb89d51cafa437c93eef",
+            "updated": "2026-05-06T02:05:50+0000",
+            "vcs_last_commit": "2026-05-06T01:05:37+0000",
+            "vcs_last_fetch": "2026-05-06T02:05:50+0000",
+            "vcs_last_rev": "971aa22f83d7700e3b856e9b5bb2ced4902d1f4b",
             "vcs_subdir": "meta-imx-sdk",
             "version": null,
             "yp_compatible_version": 44212
@@ -2149,6 +2149,29 @@
             "srcrev": "fd7359aed6aaba745e31dd0a9fed80578372d554",
             "summary": "Tools for WFA Sigma DUT/CA",
             "updated": "2026-04-23T04:04:16+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "http://w1.fi/security/",
+            "configopts": " --disable-static",
+            "description": "wpa_supplicant is a WPA Supplicant for Linux, BSD, Mac OS X, and Windows with support for WPA and WPA2 (IEEE 802.11i / RSN). Supplicant is the IEEE 802.1X/WPA component that is used in the client stations. It implements key negotiation with a WPA Authenticator and it controls the roaming and IEEE 802.11 authentication/association of the wlan driver.",
+            "filename": "wpa-supplicant_2.11.imx.bb",
+            "filepath": "recipes-connectivity/wpa-supplicant",
+            "homepage": "http://w1.fi/wpa_supplicant/",
+            "id": 2441349,
+            "inherits": "gcc gcc-native pkgconfig systemd",
+            "layerbranch": 1075123,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "wpa-supplicant",
+            "pr": "r0",
+            "provides": "wpa-supplicant ",
+            "pv": "2.11.imx",
+            "section": "network",
+            "srcrev": "",
+            "summary": "Client for Wi-Fi Protected Access (WPA)",
+            "updated": "2026-05-06T02:05:50+0000"
         }
     ],
     "wrtemplates": []

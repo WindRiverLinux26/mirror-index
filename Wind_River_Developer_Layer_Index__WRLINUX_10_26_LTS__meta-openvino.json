@@ -718,7 +718,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-01T00:05:10+0000",
+            "updated": "2026-05-06T00:05:09+0000",
             "updates_enabled": true
         }
     ],
@@ -776,10 +776,10 @@
             "id": 1075101,
             "layer": 562,
             "local_path": "",
-            "updated": "2026-04-23T04:04:13+0000",
-            "vcs_last_commit": "2026-03-22T17:03:54+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:13+0000",
-            "vcs_last_rev": "0ab9b9c83b3d95a846a73c6126b988f501e8e24d",
+            "updated": "2026-05-05T22:05:18+0000",
+            "vcs_last_commit": "2026-05-05T22:05:20+0000",
+            "vcs_last_fetch": "2026-05-05T22:05:18+0000",
+            "vcs_last_rev": "c360c3d6f6c7cc0317afc5730c38c9ce9644401b",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 44229
@@ -935,7 +935,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                    -DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpdg7tuxix/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.4.2/qemuwrapper                   -DENABLE_OPENCV=OFF                   -DENABLE_INTEL_GNA=OFF                   -DENABLE_SYSTEM_TBB=ON                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DTHREADING=TBB -DTBB_DIR=\"/tmp/tmpdg7tuxix/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.4.2/recipe-sysroot/usr/lib/cmake/TBB\"                   -DTREAT_WARNING_AS_ERROR=FALSE                   -DENABLE_DATA=FALSE                   -DENABLE_SYSTEM_GFLAGS=ON                   -DENABLE_SYSTEM_PROTOBUF=ON                   -DProtobuf_USE_STATIC_LIBS=OFF                   -DCMAKE_CXX_STANDARD=17                   -DProtobuf_PROTOC_EXECUTABLE=/tmp/tmpdg7tuxix/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.4.2/recipe-sysroot-native/usr/bin/protoc                   -DENABLE_SYSTEM_PUGIXML=TRUE                   -DENABLE_OV_ONNX_FRONTEND=FALSE                   -DUSE_BUILD_TYPE_SUBFOLDER=OFF                   -DENABLE_FUZZING=OFF                   -DENABLE_TBBBIND_2_5=OFF                   -DCPACK_GENERATOR=RPM                   -DENABLE_SYSTEM_FLATBUFFERS=ON                   -DENABLE_SYSTEM_SNAPPY=ON                   -DFETCHCONTENT_BASE_DIR=\"/tmp/tmpdg7tuxix/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.4.2/sources/openvino-inference-engine-2025.4.2\"                   -DENABLE_INTEL_NPU=OFF                   -DPYTHON3_CONFIG=\"python3-config\"                   -DENABLE_OV_JAX_FRONTEND=OFF                   -DCMAKE_POLICY_VERSION_MINIMUM=3.5                   -DENABLE_SYSTEM_ZLIB=ON                      -DENABLE_PROFILING_ITT=OFF -DENABLE_JS=OFF  -DENABLE_INTEL_GPU=FALSE  -DENABLE_PYTHON=OFF -DENABLE_SAMPLES=ON -DENABLE_COMPILE_TOOL=ON -DVERBOSE_BUILD=0",
+            "configopts": "                    -DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmp0a843rms/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.4.2/qemuwrapper                   -DENABLE_OPENCV=OFF                   -DENABLE_INTEL_GNA=OFF                   -DENABLE_SYSTEM_TBB=ON                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DTHREADING=TBB -DTBB_DIR=\"/tmp/tmp0a843rms/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.4.2/recipe-sysroot/usr/lib/cmake/TBB\"                   -DTREAT_WARNING_AS_ERROR=FALSE                   -DENABLE_DATA=FALSE                   -DENABLE_SYSTEM_GFLAGS=ON                   -DENABLE_SYSTEM_PROTOBUF=ON                   -DProtobuf_USE_STATIC_LIBS=OFF                   -DCMAKE_CXX_STANDARD=17                   -DProtobuf_PROTOC_EXECUTABLE=/tmp/tmp0a843rms/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.4.2/recipe-sysroot-native/usr/bin/protoc                   -DENABLE_SYSTEM_PUGIXML=TRUE                   -DENABLE_OV_ONNX_FRONTEND=FALSE                   -DUSE_BUILD_TYPE_SUBFOLDER=OFF                   -DENABLE_FUZZING=OFF                   -DENABLE_TBBBIND_2_5=OFF                   -DCPACK_GENERATOR=RPM                   -DENABLE_SYSTEM_FLATBUFFERS=ON                   -DENABLE_SYSTEM_SNAPPY=ON                   -DFETCHCONTENT_BASE_DIR=\"/tmp/tmp0a843rms/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.4.2/sources/openvino-inference-engine-2025.4.2\"                   -DENABLE_INTEL_NPU=OFF                   -DPYTHON3_CONFIG=\"python3-config\"                   -DENABLE_OV_JAX_FRONTEND=OFF                   -DCMAKE_POLICY_VERSION_MINIMUM=3.5                   -DENABLE_SYSTEM_ZLIB=ON                      -DENABLE_PROFILING_ITT=OFF -DENABLE_JS=OFF  -DENABLE_INTEL_GPU=FALSE  -DENABLE_PYTHON=OFF -DENABLE_SAMPLES=ON -DENABLE_COMPILE_TOOL=ON -DVERBOSE_BUILD=0",
             "description": "This toolkit allows developers to deploy pre-trained deep learning models through a high-level C++ Inference Engine API integrated with application logic.",
             "filename": "openvino-inference-engine_2025.4.2.bb",
             "filepath": "recipes-core/opencv",
@@ -952,7 +952,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "OpenVINO(TM) Toolkit - Deep Learning Deployment Toolkit",
-            "updated": "2026-04-23T04:04:13+0000"
+            "updated": "2026-05-05T22:05:18+0000"
         }
     ],
     "wrtemplates": []

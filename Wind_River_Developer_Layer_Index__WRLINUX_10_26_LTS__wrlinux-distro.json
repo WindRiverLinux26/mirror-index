@@ -718,7 +718,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-01T00:05:10+0000",
+            "updated": "2026-05-06T00:05:09+0000",
             "updates_enabled": true
         }
     ],
@@ -955,10 +955,10 @@
             "id": 1075125,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-04-30T10:04:27+0000",
-            "vcs_last_commit": "2026-04-30T10:04:03+0000",
-            "vcs_last_fetch": "2026-04-30T10:04:27+0000",
-            "vcs_last_rev": "86376c648ce079d848a952c117a58f312a03680b",
+            "updated": "2026-05-06T02:05:32+0000",
+            "vcs_last_commit": "2026-05-06T00:05:15+0000",
+            "vcs_last_fetch": "2026-05-06T02:05:32+0000",
+            "vcs_last_rev": "aae4c20c2ca0a936b132d03f8bb353d6f8787efb",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44213
@@ -970,10 +970,10 @@
             "id": 1075133,
             "layer": 164,
             "local_path": "",
-            "updated": "2026-04-29T01:04:38+0000",
-            "vcs_last_commit": "2026-04-29T01:04:13+0000",
-            "vcs_last_fetch": "2026-04-29T01:04:38+0000",
-            "vcs_last_rev": "ccded101f88f73798b70e9bd8529abe40c3c3631",
+            "updated": "2026-05-03T22:05:00+0000",
+            "vcs_last_commit": "2026-05-03T19:05:22+0000",
+            "vcs_last_fetch": "2026-05-03T22:05:00+0000",
+            "vcs_last_rev": "b329b47cd119d32f39659af3e45c63c9f0864ad2",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": 44213

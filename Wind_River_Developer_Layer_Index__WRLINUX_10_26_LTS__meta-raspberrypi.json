@@ -718,7 +718,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-01T00:05:10+0000",
+            "updated": "2026-05-06T00:05:09+0000",
             "updates_enabled": true
         }
     ],
@@ -746,10 +746,10 @@
             "id": 1075095,
             "layer": 381,
             "local_path": "",
-            "updated": "2026-04-23T04:04:11+0000",
-            "vcs_last_commit": "2026-04-12T19:04:01+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:11+0000",
-            "vcs_last_rev": "807c0d9977d609cfe73241956993a6e8de93ff50",
+            "updated": "2026-05-06T22:05:22+0000",
+            "vcs_last_commit": "2026-05-06T17:05:38+0000",
+            "vcs_last_fetch": "2026-05-06T22:05:22+0000",
+            "vcs_last_rev": "762ed4100d5e86be362c40f27c3a9260f9902ab4",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44229
@@ -1199,7 +1199,7 @@
             "section": "base",
             "srcrev": "6ac2d832c6c3b208e2669f50ec1abf2c20cb7ff4",
             "summary": "",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-06T22:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1366,7 +1366,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --disable-stripping     --enable-pic     --enable-shared     --enable-pthreads              --cross-prefix=i686-oe-linux-         --ld='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/tmp/tmpmizzumhe/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot'     --cc='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/tmp/tmpmizzumhe/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot'     --cxx='i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/tmp/tmpmizzumhe/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot'     --arch=i686     --target-os='linux'     --enable-cross-compile     --extra-cflags=' -O2 -g -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmpmizzumhe/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/sources/rpidistro-ffmpeg-7.1.13=/usr/src/debug/rpidistro-ffmpeg/7.1.13  -ffile-prefix-map=/tmp/tmpmizzumhe/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/build=/usr/src/debug/rpidistro-ffmpeg/7.1.13  -ffile-prefix-map=/tmp/tmpmizzumhe/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot=  -ffile-prefix-map=/tmp/tmpmizzumhe/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot-native=  -pipe  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/tmp/tmpmizzumhe/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot'     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -Wl,-z,relro,-z,now'     --sysroot='/tmp/tmpmizzumhe/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot'     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --disable-mipsdsp --disable-mipsdspr2     --cpu=generic     --pkg-config=pkg-config     --enable-v4l2-request      --disable-static  --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-bzlib --enable-libdrm --enable-epoxy --disable-libfdk-aac --enable-ffplay --enable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --enable-libvorbis --enable-lzma --disable-libmfx --enable-omx --enable-omx-rpi --enable-mmal --disable-libmp3lame --disable-opengl --disable-openssl --enable-postproc --enable-sand --disable-libsnappy --disable-libspeex --disable-libsrt --enable-swresample --enable-swscale --enable-libtheora --enable-libudev --enable-v4l2-request --enable-libv4l2 --enable-v4l2-m2m --disable-vaapi --disable-vdpau --enable-vout-drm --enable-vout-egl --disable-libvpx --disable-libx264 --disable-libx265 --enable-libxcb --enable-outdev=xv --enable-zlib --disable-asm",
+            "configopts": "     --disable-stripping     --enable-pic     --enable-shared     --enable-pthreads              --cross-prefix=i686-oe-linux-         --ld='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/tmp/tmpki1zyqv8/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot'     --cc='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/tmp/tmpki1zyqv8/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot'     --cxx='i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/tmp/tmpki1zyqv8/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot'     --arch=i686     --target-os='linux'     --enable-cross-compile     --extra-cflags=' -O2 -g -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmpki1zyqv8/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/sources/rpidistro-ffmpeg-7.1.13=/usr/src/debug/rpidistro-ffmpeg/7.1.13  -ffile-prefix-map=/tmp/tmpki1zyqv8/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/build=/usr/src/debug/rpidistro-ffmpeg/7.1.13  -ffile-prefix-map=/tmp/tmpki1zyqv8/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot=  -ffile-prefix-map=/tmp/tmpki1zyqv8/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot-native=  -pipe  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/tmp/tmpki1zyqv8/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot'     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -Wl,-z,relro,-z,now'     --sysroot='/tmp/tmpki1zyqv8/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/7.1.13/recipe-sysroot'     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --disable-mipsdsp --disable-mipsdspr2     --cpu=generic     --pkg-config=pkg-config     --enable-v4l2-request      --disable-static  --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-bzlib --enable-libdrm --enable-epoxy --disable-libfdk-aac --enable-ffplay --enable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --enable-libvorbis --enable-lzma --disable-libmfx --enable-omx --enable-omx-rpi --enable-mmal --disable-libmp3lame --disable-opengl --disable-openssl --enable-postproc --enable-sand --disable-libsnappy --disable-libspeex --disable-libsrt --enable-swresample --enable-swscale --enable-libtheora --enable-libudev --enable-v4l2-request --enable-libv4l2 --enable-v4l2-m2m --disable-vaapi --disable-vdpau --enable-vout-drm --enable-vout-egl --disable-libvpx --disable-libx264 --disable-libx265 --enable-libxcb --enable-outdev=xv --enable-zlib --disable-asm",
             "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode,                mux, demux, stream, filter and play pretty much anything that humans and machines                have created. It supports the most obscure ancient formats up to the cutting edge.",
             "filename": "rpidistro-ffmpeg_7.1.13.bb",
             "filepath": "recipes-multimedia/rpidistro-ffmpeg",
@@ -1383,7 +1383,7 @@
             "section": "libs",
             "srcrev": "0170731d46a37a4ab3e708ac1c87a7ad08c415a1",
             "summary": "A complete, cross-platform solution to record, convert and stream audio and video.",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-06T22:05:22+0000"
         },
         {
             "bbclassextend": "",
