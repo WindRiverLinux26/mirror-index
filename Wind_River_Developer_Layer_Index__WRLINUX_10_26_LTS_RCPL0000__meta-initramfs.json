@@ -1,0 +1,1201 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_26_LTS_RCPL0000",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44223,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44224,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44226,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44227,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44228,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44229,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0"
+        },
+        {
+            "description": "",
+            "id": 44230,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44231,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44232,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_26_LTS_RCPL0000",
+            "comparison": false,
+            "hidden": false,
+            "id": 493,
+            "name": "WRLINUX_10_26_LTS_RCPL0000",
+            "short_description": "WRLinux 10_26 LTS RCPL 0000",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2026-05-08T00:05:14+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 493,
+            "collection": "core",
+            "id": 1075760,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2026-05-08T00:05:25+0000",
+            "vcs_last_commit": "2026-05-07T20:05:33+0000",
+            "vcs_last_fetch": "2026-05-08T00:05:25+0000",
+            "vcs_last_rev": "b518533bb9b41e377a44a519d8c22479a6ad2ccb",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44226
+        },
+        {
+            "actual_branch": "",
+            "branch": 493,
+            "collection": "meta-initramfs",
+            "id": 1075770,
+            "layer": 4,
+            "local_path": "",
+            "updated": "2026-04-30T11:04:42+0000",
+            "vcs_last_commit": "2026-04-14T08:04:29+0000",
+            "vcs_last_fetch": "2026-04-30T11:04:42+0000",
+            "vcs_last_rev": "58b1309892e6a65215810efedff56624e28c02e4",
+            "vcs_subdir": "meta-initramfs",
+            "version": null,
+            "yp_compatible_version": 44228
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 154586,
+            "layerbranch": 1075770,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-initramfs",
+            "comparison": false,
+            "description": "This layer contains the metadata necessary to build the klibc library and\r\nutilities (shared and static) plus other tools useful for the creation of\r\nsmall-sized initramfs.",
+            "id": 4,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-initramfs",
+            "status": "P",
+            "summary": "klibc library and related utilities for building an initramfs",
+            "updated": "2018-05-30T22:05:49+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "grubby is a command line tool for updating and displaying information about the configuration files for the grub, lilo, elilo (ia64), yaboot (powerpc) and zipl (s390) boot loaders. It is primarily designed to be used from scripts which install new kernels and need to find information about the current boot environment. ",
+            "filename": "grubby_git.bb",
+            "filepath": "recipes-devtools/grubby",
+            "homepage": "https://github.com/rhboot/grubby",
+            "id": 2435980,
+            "inherits": "gcc gcc-native ptest update-alternatives",
+            "layerbranch": 1075770,
+            "license": "GPL-2.0-or-later",
+            "pe": "",
+            "pn": "grubby",
+            "pr": "r0",
+            "provides": "grubby ",
+            "pv": "git",
+            "section": "base",
+            "srcrev": "c01b0d5bb182bde35b464d14996acf354a3ada2e",
+            "summary": "A command line tool for updating and displaying info about boot loaders",
+            "updated": "2026-04-30T11:04:39+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "--prefix=/usr                 --libdir=/usr/lib                 --datadir=/usr/share                 --sysconfdir=/etc                 --sbindir=/usr/sbin                 --bindir=/usr/bin                 --includedir=/usr/include                 --localstatedir=/var                 --disable-documentation                 --disable-static",
+            "description": "Dracut is an event driven initramfs infrastructure. dracut (the tool) is used to create an initramfs image by copying tools and files from an installed system and combining it with the dracut framework, usually found in /usr/lib/dracut/modules.d.",
+            "filename": "dracut_git.bb",
+            "filepath": "recipes-devtools/dracut",
+            "homepage": "https://dracut.wiki.kernel.org/index.php/Main_Page",
+            "id": 2435981,
+            "inherits": "bash-completion gcc gcc-native pkgconfig",
+            "layerbranch": 1075770,
+            "license": "GPL-2.0-only",
+            "pe": "1",
+            "pn": "dracut",
+            "pr": "r0",
+            "provides": "dracut ",
+            "pv": "107+git",
+            "section": "base",
+            "srcrev": "79ffbd28294818a36e515a441142125d70e3acbb",
+            "summary": "Initramfs generator using udev",
+            "updated": "2026-04-30T11:04:39+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "--prefix=/usr                 --libdir=/usr/lib                 --datadir=/usr/share                 --sysconfdir=/etc                 --sbindir=/usr/sbin                 --bindir=/usr/bin                 --includedir=/usr/include                 --localstatedir=/var                 --disable-documentation                 --disable-static",
+            "description": "Dracut is an event driven initramfs infrastructure. dracut (the tool) is used to create an initramfs image by copying tools and files from an installed system and combining it with the dracut framework, usually found in /usr/lib/dracut/modules.d.",
+            "filename": "dracut_110.bb",
+            "filepath": "recipes-devtools/dracut",
+            "homepage": "https://dracut.wiki.kernel.org/index.php/Main_Page",
+            "id": 2435982,
+            "inherits": "bash-completion gcc gcc-native pkgconfig",
+            "layerbranch": 1075770,
+            "license": "GPL-2.0-only",
+            "pe": "1",
+            "pn": "dracut",
+            "pr": "r0",
+            "provides": "dracut ",
+            "pv": "110",
+            "section": "base",
+            "srcrev": "25bf13842a5c55f4a5ab1523e005b3b11b9ac38e",
+            "summary": "Initramfs generator using udev",
+            "updated": "2026-04-30T11:04:39+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entaglement, and portability, not speed.",
+            "filename": "klibc-static-utils_2.0.14.bb",
+            "filepath": "recipes-devtools/klibc",
+            "homepage": "",
+            "id": 2435983,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1075770,
+            "license": "BSD-3-Clause & GPL-2.0-only & MIT & Zlib",
+            "pe": "",
+            "pn": "klibc-static-utils",
+            "pr": "r0",
+            "provides": "klibc-static-utils ",
+            "pv": "2.0.14",
+            "section": "libs",
+            "srcrev": "",
+            "summary": "klibc utils for initramfs statically compiled",
+            "updated": "2026-04-30T11:04:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entaglement, and portability, not speed.",
+            "filename": "klcc-cross_2.0.14.bb",
+            "filepath": "recipes-devtools/klibc",
+            "homepage": "",
+            "id": 2435984,
+            "inherits": "gcc gcc-native nopackages",
+            "layerbranch": 1075770,
+            "license": "BSD-3-Clause & GPL-2.0-only & MIT & Zlib",
+            "pe": "",
+            "pn": "klcc-cross",
+            "pr": "r0",
+            "provides": "klcc-cross ",
+            "pv": "2.0.14",
+            "section": "libs",
+            "srcrev": "",
+            "summary": "The klcc crosscompiler for klibc",
+            "updated": "2026-04-30T11:04:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entaglement, and portability, not speed.",
+            "filename": "klibc-utils_2.0.14.bb",
+            "filepath": "recipes-devtools/klibc",
+            "homepage": "",
+            "id": 2435985,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1075770,
+            "license": "BSD-3-Clause & GPL-2.0-only & MIT & Zlib",
+            "pe": "",
+            "pn": "klibc-utils",
+            "pr": "r0",
+            "provides": "klibc-utils ",
+            "pv": "2.0.14",
+            "section": "libs",
+            "srcrev": "",
+            "summary": "klibc utils for initramfs",
+            "updated": "2026-04-30T11:04:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entaglement, and portability, not speed.",
+            "filename": "klibc_2.0.14.bb",
+            "filepath": "recipes-devtools/klibc",
+            "homepage": "",
+            "id": 2435986,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1075770,
+            "license": "BSD-3-Clause & GPL-2.0-only & MIT & Zlib",
+            "pe": "",
+            "pn": "klibc",
+            "pr": "r0",
+            "provides": "klibc ",
+            "pv": "2.0.14",
+            "section": "libs",
+            "srcrev": "",
+            "summary": "klibc, a small C library for use with initramfs",
+            "updated": "2026-04-30T11:04:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --without-tests --without-jffs --without-ubifs --disable-ubihealthd --disable-static  --without-lzo",
+            "description": "Small sized tools from mtd-utils for use with initramfs.",
+            "filename": "ubi-utils-klibc_2.3.0.bb",
+            "filepath": "recipes-devtools/mtd",
+            "homepage": "http://www.linux-mtd.infradead.org/",
+            "id": 2435987,
+            "inherits": "autotools gcc gcc-native klibc pkgconfig siteinfo",
+            "layerbranch": 1075770,
+            "license": "GPL-2.0-or-later",
+            "pe": "",
+            "pn": "ubi-utils-klibc",
+            "pr": "r0",
+            "provides": "ubi-utils-klibc ",
+            "pv": "2.3.0",
+            "section": "base",
+            "srcrev": "4594fc1f4496a0ed55cabd31fbeba4e3fbf05602",
+            "summary": "UBI utils statically compiled against klibc",
+            "updated": "2026-04-30T11:04:40+0000"
+        },
+        {
+            "bbclassextend": "klibc",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "--enable-textui --enable-delay=2 --enable-evdev-rate=1000,250 --disable-static ",
+            "description": "kexecboot is a graphical linux-as-bootloader implementation based on kexec.",
+            "filename": "kexecboot_git.bb",
+            "filepath": "recipes-bsp/kexecboot",
+            "homepage": "https://github.com/kexecboot/kexecboot/wiki",
+            "id": 2435988,
+            "inherits": "autotools gcc gcc-native siteinfo",
+            "layerbranch": 1075770,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "kexecboot",
+            "pr": "r0",
+            "provides": "kexecboot ",
+            "pv": "0.6+git",
+            "section": "base",
+            "srcrev": "5a5e04be206140059f42ac786d424da1afaa04b6",
+            "summary": "kexecboot linux-as-bootloader",
+            "updated": "2026-04-30T11:04:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Default icon and boot.cfg for kexecboot linux-as-bootloader.",
+            "filename": "kexecboot-cfg_0.2.bb",
+            "filepath": "recipes-bsp/kexecboot",
+            "homepage": "",
+            "id": 2435989,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1075770,
+            "license": "MIT",
+            "pe": "",
+            "pn": "kexecboot-cfg",
+            "pr": "r0",
+            "provides": "kexecboot-cfg ",
+            "pv": "0.2",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Configuration files for kexecboot",
+            "updated": "2026-04-30T11:04:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --without-zlib --without-lzma --without-xen --disable-static ",
+            "description": "",
+            "filename": "kexec-tools-klibc_git.bb",
+            "filepath": "recipes-kernel/kexec",
+            "homepage": "http://kernel.org/pub/linux/utils/kernel/kexec/",
+            "id": 2435990,
+            "inherits": "autotools gcc gcc-native klibc siteinfo",
+            "layerbranch": 1075770,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "kexec-tools-klibc",
+            "pr": "r0",
+            "provides": "kexec-tools-klibc ",
+            "pv": "2.0.32",
+            "section": "kernel/userland",
+            "srcrev": "15d78e5799eea7ec5ea9c5897ae95aaa0ce8970c",
+            "summary": "Kexec tools, statically compiled against klibc",
+            "updated": "2026-04-30T11:04:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "initramfs-debug_1.0.bb",
+            "filepath": "recipes-core/initrdscripts",
+            "homepage": "",
+            "id": 2435991,
+            "inherits": "allarch gcc gcc-native",
+            "layerbranch": 1075770,
+            "license": "MIT",
+            "pe": "",
+            "pn": "initramfs-debug",
+            "pr": "r0",
+            "provides": "initramfs-debug ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Extremely basic live image init script",
+            "updated": "2026-04-30T11:04:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "packagegroup-meta-initramfs.bb",
+            "filepath": "recipes-core/packagegroups",
+            "homepage": "",
+            "id": 2435992,
+            "inherits": "allarch gcc gcc-native packagegroup",
+            "layerbranch": 1075770,
+            "license": "",
+            "pe": "",
+            "pn": "packagegroup-meta-initramfs",
+            "pr": "r0",
+            "provides": "packagegroup-meta-initramfs packagegroup-meta-initramfs packagegroup-meta-initramfs-dbg packagegroup-meta-initramfs-dev packagegroup-meta-initramfs-ptest packagegroup-meta-initramfs-devtools packagegroup-meta-initramfs-devtools-dbg packagegroup-meta-initramfs-devtools-dev packagegroup-meta-initramfs-devtools-ptest",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Meta-initramfs packagegroups",
+            "updated": "2026-04-30T11:04:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "This image provides kexecboot (linux as bootloader) and helpers.",
+            "filename": "initramfs-kexecboot-klibc-image.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 2435993,
+            "inherits": "create-spdx-image-3.0 create-spdx-sdk-3.0 gcc gcc-native image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands ro",
+            "layerbranch": 1075770,
+            "license": "",
+            "pe": "",
+            "pn": "initramfs-kexecboot-klibc-image",
+            "pr": "r0",
+            "provides": "initramfs-kexecboot-klibc-image ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Initramfs image for kexecboot kernel (klibc-static binaries)",
+            "updated": "2026-04-30T11:04:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Small image capable of booting a device. The kernel includes the Minimal RAM-based Initial Root Filesystem (initramfs), which one can use to check the hardware efficiently.",
+            "filename": "initramfs-debug-image.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 2435994,
+            "inherits": "core-image create-spdx-image-3.0 create-spdx-sdk-3.0 gcc gcc-native image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-post",
+            "layerbranch": 1075770,
+            "license": "",
+            "pe": "",
+            "pn": "initramfs-debug-image",
+            "pr": "r0",
+            "provides": "initramfs-debug-image ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-04-30T11:04:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "meta-initramfs-image.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 2435995,
+            "inherits": "core-image create-spdx-image-3.0 create-spdx-sdk-3.0 gcc gcc-native image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-post",
+            "layerbranch": 1075770,
+            "license": "",
+            "pe": "",
+            "pn": "meta-initramfs-image",
+            "pr": "r0",
+            "provides": "meta-initramfs-image ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "meta-initramfs build test image",
+            "updated": "2026-04-30T11:04:42+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "This image provides kexecboot (linux as bootloader) and helpers.",
+            "filename": "initramfs-kexecboot-image.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 2435996,
+            "inherits": "create-spdx-image-3.0 create-spdx-sdk-3.0 gcc gcc-native image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands ro",
+            "layerbranch": 1075770,
+            "license": "",
+            "pe": "",
+            "pn": "initramfs-kexecboot-image",
+            "pr": "r0",
+            "provides": "initramfs-kexecboot-image ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Initramfs image for kexecboot kernel",
+            "updated": "2026-04-30T11:04:42+0000"
+        }
+    ],
+    "wrtemplates": []
+}
