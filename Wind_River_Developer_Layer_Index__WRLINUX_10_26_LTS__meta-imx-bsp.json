@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-08T00:05:13+0000",
+            "updated": "2026-05-27T00:05:10+0000",
             "updates_enabled": true
         }
     ],
@@ -731,9 +738,9 @@
             "id": 1075092,
             "layer": 231,
             "local_path": "",
-            "updated": "2026-04-23T04:04:33+0000",
+            "updated": "2026-05-21T23:05:19+0000",
             "vcs_last_commit": "2026-04-19T22:04:48+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:33+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:19+0000",
             "vcs_last_rev": "66c3d7fa035248cbe2e316cb29627a0c0d765b45",
             "vcs_subdir": "",
             "version": null,
@@ -746,10 +753,10 @@
             "id": 1075113,
             "layer": 474,
             "local_path": "",
-            "updated": "2026-04-23T04:04:44+0000",
-            "vcs_last_commit": "2026-04-16T00:04:06+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:44+0000",
-            "vcs_last_rev": "6e1cea024a1160f25fa0d3d9daf4e6c4cc591bc3",
+            "updated": "2026-05-21T23:05:13+0000",
+            "vcs_last_commit": "2026-04-23T09:04:04+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:13+0000",
+            "vcs_last_rev": "9aedfffcfcf3b17aa60218ab49ff961ff713b297",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 44229
@@ -761,10 +768,10 @@
             "id": 1075115,
             "layer": 553,
             "local_path": "",
-            "updated": "2026-05-06T02:05:38+0000",
-            "vcs_last_commit": "2026-05-05T23:05:41+0000",
-            "vcs_last_fetch": "2026-05-06T02:05:38+0000",
-            "vcs_last_rev": "bf6efb78b3f32da907408be9ce86f127376e10d1",
+            "updated": "2026-05-21T23:05:42+0000",
+            "vcs_last_commit": "2026-05-14T06:05:48+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:42+0000",
+            "vcs_last_rev": "593e4e3869ab83dfce9f3c75262c9ac14a19ae7f",
             "vcs_subdir": "meta-imx-bsp",
             "version": null,
             "yp_compatible_version": 44231
@@ -846,478 +853,478 @@
     "machines": [
         {
             "description": " NXP i.MX 943 19x19 EVK with LPDDR5",
-            "id": 110994,
+            "id": 112872,
             "layerbranch": 1075115,
             "name": "imx943-19x19-lpddr5-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8M Plus FRDM with LPDDR4",
-            "id": 110995,
+            "id": 112873,
             "layerbranch": 1075115,
             "name": "imx8mp-lpddr4-frdm",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "A Consolidated machine configuration for i.MX 95 Rev A1 19x19 LPDDR5 and",
-            "id": 110996,
+            "id": 112874,
             "layerbranch": 1075115,
             "name": "imx95a1evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "A consolidated machine configuration for i.MX 8MM EVK both LPDDR4 and DDR4, see Important Note below",
-            "id": 110997,
+            "id": 112875,
             "layerbranch": 1075115,
             "name": "imx8mmevk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 91 11x11 EVK with LPDDR4",
-            "id": 110998,
+            "id": 112876,
             "layerbranch": 1075115,
             "name": "imx91-11x11-lpddr4-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "",
-            "id": 110999,
+            "id": 112877,
             "layerbranch": 1075115,
             "name": "imx6ulz14x14evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8DualXLite A1 Evaluation Kit with LPDDR4",
-            "id": 111000,
+            "id": 112878,
             "layerbranch": 1075115,
             "name": "imx8dxla1-lpddr4-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "A consolidated machine configuration for i.MX 8QuadMax Multisensory Enablement Kit board, rev B0, see Important Note below",
-            "id": 111001,
+            "id": 112879,
             "layerbranch": 1075115,
             "name": "imx8qmmek",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX6DL SABRE Smart Device",
-            "id": 111002,
+            "id": 112880,
             "layerbranch": 1075115,
             "name": "imx6dlsabresd",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "A Consolidated machine configuration for i.MX 91 LPDDR4 EVK/FRDM/QSB, see Important Note below",
-            "id": 111003,
+            "id": 112881,
             "layerbranch": 1075115,
             "name": "imx91evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8DualXLite B0 Evaluation Kit with DDR3L",
-            "id": 111004,
+            "id": 112882,
             "layerbranch": 1075115,
             "name": "imx8dxlb0-ddr3l-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " Toradex i.MX 95 19x19 Verdin board",
-            "id": 111005,
+            "id": 112883,
             "layerbranch": 1075115,
             "name": "imx95-19x19-verdin",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "A Consolidated machine configuration for i.MX 93 LPDDR4x and LPDDR4 EVK/FRDM/QSB, see Important Note below",
-            "id": 111006,
+            "id": 112884,
             "layerbranch": 1075115,
             "name": "imx93evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 93W 14x12 EVK with LPDDR4X",
-            "id": 111007,
+            "id": 112885,
             "layerbranch": 1075115,
             "name": "imx93w-14x12-lpddr4x-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 93 11x11 EVK with LPDDR4X and PMIC pf0900",
-            "id": 111008,
+            "id": 112886,
             "layerbranch": 1075115,
             "name": "imx93-11x11-lpddr4x-pf0900-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 95 Rev A1 15x15 EVK with LPDDR4x",
-            "id": 111009,
+            "id": 112887,
             "layerbranch": 1075115,
             "name": "imx95-a1-15x15-lpddr4x-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 941 19x19 EVK with 16bit LPDDR4",
-            "id": 111010,
+            "id": 112888,
             "layerbranch": 1075115,
             "name": "imx941-19x19-lpddr4-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 6 and 7  boards without a gpu",
-            "id": 111011,
+            "id": 112889,
             "layerbranch": 1075115,
             "name": "imx6ul7d",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 943 19x19 EVK with LPDDR4",
-            "id": 111012,
+            "id": 112890,
             "layerbranch": 1075115,
             "name": "imx943-19x19-lpddr4-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "",
-            "id": 111013,
+            "id": 112891,
             "layerbranch": 1075115,
             "name": "imx8qxpc0mek",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 95 19x19 EVK with LPDDR5",
-            "id": 111014,
+            "id": 112892,
             "layerbranch": 1075115,
             "name": "imx95-19x19-lpddr5-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX6UL EVK 9x9",
-            "id": 111015,
+            "id": 112893,
             "layerbranch": 1075115,
             "name": "imx6ul9x9evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX6ULL 14x14 EVK",
-            "id": 111016,
+            "id": 112894,
             "layerbranch": 1075115,
             "name": "imx6ull14x14evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "i.MX 8QuadXPlus B0 Multisensory Enablement Kit board",
-            "id": 111017,
+            "id": 112895,
             "layerbranch": 1075115,
             "name": "imx8qxp-b0-mek",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX6Solo SABRE Smart Device",
-            "id": 111018,
+            "id": 112896,
             "layerbranch": 1075115,
             "name": "imx6solosabresd",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8DualXLite B0 with FIPS Evaluation Kit with LPDDR4",
-            "id": 111019,
+            "id": 112897,
             "layerbranch": 1075115,
             "name": "imx8dxlb0-fips-lpddr4-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "A Consolidated machine configuration for i.MX 95 19x19 LPDDR5 and",
-            "id": 111020,
+            "id": 112898,
             "layerbranch": 1075115,
             "name": "imx95evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 942 19x19 EVK with 16bit LPDDR4",
-            "id": 111021,
+            "id": 112899,
             "layerbranch": 1075115,
             "name": "imx942-19x19-lpddr4-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX8MPlus LPDDR4 EVK in NDM",
-            "id": 111022,
+            "id": 112900,
             "layerbranch": 1075115,
             "name": "imx8mp-lpddr4-ndm",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "A combined machine for i.MX 6 and 7 testing and mfg tools, see comment below",
-            "id": 111023,
+            "id": 112901,
             "layerbranch": 1075115,
             "name": "imx6qpdlsolox",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "",
-            "id": 111024,
+            "id": 112902,
             "layerbranch": 1075115,
             "name": "imx8dxmek",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "A consolidated machine configuration for i.MX 8MP EVK both LPDDR4 and DDR4, see Important Note below",
-            "id": 111025,
+            "id": 112903,
             "layerbranch": 1075115,
             "name": "imx8mpevk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 95 15x15 FRDM with LPDDR4x",
-            "id": 111026,
+            "id": 112904,
             "layerbranch": 1075115,
             "name": "imx95-15x15-lpddr4x-frdm",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "A consolidated machine configuration for NXP i.MX 8ULP LPDDR4 Evaluation Kits, see Important Note below",
-            "id": 111027,
+            "id": 112905,
             "layerbranch": 1075115,
             "name": "imx8ulpevk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "",
-            "id": 111028,
+            "id": 112906,
             "layerbranch": 1075115,
             "name": "imx8mnddr3levk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8M Nano UltraLite AB2 with DDR3L",
-            "id": 111029,
+            "id": 112907,
             "layerbranch": 1075115,
             "name": "imx8mnul-ddr3l-ab2",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "A consolidated machine configuration for i.MX 8MQ LPDDR4 EVK and WEVK, see Important Note below",
-            "id": 111030,
+            "id": 112908,
             "layerbranch": 1075115,
             "name": "imx8mqevk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "i.MX 8QuadMax DDR4 ARM2 Development board",
-            "id": 111031,
+            "id": 112909,
             "layerbranch": 1075115,
             "name": "imx8qmddr4arm2",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 95 19x19 EVK with LPDDR5",
-            "id": 111032,
+            "id": 112910,
             "layerbranch": 1075115,
             "name": "imx95-19x19-lpddr5-frdm-pro",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "i.MX 8QXP C0 LPDDR4 ARM2 Development board",
-            "id": 111033,
+            "id": 112911,
             "layerbranch": 1075115,
             "name": "imx8qxpc0lpddr4arm2",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 95 15x15 EVK with LPDDR4x",
-            "id": 111034,
+            "id": 112912,
             "layerbranch": 1075115,
             "name": "imx95-15x15-lpddr4x-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8DualXLite B0 Evaluation Kit with LPDDR4",
-            "id": 111035,
+            "id": 112913,
             "layerbranch": 1075115,
             "name": "imx8dxlb0-lpddr4-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8M Mini AB2 with DDR4",
-            "id": 111036,
+            "id": 112914,
             "layerbranch": 1075115,
             "name": "imx8mm-ddr4-ab2",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 95 Rev A1 19x19 EVK with LPDDR5",
-            "id": 111037,
+            "id": 112915,
             "layerbranch": 1075115,
             "name": "imx95-a1-19x19-lpddr5-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX6QP SABRE Smart Device",
-            "id": 111038,
+            "id": 112916,
             "layerbranch": 1075115,
             "name": "imx6qpsabresd",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 93 11x11 FRDM with LPDDR4X",
-            "id": 111039,
+            "id": 112917,
             "layerbranch": 1075115,
             "name": "imx93-11x11-lpddr4x-frdm",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8M Nano AB2 with DDR4",
-            "id": 111040,
+            "id": 112918,
             "layerbranch": 1075115,
             "name": "imx8mn-ddr4-ab2",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8M Mini AB2 with LPDDR4",
-            "id": 111041,
+            "id": 112919,
             "layerbranch": 1075115,
             "name": "imx8mm-lpddr4-ab2",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8M Nano AB2 with LPDDR4",
-            "id": 111042,
+            "id": 112920,
             "layerbranch": 1075115,
             "name": "imx8mn-lpddr4-ab2",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX6ULL 9x9 EVK",
-            "id": 111043,
+            "id": 112921,
             "layerbranch": 1075115,
             "name": "imx6ull9x9evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 943 15x15 EVK with LPDDR4",
-            "id": 111044,
+            "id": 112922,
             "layerbranch": 1075115,
             "name": "imx943-15x15-lpddr4-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "A consolidated machine configuration for i.MX 8MN EVK both LPDDR4 and DDR4, see Important Note below",
-            "id": 111045,
+            "id": 112923,
             "layerbranch": 1075115,
             "name": "imx8mnevk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 91S FRDM-IMX91S with LPDDR4",
-            "id": 111046,
+            "id": 112924,
             "layerbranch": 1075115,
             "name": "imx91-11x11-lpddr4-frdm-imx91s",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8M Plus UltraLite Evaluation Kit with LPDDR4",
-            "id": 111047,
+            "id": 112925,
             "layerbranch": 1075115,
             "name": "imx8mpul-lpddr4-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX7D 12x12 LPDDR3 ARM2 Evaluation Kit",
-            "id": 111048,
+            "id": 112926,
             "layerbranch": 1075115,
             "name": "imx7d12x12lpddr3arm2",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP NavQPlus Evaluation Kit",
-            "id": 111049,
+            "id": 112927,
             "layerbranch": 1075115,
             "name": "imx8mp-navq",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "i.MX 8QuadMax LPDDR4 ARM2 Development board",
-            "id": 111050,
+            "id": 112928,
             "layerbranch": 1075115,
             "name": "imx8qmlpddr4arm2",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8DualXLite B0 Evaluation Kit with LPDDR4",
-            "id": 111051,
+            "id": 112929,
             "layerbranch": 1075115,
             "name": "imx8dxlevk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 91 11x11 FRDM with LPDDR4",
-            "id": 111052,
+            "id": 112930,
             "layerbranch": 1075115,
             "name": "imx91-11x11-lpddr4-frdm",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "i.MX 8QXP LPDDR4 ARM2 Development board",
-            "id": 111053,
+            "id": 112931,
             "layerbranch": 1075115,
             "name": "imx8qxplpddr4arm2",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "A Consolidated machine configuration for i.MX 943 LPDDR5 and LPDDR4x EVK, see Important Note below",
-            "id": 111054,
+            "id": 112932,
             "layerbranch": 1075115,
             "name": "imx943evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 91 9x9 QSB with LPDDR4",
-            "id": 111055,
+            "id": 112933,
             "layerbranch": 1075115,
             "name": "imx91-9x9-lpddr4-qsb",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " Toradex i.MX 95 Rev A1 19x19 Verdin board",
-            "id": 111056,
+            "id": 112934,
             "layerbranch": 1075115,
             "name": "imx95-a1-19x19-verdin",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": "",
-            "id": 111057,
+            "id": 112935,
             "layerbranch": 1075115,
             "name": "imx8qxpmek",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX6Q SABRE Smart Device",
-            "id": 111058,
+            "id": 112936,
             "layerbranch": 1075115,
             "name": "imx6qsabresd",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8ULP 9x9 Evaluation Kit with LPDDR4x",
-            "id": 111059,
+            "id": 112937,
             "layerbranch": 1075115,
             "name": "imx8ulp-9x9-lpddr4x-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "description": " NXP i.MX 8DualXLite A1 Evaluation Kit with DDR3L",
-            "id": 111060,
+            "id": 112938,
             "layerbranch": 1075115,
             "name": "imx8dxla1-ddr3l-evk",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         }
     ],
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Add extra packages for optee build",
@@ -1336,11 +1343,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:20+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1359,11 +1366,11 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:20+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1382,11 +1389,11 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:20+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1405,11 +1412,11 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:20+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1428,11 +1435,11 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:20+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1451,11 +1458,11 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:21+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Initramfs designed for NXP Cyber Resilient Recovery Module support",
@@ -1474,11 +1481,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Initramfs for NXP CRRM",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:21+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A tool to convert Android sparse images to raw images",
@@ -1497,11 +1504,11 @@
             "section": "base",
             "srcrev": "7fa7e281c6b681497be29ba442ed0c9ab45304e9",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:21+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DENABLE_STATIC_LIBGCC=OFF     -DENABLE_STATIC_LIBSTDCXX=OFF     -DPython3_ROOT_DIR=/usr/bin/python3-native      -DENABLE_STATIC_SNAPPY=ON   -DENABLE_EGL=ON -DENABLE_GUI=OFF -DENABLE_MULTIARCH=OFF -DENABLE_VIVANTE=OFF -DENABLE_WAFFLE=OFF -DENABLE_X11=OFF",
             "description": "",
@@ -1520,7 +1527,7 @@
             "section": "console/tools",
             "srcrev": "de5e6b93dac8e81d339d6afa9b27c693a55a8147",
             "summary": "Tools for tracing OpenGL, Direct3D, and other graphics APIs",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1543,13 +1550,13 @@
             "section": "console/utils",
             "srcrev": "4cbd5c8f0851201d203755b76cb66ba991ffd8be",
             "summary": "File classification tool",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:22+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr     --bindir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/lib                         -L/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --enable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb -Dlibvhost-user:xen=disabled --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --enable-png --disable-pa --disable-rbd --disable-rdma --disable-rutabaga-gfx --disable-sdl --disable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --enable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=arm-softmmu,aarch64-softmmu,i386-softmmu,loongarch64-softmmu,mips-softmmu,mipsel-softmmu,mips64-softmmu,mips64el-softmmu,ppc-softmmu,ppc64-softmmu,riscv32-softmmu,riscv64-softmmu,sh4-softmmu,x86_64-softmmu",
+            "configopts": "     --prefix=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr     --bindir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/include     --libdir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/share     --docdir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/etc     --libexecdir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/lib                         -L/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-system-native/9.0.2.imx/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --enable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb -Dlibvhost-user:xen=disabled --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --enable-png --disable-pa --disable-rbd --disable-rdma --disable-rutabaga-gfx --disable-sdl --disable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --enable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=arm-softmmu,aarch64-softmmu,i386-softmmu,loongarch64-softmmu,mips-softmmu,mipsel-softmmu,mips64-softmmu,mips64el-softmmu,ppc-softmmu,ppc64-softmmu,riscv32-softmmu,riscv64-softmmu,sh4-softmmu,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-system-native_9.0.2.imx.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1566,13 +1573,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:22+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr     --bindir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/lib                         -L/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpak3th5ge/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --disable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb -Dlibvhost-user:xen=disabled --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-rutabaga-gfx --disable-sdl --disable-seccomp --disable-selinux --disable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=ppc64le-linux-user,arm-linux-user,aarch64-linux-user,i386-linux-user,loongarch64-linux-user,mips-linux-user,mipsel-linux-user,mips64-linux-user,mips64el-linux-user,ppc-linux-user,ppc64-linux-user,riscv32-linux-user,riscv64-linux-user,sh4-linux-user,x86_64-linux-user --disable-tools --disable-install-blobs --disable-guest-agent",
+            "configopts": "     --prefix=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr     --bindir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/include     --libdir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/share     --docdir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/etc     --libexecdir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/lib                         -L/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmp_4cxq8uo/tmp/work/x86_64-linux/qemu-native/9.0.2.imx/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --disable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb -Dlibvhost-user:xen=disabled --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-rutabaga-gfx --disable-sdl --disable-seccomp --disable-selinux --disable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=ppc64le-linux-user,arm-linux-user,aarch64-linux-user,i386-linux-user,loongarch64-linux-user,mips-linux-user,mipsel-linux-user,mips64-linux-user,mips64el-linux-user,ppc-linux-user,ppc64-linux-user,riscv32-linux-user,riscv64-linux-user,sh4-linux-user,x86_64-linux-user --disable-tools --disable-install-blobs --disable-guest-agent",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-native_9.0.2.imx.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1589,13 +1596,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:23+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags=' -O2  -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/qemu/9.0.2.imx/sources/qemu-9.0.2.imx=/usr/src/debug/qemu/9.0.2.imx  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/qemu/9.0.2.imx/build=/usr/src/debug/qemu/9.0.2.imx  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/qemu/9.0.2.imx/recipe-sysroot=  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/qemu/9.0.2.imx/recipe-sysroot-native=  -pipe '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -Wl,-z,relro,-z,now'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --enable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --enable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --enable-libusb -Dlibvhost-user:xen=disabled --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --enable-pipewire --disable-libpmem --disable-png --enable-pa --disable-rbd --disable-rdma --enable-rutabaga-gfx --enable-sdl --enable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --enable-vhost-net --enable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --cross-prefix=i686-oe-linux- --target-list=ppc64le-linux-user,arm-linux-user,arm-softmmu,aarch64-linux-user,aarch64-softmmu,i386-linux-user,i386-softmmu,loongarch64-linux-user,loongarch64-softmmu,mips-linux-user,mips-softmmu,mipsel-linux-user,mipsel-softmmu,mips64-linux-user,mips64-softmmu,mips64el-linux-user,mips64el-softmmu,ppc-linux-user,ppc-softmmu,ppc64-linux-user,ppc64-softmmu,riscv32-linux-user,riscv32-softmmu,riscv64-linux-user,riscv64-softmmu,sh4-linux-user,sh4-softmmu,x86_64-linux-user,x86_64-softmmu",
+            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags=' -O2  -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/qemu/9.0.2.imx/sources/qemu-9.0.2.imx=/usr/src/debug/qemu/9.0.2.imx  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/qemu/9.0.2.imx/build=/usr/src/debug/qemu/9.0.2.imx  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/qemu/9.0.2.imx/recipe-sysroot=  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/qemu/9.0.2.imx/recipe-sysroot-native=  -pipe '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -Wl,-z,relro,-z,now'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --enable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --enable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --enable-libusb -Dlibvhost-user:xen=disabled --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --enable-pipewire --disable-libpmem --disable-png --enable-pa --disable-rbd --disable-rdma --enable-rutabaga-gfx --enable-sdl --enable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --enable-vhost-net --enable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --cross-prefix=i686-oe-linux- --target-list=ppc64le-linux-user,arm-linux-user,arm-softmmu,aarch64-linux-user,aarch64-softmmu,i386-linux-user,i386-softmmu,loongarch64-linux-user,loongarch64-softmmu,mips-linux-user,mips-softmmu,mipsel-linux-user,mipsel-softmmu,mips64-linux-user,mips64-softmmu,mips64el-linux-user,mips64el-softmmu,ppc-linux-user,ppc-softmmu,ppc64-linux-user,ppc64-softmmu,riscv32-linux-user,riscv32-softmmu,riscv64-linux-user,riscv64-softmmu,sh4-linux-user,sh4-softmmu,x86_64-linux-user,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu_9.0.2.imx.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1612,11 +1619,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " \t-DAEMU_COMMON_GEN_PKGCONFIG=ON \t-DENABLE_VKCEREAL_TESTS=OFF \t-DAEMU_COMMON_BUILD_CONFIG=gfxstream ",
             "description": "This is a utility library for common functions used in the Android Emulator. External projects (gfxstream, QEMU) may use to perform C++ functions.",
@@ -1635,11 +1642,11 @@
             "section": "base",
             "srcrev": "dd8b929c247ce9872c775e0e5ddc4300011d0e82",
             "summary": "Android Emulator utility library",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "",
@@ -1658,11 +1665,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Utilities for signing UEFI binaries for use with secure boot",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " -DBUILD_TESTING=off ",
             "description": "",
@@ -1681,7 +1688,7 @@
             "section": "base",
             "srcrev": "77e9318d5245c6782e4381699d6f485876e8e9cd",
             "summary": "Extra modules and scripts for CMake",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1704,11 +1711,11 @@
             "section": "libs",
             "srcrev": "a0e064336317c9347a91224112af9933598714e9",
             "summary": "pugixml is a C++ XML processing library",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DWINDOWSYSTEM=wayland     -DCMAKE_POLICY_VERSION_MINIMUM=3.5     -DCMAKE_INSTALL_PREFIX:PATH=/opt/patrace ",
             "description": "PATrace is software for capturing GLES calls of an application and replaying them on a different device, keeping the GPU workload the same. It's similar to the open source Apitrace project, but optimised for performance measurements.",
@@ -1727,11 +1734,11 @@
             "section": "console/tools",
             "srcrev": "9e0f8ce6b5d6056a4ede30ece59836a7bcaf5ea0",
             "summary": "Software for capturing GLES calls of an application",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1750,13 +1757,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Arm GNU Toolchain - AArch32 bare-metal target (arm-none-eabi)",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "      -DSDKTARGETSYSROOT=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/isp-imx/4.2.2.26.1/recipe-sysroot     -DCMAKE_BUILD_TYPE=release     -DISP_VERSION=ISP8000NANO_V1802     -DPLATFORM=ARM64     -DQTLESS=1     -DFULL_SRC_COMPILE=1     -DWITH_DRM=1     -DWITH_DWE=1     -DSUBDEV_V4L2=1     -DPARTITION_BUILD=0     -D3A_SRC_BUILD=0     -DIMX_G2D=ON     -Wno-dev     -DCMAKE_POLICY_VERSION_MINIMUM=3.5   -DTUNINGEXT=0",
+            "configopts": "      -DSDKTARGETSYSROOT=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/isp-imx/4.2.2.26.1/recipe-sysroot     -DCMAKE_BUILD_TYPE=release     -DISP_VERSION=ISP8000NANO_V1802     -DPLATFORM=ARM64     -DQTLESS=1     -DFULL_SRC_COMPILE=1     -DWITH_DRM=1     -DWITH_DWE=1     -DSUBDEV_V4L2=1     -DPARTITION_BUILD=0     -D3A_SRC_BUILD=0     -DIMX_G2D=ON     -Wno-dev     -DCMAKE_POLICY_VERSION_MINIMUM=3.5   -DTUNINGEXT=0",
             "description": "i.MX Verisilicon Software ISP",
             "filename": "isp-imx_4.2.2.26.1.bb",
             "filepath": "recipes-bsp/isp-imx",
@@ -1773,11 +1780,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Basler camera binary drivers",
@@ -1796,11 +1803,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NXP i.MX uPower firmware",
@@ -1819,11 +1826,11 @@
             "section": "BSP",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1842,11 +1849,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale i.MX Firmware files used for boot",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Freescale i.MX firmware such as for the VPU",
@@ -1865,11 +1872,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale i.MX firmware",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "EdgeLock Secure Enclave firmware for i.MX series SoCs",
@@ -1888,11 +1895,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "NXP i.MX ELE firmware",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "i.MX System Controller Firmware",
@@ -1911,11 +1918,11 @@
             "section": "BSP",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "i.MX Hantro VPU library",
@@ -1934,11 +1941,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "i.MX Hantro V4L2 Daemon",
@@ -1957,7 +1964,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1980,11 +1987,11 @@
             "section": "base",
             "srcrev": "24fdfb728fff1644878f5ab4a5557decf0769959",
             "summary": "NXP i.MX SECURE ENCLAVE library SECO",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NXP IMX SECURE ENCLAVE library PRIME",
@@ -2003,7 +2010,7 @@
             "section": "base",
             "srcrev": "24fdfb728fff1644878f5ab4a5557decf0769959",
             "summary": "NXP i.MX SECURE ENCLAVE library PRIME",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2026,11 +2033,11 @@
             "section": "base",
             "srcrev": "24fdfb728fff1644878f5ab4a5557decf0769959",
             "summary": "NXP i.MX SECURE ENCLAVE library",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "i.MX U-Boot suppporting i.MX reference boards.",
@@ -2049,7 +2056,7 @@
             "section": "base",
             "srcrev": "99518e6b6f20cb6a2bf19115e355db9f58100af8",
             "summary": "U-Boot bootloader tools",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2072,11 +2079,11 @@
             "section": "base",
             "srcrev": "99518e6b6f20cb6a2bf19115e355db9f58100af8",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "i.MX ARM Trusted Firmware",
@@ -2095,11 +2102,11 @@
             "section": "BSP",
             "srcrev": "4a2e9ef5f9f185bda68470b46365add008903b8c",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2118,11 +2125,11 @@
             "section": "base",
             "srcrev": "fa9e9a29e8c8939cc360beafd01393ca393e439a",
             "summary": "i.MX Optional Execution Image",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "i.MX VC8000E encoder library",
@@ -2141,11 +2148,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Freescale VPU library for Chips&Media VPU",
@@ -2164,11 +2171,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Library for NXP i.MX Security Controller Subsystem",
@@ -2187,11 +2194,11 @@
             "section": "base",
             "srcrev": "273553f207425f773400be7a7f3a7c425d892d6f",
             "summary": "NXP i.MX SECO library",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Firmware for i.MX Security Controller Subsystem",
@@ -2210,11 +2217,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "NXP i.MX SECO firmware",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The System Manager (SM) is a firmware that runs on a Cortex-M processor on many NXP i.MX processors. The Cortex-M is the boot core, runs the boot ROM which loads the SM (and other boot code), and then branches to the SM. The SM then configures some aspects of the hardware such as isolation mechanisms and then starts other cores in the system. After starting these cores, it enters a service mode where it provides access to clocking, power, sensor, and pin control via a client RPC API based on ARM's System Control and Management Interface (SCMI).",
@@ -2233,11 +2240,11 @@
             "section": "base",
             "srcrev": "c450f53974ea1df826970ad399cb338625b5638d",
             "summary": "i.MX System Manager Firmware",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Generate Boot Loader for i.MX 8 device",
@@ -2256,11 +2263,11 @@
             "section": "BSP",
             "srcrev": "c0debd7c0b4a125bd3ca66bc68f1915882b2bb62",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "i.MX make image",
@@ -2279,11 +2286,11 @@
             "section": "BSP",
             "srcrev": "c0debd7c0b4a125bd3ca66bc68f1915882b2bb62",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static  --disable-vpu",
             "description": "Freescale Multimedia codec libs",
@@ -2302,11 +2309,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--enable-armv8 --bindir=/unit_tests/ --libdir=/usr/lib --disable-static ",
             "description": "NXP synchronous sample rate converter",
@@ -2325,11 +2332,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NXP Audio Front End (AFE) for incorporating Voice Assistants",
@@ -2348,11 +2355,11 @@
             "section": "base",
             "srcrev": "7d518eb0b18f7c7faadeb3c3397f8b73f0012f3e",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NXP RetuneDSP Voice Seeker Libraries",
@@ -2371,11 +2378,11 @@
             "section": "multimedia",
             "srcrev": "94639a8ea4a65a218f60b900269a7dc4bf97fefb",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NXP Voice Acoustic Echo Cancellation (AEC) library based on TensorFlow-lite, which is used by audio-front-end",
@@ -2394,11 +2401,11 @@
             "section": "multimedia",
             "srcrev": "f45c78f2c6ef1cf1cc1724a538d381dc6f5ab351",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static  --disable-swpdm",
             "description": "Freescale alsa-lib plugins",
@@ -2417,13 +2424,13 @@
             "section": "multimedia",
             "srcrev": "18eb79b6cf13fb988de7d4eef5b22eb60f8e2533",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-bad/-/issues",
-            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Dgpl=disabled           -Ddoc=disabled     -Daes=enabled     -Dcodecalpha=enabled     -Ddecklink=enabled     -Ddvb=enabled     -Dfbdev=enabled     -Dipcpipeline=enabled     -Dshm=enabled     -Dtranscode=enabled     -Dandroidmedia=disabled     -Dapplemedia=disabled     -Dasio=disabled     -Dbs2b=disabled     -Dchromaprint=disabled     -Dd3dvideosink=disabled     -Dd3d11=disabled     -Ddirectsound=disabled     -Ddts=disabled     -Dfdkaac=disabled     -Dflite=disabled     -Dgme=disabled     -Dgs=disabled     -Dgsm=disabled     -Diqa=disabled          -Dladspa=disabled     -Dldac=disabled     -Dlv2=disabled     -Dmagicleap=disabled     -Dmediafoundation=disabled     -Dmicrodns=disabled     -Dmpeg2enc=disabled     -Dmplex=disabled     -Dmusepack=disabled     -Dnvcodec=disabled     -Dopenexr=disabled     -Dopenni2=disabled     -Dopenaptx=disabled     -Dopensles=disabled     -Donnx=disabled     -Dqroverlay=disabled     -Dsoundtouch=disabled     -Dspandsp=disabled     -Dsvthevcenc=disabled     -Dteletext=disabled     -Dwasapi=disabled     -Dwasapi2=disabled     -Dwildmidi=disabled     -Dwinks=disabled     -Dwinscreencap=disabled     -Dwpe=disabled     -Dzxing=disabled       -Dc_args=\" -O2 -g -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.26.6.imx/sources/gstreamer1.0-plugins-bad-1.26.6.imx=/usr/src/debug/gstreamer1.0-plugins-bad/1.26.6.imx  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.26.6.imx/build=/usr/src/debug/gstreamer1.0-plugins-bad/1.26.6.imx  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.26.6.imx/recipe-sysroot=  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.26.6.imx/recipe-sysroot-native=  -pipe -I/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.26.6.imx/recipe-sysroot/usr/include/imx\"   -Daom=disabled -Dassrender=disabled -Davtp=disabled -Dbluez=enabled -Dbz2=enabled -Dclosedcaption=enabled -Dcurl=enabled -Ddash=enabled -Ddc1394=disabled -Ddirectfb=disabled -Ddtls=disabled -Dfaac=disabled -Dfaad=disabled -Dfluidsynth=disabled -Dgl=enabled -Dhls=enabled -Dkms=disabled -Dcolormanagement=disabled -Dlibde265=disabled -Dcurl-ssh2=disabled -Dmodplug=disabled -Dmsdk=disabled -Dneon=disabled -Dopenal=disabled -Dopencv=disabled -Dopenh264=disabled -Dopenjpeg=disabled -Dopenmpt=disabled -Dhls-crypto=openssl -Dopus=disabled -Dorc=enabled -Dresindvd=disabled -Drsvg=enabled -Drtmp=disabled -Dsbc=enabled -Dsctp=disabled -Dsmoothstreaming=enabled -Dsndfile=enabled -Dsrt=disabled -Dsrtp=disabled -Dtinyalsa=disabled -Dtinycompress=disabled -Dttml=enabled -Duvch264=enabled -Dv4l2codecs=disabled -Dva=disabled -Dvoaacenc=disabled -Dvoamrwbenc=disabled -Dvulkan=disabled -Dwayland=enabled -Dwebp=enabled -Dwebrtc=disabled -Dwebrtcdsp=disabled -Dx11=enabled -Dx265=disabled -Dzbar=disabled",
+            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Dgpl=disabled           -Ddoc=disabled     -Daes=enabled     -Dcodecalpha=enabled     -Ddecklink=enabled     -Ddvb=enabled     -Dfbdev=enabled     -Dipcpipeline=enabled     -Dshm=enabled     -Dtranscode=enabled     -Dandroidmedia=disabled     -Dapplemedia=disabled     -Dasio=disabled     -Dbs2b=disabled     -Dchromaprint=disabled     -Dd3dvideosink=disabled     -Dd3d11=disabled     -Ddirectsound=disabled     -Ddts=disabled     -Dfdkaac=disabled     -Dflite=disabled     -Dgme=disabled     -Dgs=disabled     -Dgsm=disabled     -Diqa=disabled          -Dladspa=disabled     -Dldac=disabled     -Dlv2=disabled     -Dmagicleap=disabled     -Dmediafoundation=disabled     -Dmicrodns=disabled     -Dmpeg2enc=disabled     -Dmplex=disabled     -Dmusepack=disabled     -Dnvcodec=disabled     -Dopenexr=disabled     -Dopenni2=disabled     -Dopenaptx=disabled     -Dopensles=disabled     -Donnx=disabled     -Dqroverlay=disabled     -Dsoundtouch=disabled     -Dspandsp=disabled     -Dsvthevcenc=disabled     -Dteletext=disabled     -Dwasapi=disabled     -Dwasapi2=disabled     -Dwildmidi=disabled     -Dwinks=disabled     -Dwinscreencap=disabled     -Dwpe=disabled     -Dzxing=disabled       -Dc_args=\" -O2 -g -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.26.6.imx/sources/gstreamer1.0-plugins-bad-1.26.6.imx=/usr/src/debug/gstreamer1.0-plugins-bad/1.26.6.imx  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.26.6.imx/build=/usr/src/debug/gstreamer1.0-plugins-bad/1.26.6.imx  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.26.6.imx/recipe-sysroot=  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.26.6.imx/recipe-sysroot-native=  -pipe -I/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.26.6.imx/recipe-sysroot/usr/include/imx\"   -Daom=disabled -Dassrender=disabled -Davtp=disabled -Dbluez=enabled -Dbz2=enabled -Dclosedcaption=enabled -Dcurl=enabled -Ddash=enabled -Ddc1394=disabled -Ddirectfb=disabled -Ddtls=disabled -Dfaac=disabled -Dfaad=disabled -Dfluidsynth=disabled -Dgl=enabled -Dhls=enabled -Dkms=disabled -Dcolormanagement=disabled -Dlibde265=disabled -Dcurl-ssh2=disabled -Dmodplug=disabled -Dmsdk=disabled -Dneon=disabled -Dopenal=disabled -Dopencv=disabled -Dopenh264=disabled -Dopenjpeg=disabled -Dopenmpt=disabled -Dhls-crypto=openssl -Dopus=disabled -Dorc=enabled -Dresindvd=disabled -Drsvg=enabled -Drtmp=disabled -Dsbc=enabled -Dsctp=disabled -Dsmoothstreaming=enabled -Dsndfile=enabled -Dsrt=disabled -Dsrtp=disabled -Dtinyalsa=disabled -Dtinycompress=disabled -Dttml=enabled -Duvch264=enabled -Dv4l2codecs=disabled -Dva=disabled -Dvoaacenc=disabled -Dvoamrwbenc=disabled -Dvulkan=disabled -Dwayland=enabled -Dwebp=enabled -Dwebrtc=disabled -Dwebrtcdsp=disabled -Dx11=enabled -Dx265=disabled -Dzbar=disabled",
             "description": "",
             "filename": "gstreamer1.0-plugins-bad_1.26.6.imx.bb",
             "filepath": "recipes-multimedia/gstreamer",
@@ -2440,13 +2447,13 @@
             "section": "multimedia",
             "srcrev": "81b6888efe936153b88c32b22a12d60bf9395054",
             "summary": "'Bad' GStreamer plugins and helper libraries ",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-Dplatform=${PLATFORM}                  -Dc_args=\" -O2 -g -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.10.3+gitX/sources/imx-gst1.0-plugin-4.10.3+gitX=/usr/src/debug/imx-gst1.0-plugin/4.10.3+gitX  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.10.3+gitX/build=/usr/src/debug/imx-gst1.0-plugin/4.10.3+gitX  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.10.3+gitX/recipe-sysroot=  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.10.3+gitX/recipe-sysroot-native=  -pipe -I/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.10.3+gitX/recipe-sysroot/usr/include/imx\"  ",
+            "configopts": "-Dplatform=${PLATFORM}                  -Dc_args=\" -O2 -g -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.10.3+gitX/sources/imx-gst1.0-plugin-4.10.3+gitX=/usr/src/debug/imx-gst1.0-plugin/4.10.3+gitX  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.10.3+gitX/build=/usr/src/debug/imx-gst1.0-plugin/4.10.3+gitX  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.10.3+gitX/recipe-sysroot=  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.10.3+gitX/recipe-sysroot-native=  -pipe -I/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.10.3+gitX/recipe-sysroot/usr/include/imx\"  ",
             "description": "Gstreamer freescale plugins",
             "filename": "imx-gst1.0-plugin_git.bb",
             "filepath": "recipes-multimedia/gstreamer",
@@ -2463,11 +2470,11 @@
             "section": "multimedia",
             "srcrev": "0565fc515612908a353e8378e24f97de17cc56a6",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      -Ddoc=disabled     -Dexamples=disabled     -Dtests=enabled   -Ddrm=enabled -Degl=disabled -Dencoders=enabled -Dglx=enabled -Dwayland=enabled -Dx11=enabled",
             "description": "gstreamer-vaapi consists of a collection of VA-API based plugins for GStreamer and helper libraries: `vaapidecode', `vaapiconvert', and `vaapisink'.",
@@ -2486,7 +2493,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "VA-API support to GStreamer",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2509,11 +2516,11 @@
             "section": "multimedia",
             "srcrev": "524a14c8906597f4fd302190adbd3a8af3572866",
             "summary": "GStreamer 1.0 multimedia framework",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-ugly/-/issues",
             "configopts": "           -Dnls=enabled       -Dgpl=disabled           -Ddoc=disabled     -Dsidplay=disabled   -Da52dec=disabled -Dcdio=disabled -Ddvdread=disabled -Dmpeg2dec=disabled -Dorc=enabled -Dx264=disabled",
             "description": "",
@@ -2532,7 +2539,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "'Ugly GStreamer plugins",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2555,7 +2562,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "Gstreamer validation tool",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2578,7 +2585,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "A library on top of GStreamer for building an RTSP server",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2601,11 +2608,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "Python bindings for GStreamer 1.0",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      -Dtests=disabled  ",
             "description": "Contains a GStreamer plugin for using the encoders, decoders, muxers, and demuxers provided by FFmpeg.",
@@ -2624,7 +2631,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "Libav-based GStreamer 1.x plugin",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2647,13 +2654,13 @@
             "section": "multimedia",
             "srcrev": "447aebbd3c2b12a72f00316d60d7c86600a330f6",
             "summary": "'Good' GStreamer plugins",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-base/-/issues",
-            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Ddoc=disabled     -Dgl_api=opengl,gles2     -Dgl_platform=egl,glx     -Dgl_winsys=egl,wayland,x11  -Dc_args=\" -O2 -g -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.26.6.imx/sources/gstreamer1.0-plugins-base-1.26.6.imx=/usr/src/debug/gstreamer1.0-plugins-base/1.26.6.imx  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.26.6.imx/build=/usr/src/debug/gstreamer1.0-plugins-base/1.26.6.imx  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.26.6.imx/recipe-sysroot=  -ffile-prefix-map=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.26.6.imx/recipe-sysroot-native=  -pipe -I/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.26.6.imx/recipe-sysroot/usr/include/imx\"  -Dalsa=enabled -Dcdparanoia=disabled -Dgl-graphene=disabled -Dgl-jpeg=disabled -Dogg=enabled -Dopus=disabled -Dorc=enabled -Dpango=enabled -Dgl-png=enabled -Dqt5=disabled -Dtheora=enabled -Dtremor=disabled -Dlibvisual=disabled -Dvorbis=enabled -Dx11=enabled -Dxvideo=enabled -Dxshm=enabled",
+            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Ddoc=disabled     -Dgl_api=opengl,gles2     -Dgl_platform=egl,glx     -Dgl_winsys=egl,wayland,x11  -Dc_args=\" -O2 -g -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.26.6.imx/sources/gstreamer1.0-plugins-base-1.26.6.imx=/usr/src/debug/gstreamer1.0-plugins-base/1.26.6.imx  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.26.6.imx/build=/usr/src/debug/gstreamer1.0-plugins-base/1.26.6.imx  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.26.6.imx/recipe-sysroot=  -ffile-prefix-map=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.26.6.imx/recipe-sysroot-native=  -pipe -I/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.26.6.imx/recipe-sysroot/usr/include/imx\"  -Dalsa=enabled -Dcdparanoia=disabled -Dgl-graphene=disabled -Dgl-jpeg=disabled -Dogg=enabled -Dopus=disabled -Dorc=enabled -Dpango=enabled -Dgl-png=enabled -Dqt5=disabled -Dtheora=enabled -Dtremor=disabled -Dlibvisual=disabled -Dvorbis=enabled -Dx11=enabled -Dxvideo=enabled -Dxshm=enabled",
             "description": "",
             "filename": "gstreamer1.0-plugins-base_1.26.6.imx.bb",
             "filepath": "recipes-multimedia/gstreamer",
@@ -2670,11 +2677,11 @@
             "section": "multimedia",
             "srcrev": "48718c61610e3628f3f162bb8d84ae213ae8516f",
             "summary": "'Base' GStreamer plugins and helper libraries",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "NXP PDM to PCM Software Decimation SIMD Library",
@@ -2693,11 +2700,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "NXP Multimedia opencl converter lib",
@@ -2716,11 +2723,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "i.MX DSP Codec Wrapper and Lib owned by NXP",
@@ -2739,11 +2746,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -datadir=/usr/lib/firmware     --bindir=/unit_tests       --disable-static ",
             "description": "i.MX DSP Wrapper, Firmware Binary, Codec Libraries",
@@ -2762,11 +2769,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--enable-armv8 --libdir=/usr/lib --bindir=/unit_tests --disable-static ",
             "description": "NXP Asynchronous Sample Rate Converter",
@@ -2785,11 +2792,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "Freescale Multimedia VPU wrapper",
@@ -2808,11 +2815,11 @@
             "section": "multimedia",
             "srcrev": "1d2136e39789edb1eff730043caf2305ee2c173e",
             "summary": "",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--enable-fsw --disable-static ",
             "description": "Freescale Multimedia parser libs",
@@ -2831,11 +2838,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "This is an Openssl 3.x provider to access Hardware or Software Tokens using the PKCS#11 Cryptographic Token InterfaceThis code targets version 3.1 of the interface but should be backwards compatible to previous versions as well.",
@@ -2854,13 +2861,13 @@
             "section": "libs",
             "srcrev": "4c572524d24d1cd08977d73806861068d0bbd65e",
             "summary": "An OpenSSL provider that allows direct interfacing with pkcs11 drivers",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "      -DSECO_LIBS_DIR=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/vtest/git/recipe-sysroot/usr/lib     -DZLIB_DIR=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/vtest/git/recipe-sysroot/usr/lib     -DECC_SRC=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/vtest/git/recipe-sysroot/usr/lib     -DCMAKE_POLICY_VERSION_MINIMUM=3.5  ",
+            "configopts": "      -DSECO_LIBS_DIR=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/vtest/git/recipe-sysroot/usr/lib     -DZLIB_DIR=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/vtest/git/recipe-sysroot/usr/lib     -DECC_SRC=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/vtest/git/recipe-sysroot/usr/lib     -DCMAKE_POLICY_VERSION_MINIMUM=3.5  ",
             "description": "",
             "filename": "vtest_git.bb",
             "filepath": "recipes-support/vtest",
@@ -2877,13 +2884,13 @@
             "section": "base",
             "srcrev": "8036a0d616e09df452437c484f3747c024f09c6f",
             "summary": "Test program for v2x adaptation layer v2xhsm",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmpak3th5ge/tmp/work/${MACHINE_SOCARCH}-oe-linux/opencv/4.12.0.imx/sources/opencv-4.12.0.imx/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DWITH_IPP=OFF     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmpak3th5ge/tmp/work/${MACHINE_SOCARCH}-oe-linux/opencv/4.12.0.imx/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DCPU_DISPATCH=SSE,SSE2,SSE3,SSSE3            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=ON -DPROTOBUF_UPDATE_FILES=ON -DBUILD_PROTOBUF=OFF -DCMAKE_CXX_STANDARD=17 -DWITH_EIGEN=OFF -DWITH_FASTCV=OFF -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmpak3th5ge/tmp/work/${MACHINE_SOCARCH}-oe-linux/opencv/4.12.0.imx/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_OPENVINO=OFF -DWITH_OPENVX=OFF -DWITH_PNG=ON -DPYTHON3_INCLUDE_PATH=/tmp/tmpak3th5ge/tmp/work/${MACHINE_SOCARCH}-oe-linux/opencv/4.12.0.imx/recipe-sysroot/usr/include/python3.14 -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmpak3th5ge/tmp/work/${MACHINE_SOCARCH}-oe-linux/opencv/4.12.0.imx/recipe-sysroot/usr/lib/python3.14/site-packages/numpy/_core/include -DWITH_QT=OFF -DWITH_QT=OFF -DBUILD_EXAMPLES=ON -DINSTALL_BIN_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF  -DINSTALL_TESTS=OFF -DBUILD_opencv_text=ON -DWITH_TIFF=ON -DWITH_TIMVX=OFF -DWITH_V4L=ON",
+            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmp_4cxq8uo/tmp/work/${MACHINE_SOCARCH}-oe-linux/opencv/4.12.0.imx/sources/opencv-4.12.0.imx/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DWITH_IPP=OFF     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmp_4cxq8uo/tmp/work/${MACHINE_SOCARCH}-oe-linux/opencv/4.12.0.imx/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DCPU_DISPATCH=SSE,SSE2,SSE3,SSSE3            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=ON -DPROTOBUF_UPDATE_FILES=ON -DBUILD_PROTOBUF=OFF -DCMAKE_CXX_STANDARD=17 -DWITH_EIGEN=OFF -DWITH_FASTCV=OFF -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmp_4cxq8uo/tmp/work/${MACHINE_SOCARCH}-oe-linux/opencv/4.12.0.imx/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_OPENVINO=OFF -DWITH_OPENVX=OFF -DWITH_PNG=ON -DPYTHON3_INCLUDE_PATH=/tmp/tmp_4cxq8uo/tmp/work/${MACHINE_SOCARCH}-oe-linux/opencv/4.12.0.imx/recipe-sysroot/usr/include/python3.14 -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmp_4cxq8uo/tmp/work/${MACHINE_SOCARCH}-oe-linux/opencv/4.12.0.imx/recipe-sysroot/usr/lib/python3.14/site-packages/numpy/_core/include -DWITH_QT=OFF -DWITH_QT=OFF -DBUILD_EXAMPLES=ON -DINSTALL_BIN_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF  -DINSTALL_TESTS=OFF -DBUILD_opencv_text=ON -DWITH_TIFF=ON -DWITH_TIMVX=OFF -DWITH_V4L=ON",
             "description": "",
             "filename": "opencv_4.12.0.imx.bb",
             "filepath": "recipes-support/opencv",
@@ -2900,11 +2907,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Opencv : The Open Computer Vision Library",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "shared library for including a Cisco-like command-line interface into other software",
@@ -2923,7 +2930,7 @@
             "section": "devel",
             "srcrev": "96c4e40d374d67bd789ff2d9f8a2a2f87ee311ba",
             "summary": "",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -2946,11 +2953,11 @@
             "section": "base",
             "srcrev": "92b031749c0fe84ef5cdf895067b84a829920e25",
             "summary": "EDID and DisplayID library.",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "ECDSA Verification Engine using HSM",
@@ -2969,13 +2976,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "ECDSA Verification Engine using HSM",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_POLICY_VERSION_MINIMUM=3.5     -DSECO_LIBS_DIR=/tmp/tmpak3th5ge/tmp/work/core2-32-oe-linux/v2xsehsm/git/recipe-sysroot/usr/lib ",
+            "configopts": "     -DCMAKE_POLICY_VERSION_MINIMUM=3.5     -DSECO_LIBS_DIR=/tmp/tmp_4cxq8uo/tmp/work/core2-32-oe-linux/v2xsehsm/git/recipe-sysroot/usr/lib ",
             "description": "",
             "filename": "v2xsehsm_git.bb",
             "filepath": "recipes-security/v2xsehsm",
@@ -2992,11 +2999,11 @@
             "section": "base",
             "srcrev": "24bab7716c2e67be7734fe07efdbbfe100902b68",
             "summary": "Adaptation layer between v2xCryptoLibrary SE API and HSM API",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "This example demonstrates Elliptic Curve Cryptography sign and verify operation using NXP Plug & Trust middleware for EdgeLock SE050 secure element family.",
@@ -3015,11 +3022,11 @@
             "section": "apps",
             "srcrev": "f124d81642fa2b65cbbb484b7e49b0b8ea97cdce",
             "summary": "Plug & Trust ECC example for SE050",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DPTMW_Applet=SE05X_C     -DPTMW_SE05X_Ver=07_02     -DPTMW_SE05X_Auth=None       -DPTMW_HostCrypto=OPENSSL",
             "description": "An OpenSSL provider for NXP EdgeLock SE050 secure element product family.",
@@ -3038,11 +3045,11 @@
             "section": "libs",
             "srcrev": "12999e82cc24733e3194689b959c79f4e9f3da05",
             "summary": "OpenSSL Provider for SE050",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NXP i.MX crypto af alg tool to perform symmetric operation",
@@ -3061,13 +3068,13 @@
             "section": "base",
             "srcrev": "2fb11a600af90c80b8bb23368d1d6831c5deb973",
             "summary": "NXP i.MX CRYPTO AF_ALG",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -DYOCTO_BUILD=ON     -DTA_DEV_KIT_ROOT=/tmp/tmpak3th5ge/tmp/work/${MACHINE_SOCARCH}-oe-linux/smw/5.3/recipe-sysroot/usr/include/optee/export-user_ta     -DTEEC_ROOT=/tmp/tmpak3th5ge/tmp/work/${MACHINE_SOCARCH}-oe-linux/smw/5.3/recipe-sysroot     -DJSONC_ROOT=\"/tmp/tmpak3th5ge/tmp/sysroots-components/i686/json-c/usr\"     -DPSA_ARCH_TESTS_SRC_PATH=../psa-arch-tests     -DTEE_TA_DESTDIR=/usr/lib   -DENABLE_TLS=OFF",
+            "configopts": "     -DYOCTO_BUILD=ON     -DTA_DEV_KIT_ROOT=/tmp/tmp_4cxq8uo/tmp/work/${MACHINE_SOCARCH}-oe-linux/smw/5.3/recipe-sysroot/usr/include/optee/export-user_ta     -DTEEC_ROOT=/tmp/tmp_4cxq8uo/tmp/work/${MACHINE_SOCARCH}-oe-linux/smw/5.3/recipe-sysroot     -DJSONC_ROOT=\"/tmp/tmp_4cxq8uo/tmp/sysroots-components/i686/json-c/usr\"     -DPSA_ARCH_TESTS_SRC_PATH=../psa-arch-tests     -DTEE_TA_DESTDIR=/usr/lib   -DENABLE_TLS=OFF",
             "description": "NXP i.MX Security Middleware Library",
             "filename": "smw_5.3.bb",
             "filepath": "dynamic-layers/meta-arm/recipes-security/smw",
@@ -3084,13 +3091,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "NXP i.MX Security Middleware Library",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -DOPENSSL_PATH=\"/tmp/tmpak3th5ge/tmp/work/${MACHINE_SOCARCH}-oe-linux/itest/git/recipe-sysroot/usr\"     -DELE_LIB_PATH=\"/tmp/tmpak3th5ge/tmp/work/${MACHINE_SOCARCH}-oe-linux/itest/git/recipe-sysroot/usr\"     -DLIB_PATH=\"/tmp/tmpak3th5ge/tmp/work/${MACHINE_SOCARCH}-oe-linux/itest/git/recipe-sysroot/usr/lib\" ",
+            "configopts": "     -DOPENSSL_PATH=\"/tmp/tmp_4cxq8uo/tmp/work/${MACHINE_SOCARCH}-oe-linux/itest/git/recipe-sysroot/usr\"     -DELE_LIB_PATH=\"/tmp/tmp_4cxq8uo/tmp/work/${MACHINE_SOCARCH}-oe-linux/itest/git/recipe-sysroot/usr\"     -DLIB_PATH=\"/tmp/tmp_4cxq8uo/tmp/work/${MACHINE_SOCARCH}-oe-linux/itest/git/recipe-sysroot/usr/lib\" ",
             "description": "NXP i.MX Itest",
             "filename": "itest_git.bb",
             "filepath": "dynamic-layers/meta-arm/recipes-security/smw",
@@ -3107,7 +3114,7 @@
             "section": "base",
             "srcrev": "37533de97b8f5f430caa00e3560fdbd4483d893c",
             "summary": "NXP i.MX Itest",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
@@ -3130,7 +3137,7 @@
             "section": "base",
             "srcrev": "e7ed997213779e3d1b7417461c5b4847d3230db9",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
@@ -3153,7 +3160,7 @@
             "section": "base",
             "srcrev": "e7ed997213779e3d1b7417461c5b4847d3230db9",
             "summary": "OP-TEE Trusted OS TA devkit",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
@@ -3176,7 +3183,7 @@
             "section": "base",
             "srcrev": "ad79099ca6b642f2bb69739f020ea50698ea0744",
             "summary": "OP-TEE Client API",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
@@ -3199,11 +3206,11 @@
             "section": "base",
             "srcrev": "3383a744a5997fdb3457b3cbe95aea3ce27879b3",
             "summary": "OP-TEE sanity testsuite",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Builds the Vivante GPU kernel driver as a loadable kernel module, allowing flexibility to use a newer graphics release with an older kernel.",
@@ -3222,11 +3229,11 @@
             "section": "base",
             "srcrev": "b9ab260bee4d15d079e39a373162eb6201c1cb4a",
             "summary": "Kernel loadable module for Vivante GPU",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Kernel loadable module for ISP",
@@ -3245,11 +3252,11 @@
             "section": "base",
             "srcrev": "5484bc99a258562c3893808736dd67af22ac355e",
             "summary": "",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Kernel module for dpdk",
@@ -3268,11 +3275,11 @@
             "section": "base",
             "srcrev": "f227b644a4527a01869d66629c446cc702ca8568",
             "summary": "",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Installs i.MX-specific kernel headers to userspace. New headers are installed in /usr/include/imx.",
@@ -3291,11 +3298,11 @@
             "section": "base",
             "srcrev": "f49f45233f7b10006ce7e9c826ee882bb14ac8b5",
             "summary": "Installs i.MX-specific kernel headers",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Linux Kernel provided and supported by NXP with focus on i.MX Family Reference Boards. It includes support for many IPs such as GPU, VPU and IPU.",
@@ -3314,11 +3321,11 @@
             "section": "base",
             "srcrev": "f49f45233f7b10006ce7e9c826ee882bb14ac8b5",
             "summary": "Linux Kernel provided and supported by NXP",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Kernel test tools for Linux",
@@ -3337,11 +3344,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Kernel test tools for Linux",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Kernel test PCI tools for Linux",
@@ -3360,11 +3367,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Kernel test PCI tools for Linux",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Zephyr Demo for i.MX",
@@ -3383,11 +3390,11 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Sound Open Firmware with Zephyr",
@@ -3406,11 +3413,11 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Utilities for debugging and configuration of Sound Open Firmware",
@@ -3429,11 +3436,11 @@
             "section": "Console/tools",
             "srcrev": "2977518f4c3140f7aea28112321315e454b1f617",
             "summary": "",
-            "updated": "2026-04-23T04:04:02+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Mesa graphics renderer providing improved software-based performance via emulated RISC-V GPU",
@@ -3452,11 +3459,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Mesa emulated RISC-V GPU renderer",
-            "updated": "2026-04-23T04:04:02+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3475,11 +3482,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Graphics libraries and driver for i.MX Mali GPU",
-            "updated": "2026-04-23T04:04:02+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -3498,11 +3505,11 @@
             "section": "base",
             "srcrev": "e3ce21bb937f07b8282dccf4823e2acbdf286d17",
             "summary": "",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": " native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Graphics Streaming Kit is a code generator that makes it easier to serialize and forward graphics API calls from one place to another",
@@ -3521,7 +3528,7 @@
             "section": "base",
             "srcrev": "23d05703b94035ac045df60823fb1fc4be0fdf1c",
             "summary": "gfxstream for graphics",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3544,11 +3551,11 @@
             "section": "x11/base",
             "srcrev": "ef5d39b51d2acfa66e165db89ba32ae32d55def5",
             "summary": "Userspace interface to the kernel DRM services",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "G2D library using i.MX GPU",
@@ -3567,11 +3574,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "G2D library using i.MX DPU",
@@ -3590,11 +3597,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Set of sample applications for i.MX G2D",
@@ -3613,11 +3620,11 @@
             "section": "base",
             "srcrev": "22ca65feb57702832fbaca7f7c9c8d691466e649",
             "summary": "i.MX G2D Samples",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "G2D library using i.MX PXP",
@@ -3636,11 +3643,11 @@
             "section": "base",
             "srcrev": "7dd4ca631b894a29389dadda5bd112cfa576b2d9",
             "summary": "",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DCMAKE_BUILD_TYPE=Release     -DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}     -DGFXRECON_ENABLE_OPENXR=OFF   -DBUILD_WSI_WAYLAND_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
             "description": "",
@@ -3659,11 +3666,11 @@
             "section": "graphics",
             "srcrev": "614fbd35c79682bb094541430578740b2d5ffab1",
             "summary": "Tools for the capture and replay of Vulkan API calls",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-DRESOURCE_INSTALL_DIR=/usr/share/vulkan-demos                  -DCMAKE_POLICY_VERSION_MINIMUM=3.5                   -DUSE_WAYLAND_WSI=ON",
             "description": "Vulkan C++ examples and demos",
@@ -3682,11 +3689,11 @@
             "section": "base",
             "srcrev": "8b4ee5903364c86bc4d572b53ee8f1ac80501851",
             "summary": "",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "vkmark is an extensible Vulkan benchmarking suite with                targeted, configurable scenes.",
@@ -3705,11 +3712,11 @@
             "section": "graphics",
             "srcrev": "83a128d65b1adddfacb4fa2e555a7e90817a7266",
             "summary": "Vulkan benchmarking suite.",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-DASSIMP_BUILD_ASSIMP_TOOLS=OFF -DASSIMP_BUILD_TESTS=OFF -DASSIMP_LIB_INSTALL_DIR=lib ",
             "description": "Open Asset Import Library is a portable Open Source library to import                various well-known 3D model formats in a uniform manner.",
@@ -3728,11 +3735,11 @@
             "section": "devel",
             "srcrev": "fb375dd8c0a032106a2122815fb18dffe0283721",
             "summary": "",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DCMAKE_BUILD_TYPE=Release     -DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}     -DCMAKE_POLICY_VERSION_MINIMUM=3.5   -DBUILD_WSI_WAYLAND_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
             "description": "",
@@ -3751,7 +3758,7 @@
             "section": "graphics",
             "srcrev": "ad85498e33a53f4c89979e0af8e3fe3b512aa47c",
             "summary": "Tools for the capture and replay of Vulkan API calls",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "",
@@ -3774,7 +3781,7 @@
             "section": "base",
             "srcrev": "be99fd1adad7e77c8c31926b09520ade5cdaca35",
             "summary": "Weston, a Wayland compositor, i.MX fork",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:40+0000"
         },
         {
             "bbclassextend": "",
@@ -3797,11 +3804,11 @@
             "section": "base",
             "srcrev": "5223a3c86177709d25f86a96622c0829da955a0e",
             "summary": "Weston, a Wayland compositor, i.MX fork",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:40+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "GPU driver and apps for i.MX",
@@ -3820,11 +3827,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:40+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "GPU driver and apps for i.MX",
@@ -3843,11 +3850,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Handling virtio-gpu protocols with C API",
@@ -3866,11 +3873,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "FFI bindings for rutabaga_gfx",
-            "updated": "2026-04-23T04:04:08+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Handling virtio-gpu protocols with C API",
@@ -3889,11 +3896,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "rutabaga_gfx",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Use systemd service to implement the former script rc_gpu.S and other scripts",
@@ -3912,11 +3919,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "i.MX GPU Configuration for systemd boot mode",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NXP WLAN app to get/set channel state information",
@@ -3935,7 +3942,7 @@
             "section": "network",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         }
     ],
     "wrtemplates": []

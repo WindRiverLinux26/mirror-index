@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,59 +725,59 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-08T00:05:13+0000",
+            "updated": "2026-05-27T00:05:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "",
-            "id": 16569,
+            "id": 16741,
             "layerbranch": 1075097,
             "name": "fslc-xwayland",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "description": "",
-            "id": 16570,
+            "id": 16742,
             "layerbranch": 1075097,
             "name": "fslc-framebuffer",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "description": "",
-            "id": 16571,
+            "id": 16743,
             "layerbranch": 1075097,
             "name": "fsl-framebuffer",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "description": "",
-            "id": 16572,
+            "id": 16744,
             "layerbranch": 1075097,
             "name": "fslc-x11",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "description": "",
-            "id": 16573,
+            "id": 16745,
             "layerbranch": 1075097,
             "name": "fslc-wayland",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "description": "",
-            "id": 16574,
+            "id": 16746,
             "layerbranch": 1075097,
             "name": "fsl-xwayland",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "description": "",
-            "id": 16575,
+            "id": 16747,
             "layerbranch": 1075097,
             "name": "fsl-wayland",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         }
     ],
     "layerBranches": [
@@ -781,10 +788,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-07T21:05:29+0000",
-            "vcs_last_commit": "2026-05-07T20:05:33+0000",
-            "vcs_last_fetch": "2026-05-07T21:05:29+0000",
-            "vcs_last_rev": "b518533bb9b41e377a44a519d8c22479a6ad2ccb",
+            "updated": "2026-05-26T01:05:20+0000",
+            "vcs_last_commit": "2026-05-26T00:05:28+0000",
+            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
+            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -796,10 +803,10 @@
             "id": 1075087,
             "layer": 59,
             "local_path": "",
-            "updated": "2026-04-23T04:04:14+0000",
-            "vcs_last_commit": "2026-04-19T22:04:53+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:14+0000",
-            "vcs_last_rev": "6609256ae8c40bb4307a878a79cdd0532e4cee5e",
+            "updated": "2026-05-21T23:05:39+0000",
+            "vcs_last_commit": "2026-05-14T20:05:22+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:39+0000",
+            "vcs_last_rev": "49e4bb9a19446f955b7840be43596a3a2ee58180",
             "vcs_subdir": "meta-poky",
             "version": "3",
             "yp_compatible_version": 44227
@@ -811,9 +818,9 @@
             "id": 1075097,
             "layer": 470,
             "local_path": "",
-            "updated": "2026-04-23T04:04:34+0000",
+            "updated": "2026-05-21T23:05:31+0000",
             "vcs_last_commit": "2026-04-13T23:04:10+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:34+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:31+0000",
             "vcs_last_rev": "dab930c1ba0449dc99127cc6b90d8b97a21e062d",
             "vcs_subdir": "",
             "version": null,
@@ -897,7 +904,7 @@
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Extra files for fsl-gui-image",
@@ -916,11 +923,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:28+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Packagegroup used by FSL Community to provide a set of packages and utilities for hardware test.",
@@ -939,11 +946,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community packagegroup - tools/testapps",
-            "updated": "2026-04-23T04:04:28+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Package group used by FSL Community to provide all GStreamer plugins from the base, good, and bad packages, as well as the ugly and libav ones if commercial packages are whitelisted, and plugins for the required hardware acceleration (if supported by the SoC).",
@@ -962,11 +969,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - full set of all GStreamer 1.0 plugins",
-            "updated": "2026-04-23T04:04:28+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Package group used by FSL Community to add the packages which provide GPU support.",
@@ -985,11 +992,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - tools/gpu",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Package group used by FSL Community to add the packages which provide (QorIQ) networking support.",
@@ -1008,11 +1015,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - networking",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Package group used by FSL Community to provide audio and video plugins that are subject to restricted licensing and/or royalties and thus require the 'commercial' license whitelist flag",
@@ -1031,11 +1038,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - set of GStreamer 1.0 plugins with commercial licence flag",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Package group used by FSL Community to provide graphic packages used to test the several hardware accelerated graphics APIs including packages not provided by Freescale.",
@@ -1054,11 +1061,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community Package group - tools/gpu/external",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Package group used by FSL Community to provide a set of benchmark applications.",
@@ -1077,11 +1084,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Communtiy package group - tools/benchmark",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Package group used by FSL Community to provide audio, video, networking and debug GStreamer plugins with the required hardware acceleration (if supported by the SoC).",
@@ -1100,11 +1107,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - set of commonly used GStreamer 1.0 plugins",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1123,11 +1130,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Set of audio tools for inclusion on images",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A console-only image that includes gstreamer packages, Freescale's multimedia packages (VPU and GPU) when available, and test and benchmark applications.",
@@ -1146,11 +1153,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A console-only image that includes full cmdline and Freescale's networking packages (QorIQ DPAA/DPAA2) when available.",
@@ -1169,11 +1176,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A console-only image that includes gstreamer packages and Freescale's multimedia packages (VPU and GPU) when available for the specific machine.",
@@ -1192,11 +1199,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A console-only image that includes gstreamer packages and Freescale's multimedia packages (VPU and GPU) when available for the specific machine.",
@@ -1215,11 +1222,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1238,11 +1245,11 @@
             "section": "base",
             "srcrev": "f67165c2bb2af3060ecae7d20d6f731173485ad0",
             "summary": "single-file public domain (or MIT licensed) libraries for C/C++",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "half is a C++ header-only library to provide an IEEE-754 conformant half-precision floating point type along with corresponding arithmetic operators, type conversions and common mathematical functions.",
@@ -1261,11 +1268,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "C++ library for half precision floating point arithmetics",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1284,11 +1291,11 @@
             "section": "multimedia",
             "srcrev": "490564815d8049dbdd79087f546835b673ba6e88",
             "summary": "RTSP server for live-stream from a v4l2 video source",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1307,11 +1314,11 @@
             "section": "base",
             "srcrev": "909c7abbff0ee35610f07f6fadeaf3a2eadce36e",
             "summary": "Low level header only C++11 RAII wrapper classes for the OpenVX API",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1330,11 +1337,11 @@
             "section": "base",
             "srcrev": "e39a407c5ae880792d8843ada65a19dd26b3dca7",
             "summary": "Low level header only C++11 RAII wrapper classes for the Vulkan API",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "A full featured cross-platform image library",
@@ -1353,11 +1360,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://github.com/g-truc/gli/issues",
             "configopts": " ",
             "description": "OpenGL Image (GLI) is a header only C++ image library for graphics software.",
@@ -1376,11 +1383,11 @@
             "section": "libs",
             "srcrev": "0c171ee87fcfe35a7e0e0445adef06f92e0b6a91",
             "summary": "OpenGL Image Library",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-DASSIMP_BUILD_ASSIMP_TOOLS=OFF -DASSIMP_BUILD_TESTS=OFF -DASSIMP_LIB_INSTALL_DIR=lib ",
             "description": "Open Asset Import Library is a portable Open Source library to import                various well-known 3D model formats in a uniform manner.",
@@ -1399,13 +1406,13 @@
             "section": "devel",
             "srcrev": "c35200e38ea8f058812b83de2ef32c6093b0ece2",
             "summary": "",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -DWAYLAND_SCANNER=/tmp/tmpb1fkhzd1/tmp/work/core2-32-oe-linux/libxdg-shell/1.0/recipe-sysroot-native/usr/bin/wayland-scanner     -DWAYLAND_PROTOCOLS_DIR=/tmp/tmpb1fkhzd1/tmp/work/core2-32-oe-linux/libxdg-shell/1.0/recipe-sysroot/usr/share/wayland-protocols  ",
+            "configopts": "     -DWAYLAND_SCANNER=/tmp/tmpsoxwu4io/tmp/work/core2-32-oe-linux/libxdg-shell/1.0/recipe-sysroot-native/usr/bin/wayland-scanner     -DWAYLAND_PROTOCOLS_DIR=/tmp/tmpsoxwu4io/tmp/work/core2-32-oe-linux/libxdg-shell/1.0/recipe-sysroot/usr/share/wayland-protocols  ",
             "description": "",
             "filename": "libxdg-shell.bb",
             "filepath": "recipes-graphics/imx-gpu-sdk",
@@ -1422,11 +1429,11 @@
             "section": "base",
             "srcrev": "35bbd45ed6eac169a778bd154283771b9bf39be7",
             "summary": "Provides XDG shell header and glue code library",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Set of sample applications for i.MX GPU",
@@ -1445,11 +1452,11 @@
             "section": "base",
             "srcrev": "35bbd45ed6eac169a778bd154283771b9bf39be7",
             "summary": "i.MX GPU SDK Samples",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1468,7 +1475,7 @@
             "section": "base",
             "srcrev": "21254804a56ae96e8385c2652733c338d62da04f",
             "summary": "Experimental low level header only C++11 RAII wrapper classes for the OpenCL API",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         }
     ],
     "wrtemplates": []

@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-08T00:05:13+0000",
+            "updated": "2026-05-27T00:05:10+0000",
             "updates_enabled": true
         }
     ],
@@ -731,10 +738,10 @@
             "id": 1075080,
             "layer": 12,
             "local_path": "",
-            "updated": "2026-04-29T21:04:15+0000",
-            "vcs_last_commit": "2026-04-29T20:04:20+0000",
-            "vcs_last_fetch": "2026-04-29T21:04:15+0000",
-            "vcs_last_rev": "a80670e46e208f852d010a6fe85210e78668af69",
+            "updated": "2026-05-21T23:05:59+0000",
+            "vcs_last_commit": "2026-05-21T19:05:17+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:59+0000",
+            "vcs_last_rev": "6414e6d0c51a2caf7c7e901e8be031a7dcd3525c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44228
@@ -746,9 +753,9 @@
             "id": 1075092,
             "layer": 231,
             "local_path": "",
-            "updated": "2026-04-23T04:04:33+0000",
+            "updated": "2026-05-21T23:05:19+0000",
             "vcs_last_commit": "2026-04-19T22:04:48+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:33+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:19+0000",
             "vcs_last_rev": "66c3d7fa035248cbe2e316cb29627a0c0d765b45",
             "vcs_subdir": "",
             "version": null,
@@ -761,9 +768,9 @@
             "id": 1075506,
             "layer": 578,
             "local_path": "",
-            "updated": "2026-04-28T00:04:52+0000",
+            "updated": "2026-05-21T23:05:41+0000",
             "vcs_last_commit": "2026-04-13T21:04:16+0000",
-            "vcs_last_fetch": "2026-04-28T00:04:52+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:41+0000",
             "vcs_last_rev": "8c4f628daa58493dd2d2f51997f520a87d8d7f85",
             "vcs_subdir": "",
             "version": null,
@@ -847,7 +854,7 @@
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Add packages for AI/ML build",
@@ -866,7 +873,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-28T00:04:47+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
@@ -889,13 +896,13 @@
             "section": "console/tools",
             "srcrev": "e6463926479bd6b330cbcf673f7e917803fd5831",
             "summary": "Memory Efficient Serialization Library - Python3 Modules",
-            "updated": "2026-04-28T00:04:47+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DFLATBUFFERS_BUILD_TESTS=OFF     -DFLATBUFFERS_BUILD_SHAREDLIB=ON  -DFLATBUFFERS_FLATC_EXECUTABLE=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/flatbuffers/24.3.25/recipe-sysroot-native/usr/bin/flatc ",
+            "configopts": "     -DFLATBUFFERS_BUILD_TESTS=OFF     -DFLATBUFFERS_BUILD_SHAREDLIB=ON  -DFLATBUFFERS_FLATC_EXECUTABLE=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/flatbuffers/24.3.25/recipe-sysroot-native/usr/bin/flatc ",
             "description": "",
             "filename": "flatbuffers_24.3.25.bb",
             "filepath": "recipes-devtools/flatbuffers",
@@ -912,11 +919,11 @@
             "section": "console/tools",
             "srcrev": "e6463926479bd6b330cbcf673f7e917803fd5831",
             "summary": "Memory Efficient Serialization Library",
-            "updated": "2026-04-28T00:04:47+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DCMAKE_BUILD_TYPE=RelWithDebInfo     -Donnxruntime_BUILD_UNIT_TESTS=ON     -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON     -DCMAKE_POLICY_VERSION_MINIMUM=3.5    -Donnxruntime_ARMNN_BN_USE_CPU=OFF  -Donnxruntime_ARMNN_RELU_USE_CPU=OFF  -Donnxruntime_USE_AUTOML=OFF  -Donnxruntime_USE_BRAINSLICE=OFF -Donnxruntime_CROSS_COMPILING=ON  -Donnxruntime_BUILD_CSHARP=OFF  -Donnxruntime_USE_CUDA=OFF  -Donnxruntime_DEV_MODE=OFF  -Donnxruntime_USE_DML=OFF  -Donnxruntime_USE_DNNL=OFF  -Donnxruntime_USE_EIGEN_FOR_BLAS=OFF  -Donnxruntime_USE_EIGEN_THREADPOOL=OFF  -Donnxruntime_USE_FULL_PROTOBUF=OFF  -Donnxruntime_USE_GEMMLOWP=OFF  -Donnxruntime_ENABLE_LANGUAGE_INTEROP_OPS=OFF  -Donnxruntime_BUILD_JAVA=OFF  -Donnxruntime_USE_JEMALLOC=OFF -Donnxruntime_USE_KLEIDIAI=ON  -Donnxruntime_USE_LLVM=OFF  -Donnxruntime_ENABLE_MICROSOFT_INTERNAL=OFF  -Donnxruntime_USE_MIMALLOC=OFF  -Donnxruntime_USE_MKLML=OFF  -Donnxruntime_USE_NEUTRON=OFF  -Donnxruntime_USE_NGRAPH=OFF  -Donnxruntime_USE_NNAPI_BUILTIN=OFF  -Donnxruntime_USE_NSYNC=OFF  -Donnxruntime_USE_NUPHAR=OFF  -Donnxruntime_USE_OPENBLAS=OFF  -Donnxruntime_USE_OPENMP=OFF  -Donnxruntime_USE_OPENVINO=OFF  -Donnxruntime_DISABLE_CONTRIB_OPS=OFF  -Donnxruntime_PYBIND_EXPORT_OPSCHEMA=OFF  -Donnxruntime_USE_PREBUILT_PB=OFF -Donnxruntime_ENABLE_PYTHON=ON  -Donnxruntime_GENERATE_TEST_REPORTS=OFF  -Donnxruntime_RUN_ONNX_TESTS=OFF  -Donnxruntime_BUILD_SERVER=OFF -Donnxruntime_BUILD_SHARED_LIB=ON  -Donnxruntime_MSVC_STATIC_RUNTIME=OFF  -Donnxruntime_USE_TELEMETRY=OFF  -Donnxruntime_USE_TENSORRT=OFF  -Donnxruntime_USE_TRT=OFF  -Donnxruntime_USE_TVM=OFF  -Donnxruntime_USE_VSINPU=OFF  -Donnxruntime_BUILD:x86=OFF",
             "description": "cross-platform, high performance scoring engine for ML models",
@@ -935,11 +942,11 @@
             "section": "devel",
             "srcrev": "868cb88cd799d12d201829d51f93c72365567957",
             "summary": "",
-            "updated": "2026-04-28T00:04:48+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}  ",
             "description": "Host tools required for build of TensorFlow Lite C++ Library unit tests and Evaluation Tools",
@@ -958,13 +965,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-28T00:04:48+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/recipe-sysroot-native/usr/bin      -DTIM_VX_INSTALL=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/recipe-sysroot/usr      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/sources/tfgit      -DTFLITE_LIB_LOC=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/sources/tensorflow-lite-vx-delegate-2.19.0  ",
+            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/recipe-sysroot-native/usr/bin      -DTIM_VX_INSTALL=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/recipe-sysroot/usr      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/sources/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.19.0/sources/tensorflow-lite-vx-delegate-2.19.0  ",
             "description": "TensorFlow Lite VX Delegate",
             "filename": "tensorflow-lite-vx-delegate_2.19.0.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -981,13 +988,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-28T00:04:49+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.19.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.19.0/sources/tfgit      -DTFLITE_LIB_LOC=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.19.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.19.0/sources/tensorflow-lite-neutron-delegate-2.19.0  ",
+            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.19.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.19.0/sources/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.19.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.19.0/sources/tensorflow-lite-neutron-delegate-2.19.0  ",
             "description": "TensorFlow Lite Neutron Delegate",
             "filename": "tensorflow-lite-neutron-delegate_2.19.0.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -1004,13 +1011,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-28T00:04:49+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DTFLITE_EVAL_TOOLS=on     -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/${MACHINE_SOCARCH}-oe-linux/tensorflow-lite/2.19.0/recipe-sysroot-native/usr/bin     -DTFLITE_BUILD_SHARED_LIB=on     -DTFLITE_ENABLE_NNAPI=off     -DTFLITE_ENABLE_NNAPI_VERBOSE_VALIDATION=on     -DTFLITE_ENABLE_RUY=on     -DTFLITE_ENABLE_XNNPACK=on     -DTFLITE_PYTHON_WRAPPER_BUILD_CMAKE2=on     -DTFLITE_ENABLE_EXTERNAL_DELEGATE=on     /tmp/tmph3_1mclb/tmp/work/${MACHINE_SOCARCH}-oe-linux/tensorflow-lite/2.19.0/sources/tensorflow-lite-2.19.0/tensorflow/lite/   -DTFLITE_ENABLE_GPU=off",
+            "configopts": "     -DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DTFLITE_EVAL_TOOLS=on     -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpvmtxfskk/tmp/work/${MACHINE_SOCARCH}-oe-linux/tensorflow-lite/2.19.0/recipe-sysroot-native/usr/bin     -DTFLITE_BUILD_SHARED_LIB=on     -DTFLITE_ENABLE_NNAPI=off     -DTFLITE_ENABLE_NNAPI_VERBOSE_VALIDATION=on     -DTFLITE_ENABLE_RUY=on     -DTFLITE_ENABLE_XNNPACK=on     -DTFLITE_PYTHON_WRAPPER_BUILD_CMAKE2=on     -DTFLITE_ENABLE_EXTERNAL_DELEGATE=on     /tmp/tmpvmtxfskk/tmp/work/${MACHINE_SOCARCH}-oe-linux/tensorflow-lite/2.19.0/sources/tensorflow-lite-2.19.0/tensorflow/lite/   -DTFLITE_ENABLE_GPU=off",
             "description": "TensorFlow Lite C++ Library",
             "filename": "tensorflow-lite_2.19.0.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -1027,13 +1034,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-28T00:04:49+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.19.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.19.0/sources/tfgit      -DTFLITE_LIB_LOC=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.19.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.19.0/sources/tensorflow-lite-ethosu-delegate-2.19.0  ",
+            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.19.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.19.0/sources/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.19.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.19.0/sources/tensorflow-lite-ethosu-delegate-2.19.0  ",
             "description": "TensorFlow Lite Ethos-u Delegate",
             "filename": "tensorflow-lite-ethosu-delegate_2.19.0.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -1050,11 +1057,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-28T00:04:49+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The firmware library and converter for i.MX Neutron NPU",
@@ -1073,11 +1080,11 @@
             "section": "base",
             "srcrev": "2887d2dcf47eda7e3f20afe3c2c1f4d1a2970386",
             "summary": "The firmware, library and converter for i.MX Neutron NPU",
-            "updated": "2026-04-28T00:04:49+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1096,11 +1103,11 @@
             "section": "base",
             "srcrev": "cc03fda98c2ef26db2f823eaba36ca96107eee23",
             "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-            "updated": "2026-04-28T00:04:50+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The eiq examples based on Tf-lite",
@@ -1119,13 +1126,13 @@
             "section": "base",
             "srcrev": "a900ed92dd27f79e832dca7b184c7f621ea0c97f",
             "summary": "The eiq examples based on Tf-lite",
-            "updated": "2026-04-28T00:04:50+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/${MACHINE_SOCARCH}-oe-linux/litert/1.2.0/recipe-sysroot-native/usr/bin     -DTFLITE_ENABLE_NNAPI=off     -DTFLITE_ENABLE_NNAPI_VERBOSE_VALIDATION=on     -DTFLITE_ENABLE_RUY=on     -DTFLITE_ENABLE_XNNPACK=on     -DTFLITE_ENABLE_EXTERNAL_DELEGATE=on     -DTFLITE_PYTHON_WRAPPER_BUILD=on     /tmp/tmph3_1mclb/tmp/work/${MACHINE_SOCARCH}-oe-linux/litert/1.2.0/sources/litert-1.2.0/tflite/   -DTFLITE_ENABLE_GPU=off",
+            "configopts": "     -DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpvmtxfskk/tmp/work/${MACHINE_SOCARCH}-oe-linux/litert/1.2.0/recipe-sysroot-native/usr/bin     -DTFLITE_ENABLE_NNAPI=off     -DTFLITE_ENABLE_NNAPI_VERBOSE_VALIDATION=on     -DTFLITE_ENABLE_RUY=on     -DTFLITE_ENABLE_XNNPACK=on     -DTFLITE_ENABLE_EXTERNAL_DELEGATE=on     -DTFLITE_PYTHON_WRAPPER_BUILD=on     /tmp/tmpvmtxfskk/tmp/work/${MACHINE_SOCARCH}-oe-linux/litert/1.2.0/sources/litert-1.2.0/tflite/   -DTFLITE_ENABLE_GPU=off",
             "description": "Google's open-source high-performance runtime for on-device AI",
             "filename": "litert_1.2.0.bb",
             "filepath": "recipes-libraries/litert",
@@ -1142,13 +1149,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-28T00:04:50+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DBUILD_FOR_LITERT=ON      -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DGIT_COMMIT_HASH=be8bf3997c70247bf46649f2304209fef82d4802      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-neutron-delegate/1.2.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-neutron-delegate/1.2.0/sources/litertgit      /tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-neutron-delegate/1.2.0/sources/litert-neutron-delegate-1.2.0  ",
+            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DBUILD_FOR_LITERT=ON      -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DGIT_COMMIT_HASH=be8bf3997c70247bf46649f2304209fef82d4802      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/litert-neutron-delegate/1.2.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/litert-neutron-delegate/1.2.0/sources/litertgit      /tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/litert-neutron-delegate/1.2.0/sources/litert-neutron-delegate-1.2.0  ",
             "description": "TensorFlow Lite Neutron Delegate",
             "filename": "litert-neutron-delegate_1.2.0.bb",
             "filepath": "recipes-libraries/litert",
@@ -1165,13 +1172,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-28T00:04:50+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DBUILD_FOR_LITERT=ON      -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-vx-delegate/1.2.0/recipe-sysroot-native/usr/bin      -DTIM_VX_INSTALL=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-vx-delegate/1.2.0/recipe-sysroot/usr      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-vx-delegate/1.2.0/sources/litertgit      /tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-vx-delegate/1.2.0/sources/litert-vx-delegate-1.2.0  ",
+            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DBUILD_FOR_LITERT=ON      -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/litert-vx-delegate/1.2.0/recipe-sysroot-native/usr/bin      -DTIM_VX_INSTALL=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/litert-vx-delegate/1.2.0/recipe-sysroot/usr      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/litert-vx-delegate/1.2.0/sources/litertgit      /tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/litert-vx-delegate/1.2.0/sources/litert-vx-delegate-1.2.0  ",
             "description": "LiteRT VX Delegate",
             "filename": "litert-vx-delegate_1.2.0.bb",
             "filepath": "recipes-libraries/litert",
@@ -1188,13 +1195,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-28T00:04:50+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DBUILD_FOR_LITERT=ON      -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-ethosu-delegate/1.2.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-ethosu-delegate/1.2.0/sources/litertgit      /tmp/tmph3_1mclb/tmp/work/core2-32-oe-linux/litert-ethosu-delegate/1.2.0/sources/litert-ethosu-delegate-1.2.0  ",
+            "configopts": "-DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}       -DBUILD_FOR_LITERT=ON      -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/litert-ethosu-delegate/1.2.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/litert-ethosu-delegate/1.2.0/sources/litertgit      /tmp/tmpvmtxfskk/tmp/work/core2-32-oe-linux/litert-ethosu-delegate/1.2.0/sources/litert-ethosu-delegate-1.2.0  ",
             "description": "LiteRT Ethos-u Delegate",
             "filename": "litert-ethosu-delegate_1.2.0.bb",
             "filepath": "recipes-libraries/litert",
@@ -1211,11 +1218,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-28T00:04:50+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DCONFIG=YOCTO     -DCMAKE_SYSROOT=${PKG_CONFIG_SYSROOT_DIR}     -DTIM_VX_ENABLE_TEST=off     -DTIM_VX_USE_EXTERNAL_OVXLIB=off  ",
             "description": "TIM-VX is a software integration module provided by VeriSilicon to facilitate deployment of Neural-Networks on OpenVX enabled ML accelerators. It serves as the backend binding for runtime frameworks such as Android NN, Tensorflow-Lite, MLIR, TVM and more.",
@@ -1234,11 +1241,11 @@
             "section": "base",
             "srcrev": "81d8d14cef8a8fe6987b2ae27eddd6c87bbaff81",
             "summary": "Tensor Interface Module for OpenVX",
-            "updated": "2026-04-28T00:04:50+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " -DUSE_VSI_NPU=ON -DUSE_VSI_NPU_RUNTIME=ON ",
             "description": "Apache TVM (incubating) is a compiler stack for deep learning systems. It is designed to close the gap between the productivity-focused deep learning frameworks, and the performance- and efficiency-focused hardware backends. TVM works with deep learning frameworks to provide end to end compilation to different backends.",
@@ -1257,11 +1264,11 @@
             "section": "base",
             "srcrev": "2a0afb968fb985ceace4587c6ffd4f9173a550d2",
             "summary": "Open Deep Learning Compiler Stack",
-            "updated": "2026-04-28T00:04:51+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The firmware of Cortex(R)-M33 for Arm(R) Ethos(TM)-U NPU",
@@ -1280,11 +1287,11 @@
             "section": "base",
             "srcrev": "79362654c657575920a0ef3dfc3d346f63114db8",
             "summary": "The firmware of Cortex(R)-M33 for Arm(R) Ethos(TM)-U NPU",
-            "updated": "2026-04-28T00:04:51+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DCMAKE_POLICY_VERSION_MINIMUM=3.5  ",
             "description": "The Linux driver stack for Arm(R) Ethos(TM)-U provides an example of how a rich operating system like Linux can dispatch inferences to an Arm Cortex(R)-M subsystem, consisting of an Arm Cortex-M of choice and an Arm Ethos-U NPU.",
@@ -1303,11 +1310,11 @@
             "section": "base",
             "srcrev": "caf5daf63fc2a69733eb92387ba69bef033926b3",
             "summary": "The Linux driver stack for Arm(R) Ethos(TM)-U NPU",
-            "updated": "2026-04-28T00:04:51+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The vela tool is used to compile a TensorFlow Lite for Microcontrollers neural network model into an optimised version that can run on an embedded system containing an Arm Ethos-U NPU",
@@ -1326,11 +1333,11 @@
             "section": "base",
             "srcrev": "7c3791e2b659fc3a11e28b2bbc5635bba05434e9",
             "summary": "",
-            "updated": "2026-04-28T00:04:51+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "         --disable-graphviz         --disable-gtk-doc  --disable-static ",
             "description": "",
@@ -1349,11 +1356,11 @@
             "section": "base",
             "srcrev": "cedca5ab20a0230042b7c14be1a00532f0387f1e",
             "summary": "A GStreamer NNstreamer pipelines real-time profiling plugin",
-            "updated": "2026-04-28T00:04:51+0000"
+            "updated": "2026-05-21T23:05:40+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " \t-Denable-float16=true \t-Denable-test=true \t-Dinstall-test=true    \t-Dflatbuf-support=disabled  \t-Dgrpc-support=disabled \t-Dprotobuf-support=enabled \t-Dpython3-support=enabled \t-Dnnstreamer-edge-support=enabled  \t-Dtflite2-support=disabled  \t-Dtvm-support=disabled",
             "description": "NNStreamer is a GStreamer plugin allowing to construct neural network applications with stream pipeline paradigm.",
@@ -1372,11 +1379,11 @@
             "section": "AI",
             "srcrev": "9cf11e0768892636622480fe1b5fc042b5a224ad",
             "summary": "NNStreamer, Stream Pipeline Paradigm for Neural Network Applications",
-            "updated": "2026-04-28T00:04:52+0000"
+            "updated": "2026-05-21T23:05:40+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Shell Script Automated Tester (unit testing executable files)",
@@ -1395,11 +1402,11 @@
             "section": "Development",
             "srcrev": "163516897314d6e0c437a84272e348f278038be3",
             "summary": "Shell Script Automated Tester (unit testing executable files)",
-            "updated": "2026-04-28T00:04:52+0000"
+            "updated": "2026-05-21T23:05:40+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DENABLE_TEST=ON  ",
             "description": "Remote source nodes for NNStreamer pipelines without GStreamer dependencies",
@@ -1418,7 +1425,7 @@
             "section": "base",
             "srcrev": "e73acb740dce3ecbf8a650f45fab790afb400a95",
             "summary": "NNStreamer-Edge library",
-            "updated": "2026-04-28T00:04:52+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         }
     ],
     "wrtemplates": []

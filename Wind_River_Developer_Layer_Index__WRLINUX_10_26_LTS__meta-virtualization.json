@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,17 +725,24 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-08T00:05:13+0000",
+            "updated": "2026-05-27T00:05:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "",
-            "id": 16576,
+            "id": 16748,
+            "layerbranch": 1075118,
+            "name": "vcontainer",
+            "updated": "2026-05-21T23:05:13+0000"
+        },
+        {
+            "description": "",
+            "id": 16749,
             "layerbranch": 1075118,
             "name": "vruntime",
-            "updated": "2026-04-23T04:04:18+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         }
     ],
     "layerBranches": [
@@ -739,10 +753,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-07T21:05:29+0000",
-            "vcs_last_commit": "2026-05-07T20:05:33+0000",
-            "vcs_last_fetch": "2026-05-07T21:05:29+0000",
-            "vcs_last_rev": "b518533bb9b41e377a44a519d8c22479a6ad2ccb",
+            "updated": "2026-05-26T01:05:20+0000",
+            "vcs_last_commit": "2026-05-26T00:05:28+0000",
+            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
+            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -754,10 +768,10 @@
             "id": 1075078,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-04-27T19:04:20+0000",
-            "vcs_last_commit": "2026-04-24T04:04:22+0000",
-            "vcs_last_fetch": "2026-04-27T19:04:20+0000",
-            "vcs_last_rev": "818046faabbf8d6e3c81b0baaa0e5a583eaedf49",
+            "updated": "2026-05-26T21:05:50+0000",
+            "vcs_last_commit": "2026-05-26T20:05:36+0000",
+            "vcs_last_fetch": "2026-05-26T21:05:50+0000",
+            "vcs_last_rev": "45a684b1a27974d63c8a51809a490fb0782b76fe",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44228
@@ -769,10 +783,10 @@
             "id": 1075080,
             "layer": 12,
             "local_path": "",
-            "updated": "2026-04-29T21:04:15+0000",
-            "vcs_last_commit": "2026-04-29T20:04:20+0000",
-            "vcs_last_fetch": "2026-04-29T21:04:15+0000",
-            "vcs_last_rev": "a80670e46e208f852d010a6fe85210e78668af69",
+            "updated": "2026-05-21T23:05:59+0000",
+            "vcs_last_commit": "2026-05-21T19:05:17+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:59+0000",
+            "vcs_last_rev": "6414e6d0c51a2caf7c7e901e8be031a7dcd3525c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44228
@@ -784,10 +798,10 @@
             "id": 1075107,
             "layer": 11,
             "local_path": "",
-            "updated": "2026-04-23T04:04:42+0000",
-            "vcs_last_commit": "2026-04-17T14:04:04+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:42+0000",
-            "vcs_last_rev": "70144adc987f59930b0a4587839f98212c371c02",
+            "updated": "2026-05-21T23:05:52+0000",
+            "vcs_last_commit": "2026-05-18T20:05:58+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:52+0000",
+            "vcs_last_rev": "2fb49237f43cc92c8c8196633a4a4cebb5dcf9b5",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44228
@@ -799,10 +813,10 @@
             "id": 1075117,
             "layer": 8,
             "local_path": "",
-            "updated": "2026-04-23T04:04:01+0000",
-            "vcs_last_commit": "2026-04-10T07:04:53+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:01+0000",
-            "vcs_last_rev": "92356431b9eaf04710fbee6069fb1ade0c4064a0",
+            "updated": "2026-05-21T23:05:53+0000",
+            "vcs_last_commit": "2026-05-13T06:05:40+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:53+0000",
+            "vcs_last_rev": "96e57377f0bbbed3879b37e0ebf7f117d79d60ee",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 44228
@@ -814,10 +828,10 @@
             "id": 1075118,
             "layer": 45,
             "local_path": "",
-            "updated": "2026-04-23T04:04:39+0000",
-            "vcs_last_commit": "2026-04-19T22:04:54+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:39+0000",
-            "vcs_last_rev": "b635f8415c8476dcb52144936c1616667754c75a",
+            "updated": "2026-05-27T00:05:48+0000",
+            "vcs_last_commit": "2026-05-26T23:05:25+0000",
+            "vcs_last_fetch": "2026-05-27T00:05:48+0000",
+            "vcs_last_rev": "a311b45ddc15b28a43ad51d0adfb8d6902a58a2f",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44229
@@ -987,7 +1001,7 @@
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1006,7 +1020,7 @@
             "section": "base",
             "srcrev": "bc872d91765dfd6ff34b0e9a34bce410fac1cef3",
             "summary": "User-mode networking daemons for virtual machines and namespaces",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1029,11 +1043,11 @@
             "section": "base",
             "srcrev": "6be0d5313870eaa12f6e9f7fede09bbe742796b6",
             "summary": "User-mode networking for unprivileged network namespaces.",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1052,7 +1066,7 @@
             "section": "base",
             "srcrev": "00d5d07ab1c8afcf481ffa5958719943b6ecfde4",
             "summary": "Runc hook for setting up default bridge networking.",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1075,7 +1089,7 @@
             "section": "networking",
             "srcrev": "0d4c78e153d2b22ab1b173cd4a4dfff89002666d",
             "summary": "OpenvSwitch",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1098,11 +1112,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Container Network Interface - networking for Linux containers",
-            "updated": "2026-04-23T04:04:20+0000"
+            "updated": "2026-05-25T21:05:58+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Parser for the Compose file format (version 3)",
@@ -1121,11 +1135,11 @@
             "section": "devel/go",
             "srcrev": "a3e58764f50597b6217fec07e9bff7225c4a1719",
             "summary": "",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Go bindings to systemd socket activation, journal, D-Bus, and unit files",
@@ -1144,11 +1158,11 @@
             "section": "devel/go",
             "srcrev": "4dc4ee60b8394d431f19a3c599040ef758884a27",
             "summary": "",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The Go language implementation of gRPC. HTTP/2 based RPC",
@@ -1167,11 +1181,11 @@
             "section": "devel/go",
             "srcrev": "dda86dbd9cecb8b35b58c73d507d81d67761205f",
             "summary": "",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A generic patricia trie (also called radix tree) implemented in Go (Golang)",
@@ -1190,11 +1204,11 @@
             "section": "devel/go",
             "srcrev": "8c5d7fa2ef98ad77bfbd2d2c3d67d4d17db0093a",
             "summary": "",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The Docker toolset to pack, ship, store, and deliver content",
@@ -1213,11 +1227,11 @@
             "section": "devel/go",
             "srcrev": "678b095af9c9be2a769da308daa76de583240f9b",
             "summary": "",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Utility package to work with network connections",
@@ -1236,11 +1250,11 @@
             "section": "devel/go",
             "srcrev": "42faf792bde28c414a060127d6351769408a675f",
             "summary": "",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Xen Runtime for OCI.     DEPRECATED: go-build is the serial FD handler companion to runx,     which is unmaintained. Use 'vxn' instead, which handles console     communication via PV consoles without a separate Go binary.",
@@ -1259,7 +1273,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "console for runx (DEPRECATED - use vxn instead)",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -1282,11 +1296,11 @@
             "section": "devel/go",
             "srcrev": "061b6c7cbecd6752049221aa15b7a05160796698",
             "summary": "",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A powerful URL router and dispatcher for golang.",
@@ -1305,11 +1319,11 @@
             "section": "devel/go",
             "srcrev": "b4617d0b9670ad14039b2739167fd35a60f557c5",
             "summary": "",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A small package for building command line apps in Go",
@@ -1328,11 +1342,11 @@
             "section": "devel/go",
             "srcrev": "19b951ab78929023a9a670722b26ffb1d67c733a",
             "summary": "",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Native Go bindings for D-Bus",
@@ -1351,11 +1365,11 @@
             "section": "devel/go",
             "srcrev": "a8ac15ba63645f02ffd57f4b443203279ab40b30",
             "summary": "",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A golang registry for global request variables.",
@@ -1374,11 +1388,11 @@
             "section": "devel/go",
             "srcrev": "a29884b9be3dc22c18338c0fe5a51d23e69731e4",
             "summary": "",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A golang registry for global request variables.",
@@ -1397,11 +1411,11 @@
             "section": "devel/go",
             "srcrev": "ae0e7923765f64fb8061396db7edebb558cf6093",
             "summary": "",
-            "updated": "2026-04-23T04:04:23+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1420,13 +1434,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go dirhash helper for offline Go module checksum generation",
-            "updated": "2026-04-23T04:04:23+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr     --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin     --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include     --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib     --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man     --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share     --docdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/doc/qemu     --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc     --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec     --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags=' -O2 -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmpgsxhp98p/tmp/work/x86_64-nativesdk-oesdk-linux/nativesdk-qemu-vcontainer/10.2.0/sources/qemu-10.2.0=/usr/src/debug/nativesdk-qemu-vcontainer/10.2.0  -ffile-prefix-map=/tmp/tmpgsxhp98p/tmp/work/x86_64-nativesdk-oesdk-linux/nativesdk-qemu-vcontainer/10.2.0/build=/usr/src/debug/nativesdk-qemu-vcontainer/10.2.0  -ffile-prefix-map=/tmp/tmpgsxhp98p/tmp/work/x86_64-nativesdk-oesdk-linux/nativesdk-qemu-vcontainer/10.2.0/recipe-sysroot=  -ffile-prefix-map=/tmp/tmpgsxhp98p/tmp/work/x86_64-nativesdk-oesdk-linux/nativesdk-qemu-vcontainer/10.2.0/recipe-sysroot-native=  -pipe'     --extra-ldflags='-Wl,-O1'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libkeyutils --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-pixman --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-sdl-image --disable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --enable-virtfs --enable-attr --enable-cap-ng --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --cross-prefix=x86_64-oesdk-linux- --target-list=aarch64-linux-user,aarch64-softmmu,x86_64-linux-user,x86_64-softmmu",
+            "configopts": "     --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr     --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin     --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include     --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib     --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man     --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share     --docdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/doc/qemu     --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc     --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec     --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags=' -O2 -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmp_2hh00te/tmp/work/x86_64-nativesdk-oesdk-linux/nativesdk-qemu-vcontainer/10.2.0/sources/qemu-10.2.0=/usr/src/debug/nativesdk-qemu-vcontainer/10.2.0  -ffile-prefix-map=/tmp/tmp_2hh00te/tmp/work/x86_64-nativesdk-oesdk-linux/nativesdk-qemu-vcontainer/10.2.0/build=/usr/src/debug/nativesdk-qemu-vcontainer/10.2.0  -ffile-prefix-map=/tmp/tmp_2hh00te/tmp/work/x86_64-nativesdk-oesdk-linux/nativesdk-qemu-vcontainer/10.2.0/recipe-sysroot=  -ffile-prefix-map=/tmp/tmp_2hh00te/tmp/work/x86_64-nativesdk-oesdk-linux/nativesdk-qemu-vcontainer/10.2.0/recipe-sysroot-native=  -pipe'     --extra-ldflags='-Wl,-O1'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libkeyutils --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-pixman --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-sdl-image --disable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --enable-virtfs --enable-attr --enable-cap-ng --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --cross-prefix=x86_64-oesdk-linux- --target-list=aarch64-linux-user,aarch64-softmmu,x86_64-linux-user,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "nativesdk-qemu-vcontainer.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1443,11 +1457,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2026-04-23T04:04:24+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "  Gunicorn \u2018Green Unicorn\u2019 is a Python WSGI HTTP Server for UNIX. It\u2019s   a pre-fork worker model ported from Ruby\u2019s Unicorn project. The   Gunicorn server is broadly compatible with various web frameworks,   simply implemented, light on server resource usage, and fairly speedy.   ",
@@ -1466,7 +1480,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "WSGI HTTP Server for UNIX",
-            "updated": "2026-04-23T04:04:24+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1489,11 +1503,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python library to use the pseudo-tty of a docker container",
-            "updated": "2026-04-23T04:04:24+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "WSGI request and response object",
@@ -1512,7 +1526,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:24+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1535,11 +1549,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Make entry_points specified in setup.py load more quickly",
-            "updated": "2026-04-23T04:04:25+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1558,7 +1572,7 @@
             "section": "base",
             "srcrev": "4a64ff7c1b8116a1894e72eee2a19706e970001f",
             "summary": "A tool for generating SELinux security policies for containers",
-            "updated": "2026-04-23T04:04:25+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1581,11 +1595,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python Dot Env Handler",
-            "updated": "2026-04-23T04:04:25+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "  Python agent for the New Relic web application performance monitoring   service. Check the release notes for what has changed in this version.   ",
@@ -1604,7 +1618,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "New Relic Python Agent",
-            "updated": "2026-04-23T04:04:25+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1627,7 +1641,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Amazon Web Services API",
-            "updated": "2026-04-23T04:04:25+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1650,7 +1664,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The low-level, core functionality of boto 3.",
-            "updated": "2026-04-23T04:04:26+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1673,7 +1687,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python bindings for the docker credentials store API",
-            "updated": "2026-04-23T04:04:26+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1696,11 +1710,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A Python library for the Docker Engine API.",
-            "updated": "2026-04-23T04:04:26+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "  The official Python notifier for `Bugsnag <https://bugsnag.com/>`_.   Provides support for automatically capturing and sending exceptions   in your Django and other Python apps to Bugsnag, to help you find   and solve your bugs as fast as possible.   ",
@@ -1719,7 +1733,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Automatic error monitoring for django, flask, etc.",
-            "updated": "2026-04-23T04:04:26+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -1742,11 +1756,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "a lightweight and portable command-line YAML processor",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "",
@@ -1765,11 +1779,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Open source network boot firmware",
@@ -1788,11 +1802,11 @@
             "section": "base",
             "srcrev": "a0bf3f1cc85aa2e8853b66e59f26e8f398d9ed4e",
             "summary": "",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "SeaBIOS",
@@ -1811,11 +1825,11 @@
             "section": "firmware",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:28+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "",
@@ -1834,11 +1848,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Detect if we are running in a virtual machine",
-            "updated": "2026-04-23T04:04:28+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CROPS-style entrypoint script that creates a builder user     matching the /workdir mount owner, then hands off to systemd.",
@@ -1857,7 +1871,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Entrypoint and user configuration for Yocto builder container",
-            "updated": "2026-04-23T04:04:28+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1880,11 +1894,11 @@
             "section": "base",
             "srcrev": "cd9212f453db71bec2050c9236c4ce9f17e6d2b4",
             "summary": "IRQ allocation daemon",
-            "updated": "2026-04-23T04:04:28+0000"
+            "updated": "2026-05-21T23:05:14+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      --exec-prefix=/usr     --prefix=/usr     --host=i686-oe-linux     --disable-stubdom     --disable-ioemu-stubdom     --disable-pv-grub     --disable-xenstore-stubdom     --disable-rombios     --disable-ocamltools     --disable-qemu-traditional     --disable-pvshim --disable-seabios           --with-systemd=/usr/lib/systemd/system     --with-initddir=/etc/init.d     --with-sysconfig-leaf-dir=default     --with-system-qemu=/usr/bin/qemu-system-i386     --disable-rombios      --disable-static  --enable-systemd --disable-xsmpolicy",
             "description": "Tools and utility software for the Xen hypervisor",
@@ -1903,11 +1917,11 @@
             "section": "console/tools",
             "srcrev": "de0254b90922a8644bb2c4c1593786d45c80ea22",
             "summary": "Xen hypervisor tools",
-            "updated": "2026-04-23T04:04:28+0000"
+            "updated": "2026-05-21T23:05:14+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      --exec-prefix=/usr     --prefix=/usr     --host=i686-oe-linux     --disable-stubdom     --disable-ioemu-stubdom     --disable-pv-grub     --disable-xenstore-stubdom     --disable-rombios     --disable-ocamltools     --disable-qemu-traditional     --disable-pvshim --disable-seabios      --disable-static  --enable-systemd --disable-xsmpolicy",
             "description": "The Xen hypervisor",
@@ -1926,11 +1940,11 @@
             "section": "console/tools",
             "srcrev": "1c72306b1f0b4dc533954f678361044f8083dccc",
             "summary": "Xen hypervisor",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:14+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      --exec-prefix=/usr     --prefix=/usr     --host=i686-oe-linux     --disable-stubdom     --disable-ioemu-stubdom     --disable-pv-grub     --disable-xenstore-stubdom     --disable-rombios     --disable-ocamltools     --disable-qemu-traditional     --disable-pvshim --disable-seabios           --with-systemd=/usr/lib/systemd/system     --with-initddir=/etc/init.d     --with-sysconfig-leaf-dir=default     --with-system-qemu=/usr/bin/qemu-system-i386     --disable-rombios      --disable-static  --enable-systemd --disable-xsmpolicy",
             "description": "Tools and utility software for the Xen hypervisor",
@@ -1949,11 +1963,11 @@
             "section": "console/tools",
             "srcrev": "ae992e68d3ed7a177adea8b9afa4ec88c27254f0",
             "summary": "Xen hypervisor tools",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:14+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      --exec-prefix=/usr     --prefix=/usr     --host=i686-oe-linux     --disable-stubdom     --disable-ioemu-stubdom     --disable-pv-grub     --disable-xenstore-stubdom     --disable-rombios     --disable-ocamltools     --disable-qemu-traditional     --disable-pvshim --disable-seabios      --disable-static  --enable-systemd --disable-xsmpolicy",
             "description": "The Xen hypervisor",
@@ -1972,11 +1986,11 @@
             "section": "console/tools",
             "srcrev": "8dd897e69119492989aaa034967f3a887f590197",
             "summary": "Xen hypervisor",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:15+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      --exec-prefix=/usr     --prefix=/usr     --host=i686-oe-linux     --disable-stubdom     --disable-ioemu-stubdom     --disable-pv-grub     --disable-xenstore-stubdom     --disable-rombios     --disable-ocamltools     --disable-qemu-traditional     --disable-pvshim --disable-seabios           --with-systemd=/usr/lib/systemd/system     --with-initddir=/etc/init.d     --with-sysconfig-leaf-dir=default     --with-system-qemu=/usr/bin/qemu-system-i386     --disable-rombios      --disable-static  --enable-systemd --disable-xsmpolicy",
             "description": "Tools and utility software for the Xen hypervisor",
@@ -1995,11 +2009,11 @@
             "section": "console/tools",
             "srcrev": "1c72306b1f0b4dc533954f678361044f8083dccc",
             "summary": "Xen hypervisor tools",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:15+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2018,11 +2032,11 @@
             "section": "base",
             "srcrev": "3e800027016ea4eb19887bf626b46f45fc43fa5d",
             "summary": "Xen Test Framework",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:15+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      --exec-prefix=/usr     --prefix=/usr     --host=i686-oe-linux     --disable-stubdom     --disable-ioemu-stubdom     --disable-pv-grub     --disable-xenstore-stubdom     --disable-rombios     --disable-ocamltools     --disable-qemu-traditional     --disable-pvshim --disable-seabios           --with-systemd=/usr/lib/systemd/system     --with-initddir=/etc/init.d     --with-sysconfig-leaf-dir=default     --with-system-qemu=/usr/bin/qemu-system-i386     --disable-rombios      --disable-static  --enable-systemd --disable-xsmpolicy",
             "description": "Tools and utility software for the Xen hypervisor",
@@ -2041,11 +2055,11 @@
             "section": "console/tools",
             "srcrev": "8dd897e69119492989aaa034967f3a887f590197",
             "summary": "Xen hypervisor tools",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:15+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      --exec-prefix=/usr     --prefix=/usr     --host=i686-oe-linux     --disable-stubdom     --disable-ioemu-stubdom     --disable-pv-grub     --disable-xenstore-stubdom     --disable-rombios     --disable-ocamltools     --disable-qemu-traditional     --disable-pvshim --disable-seabios      --disable-static  --enable-systemd --disable-xsmpolicy",
             "description": "The Xen hypervisor",
@@ -2064,11 +2078,11 @@
             "section": "console/tools",
             "srcrev": "ae992e68d3ed7a177adea8b9afa4ec88c27254f0",
             "summary": "Xen hypervisor",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      --exec-prefix=/usr     --prefix=/usr     --host=i686-oe-linux     --disable-stubdom     --disable-ioemu-stubdom     --disable-pv-grub     --disable-xenstore-stubdom     --disable-rombios     --disable-ocamltools     --disable-qemu-traditional     --disable-pvshim --disable-seabios      --disable-static  --enable-systemd --disable-xsmpolicy",
             "description": "The Xen hypervisor",
@@ -2087,7 +2101,7 @@
             "section": "console/tools",
             "srcrev": "ae992e68d3ed7a177adea8b9afa4ec88c27254f0",
             "summary": "Xen hypervisor",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -2110,7 +2124,7 @@
             "section": "base",
             "srcrev": "b2b32ccc7913bd21530b03dfa6b65e863b6896ed",
             "summary": "",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -2133,11 +2147,11 @@
             "section": "base",
             "srcrev": "51108ae00fd52e7d9ece7301aaa6f7a699828b58",
             "summary": "FUSE implementation of overlayfs.",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--disable-auth                 --with-systemdsystemunitdir=/usr/lib/systemd/system --disable-static ",
             "description": "Diod is a user space server for the kernel v9fs client (9p.ko, 9pnet.ko). Although the kernel client supports several 9P variants, diod only supports 9P2000.L, and only in its feature-complete form, as it appeared in 2.6.38.",
@@ -2156,11 +2170,11 @@
             "section": "console/network",
             "srcrev": "a8c55f0dd3ad9debc0e77b29ebde6e991d99d55d",
             "summary": "Diod is a user space server for the kernel v9fs client.",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A vhost-user backend that emulates a VirtIO SCSI block device",
@@ -2179,11 +2193,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "vhost scsi backend device",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:17+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A vhost-user backend that emulates a VirtIO socket device",
@@ -2202,11 +2216,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "vhost vsock backend device",
-            "updated": "2026-04-23T04:04:35+0000"
+            "updated": "2026-05-21T23:05:17+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A vhost-user backend that emulates a VirtIO random number     generator device",
@@ -2225,11 +2239,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "vhost rng backend device",
-            "updated": "2026-04-23T04:04:36+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A vhost-user backend that emulates a VirtIO GPIO device",
@@ -2248,11 +2262,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "vhost gpio backend device",
-            "updated": "2026-04-23T04:04:37+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A vhost-user backend that emulates a VirtIO I2C device",
@@ -2271,11 +2285,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "vhost i2c backend device",
-            "updated": "2026-04-23T04:04:37+0000"
+            "updated": "2026-05-21T23:05:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Demonstrates xen-guest-bundle.bbclass by bundling the                xen-guest-image-minimal guest. Use this as a template                for your own Xen guest bundles.",
@@ -2294,11 +2308,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Example Xen guest bundle",
-            "updated": "2026-04-23T04:04:37+0000"
+            "updated": "2026-05-21T23:05:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Packages Alpine Linux minirootfs as an autostarting Xen                PV guest. Uses the xen-guest-bundle import system to                convert the tarball into an ext4 disk image.",
@@ -2317,11 +2331,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Alpine Linux Xen guest bundle",
-            "updated": "2026-04-23T04:04:37+0000"
+            "updated": "2026-05-21T23:05:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static  --enable-kvm-legacy --disable-xen --enable-nls",
             "description": "An introspection library, written in C, focused on reading                and writing memory from virtual machines (VM's).",
@@ -2340,11 +2354,11 @@
             "section": "console/tools",
             "srcrev": "82bbee6c378da854d07887048b06dc4ee8e20d6a",
             "summary": "",
-            "updated": "2026-04-23T04:04:38+0000"
+            "updated": "2026-05-21T23:05:20+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "RootlessKit is a Linux-native implementation of 'fake root' using user_namespaces(7). The purpose of RootlessKit is to run Docker and Kubernetes as an unprivileged user (known as 'Rootless mode'),so as to protect the real root on the host from potential container-breakout attacks. ",
@@ -2363,11 +2377,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "RootlessKit: Linux-native fakeroot using user namespaces",
-            "updated": "2026-04-23T04:04:40+0000"
+            "updated": "2026-05-21T23:05:20+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "github.com/cockpit-project/cockpit-machines/issues",
             "configopts": " --disable-static",
             "description": "Cockpit-machines provides a user interface to manage virtual machines",
@@ -2386,13 +2400,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Cockpit UI for virtual machines",
-            "updated": "2026-04-23T04:04:40+0000"
+            "updated": "2026-05-21T23:05:22+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " -DWITH_MANPAGE=OFF                  -DWITH_JAEGER=OFF                  -DWITH_SYSTEM_ZSTD=ON                  -DWITH_FUSE=OFF                  -DWITH_SPDK=OFF                  -DWITH_LEVELDB=OFF                  -DWITH_LTTNG=OFF                  -DWITH_BABELTRACE=OFF                  -DWITH_TESTS=OFF                  -DWITH_CATCH2=OFF                  -DWITH_BREAKPAD=OFF                  -DWITH_RADOSGW_SELECT_PARQUET=OFF                  -DWITH_RADOSGW_ARROW_FLIGHT=OFF                  -DWITH_MGR=OFF                  -DWITH_MGR_DASHBOARD_FRONTEND=OFF                  -DWITH_SYSTEM_BOOST=ON                  -DBoost_NO_BOOST_CMAKE=ON                  -DBOOST_ROOT=/tmp/tmpgsxhp98p/tmp/work/core2-32-oe-linux/ceph/20.3.0+git/recipe-sysroot/usr                  -DBoost_NO_SYSTEM_PATHS=ON                  -DBoost_INCLUDE_DIR=/tmp/tmpgsxhp98p/tmp/work/core2-32-oe-linux/ceph/20.3.0+git/recipe-sysroot/usr/include                  -DBoost_LIBRARY_DIR=/tmp/tmpgsxhp98p/tmp/work/core2-32-oe-linux/ceph/20.3.0+git/recipe-sysroot/usr/lib                  -DWITH_RDMA=OFF \t\t -DWITH_RBD=OFF \t\t -DWITH_KRBD=OFF                  -DWITH_RADOSGW_AMQP_ENDPOINT=OFF                  -DWITH_RADOSGW_KAFKA_ENDPOINT=OFF                  -DWITH_REENTRANT_STRSIGNAL=ON \t\t -DWITH_PYTHON3=3.14 \t\t -DPYTHON_DESIRED=3 \t\t -DCMAKE_TOOLCHAIN_FILE:FILEPATH=/tmp/tmpgsxhp98p/tmp/work/core2-32-oe-linux/ceph/20.3.0+git/toolchain.cmake \t\t -DCEPHADM_BUNDLED_DEPENDENCIES=none \t\t  ",
+            "configopts": " -DWITH_MANPAGE=OFF                  -DWITH_JAEGER=OFF                  -DWITH_SYSTEM_ZSTD=ON                  -DWITH_FUSE=OFF                  -DWITH_SPDK=OFF                  -DWITH_LEVELDB=OFF                  -DWITH_LTTNG=OFF                  -DWITH_BABELTRACE=OFF                  -DWITH_TESTS=OFF                  -DWITH_CATCH2=OFF                  -DWITH_BREAKPAD=OFF                  -DWITH_RADOSGW_SELECT_PARQUET=OFF                  -DWITH_RADOSGW_ARROW_FLIGHT=OFF                  -DWITH_MGR=OFF                  -DWITH_MGR_DASHBOARD_FRONTEND=OFF                  -DWITH_SYSTEM_BOOST=ON                  -DBoost_NO_BOOST_CMAKE=ON                  -DBOOST_ROOT=/tmp/tmp_2hh00te/tmp/work/core2-32-oe-linux/ceph/20.3.0+git/recipe-sysroot/usr                  -DBoost_NO_SYSTEM_PATHS=ON                  -DBoost_INCLUDE_DIR=/tmp/tmp_2hh00te/tmp/work/core2-32-oe-linux/ceph/20.3.0+git/recipe-sysroot/usr/include                  -DBoost_LIBRARY_DIR=/tmp/tmp_2hh00te/tmp/work/core2-32-oe-linux/ceph/20.3.0+git/recipe-sysroot/usr/lib                  -DWITH_RDMA=OFF \t\t -DWITH_RBD=OFF \t\t -DWITH_KRBD=OFF                  -DWITH_RADOSGW_AMQP_ENDPOINT=OFF                  -DWITH_RADOSGW_KAFKA_ENDPOINT=OFF                  -DWITH_REENTRANT_STRSIGNAL=ON \t\t -DWITH_PYTHON3=3.14 \t\t -DPYTHON_DESIRED=3 \t\t -DCMAKE_TOOLCHAIN_FILE:FILEPATH=/tmp/tmp_2hh00te/tmp/work/core2-32-oe-linux/ceph/20.3.0+git/toolchain.cmake \t\t -DCEPHADM_BUNDLED_DEPENDENCIES=none \t\t  ",
             "description": "",
             "filename": "ceph_git.bb",
             "filepath": "recipes-extended/ceph",
@@ -2409,11 +2423,11 @@
             "section": "base",
             "srcrev": "c1f7de9e4e6e92622aaff0d2173c65f83bb56e2e",
             "summary": "User space components of the Ceph file system",
-            "updated": "2026-04-23T04:04:40+0000"
+            "updated": "2026-05-21T23:05:22+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2432,11 +2446,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic container image",
-            "updated": "2026-04-23T04:04:41+0000"
+            "updated": "2026-05-21T23:05:23+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2455,11 +2469,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic container image",
-            "updated": "2026-04-23T04:04:41+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A Xen guest image.",
@@ -2478,11 +2492,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:41+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2501,11 +2515,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:42+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A minimal Xen Test Framework (XTF) image for testing the Xen hypervisor",
@@ -2524,11 +2538,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:42+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A self-hosting Yocto build container. Includes compiler     toolchain, Python 3, Git, and all tools needed to compile the Yocto     Project. Uses systemd init and supports CROPS-style dynamic user     creation for volume-mounted builds.",
@@ -2547,11 +2561,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Yocto Project builder container with systemd",
-            "updated": "2026-04-23T04:04:42+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2570,11 +2584,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:42+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A minimal kvm image",
@@ -2593,11 +2607,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:42+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A minimal xen image",
@@ -2616,11 +2630,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:43+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2639,11 +2653,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:43+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2662,11 +2676,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic container image",
-            "updated": "2026-04-23T04:04:43+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A configurable container host image",
@@ -2685,11 +2699,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:43+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A small systemd system container which will run                 .",
@@ -2708,11 +2722,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic container image",
-            "updated": "2026-04-23T04:04:44+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A minimal Xvisor image",
@@ -2731,11 +2745,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:44+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A Linux guest image for the uXen type-2 hypervisor.",
@@ -2754,11 +2768,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:44+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2777,11 +2791,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Ultimate executable compressor.",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "",
@@ -2800,11 +2814,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Data compression library",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --sysconfdir=/etc/nagios                  --libexecdir=/usr/lib/nagios/plugins                  --localstatedir=/var/nagios  --with-nrpe-user=nagios                  --with-nrpe-group=nagios                  ac_cv_lib_wrap_main=no                  ac_cv_path_PERL=/usr/bin/perl  --disable-static  --enable-bash-command-substitution --enable-command-args --disable-ssl",
             "description": "Nagios Remote Plugin Executor",
@@ -2823,11 +2837,11 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --sysconfdir=/etc/nagios                  --libexecdir=/usr/lib/nagios/plugins                  --localstatedir=/var/nagios  --sbindir=/usr/lib/nagios/cgi-bin                  --datadir=/usr/share/nagios/htdocs                  --with-command-group=nagcmd                  --with-httpd-conf=/etc/apache2/conf.d                  --with-lockfile=/var/run/nagios/nagios.pid                  --with-initdir=/etc/init.d                  --with-init-type=systemd                  --with-inetd-type=systemd  ac_cv_path_STRIP=true ac_cv_header_ltdl_h=no ac_cv_path_PERL=/usr/bin/perl --disable-static ",
             "description": "A host/service/network monitoring and management system core files",
@@ -2846,13 +2860,13 @@
             "section": "console/network",
             "srcrev": "2706fa7a451afe48bd4dc240d72d23fdcec0d9ef",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " --sysconfdir=/etc/nagios                  --libexecdir=/usr/lib/nagios/plugins                  --localstatedir=/var/nagios  --with-sysroot=/tmp/tmpgsxhp98p/tmp/work/core2-32-oe-linux/nagios-plugins/2.4.12+git/recipe-sysroot                  --with-nagios-user=nagios                  --with-nagios-group=nagios                  --without-apt-get-command                  --with-trusted-path=/bin:/sbin:/usr/bin:/usr/sbin                  --with-sudo-command=/usr/bin/sudo                  --with-ssh-command=/usr/bin/ssh                  --with-ps-command=/usr/bin/ps                  --with-ps-format='%*s %s %d %d %d %*s %*s %*s %*s %*s %*s %*s %*s %n%s'                  --with-ps-varlist='procstat,&procuid,&procpid,&procppid,&pos,procprog'                  --with-ps-cols=6                  ac_cv_path_PERL=/usr/bin/perl  --disable-static  --with-gnutls=/tmp/tmpgsxhp98p/tmp/work/core2-32-oe-linux/nagios-plugins/2.4.12+git/recipe-sysroot --without-ipv6 --without-ldap --without-mysql --without-pgsql      --without-snmpget-command --without-snmpgetnext-command --with-openssl=/tmp/tmpgsxhp98p/tmp/work/core2-32-oe-linux/nagios-plugins/2.4.12+git/recipe-sysroot --enable-nls",
+            "configopts": " --sysconfdir=/etc/nagios                  --libexecdir=/usr/lib/nagios/plugins                  --localstatedir=/var/nagios  --with-sysroot=/tmp/tmp_2hh00te/tmp/work/core2-32-oe-linux/nagios-plugins/2.4.12+git/recipe-sysroot                  --with-nagios-user=nagios                  --with-nagios-group=nagios                  --without-apt-get-command                  --with-trusted-path=/bin:/sbin:/usr/bin:/usr/sbin                  --with-sudo-command=/usr/bin/sudo                  --with-ssh-command=/usr/bin/ssh                  --with-ps-command=/usr/bin/ps                  --with-ps-format='%*s %s %d %d %d %*s %*s %*s %*s %*s %*s %*s %*s %n%s'                  --with-ps-varlist='procstat,&procuid,&procpid,&procppid,&pos,procprog'                  --with-ps-cols=6                  ac_cv_path_PERL=/usr/bin/perl  --disable-static  --with-gnutls=/tmp/tmp_2hh00te/tmp/work/core2-32-oe-linux/nagios-plugins/2.4.12+git/recipe-sysroot --without-ipv6 --without-ldap --without-mysql --without-pgsql      --without-snmpget-command --without-snmpgetnext-command --with-openssl=/tmp/tmp_2hh00te/tmp/work/core2-32-oe-linux/nagios-plugins/2.4.12+git/recipe-sysroot --enable-nls",
             "description": "A host/service/network monitoring and management system plugins",
             "filename": "nagios-plugins_git.bb",
             "filepath": "recipes-extended/nagios",
@@ -2869,13 +2883,13 @@
             "section": "console/network",
             "srcrev": "7c74420158c3e228b3d66d4c781a6abc7a93075a",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " --sysconfdir=/etc/nagios                  --libexecdir=/usr/lib/nagios/plugins                  --localstatedir=/var/nagios  --with-nsca-user=nagios                  --with-nsca-grp=nagios                  --with-libmcrypt-prefix=/tmp/tmpgsxhp98p/tmp/work/core2-32-oe-linux/nagios-nsca/2.9.2/recipe-sysroot                  ac_cv_path_LIBMCRYPT_CONFIG=/tmp/tmpgsxhp98p/tmp/work/core2-32-oe-linux/nagios-nsca/2.9.2/recipe-sysroot/usr/bin/crossscripts/libmcrypt-config                  ac_cv_lib_wrap_main=no                  ac_cv_path_PERL=/usr/bin/perl  --disable-static ",
+            "configopts": " --sysconfdir=/etc/nagios                  --libexecdir=/usr/lib/nagios/plugins                  --localstatedir=/var/nagios  --with-nsca-user=nagios                  --with-nsca-grp=nagios                  --with-libmcrypt-prefix=/tmp/tmp_2hh00te/tmp/work/core2-32-oe-linux/nagios-nsca/2.9.2/recipe-sysroot                  ac_cv_path_LIBMCRYPT_CONFIG=/tmp/tmp_2hh00te/tmp/work/core2-32-oe-linux/nagios-nsca/2.9.2/recipe-sysroot/usr/bin/crossscripts/libmcrypt-config                  ac_cv_lib_wrap_main=no                  ac_cv_path_PERL=/usr/bin/perl  --disable-static ",
             "description": "Nagios Service Check Acceptor",
             "filename": "nagios-nsca_2.9.2.bb",
             "filepath": "recipes-extended/nagios",
@@ -2892,7 +2906,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
@@ -2915,13 +2929,13 @@
             "section": "base",
             "srcrev": "9b26bec8828a38fcb3bc0e5f6f33b03fa99c4b68",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --cross-file /tmp/tmpgsxhp98p/tmp/work/core2-32-oe-linux/libvirt/v12.1.0+git/meson-libvirt.cross      -Dinit_script=systemd     -Dfirewall_backend_priority=iptables,nftables     -Drunstatedir=/run     -Dtests=enabled        -Dapparmor_profiles=disabled -Daudit=disabled -Ddtrace=disabled -Ddriver_esx=enabled -Dfirewalld=enabled -Dfuse=enabled -Ddriver_hyperv=disabled -Dcapng=disabled -Dlibpcap=enabled -Ddriver_libvirtd=enabled -Ddriver_libxl=disabled -Ddriver_lxc=enabled -Dnetcf=disabled -Dnumactl=disabled  -Dnumad=disabled -Ddriver_openvz=enabled -Dpolkit=disabled -Ddriver_qemu=enabled -Dqemu_user=qemu -Dqemu_group=qemu -Ddriver_remote=enabled -Dsasl=disabled  -Ddriver_secrets=disabled -Dselinux=disabled -Ddriver_test=enabled -Dudev=enabled -Dpciaccess=enabled -Ddriver_vbox=enabled -Ddriver_vmware=enabled -Dwireshark_dissector=disabled",
+            "configopts": " --cross-file /tmp/tmp_2hh00te/tmp/work/core2-32-oe-linux/libvirt/v12.1.0+git/meson-libvirt.cross      -Dinit_script=systemd     -Dfirewall_backend_priority=iptables,nftables     -Drunstatedir=/run     -Dtests=enabled        -Dapparmor_profiles=disabled -Daudit=disabled -Ddtrace=disabled -Ddriver_esx=enabled -Dfirewalld=enabled -Dfuse=enabled -Ddriver_hyperv=disabled -Dcapng=disabled -Dlibpcap=enabled -Ddriver_libvirtd=enabled -Ddriver_libxl=disabled -Ddriver_lxc=enabled -Dnetcf=disabled -Dnumactl=disabled  -Dnumad=disabled -Ddriver_openvz=enabled -Dpolkit=disabled -Ddriver_qemu=enabled -Dqemu_user=qemu -Dqemu_group=qemu -Ddriver_remote=enabled -Dsasl=disabled -Dselinux=disabled -Ddriver_test=enabled -Dudev=enabled -Dpciaccess=enabled -Ddriver_vbox=enabled -Ddriver_vmware=enabled -Dwireshark_dissector=disabled",
             "description": "A toolkit to interact with the virtualization capabilities of recent versions of Linux.",
             "filename": "libvirt_git.bb",
             "filepath": "recipes-extended/libvirt",
@@ -2938,15 +2952,15 @@
             "section": "console/tools",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://gitlab.com/libvirt/libvirt-dbus/-/issues",
             "configopts": " ",
             "description": "libvirt-dbus wraps libvirt API to provide a high-level object-oriented API better suited for dbus-based applications.",
-            "filename": "libvirt-dbus_1.4.1.bb",
+            "filename": "libvirt-dbus_git.bb",
             "filepath": "recipes-extended/libvirt",
             "homepage": "https://www.libvirt.org/dbus.html",
             "id": 2432650,
@@ -2957,15 +2971,15 @@
             "pn": "libvirt-dbus",
             "pr": "r0",
             "provides": "libvirt-dbus ",
-            "pv": "1.4.1",
+            "pv": "1.4.1+git",
             "section": "libs",
-            "srcrev": "0c355bb8921d7cbccf93f41a8615fcd973e64f70",
+            "srcrev": "d1c49c2e3616249d1c88cd52fa0deb3e6d0e588f",
             "summary": "dBus wrapper for libvirt",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "Xvisor primarily supports Full virtualization hence, supports a wide range of unmodified guest operating systems. Paravirtualization is optional for Xvisor and will be supported in an architecture independent manner (such as VirtIO PCI/MMIO devices) to ensure no-change in guest OS for using paravirtualization.",
@@ -2984,11 +2998,11 @@
             "section": "base",
             "srcrev": "355c79a07d9c1b783962ebf47b9b18194b7d40bd",
             "summary": "Xvisor is an open-source type-1 hypervisor, which aims at providing a monolithic, light-weight, portable, and flexible virtualization solution.",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Init scripts for use on cloud images",
@@ -3007,11 +3021,11 @@
             "section": "devel/python",
             "srcrev": "0052a66dfa463186dc286d75079d451030468e0f",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Bundles app-container-multilayer to demonstrate multi-layer                OCI images with container-cross-install.",
@@ -3030,11 +3044,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Multi-layer container bundle",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Demonstrates container-bundle.bbclass by bundling the                container-base image. Use this as a template for your                own container bundles.",
@@ -3053,11 +3067,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Example container bundle",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Tests container-bundle.bbclass remote container fetching.                Pulls busybox from docker.io and bundles it for installation.",
@@ -3076,11 +3090,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Remote container bundle test",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Masks systemd services that are inappropriate inside containers     (udev, hwdb, serial-getty, etc.). Installed as a package so it works     with both single-layer and multi-layer OCI images.",
@@ -3099,11 +3113,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Systemd service masking for container use",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Linux guest virtual machine tools for the uXen hypervisor",
@@ -3122,11 +3136,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "uXen type-2 Open Source hypervisor Linux guest tools",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dlibvirt=enabled -Dspice=enabled -Dvnc=disabled -Dvte=enabled",
             "description": "",
@@ -3145,11 +3159,11 @@
             "section": "base",
             "srcrev": "e07dbc915b320f70c6857ea845a67f2843848825",
             "summary": "Virtual Machine Viewer",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A daemon that allows sharing of folders with a VM via virtio-fs",
@@ -3168,11 +3182,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "virtio-fs vhost-user daemon",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "kvmtool is a lightweight tool for hosting KVM guests.",
@@ -3191,11 +3205,11 @@
             "section": "base",
             "srcrev": "7ad32e5514aca2b6d19398fd3ae5a7c5e0e1ce24",
             "summary": "Native Linux KVM tool",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A container for testing autostart functionality. Runs a simple service that logs timestamps continuously.",
@@ -3214,11 +3228,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic container image",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Demonstrates OCI_LAYER_MODE = 'multi' with explicit layer definitions",
@@ -3237,11 +3251,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Multi-layer Application container - test OCI_LAYERS",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3260,11 +3274,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Container image based on Alpine OCI base",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3283,11 +3297,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Layered Application container - test OCI_BASE_IMAGE",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3306,11 +3320,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic Application container image",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3329,11 +3343,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Curl Application container image",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Demo flask application",
@@ -3352,11 +3366,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A shell script that runs continuously and logs timestamps, useful for verifying container autostart functionality.",
@@ -3375,11 +3389,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple test service for container autostart verification",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3398,11 +3412,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-boot boot script for Xen on Raspberry Pi 4",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Tool for manipulation of system device tree files",
@@ -3421,7 +3435,7 @@
             "section": "bootloader",
             "srcrev": "b3ef9742752d836f7930c9415e3a7bec2e711478",
             "summary": "Device Tree Lopper",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3444,11 +3458,11 @@
             "section": "devel",
             "srcrev": "bc293057a14f94dd50838a399bd8758a6766b877",
             "summary": "Kernel configuration fragments",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Xen Runtime for OCI.     DEPRECATED: runx is unmaintained (upstream dormant since 2022).     Use 'vxn' instead, which provides the same Xen DomU container     functionality using the modern vcontainer infrastructure with     pluggable hypervisor backends, daemon mode, and vexpose API exposure.",
@@ -3467,11 +3481,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "runx stuff (DEPRECATED - use vxn instead)",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": " Kata Containers stdio proxy component",
@@ -3490,11 +3504,11 @@
             "section": "base",
             "srcrev": "1148847739f9a9f47b92e34e4f309dc109d4dba9",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Agent run inside a virtual machine, which spawns containers and processes",
@@ -3513,11 +3527,11 @@
             "section": "base",
             "srcrev": "e03f7d7453fabffb17e1540f28666c26178d3cbf",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": " The Command-Line Interface (CLI) part of the Kata Containers runtime component",
@@ -3536,11 +3550,11 @@
             "section": "base",
             "srcrev": "04c77eb20e9bd603cab5c711bcbe7c69db58b040",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": " Handle stdio and signals of the container process",
@@ -3559,11 +3573,11 @@
             "section": "base",
             "srcrev": "bcc35aeca3ef6fa0976005c9e93525906aefed2f",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3582,11 +3596,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Dummy packages which handle excluding packages from the sdk, e.g. ensuring perl is excluded from buildtools",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Aggregate recipe to build all OCI container image recipes.                These are reference containers for testing and demonstration.",
@@ -3605,11 +3619,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Build all OCI container images",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Build tools required to compile the Yocto Project.     Based on packagegroup-self-hosted but without x11/opengl requirements.",
@@ -3628,11 +3642,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Packages for a self-hosting Yocto build container",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Aggregate recipe to build all container demo recipes including                OCI images, bundles, and test containers.",
@@ -3651,11 +3665,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Build all demo containers and bundles",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Aggregate recipe to build all container bundle recipes.                Bundles package OCI images for deployment and cross-install.",
@@ -3674,11 +3688,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Build all container bundles",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3697,7 +3711,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "packagegroups for various kubernets (and variants) roles",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
@@ -3720,11 +3734,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "All packages for container host",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "vxn provides a familiar docker-like CLI that executes commands                inside a Xen DomU guest with Docker. It uses the vcontainer                infrastructure with a Xen hypervisor backend.",
@@ -3743,11 +3757,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Docker CLI for Xen-based container execution",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Packages kernel, initramfs and rootfs for running                vcontainer workloads as Xen DomU guests.",
@@ -3766,11 +3780,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Build Xen DomU boot blobs for vxn",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://bugs.busybox.net/",
             "configopts": " --disable-static",
             "description": "BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.",
@@ -3789,7 +3803,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
@@ -3812,11 +3826,11 @@
             "section": "console/utils",
             "srcrev": "2597434ae2472114c70ad2bdf4ae5580c9e22717",
             "summary": "",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Fetches Alpine Linux from Docker Hub for use as an OCI base layer",
@@ -3835,11 +3849,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Alpine Linux OCI base image",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Common digest package used across the container ecosystem.",
@@ -3858,7 +3872,7 @@
             "section": "devel/go",
             "srcrev": "65fac7b55eb714642e9359458656939349dcb766",
             "summary": "",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
@@ -3881,7 +3895,7 @@
             "section": "base",
             "srcrev": "3ea50b5d5b0e2d90bcc759351abb2a0b56e6f3d5",
             "summary": "A container network stack",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
@@ -3904,7 +3918,7 @@
             "section": "base",
             "srcrev": "56579adbb42c0c7ad94fc12d844b38fc5b37b3ce",
             "summary": "A container init that is so simple it's effectively brain-dead.",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -3927,7 +3941,7 @@
             "section": "base",
             "srcrev": "369448a167e8b3da4ca5bca0b3307500c3371828",
             "summary": "Minimal init for containers",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
@@ -3946,11 +3960,11 @@
             "pn": "docker-moby",
             "pr": "r0",
             "provides": "docker-moby  virtual/docker",
-            "pv": "v29.3.0+git1da6517e1a4381297e56862f6f373f265c28d102",
+            "pv": "v29.4.3+git56be73107b381194c27938965bca74c4e2bb475b",
             "section": "base",
             "srcrev": "",
             "summary": "Linux container runtime",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "native",
@@ -3969,15 +3983,15 @@
             "pn": "crun",
             "pr": "r0",
             "provides": "crun ",
-            "pv": "1.26.0+git",
+            "pv": "1.27.1+git",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-25T21:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "An implementation of docker-compose with podman backend",
@@ -3996,7 +4010,7 @@
             "section": "base",
             "srcrev": "f7eeda1a3db10952424af6a5b0501c269ebe3f0d",
             "summary": "",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "",
@@ -4015,11 +4029,11 @@
             "pn": "docker-compose",
             "pr": "r0",
             "provides": "docker-compose ",
-            "pv": "5.0.0",
+            "pv": "5.1.0",
             "section": "base",
             "srcrev": "",
             "summary": "Multi-container orchestration for Docker",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-27T00:05:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4038,11 +4052,11 @@
             "pn": "podman",
             "pr": "r0",
             "provides": "podman ",
-            "pv": "v5.7.1",
+            "pv": "5.8.3-dev",
             "section": "base",
-            "srcrev": "9d66b48e1c9bc1f4e757384f44c4ecb2838138d7",
+            "srcrev": "88c5aaeec667af94c4fe3a5c2c7a42f8cf308b93",
             "summary": "A daemonless container engine",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4061,15 +4075,15 @@
             "pn": "sloci-image",
             "pr": "r0",
             "provides": "sloci-image ",
-            "pv": "v0.1.0+git",
+            "pv": "0.1.2+git",
             "section": "base",
-            "srcrev": "4015e49763e5a738026a5bbfcf32b38b5a4fa650",
+            "srcrev": "b45be2e049c5c55acb04a5edb017b793d2d9e677",
             "summary": "A simple CLI tool for packing rootfs into a single-layer OCI image",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-25T20:05:23+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Lightweight Kubernetes, intended to be a fully compliant Kubernetes.",
@@ -4088,7 +4102,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Production-Grade Container Scheduling and Management",
-            "updated": "2026-04-23T04:04:18+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "bbclassextend": "devupstream:target",
@@ -4107,11 +4121,11 @@
             "pn": "kubernetes",
             "pr": "r0",
             "provides": "kubernetes ",
-            "pv": "1.35.2+git",
+            "pv": "1.35.5+git",
             "section": "base",
             "srcrev": "",
             "summary": "Production-Grade Container Scheduling and Management",
-            "updated": "2026-04-23T04:04:18+0000"
+            "updated": "2026-05-25T21:05:53+0000"
         },
         {
             "bbclassextend": "",
@@ -4134,11 +4148,11 @@
             "section": "base",
             "srcrev": "0105384f68e16803891d0a17d9067b1def6a2778",
             "summary": "oci-runtime-tool is a collection of tools for working with the OCI runtime specification",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     --disable-debug     --disable-sanitize     --disable-backtrace     --disable-build-sqlite  --disable-static ",
             "description": "cowsql is a C library that implements an embeddable and replicated SQL database engine with high availability and automatic failover, built on top of the Raft consensus protocol.",
@@ -4157,7 +4171,7 @@
             "section": "base",
             "srcrev": "783815b901470e27b7dfbcce3a67c888dad19e78",
             "summary": "Distributed SQLite database using the Raft protocol",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -4176,15 +4190,15 @@
             "pn": "buildah",
             "pr": "r0",
             "provides": "buildah ",
-            "pv": "1.43.0",
+            "pv": "1.43.1",
             "section": "base",
-            "srcrev": "bbc4bd12f4fc659b7d8f3abb790a2c25b00f33a3",
+            "srcrev": "310b1c8f53f3c0a7884f82fe51083577c473490a",
             "summary": "A tool that facilitates building OCI container images.",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-26T00:05:38+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Adds drop-in configuration for Podman, Skopeo, Buildah, and CRI-O. NOT for Docker (use docker-registry-config for Docker). Supports both insecure (HTTP) and secure (HTTPS with TLS) modes. Does NOT modify existing registries.conf - creates a separate file in registries.conf.d/ that is merged at runtime. Public registries remain accessible. This recipe is opt-in: requires CONTAINER_REGISTRY_URL to be set. Use IMAGE_FEATURES container-registry to auto-select based on container engine.",
@@ -4203,11 +4217,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Configure custom container registry for Podman/Skopeo/Buildah (opt-in)",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Installs the CA certificate for TLS verification when pulling from the local container registry",
@@ -4226,11 +4240,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "CA certificate for secure container registry",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Creates /etc/docker/daemon.json with registry config. FOR DOCKER ONLY - not for Podman/Skopeo (use container-oci-registry-config for those). Supports both insecure (HTTP) and secure (HTTPS with TLS) modes. Use IMAGE_FEATURES container-registry to auto-select based on container engine.",
@@ -4249,11 +4263,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Configure container registry for Docker daemon (opt-in)",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -4272,11 +4286,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Populate container registry with OCI images",
-            "updated": "2026-04-23T04:04:20+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -4295,7 +4309,7 @@
             "section": "base",
             "srcrev": "66698f2a5cb6854a1095673a15dcc253f0e28f93",
             "summary": "Convert `docker inspect` to opencontainers (OCI compatible) runc spec.",
-            "updated": "2026-04-23T04:04:20+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -4318,11 +4332,11 @@
             "section": "base",
             "srcrev": "e1c1378fc924f56ce53f4547b7204e2beda7dbf0",
             "summary": "runc container cli tools",
-            "updated": "2026-04-23T04:04:20+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The Open Container Initiative develops specifications for standards on Operating System process and application containers",
@@ -4341,11 +4355,11 @@
             "section": "devel/go",
             "srcrev": "701738418b9555d5213337a0991fd0ffd6c37808",
             "summary": "",
-            "updated": "2026-04-23T04:04:20+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The OCI Image Format project creates and maintains the software shipping container image format spec",
@@ -4364,11 +4378,11 @@
             "section": "devel/go",
             "srcrev": "39ab2d54cfa8fe1bee1ff20001264986d92ab85a",
             "summary": "",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A Commander for modern Go CLI interactions",
@@ -4387,7 +4401,7 @@
             "section": "devel/go",
             "srcrev": "4dd4b25de38418174a6e859e8a32eaccca32dccc",
             "summary": "",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -4406,11 +4420,11 @@
             "pn": "cri-tools",
             "pr": "r0",
             "provides": "cri-tools ",
-            "pv": "1.35.0+git",
+            "pv": "1.36.0+git",
             "section": "base",
             "srcrev": "",
             "summary": "CLI and validation tools for Kubelet Container Runtime Interface (CRI)",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-25T21:05:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4433,11 +4447,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Configuration Package for container hosts",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " -Dinit-script=systemd -Ddocs=false ",
             "description": "",
@@ -4456,11 +4470,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "LXCFS is a userspace filesystem created to avoid kernel limitations",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Packages a tiny initramfs for switch_root and bundles the                rootfs.img from multiconfig build for vdkr.",
@@ -4479,11 +4493,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Build QEMU blobs for vdkr",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A relocatable standalone distribution of vdkr (Docker) and                vpdmn (Podman) CLI tools using Yocto SDK infrastructure.",
@@ -4502,11 +4516,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Standalone SDK tarball for vdkr and vpdmn container tools",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Packages a tiny initramfs for switch_root and bundles the                rootfs.img with Podman from multiconfig build for vpdmn.",
@@ -4525,11 +4539,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Build QEMU blobs for vpdmn",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Minimal initramfs containing busybox and preinit script for                mounting squashfs rootfs and performing switch_root.",
@@ -4548,11 +4562,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tiny initramfs for vcontainer switch_root",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Minimal init script that mounts squashfs rootfs with overlayfs                and performs switch_root for vcontainer QEMU environment.",
@@ -4571,11 +4585,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Preinit script for vcontainer initramfs",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A minimal image containing Docker tools for use with vdkr.                This image runs inside QEMU to provide Docker command execution.",
@@ -4594,11 +4608,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Minimal Docker rootfs for vdkr",
-            "updated": "2026-04-23T04:04:23+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A minimal image containing Podman tools for use with vpdmn.                This image runs inside QEMU to provide Podman command execution.",
@@ -4617,11 +4631,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Minimal Podman rootfs for vpdmn",
-            "updated": "2026-04-23T04:04:23+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Provides vrunner.sh for cross-installing containers into images",
@@ -4640,11 +4654,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Container cross-install runner script",
-            "updated": "2026-04-23T04:04:23+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Minimal initramfs containing busybox and preinit script for                mounting squashfs rootfs and performing switch_root.",
@@ -4663,7 +4677,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tiny initramfs for vcontainer switch_root",
-            "updated": "2026-04-23T04:04:23+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         },
         {
             "bbclassextend": "",
@@ -4686,7 +4700,7 @@
             "section": "base",
             "srcrev": "b36c4cc80b2d15135acf88c5684bcbede48ec5fd",
             "summary": "A container-focused DNS server",
-            "updated": "2026-04-23T04:04:25+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4709,7 +4723,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "umoci modifies Open Container images",
-            "updated": "2026-04-23T04:04:25+0000"
+            "updated": "2026-05-21T23:05:55+0000"
         },
         {
             "bbclassextend": "",
@@ -4728,15 +4742,15 @@
             "pn": "cri-o",
             "pr": "r0",
             "provides": "cri-o ",
-            "pv": "1.35.0+git",
+            "pv": "1.36.0+git",
             "section": "base",
             "srcrev": "",
             "summary": "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface",
-            "updated": "2026-04-23T04:04:25+0000"
+            "updated": "2026-05-25T21:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "podman-tui is a Terminal User Interface to interact with the podman v4. podman bindings has been used to communicate with podman environment through rest api API (unix socket).     ",
@@ -4755,7 +4769,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "podman-tui is a Terminal User Interface to interact with podman",
-            "updated": "2026-04-23T04:04:25+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4774,11 +4788,11 @@
             "pn": "skopeo",
             "pr": "r0",
             "provides": "skopeo ",
-            "pv": "1.22.0+git",
+            "pv": "1.22.2+git",
             "section": "base",
-            "srcrev": "fd3ba47e00ecb495b8eca1594c227fbb6045a8eb",
+            "srcrev": "267465e170820673de25149378284fb352daa65e",
             "summary": "Work with remote images registries - retrieving information, images, signing content",
-            "updated": "2026-04-23T04:04:26+0000"
+            "updated": "2026-05-25T21:05:57+0000"
         },
         {
             "bbclassextend": "",
@@ -4801,7 +4815,7 @@
             "section": "console/tools",
             "srcrev": "3c7d4fa013297b431da48eff821db7f2e8b90c27",
             "summary": "CRIU",
-            "updated": "2026-04-23T04:04:26+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
@@ -4824,7 +4838,7 @@
             "section": "base",
             "srcrev": "5957d3334bcaeddc2bd8e665f53cee318c298a2c",
             "summary": "containerd is a daemon to control runC",
-            "updated": "2026-04-23T04:04:26+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
@@ -4847,7 +4861,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Light-weight package to set up cgroups at system boot.",
-            "updated": "2026-04-23T04:04:26+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -4870,11 +4884,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "The Docker toolset to pack, ship, store, and deliver content",
-            "updated": "2026-04-23T04:04:26+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     --disable-benchmark     --disable-example     --disable-debug     --disable-sanitize     --disable-fixture  --disable-static  --with-lz4 --enable-uv",
             "description": "Fully asynchronous C implementation of the Raft consensus protocol, with a pluggable I/O layer supporting libuv for production and in-memory transports for testing.",
@@ -4893,7 +4907,7 @@
             "section": "base",
             "srcrev": "9edb176a7924ce2b943cb56552366dc4b5a1a6b7",
             "summary": "C implementation of the Raft consensus protocol",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
@@ -4916,11 +4930,11 @@
             "section": "base",
             "srcrev": "11f9988298305d36f64248a6ee55318e60bf170b",
             "summary": "A collection of tools for working with the OCI image format specification",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Simple error handling primitives",
@@ -4939,11 +4953,11 @@
             "section": "devel/go",
             "srcrev": "5dd12d0cfe7f152f80558d591504ce685299311e",
             "summary": "",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--prefix=/usr/local --disable-static ",
             "description": "",
@@ -4962,11 +4976,11 @@
             "section": "base",
             "srcrev": "e214d4ebf0a1274b1c63b095fd55ae61c7e92947",
             "summary": "",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Incus is a modern, secure and powerful system container and virtual machine manager. It is the community fork of Canonical LXD, providing a unified experience for running and managing containers and VMs.",
@@ -4985,11 +4999,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Incus system container and virtual machine manager",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.",
@@ -5008,7 +5022,7 @@
             "section": "devel/go",
             "srcrev": "d5e0c0615acee7028e1e2740a11102313be88de1",
             "summary": "",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:01+0000"
         },
         {
             "bbclassextend": "",
@@ -5031,7 +5045,7 @@
             "section": "console/utils",
             "srcrev": "05e692346ca73e022754332a7da641230dae2ffe",
             "summary": "",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:02+0000"
         },
         {
             "bbclassextend": "",
@@ -5052,9 +5066,9 @@
             "provides": "conmon ",
             "pv": "2.2.1+git",
             "section": "console/utils",
-            "srcrev": "86e810678dc6444497a6c6e4811793c67d8102a7",
+            "srcrev": "c8cc2c4db27531bd4e084ce7857f73cd21ee639d",
             "summary": "An OCI container runtime monitor",
-            "updated": "2026-04-23T04:04:35+0000"
+            "updated": "2026-05-25T21:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -5073,11 +5087,103 @@
             "pn": "nerdctl",
             "pr": "r0",
             "provides": "nerdctl ",
-            "pv": "v2.2.0",
+            "pv": "v2.2.1",
             "section": "base",
             "srcrev": "",
             "summary": "Docker-compatible CLI for containerd",
-            "updated": "2026-04-23T04:04:39+0000"
+            "updated": "2026-05-25T21:05:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "The cdi command-line tool is a utility for inspecting and interacting with the CDI (Container Device Interface) cache.",
+            "filename": "cdi_git.bb",
+            "filepath": "recipes-containers/cdi",
+            "homepage": "https://github.com/cncf-tags/container-device-interface",
+            "id": 2461610,
+            "inherits": "gcc gcc-native go go-mod go-mod-vcs goarch linuxloader",
+            "layerbranch": 1075118,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "cdi",
+            "pr": "r0",
+            "provides": "cdi ",
+            "pv": "1.1.0+git",
+            "section": "base",
+            "srcrev": "",
+            "summary": "The cdi command-line tool.",
+            "updated": "2026-05-21T23:05:05+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "cosign_git.bb",
+            "filepath": "recipes-containers/cosign",
+            "homepage": "https://github.com/sigstore/cosign",
+            "id": 2461611,
+            "inherits": "gcc gcc-native go go-mod go-mod-discovery go-mod-vcs goarch linuxloader",
+            "layerbranch": 1075118,
+            "license": "Apache-2.0 & Apache-2.0 & Apache-2.0-with-LLVM-exception & BSD-2-Clause & MIT & MIT-0 & MPL-2.0",
+            "pe": "",
+            "pn": "cosign",
+            "pr": "r0",
+            "provides": "cosign ",
+            "pv": "3.0.6+git",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Container signing, verification and storage in an OCI registry",
+            "updated": "2026-05-21T23:05:06+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Podlet generates Podman Quadlet files from a Podman command, compose file, or existing object.",
+            "filename": "podlet_git.bb",
+            "filepath": "recipes-containers/podlet",
+            "homepage": "",
+            "id": 2461612,
+            "inherits": "cargo cargo-update-recipe-crates cargo_common gcc gcc-native python3-dir python3native rust-common rust-target-config",
+            "layerbranch": 1075118,
+            "license": "MPL-2.0",
+            "pe": "",
+            "pn": "podlet",
+            "pr": "r0",
+            "provides": "podlet ",
+            "pv": "0.3.16",
+            "section": "base",
+            "srcrev": "ca463af859931a9a43688d869eae5fe3a95e7143",
+            "summary": "Generator for quadlet files",
+            "updated": "2026-05-21T23:05:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Builds container-base for multiple architectures and combines them into a single OCI Image Index (manifest list).",
+            "filename": "container-base-multiarch.bb",
+            "filepath": "recipes-extended/images",
+            "homepage": "",
+            "id": 2461613,
+            "inherits": "gcc gcc-native nopackages oci-multiarch",
+            "layerbranch": 1075118,
+            "license": "MIT",
+            "pe": "",
+            "pn": "container-base-multiarch",
+            "pr": "r0",
+            "provides": "container-base-multiarch ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Multi-architecture OCI container base image",
+            "updated": "2026-05-21T23:05:13+0000"
         }
     ],
     "wrtemplates": []

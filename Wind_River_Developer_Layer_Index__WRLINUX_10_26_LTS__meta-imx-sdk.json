@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,38 +725,38 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-08T00:05:13+0000",
+            "updated": "2026-05-27T00:05:10+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "NXP i.MX Release Distro",
-            "id": 16578,
+            "id": 16751,
             "layerbranch": 1075123,
             "name": "fsl-imx-xwayland",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "description": "NXP i.MX Release Distro",
-            "id": 16579,
+            "id": 16752,
             "layerbranch": 1075123,
             "name": "fsl-imx-fb",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "description": "NXP i.MX Release Distro",
-            "id": 16580,
+            "id": 16753,
             "layerbranch": 1075123,
             "name": "fsl-imx-x11",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "description": "NXP i.MX Release Distro",
-            "id": 16581,
+            "id": 16754,
             "layerbranch": 1075123,
             "name": "fsl-imx-wayland",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         }
     ],
     "layerBranches": [
@@ -760,9 +767,9 @@
             "id": 1075081,
             "layer": 13,
             "local_path": "",
-            "updated": "2026-04-23T04:04:31+0000",
+            "updated": "2026-05-21T23:05:38+0000",
             "vcs_last_commit": "2026-04-02T09:04:46+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:31+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:38+0000",
             "vcs_last_rev": "9546a4e07d62cd3fc0b8adce5634275d8f38acce",
             "vcs_subdir": "meta-perl",
             "version": "1",
@@ -775,10 +782,10 @@
             "id": 1075087,
             "layer": 59,
             "local_path": "",
-            "updated": "2026-04-23T04:04:14+0000",
-            "vcs_last_commit": "2026-04-19T22:04:53+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:14+0000",
-            "vcs_last_rev": "6609256ae8c40bb4307a878a79cdd0532e4cee5e",
+            "updated": "2026-05-21T23:05:39+0000",
+            "vcs_last_commit": "2026-05-14T20:05:22+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:39+0000",
+            "vcs_last_rev": "49e4bb9a19446f955b7840be43596a3a2ee58180",
             "vcs_subdir": "meta-poky",
             "version": "3",
             "yp_compatible_version": 44227
@@ -790,9 +797,9 @@
             "id": 1075097,
             "layer": 470,
             "local_path": "",
-            "updated": "2026-04-23T04:04:34+0000",
+            "updated": "2026-05-21T23:05:31+0000",
             "vcs_last_commit": "2026-04-13T23:04:10+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:34+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:31+0000",
             "vcs_last_rev": "dab930c1ba0449dc99127cc6b90d8b97a21e062d",
             "vcs_subdir": "",
             "version": null,
@@ -805,10 +812,10 @@
             "id": 1075115,
             "layer": 553,
             "local_path": "",
-            "updated": "2026-05-06T02:05:38+0000",
-            "vcs_last_commit": "2026-05-05T23:05:41+0000",
-            "vcs_last_fetch": "2026-05-06T02:05:38+0000",
-            "vcs_last_rev": "bf6efb78b3f32da907408be9ce86f127376e10d1",
+            "updated": "2026-05-21T23:05:42+0000",
+            "vcs_last_commit": "2026-05-14T06:05:48+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:42+0000",
+            "vcs_last_rev": "593e4e3869ab83dfce9f3c75262c9ac14a19ae7f",
             "vcs_subdir": "meta-imx-bsp",
             "version": null,
             "yp_compatible_version": 44231
@@ -820,9 +827,9 @@
             "id": 1075123,
             "layer": 552,
             "local_path": "",
-            "updated": "2026-05-06T02:05:50+0000",
+            "updated": "2026-05-21T23:05:18+0000",
             "vcs_last_commit": "2026-05-06T01:05:37+0000",
-            "vcs_last_fetch": "2026-05-06T02:05:50+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:18+0000",
             "vcs_last_rev": "971aa22f83d7700e3b856e9b5bb2ced4902d1f4b",
             "vcs_subdir": "meta-imx-sdk",
             "version": null,
@@ -956,7 +963,7 @@
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Packagegroup for i.MX security packages",
@@ -975,11 +982,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Add packages for Vehicle-to-Everything (V2X) technology",
@@ -998,11 +1005,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Package group used by FSL Community to add the packages which provide GPU support.",
@@ -1021,11 +1028,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - tools/gpu",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Contains the modules needed by pulseaudio.",
@@ -1044,11 +1051,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale package group - pulseaudio",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Packagegroup to provide necessary tools for basic core image",
@@ -1067,11 +1074,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1090,11 +1097,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Set of audio tools for inclusion on images",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Package group used by FSL Community to provide graphic packages used to test the several hardware accelerated graphics APIs including packages not provided by Freescale.",
@@ -1113,11 +1120,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community Package group - tools/gpu/external",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Add packages for Image Signal Processing",
@@ -1136,11 +1143,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NXP Image to validate i.MX machines. This image contains everything used to test i.MX machines including GUI, demos and lots of applications. This creates a very large image, not suitable for production.",
@@ -1159,11 +1166,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NXP Image to validate i.MX machines. This image contains everything used to test i.MX machines including GUI, demos and lots of applications. This creates a very large image, not suitable for production.",
@@ -1182,11 +1189,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NXP Image to validate i.MX machines. This image contains everything used to test i.MX machines including GUI, demos and lots of applications. This creates a very large image, not suitable for production.",
@@ -1205,11 +1212,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "This is the basic core image with minimal tests",
@@ -1228,7 +1235,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -1251,7 +1258,7 @@
             "section": "base",
             "srcrev": "392836a46ce3c92b55dc88a1aebbcfdfc5dcddce",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1274,13 +1281,13 @@
             "section": "base",
             "srcrev": "392836a46ce3c92b55dc88a1aebbcfdfc5dcddce",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2026-04-23T04:04:08+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "--host aarch64-fsl-linux --with-dpdk-lib=/tmp/tmp9c8y3ltw/tmp/work/core2-32-oe-linux/mtcp-dpdk/22.11/recipe-sysroot/usr --disable-static ",
+            "configopts": "--host aarch64-fsl-linux --with-dpdk-lib=/tmp/tmpcm_f8lq2/tmp/work/core2-32-oe-linux/mtcp-dpdk/22.11/recipe-sysroot/usr --disable-static ",
             "description": "mTCP on DPDK",
             "filename": "mtcp-dpdk_22.11.bb",
             "filepath": "recipes-extended/dpdk",
@@ -1297,11 +1304,11 @@
             "section": "base",
             "srcrev": "c1a01163bad0a0805b47892f593676d018b31f73",
             "summary": "",
-            "updated": "2026-04-23T04:04:08+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "DPDK based Fast Path Routing",
@@ -1320,7 +1327,7 @@
             "section": "base",
             "srcrev": "acd7f3b4b56627591355bee3d16fd23b58ba0021",
             "summary": "",
-            "updated": "2026-04-23T04:04:08+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1343,13 +1350,13 @@
             "section": "base",
             "srcrev": "09c4ac8ed0a8db3ed0852f02184b7daa6997d9b4",
             "summary": "",
-            "updated": "2026-04-23T04:04:08+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -DNXP_SMW_DIR=/tmp/tmp9c8y3ltw/tmp/work/core2-32-oe-linux/oem-prov-app/2.0+gitX/recipe-sysroot/usr/lib/cmake     -Del2go_agent_DIR=/tmp/tmp9c8y3ltw/tmp/work/core2-32-oe-linux/oem-prov-app/2.0+gitX/recipe-sysroot/usr/lib/cmake/el2go-agent     -DVERBOSE=2 ",
+            "configopts": "     -DNXP_SMW_DIR=/tmp/tmpcm_f8lq2/tmp/work/core2-32-oe-linux/oem-prov-app/2.0+gitX/recipe-sysroot/usr/lib/cmake     -Del2go_agent_DIR=/tmp/tmpcm_f8lq2/tmp/work/core2-32-oe-linux/oem-prov-app/2.0+gitX/recipe-sysroot/usr/lib/cmake/el2go-agent     -DVERBOSE=2 ",
             "description": "NXP i.MX EdgeLock 2GO OEM provisioning application",
             "filename": "oem-prov-app_git.bb",
             "filepath": "recipes-security/oem-prov-app",
@@ -1366,7 +1373,7 @@
             "section": "base",
             "srcrev": "321628f36706ee9642ca898b72539c33f2d9b44c",
             "summary": "NXP i.MX EdgeLock 2GO OEM provisioning application",
-            "updated": "2026-04-23T04:04:08+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1416,7 +1423,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -DENABLE_PROGRAMS=OFF -DUSE_SHARED_MBEDTLS_LIBRARY=OFF -DENABLE_TESTING=OFF -DMBEDTLS_FATAL_WARNINGS=OFF \t-DCMAKE_INSTALL_PREFIX=/usr/local/el2go ",
             "description": "Custom mbedtls static library build enabling PSA Cryptographic",
@@ -1435,13 +1442,13 @@
             "section": "libs",
             "srcrev": "2ca6c285a0dd3f33982dd57299012dacab1ff206",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2026-04-23T04:04:08+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -DSSS_HAVE_HOSTCRYPTO_MBEDTLS=ON     -DNXP_IOT_AGENT_HAVE_PSA_IMPL_SMW=ON     -DSSS_HAVE_MBEDTLS_ALT_PSA=ON     -DSSS_HAVE_HOST_LINUX_LIKE=ON     -DCMAKE_SYSROOT=/tmp/tmp9c8y3ltw/tmp/work/core2-32-oe-linux/el2go-agent/6.4.2/recipe-sysroot     -DMbedTLS_DIR=/tmp/tmp9c8y3ltw/tmp/work/core2-32-oe-linux/el2go-agent/6.4.2/recipe-sysroot/usr/local/el2go/lib/cmake/MbedTLS     -DNXP_SMW_DIR=/tmp/tmp9c8y3ltw/tmp/work/core2-32-oe-linux/el2go-agent/6.4.2/recipe-sysroot/usr/lib/cmake ",
+            "configopts": "     -DSSS_HAVE_HOSTCRYPTO_MBEDTLS=ON     -DNXP_IOT_AGENT_HAVE_PSA_IMPL_SMW=ON     -DSSS_HAVE_MBEDTLS_ALT_PSA=ON     -DSSS_HAVE_HOST_LINUX_LIKE=ON     -DCMAKE_SYSROOT=/tmp/tmpcm_f8lq2/tmp/work/core2-32-oe-linux/el2go-agent/6.4.2/recipe-sysroot     -DMbedTLS_DIR=/tmp/tmpcm_f8lq2/tmp/work/core2-32-oe-linux/el2go-agent/6.4.2/recipe-sysroot/usr/local/el2go/lib/cmake/MbedTLS     -DNXP_SMW_DIR=/tmp/tmpcm_f8lq2/tmp/work/core2-32-oe-linux/el2go-agent/6.4.2/recipe-sysroot/usr/lib/cmake ",
             "description": "NXP i.MX EdgeLock 2GO IoT Agent",
             "filename": "el2go-agent_6.4.2.bb",
             "filepath": "recipes-security/iot-agent",
@@ -1458,11 +1465,11 @@
             "section": "base",
             "srcrev": "9d2ba6398a49e7c956fc57814d0d2867e0f90b8f",
             "summary": "NXP i.MX EdgeLock 2GO IoT Agent",
-            "updated": "2026-04-23T04:04:08+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1481,11 +1488,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  --with-cpal=bpf --disable-static ",
             "description": "Connection Montitoring Manager for offloading kernel and register entity info ",
@@ -1504,11 +1511,11 @@
             "section": "base",
             "srcrev": "2c539dd4fd643276bc309c22e0f4a6b9ec589b0b",
             "summary": "",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "eXpress Data Path FastPath Networking Application",
@@ -1527,11 +1534,11 @@
             "section": "base",
             "srcrev": "b7c3205aa1f42f4efe71b0398b0fd294e96bf49c",
             "summary": "",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DENABLE_QRENDERDOC=OFF     -DENABLE_PYRENDERDOC=OFF     -DENABLE_RENDERDOCCMD=ON     -DCMAKE_BUILD_TYPE=Release     -DHOST_NATIVE_CPP_COMPILER=\"g++ \"  ",
             "description": "RenderDoc is a frame-capture based graphics debugger",
@@ -1550,7 +1557,7 @@
             "section": "base",
             "srcrev": "cd94206b0fd995bfb3e5ed95c1e68d4f5d38ea7e",
             "summary": "RenderDoc recipe providing renderdoccmd",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1573,13 +1580,13 @@
             "section": "base",
             "srcrev": "4ea6df132107e3b4b9407f903204b5522fdffcd6",
             "summary": "OpenCL API Headers",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "      -DOPENCL_ICD_LOADER_HEADERS_DIR=/tmp/tmp9c8y3ltw/tmp/work/core2-32-oe-linux/opencl-icd-loader/2024.10.24/recipe-sysroot/usr/include ",
+            "configopts": "      -DOPENCL_ICD_LOADER_HEADERS_DIR=/tmp/tmpcm_f8lq2/tmp/work/core2-32-oe-linux/opencl-icd-loader/2024.10.24/recipe-sysroot/usr/include ",
             "description": "OpenCL compute ICD Loader from Khronos Group",
             "filename": "opencl-icd-loader_2024.10.24.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-core/opencl",
@@ -1596,13 +1603,13 @@
             "section": "base",
             "srcrev": "5907ac1114079de4383cecddf1c8640e3f52f92b",
             "summary": "OpenCL ICD Loader",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmp9c8y3ltw/tmp/work/core2-32-oe-linux/opengl-es-cts/3.2.9.3/qemuwrapper -DWAYLAND_SCANNER=/tmp/tmp9c8y3ltw/tmp/work/core2-32-oe-linux/opengl-es-cts/3.2.9.3/recipe-sysroot-native/usr/bin/wayland-scanner -DWAYLAND_PROTOCOLS_DIR=/tmp/tmp9c8y3ltw/tmp/work/core2-32-oe-linux/opengl-es-cts/3.2.9.3/recipe-sysroot/usr/share/wayland-protocols -DAMBER_DISABLE_WERROR=ON  -DCMAKE_POLICY_VERSION_MINIMUM=3.5 ",
+            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpcm_f8lq2/tmp/work/core2-32-oe-linux/opengl-es-cts/3.2.9.3/qemuwrapper -DWAYLAND_SCANNER=/tmp/tmpcm_f8lq2/tmp/work/core2-32-oe-linux/opengl-es-cts/3.2.9.3/recipe-sysroot-native/usr/bin/wayland-scanner -DWAYLAND_PROTOCOLS_DIR=/tmp/tmpcm_f8lq2/tmp/work/core2-32-oe-linux/opengl-es-cts/3.2.9.3/recipe-sysroot/usr/share/wayland-protocols -DAMBER_DISABLE_WERROR=ON  -DCMAKE_POLICY_VERSION_MINIMUM=3.5 ",
             "description": "OpenGL CTS",
             "filename": "opengl-es-cts_3.2.9.3.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-downgrade/vk-gl-cts",
@@ -1619,7 +1626,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:10+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1646,7 +1653,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Package group for Qt6 webengine and examples",
@@ -1665,11 +1672,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:10+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Package group for i.MX Qt6",
@@ -1688,7 +1695,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:10+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1807,7 +1814,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      --exec-prefix=/usr     --prefix=/usr     --host=i686-oe-linux     --disable-stubdom     --disable-ioemu-stubdom     --disable-pv-grub     --disable-xenstore-stubdom     --disable-rombios     --disable-ocamltools     --disable-qemu-traditional     --disable-pvshim --disable-seabios      --disable-static  --enable-systemd --disable-xsmpolicy",
             "description": "The Xen hypervisor",
@@ -1826,11 +1833,11 @@
             "section": "console/tools",
             "srcrev": "570890ce5e1d0387bb1b931715a79885a78b0c1c",
             "summary": "Xen hypervisor",
-            "updated": "2026-04-23T04:04:11+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A vhost-user backend that emulates a VirtIO input event",
@@ -1849,11 +1856,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "vhost input backend device",
-            "updated": "2026-04-23T04:04:12+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A vhost-user backend that emulates a VirtIO SCMI device",
@@ -1872,11 +1879,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "SCMI access to various entities on the host",
-            "updated": "2026-04-23T04:04:13+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A vhost-user backend that emulates a VirtIO SPI bus",
@@ -1895,7 +1902,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "SPI emulation backend daemon",
-            "updated": "2026-04-23T04:04:14+0000"
+            "updated": "2026-05-21T23:05:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1918,7 +1925,7 @@
             "section": "libs",
             "srcrev": "3e6f5d83e397e11cccd3844e121463748f56de39",
             "summary": "Linux libcamera framework",
-            "updated": "2026-04-23T04:04:14+0000"
+            "updated": "2026-05-21T23:05:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1941,11 +1948,11 @@
             "section": "libs",
             "srcrev": "096c50ca881f72d858aca19757a5e73b4775a7cc",
             "summary": "Linux libcamera framework",
-            "updated": "2026-04-23T04:04:14+0000"
+            "updated": "2026-05-21T23:05:15+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "An Image Processing Algorithm library for libcamera, for i.MX95 ISP, based on proprietary MM Solutions EAD uGuzzi 3A library",
@@ -1964,11 +1971,11 @@
             "section": "libs",
             "srcrev": "3c3b18e397a81fac2babe14dca01f4ada1ecc8b2",
             "summary": "uGuzzi IPA for the libcamera NXP NEO pipeline",
-            "updated": "2026-04-23T04:04:15+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Sample program to monitor i.MX GPU performance data",
@@ -1987,7 +1994,7 @@
             "section": "base",
             "srcrev": "ee449b4f4d5293e971693b7865972f8387f8d171",
             "summary": "",
-            "updated": "2026-04-23T04:04:15+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -2037,7 +2044,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2056,11 +2063,11 @@
             "section": "base",
             "srcrev": "186a85bea780414f55baec2b6c803002080b4ac8",
             "summary": "Low level header only C++11 RAII wrapper classes for the Vulkan API",
-            "updated": "2026-04-23T04:04:15+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://github.com/g-truc/gli/issues",
             "configopts": " ",
             "description": "OpenGL Image (GLI) is a header only C++ image library for graphics software.",
@@ -2079,11 +2086,11 @@
             "section": "libs",
             "srcrev": "0c171ee87fcfe35a7e0e0445adef06f92e0b6a91",
             "summary": "OpenGL Image Library",
-            "updated": "2026-04-23T04:04:15+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://bugs.freedesktop.org",
             "configopts": "-Ddocs=false ",
             "description": "Variety of small tools for testing intel graphics.",
@@ -2102,11 +2109,11 @@
             "section": "x11/apps",
             "srcrev": "",
             "summary": "Intel GPU tools",
-            "updated": "2026-04-23T04:04:16+0000"
+            "updated": "2026-05-21T23:05:17+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Set of sample applications for i.MX GPU",
@@ -2125,11 +2132,11 @@
             "section": "base",
             "srcrev": "1f512be500cecb392b24a154e83f0e7cd4655f3e",
             "summary": "i.MX GPU SDK Samples",
-            "updated": "2026-04-23T04:04:16+0000"
+            "updated": "2026-05-21T23:05:17+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2148,7 +2155,7 @@
             "section": "base",
             "srcrev": "fd7359aed6aaba745e31dd0a9fed80578372d554",
             "summary": "Tools for WFA Sigma DUT/CA",
-            "updated": "2026-04-23T04:04:16+0000"
+            "updated": "2026-05-21T23:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -2171,7 +2178,7 @@
             "section": "network",
             "srcrev": "",
             "summary": "Client for Wi-Fi Protected Access (WPA)",
-            "updated": "2026-05-06T02:05:50+0000"
+            "updated": "2026-05-21T23:05:17+0000"
         }
     ],
     "wrtemplates": []

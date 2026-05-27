@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-08T00:05:13+0000",
+            "updated": "2026-05-27T00:05:10+0000",
             "updates_enabled": true
         }
     ],
@@ -731,10 +738,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-07T21:05:29+0000",
-            "vcs_last_commit": "2026-05-07T20:05:33+0000",
-            "vcs_last_fetch": "2026-05-07T21:05:29+0000",
-            "vcs_last_rev": "b518533bb9b41e377a44a519d8c22479a6ad2ccb",
+            "updated": "2026-05-26T01:05:20+0000",
+            "vcs_last_commit": "2026-05-26T00:05:28+0000",
+            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
+            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -746,10 +753,10 @@
             "id": 1075078,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-04-27T19:04:20+0000",
-            "vcs_last_commit": "2026-04-24T04:04:22+0000",
-            "vcs_last_fetch": "2026-04-27T19:04:20+0000",
-            "vcs_last_rev": "818046faabbf8d6e3c81b0baaa0e5a583eaedf49",
+            "updated": "2026-05-26T21:05:50+0000",
+            "vcs_last_commit": "2026-05-26T20:05:36+0000",
+            "vcs_last_fetch": "2026-05-26T21:05:50+0000",
+            "vcs_last_rev": "45a684b1a27974d63c8a51809a490fb0782b76fe",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44228
@@ -761,10 +768,10 @@
             "id": 1075080,
             "layer": 12,
             "local_path": "",
-            "updated": "2026-04-29T21:04:15+0000",
-            "vcs_last_commit": "2026-04-29T20:04:20+0000",
-            "vcs_last_fetch": "2026-04-29T21:04:15+0000",
-            "vcs_last_rev": "a80670e46e208f852d010a6fe85210e78668af69",
+            "updated": "2026-05-21T23:05:59+0000",
+            "vcs_last_commit": "2026-05-21T19:05:17+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:59+0000",
+            "vcs_last_rev": "6414e6d0c51a2caf7c7e901e8be031a7dcd3525c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44228
@@ -776,10 +783,10 @@
             "id": 1075107,
             "layer": 11,
             "local_path": "",
-            "updated": "2026-04-23T04:04:42+0000",
-            "vcs_last_commit": "2026-04-17T14:04:04+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:42+0000",
-            "vcs_last_rev": "70144adc987f59930b0a4587839f98212c371c02",
+            "updated": "2026-05-21T23:05:52+0000",
+            "vcs_last_commit": "2026-05-18T20:05:58+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:52+0000",
+            "vcs_last_rev": "2fb49237f43cc92c8c8196633a4a4cebb5dcf9b5",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44228
@@ -791,10 +798,10 @@
             "id": 1075108,
             "layer": 15,
             "local_path": "",
-            "updated": "2026-04-23T04:04:30+0000",
-            "vcs_last_commit": "2026-04-16T12:04:07+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:30+0000",
-            "vcs_last_rev": "ec5480d0686d83d6ada8fc819cef2e269e41376d",
+            "updated": "2026-05-21T23:05:38+0000",
+            "vcs_last_commit": "2026-04-20T07:04:36+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:38+0000",
+            "vcs_last_rev": "799eb058e2fafe13aaa83db37fa3417dd891d460",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": 44228
@@ -927,7 +934,7 @@
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true ",
             "description": "",
@@ -946,11 +953,11 @@
             "section": "base",
             "srcrev": "2768251dacce3939136c839aeca413f4aa4241d0",
             "summary": "libmypaint is a library for making brushstrokes",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "",
@@ -969,11 +976,11 @@
             "section": "base",
             "srcrev": "0df6d130152a94c3bd67709941978074a1303cc5",
             "summary": "MyPaint brushes",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true   -Dgexiv2=enabled -Dgraphviz=disabled -Djasper=disabled -Dlcms=disabled -Dlibav=disabled -Dlibraw=enabled -Dlibrsvg=enabled -Dpango=enabled -Dpangocairo=enabled -Dpoppler=enabled -Dsdl1=disabled -Dsdl2=enabled -Dlibtiff=disabled -Dwebp=disabled",
             "description": "",
@@ -992,11 +999,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GEGL (Generic Graphics Library) is a graph based image processing framework",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Denable-gir=true  ",
             "description": "",
@@ -1015,15 +1022,15 @@
             "section": "base",
             "srcrev": "",
             "summary": "Babl is a dynamic, any to any, pixel format conversion library",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-Dcan-crosscompile-gir=true       -Dshmem-type=posix     -Dlinux-input=enabled     --buildtype release     --cross-file=/tmp/tmpjhp0r1ei/tmp/work/core2-32-oe-linux/gimp/3.2.0/meson-gimp.cross   -Daa=disabled -Dalsa=enabled -Dappdata-test=disabled -Dcairo-pdf=enabled -Dcheck-update=no -Dghostscript=enabled -Dgudev=enabled -Dheif=disabled -Djavascript=enabled -Djpeg-xl=enabled -Djpeg2000=enabled -Dlibbacktrace=false -Dlibunwind=false -Dlua=true -Dmng=enabled -Dopenmp=disabled -Dvector-icons=true -Dwebp=enabled -Dxpm=enabled -Dxcursor=enabled",
+            "configopts": "-Dcan-crosscompile-gir=true       -Dshmem-type=posix     -Dlinux-input=enabled     --buildtype release     --cross-file=/tmp/tmp5074nbj2/tmp/work/core2-32-oe-linux/gimp/3.2.4/meson-gimp.cross   -Daa=disabled -Dalsa=enabled -Dappdata-test=disabled -Dcairo-pdf=enabled -Dcheck-update=no -Dghostscript=enabled -Dgudev=enabled -Dheif=disabled -Djavascript=enabled -Djpeg-xl=enabled -Djpeg2000=enabled -Dlibbacktrace=false -Dlibunwind=false -Dlua=true -Dmng=enabled -Dopenmp=disabled -Dvector-icons=true -Dwebp=enabled -Dxpm=enabled -Dxcursor=enabled",
             "description": "",
-            "filename": "gimp_3.2.0.bb",
+            "filename": "gimp_3.2.4.bb",
             "filepath": "recipes-gimp/gimp",
             "homepage": "http://www.gimp.org",
             "id": 2432006,
@@ -1034,15 +1041,15 @@
             "pn": "gimp",
             "pr": "r0",
             "provides": "gimp ",
-            "pv": "3.2.0",
+            "pv": "3.2.4",
             "section": "graphics",
             "srcrev": "",
             "summary": "The GIMP is the GNU Image Manipulation Program",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dcolord=false -Dgstreamer=true -Dlcms2=true -Dlibjxl=true -Dlibraw=true -Dlibrsvg=true -Dlibwebp=true",
             "description": "",
@@ -1061,7 +1068,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image viewer and browser",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1084,11 +1091,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A library for collecting system monitoring data",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -Dinstalled_tests=false     -Dskip_dbus_tests=true     -Dskip_gtk_tests=true  ",
             "description": "",
@@ -1107,7 +1114,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Javascript bindings for GNOME",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1130,11 +1137,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GNOME Structured File Library",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=true  -Dman=false ",
             "description": "",
@@ -1153,11 +1160,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "Take photos and videos with your webcam, with fun graphical effects",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static --enable-nls  --disable-eds",
             "description": "",
@@ -1176,11 +1183,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME flashback panel",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=true  ",
             "description": "",
@@ -1199,11 +1206,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A library to access weather information from online services",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true -Dgtk_doc=false  ",
             "description": "",
@@ -1222,11 +1229,11 @@
             "section": "gnome",
             "srcrev": "",
             "summary": "GNOME bluetooth manager",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true -Dgtk_doc=false -Dicon_update=false ",
             "description": "",
@@ -1245,11 +1252,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME bluetooth manager",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true  -Ddocs=disabled  -Dintrospection=enabled -Dvapi=false ",
             "description": "",
@@ -1268,11 +1275,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static --enable-nls ",
             "description": "",
@@ -1291,13 +1298,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Flashback (GNOME 2) session",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-Ddocs=false -Dintrospection=enabled      --cross-file /tmp/tmpjhp0r1ei/tmp/work/core2-32-oe-linux/tinysparql/3.11.0/meson-tracker.cross     -Dman=false     -Dsystemd_user_services=true     -Dsystemd_user_services_dir=/usr/lib/systemd/user     -Dtests=false     -Dvapi=enabled   -Davahi=enabled",
+            "configopts": "-Ddocs=false -Dintrospection=enabled      --cross-file /tmp/tmp5074nbj2/tmp/work/core2-32-oe-linux/tinysparql/3.11.0/meson-tracker.cross     -Dman=false     -Dsystemd_user_services=true     -Dsystemd_user_services_dir=/usr/lib/systemd/user     -Dtests=false     -Dvapi=enabled   -Davahi=enabled",
             "description": "",
             "filename": "tinysparql_3.11.0.bb",
             "filepath": "recipes-gnome/tracker",
@@ -1314,11 +1321,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tracker is a file search engine",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      -Dman=false -Dfunctional_tests=false     -Dsystemd_user_services=true     -Dsystemd_user_services_dir=/usr/lib/systemd/user   -Dbattery_detection=upower -Dcue=disabled -Dlibav=disabled -Dgif=disabled -Dcharset_detection=icu -Diso=disabled -Djpeg=enabled -Dlandlock=disabled -Dexif=enabled -Dgsf=enabled -Dpdf=enabled -Dpng=enabled -Draw=enabled -Dseccomp=true -Dtiff=enabled -Dxml=enabled -Dzip=enabled",
             "description": "",
@@ -1337,11 +1344,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tracker miners and metadata extractors",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dgobject_introspection=true  ",
             "description": "",
@@ -1360,11 +1367,11 @@
             "section": "gnome",
             "srcrev": "ce4b836dfda4ea3f594b9ded7b60c5cb51ccbc87",
             "summary": "Gedit Technology - File loading and saving",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:14+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false  ",
             "description": "",
@@ -1383,11 +1390,11 @@
             "section": "x11/gnome",
             "srcrev": "25d0bf0c3c40b0866fc23ec875f0af6c67f728ef",
             "summary": "GNOME editor",
-            "updated": "2026-04-23T04:04:02+0000"
+            "updated": "2026-05-21T23:05:14+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dgobject_introspection=true  ",
             "description": "",
@@ -1406,11 +1413,11 @@
             "section": "gnome",
             "srcrev": "",
             "summary": "libgedit-amtk - Actions, Menus and Toolbars Kit for GTK applications",
-            "updated": "2026-04-23T04:04:02+0000"
+            "updated": "2026-05-21T23:05:15+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dgobject_introspection=true  ",
             "description": "",
@@ -1429,11 +1436,11 @@
             "section": "gnome",
             "srcrev": "a7bdc39f9fbc10c49ea7468ac1e5bf77385da0c0",
             "summary": "Gedit Technology - Source code editing widget",
-            "updated": "2026-04-23T04:04:02+0000"
+            "updated": "2026-05-21T23:05:15+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Ddocs=false -Dintrospection=true ",
             "description": "",
@@ -1452,11 +1459,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "gspell adds spell-checking to a GTK+ applications",
-            "updated": "2026-04-23T04:04:02+0000"
+            "updated": "2026-05-21T23:05:15+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dexiv2=enabled -Dlibgsf=enabled -Dpoppler=enabled -Dsamba=disabled -Dtaglib=enabled -Dtests=disabled",
             "description": "",
@@ -1475,11 +1482,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A light and fast file manager",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:15+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=true   -Dpython3=false",
             "description": "",
@@ -1498,11 +1505,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "libpeas is a gobject-based plugins engine",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=true   -Dgjs=true -Dlua51=true -Dpython3=true -Dvapi=false",
             "description": "",
@@ -1521,11 +1528,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "libpeas is a gobject-based plugins engine",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Denable-gtk-doc=false -Denable-introspection=true -Denable-installed-tests=false -Dsoup2=false ",
             "description": "",
@@ -1544,11 +1551,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A convenience library for the geocoding",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://bugzilla.gnome.org/",
             "configopts": "     --disable-doc     --disable-pam  --disable-static --enable-nls  --enable-ssh-agent --with-ssh-agent-path=/usr/bin/ssh-agent --with-ssh-add-path=/usr/bin/ssh-add",
             "description": "",
@@ -1567,11 +1574,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "Password and keyring managing daemon",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false  -Dtests=false  -Dflatpak=true -Dfwupd=false -Dgtk_doc=false -Dmalcontent=false -Dman=false -Dpackagekit=false -Dsnap=false",
             "description": "",
@@ -1590,11 +1597,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Software allows users to easily find, discover and install apps.",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Ddocumentation=false -Dintrospection=true    -Dexchange=false -Dgoabackend=true -Dgoogle=true -Dkerberos=true  -Dman=false -Downcloud=true",
             "description": "",
@@ -1613,11 +1620,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Online Accounts - Single sign-on framework for GNOME",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:17+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Ddevel=false -Dtests=false",
             "description": "",
@@ -1636,11 +1643,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Console",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:17+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dman=false  -Dlogind=libsystemd",
             "description": "",
@@ -1659,7 +1666,7 @@
             "section": "gnome",
             "srcrev": "",
             "summary": "GNOME disk utility",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1682,11 +1689,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true  ",
             "description": "",
@@ -1705,11 +1712,11 @@
             "section": "base",
             "srcrev": "941560af497148588783db991e8135f52a82574d",
             "summary": "libchamplain is a Gtk widget displaying zoomable and pannable maps",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static --enable-nls ",
             "description": "",
@@ -1728,11 +1735,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "XSL stylesheets for the yelp help browser",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Ddocs=false ",
             "description": "",
@@ -1751,11 +1758,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Help browser for the GNOME desktop",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1774,11 +1781,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Collection of scripts and build utilities for documentation",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true       -Dtests=disabled   -Degl=true -Dglx=true -Dlibgnome_desktop=true  -Dlibwacom=false -Dlogind=true -Dnative_backend=true -Dudev=true -Dopengl=true -Dprofiler=false  -Dremote_desktop=false -Dsm=true  -Dsound_player=false -Dstartup_notification=true -Dudev=true -Dx11=true -Dxwayland=true",
             "description": "",
@@ -1797,11 +1804,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Window and compositing manager based on Clutter",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=enabled  ",
             "description": "",
@@ -1820,11 +1827,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME archive library",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=true      -Dvapi=true  ",
             "description": "",
@@ -1843,11 +1850,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A GObject-based Exiv2 wrapper",
-            "updated": "2026-04-23T04:04:08+0000"
+            "updated": "2026-05-21T23:05:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Ddisable-introspection=false  ",
             "description": "",
@@ -1866,11 +1873,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME calculator",
-            "updated": "2026-04-23T04:04:08+0000"
+            "updated": "2026-05-21T23:05:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dnautilus_extension=false -Dsearch_provider=false",
             "description": "",
@@ -1889,11 +1896,11 @@
             "section": "base",
             "srcrev": "965cb9307713c618253918633416fcad86bcc5d2",
             "summary": "GNOME terminal",
-            "updated": "2026-04-23T04:04:08+0000"
+            "updated": "2026-05-21T23:05:20+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=true   -Dexamples=false -Dtests=false",
             "description": "",
@@ -1912,7 +1919,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "library to access web services that claim to be \"RESTful\"",
-            "updated": "2026-04-23T04:04:08+0000"
+            "updated": "2026-05-21T23:05:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1935,7 +1942,7 @@
             "section": "x11/libs",
             "srcrev": "",
             "summary": "Window navigation construction toolkit",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1958,11 +1965,11 @@
             "section": "x11/libs",
             "srcrev": "",
             "summary": "Window navigation construction toolkit",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:20+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static --enable-nls",
             "description": "Devilspie2 is a window matching utility, allowing the user to perform scripted actions on windows as they are created",
@@ -1981,11 +1988,11 @@
             "section": "base",
             "srcrev": "b9d7ad9c09a5fb17a1562ee1d892798c646e9ec9",
             "summary": "",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:20+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Ddocs=false -Dintrospection=true       -Dtests=none   -Dextensions=true -Dpackagekit=false",
             "description": "",
@@ -2004,13 +2011,13 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "File manager for GNOME",
-            "updated": "2026-04-23T04:04:09+0000"
+            "updated": "2026-05-21T23:05:21+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "      -Dtests=false     -Dman=false     --cross-file=/tmp/tmpjhp0r1ei/tmp/work/core2-32-oe-linux/gnome-shell/48.7/meson-gnome-shell.cross   -Dnetworkmanager=true -Dsystemd=true",
+            "configopts": "      -Dtests=false     -Dman=false     --cross-file=/tmp/tmp5074nbj2/tmp/work/core2-32-oe-linux/gnome-shell/48.7/meson-gnome-shell.cross   -Dnetworkmanager=true -Dsystemd=true",
             "description": "",
             "filename": "gnome-shell_48.7.bb",
             "filepath": "recipes-gnome/gnome-shell",
@@ -2027,11 +2034,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Shell is the graphical shell of the GNOME desktop environment",
-            "updated": "2026-04-23T04:04:10+0000"
+            "updated": "2026-05-21T23:05:21+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      -Dextension_set=all     -Dclassic_mode=true  ",
             "description": "",
@@ -2050,13 +2057,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Shell Extensions",
-            "updated": "2026-04-23T04:04:10+0000"
+            "updated": "2026-05-21T23:05:21+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -Ddefault-pam-config=openembedded     -Dpam-mod-dir=/usr/lib/security     --cross-file=/tmp/tmpjhp0r1ei/tmp/work/core2-32-oe-linux/gdm/50.0/meson-gdm.cross   -Dplymouth=disabled -Dx11-support=true",
+            "configopts": "     -Ddefault-pam-config=openembedded     -Dpam-mod-dir=/usr/lib/security     --cross-file=/tmp/tmp5074nbj2/tmp/work/core2-32-oe-linux/gdm/50.0/meson-gdm.cross   -Dplymouth=disabled -Dx11-support=true",
             "description": "",
             "filename": "gdm_50.0.bb",
             "filepath": "recipes-gnome/gdm",
@@ -2073,11 +2080,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Display Manager",
-            "updated": "2026-04-23T04:04:10+0000"
+            "updated": "2026-05-21T23:05:21+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " -Dsystemdunitdir=/usr/lib/systemd/system  -Dgtk=true -Dlibsysprof=false -Dsysprofd=none",
             "description": "",
@@ -2096,11 +2103,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "System-wide Performance Profiler for Linux",
-            "updated": "2026-04-23T04:04:10+0000"
+            "updated": "2026-05-21T23:05:22+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true  -Dintrospection=enabled -Dvapi=false ",
             "description": "",
@@ -2119,11 +2126,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:10+0000"
+            "updated": "2026-05-21T23:05:22+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=enabled  ",
             "description": "",
@@ -2142,13 +2149,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "GHex - a hex editor for GNOME",
-            "updated": "2026-04-23T04:04:11+0000"
+            "updated": "2026-05-21T23:05:22+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-Ddocumentation=false  -Doe_sysroot=/tmp/tmpjhp0r1ei/tmp/work/core2-32-oe-linux/gnome-control-center/49.2.2/recipe-sysroot  -Dibus=true -Dmalcontent=false -Dx11=true",
+            "configopts": "-Ddocumentation=false  -Doe_sysroot=/tmp/tmp5074nbj2/tmp/work/core2-32-oe-linux/gnome-control-center/49.2.2/recipe-sysroot  -Dibus=true -Dmalcontent=false -Dx11=true",
             "description": "GNOME Settings is GNOME's main interface for configuration of various aspects of your desktop",
             "filename": "gnome-control-center_49.2.2.bb",
             "filepath": "recipes-gnome/gnome-control-center",
@@ -2165,11 +2172,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Settings",
-            "updated": "2026-04-23T04:04:11+0000"
+            "updated": "2026-05-21T23:05:22+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dsystemd=true",
             "description": "",
@@ -2188,11 +2195,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Gnome system monitor",
-            "updated": "2026-04-23T04:04:11+0000"
+            "updated": "2026-05-21T23:05:22+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2211,11 +2218,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME font viewer",
-            "updated": "2026-04-23T04:04:12+0000"
+            "updated": "2026-05-21T23:05:23+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2234,11 +2241,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME wallpapers",
-            "updated": "2026-04-23T04:04:12+0000"
+            "updated": "2026-05-21T23:05:23+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dcups=true -Dgudev=true -Dsmartcard=true -Dsystemd=true -Dx11=true -Dxwayland=true",
             "description": "",
@@ -2257,11 +2264,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Window navigation construction toolkit",
-            "updated": "2026-04-23T04:04:12+0000"
+            "updated": "2026-05-21T23:05:23+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "An icon theme for Gnome",
@@ -2280,11 +2287,11 @@
             "section": "x11/wm",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:12+0000"
+            "updated": "2026-05-21T23:05:23+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true -Dxmp=false  -Dcms=true",
             "description": "",
@@ -2303,11 +2310,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "This is the Eye of GNOME, an image viewer program.",
-            "updated": "2026-04-23T04:04:12+0000"
+            "updated": "2026-05-21T23:05:23+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2326,11 +2333,11 @@
             "section": "base",
             "srcrev": "d60f7ded17b52ea42091c073ea81090e91f38620",
             "summary": "Tepl library eases the development of GtkSourceView-based projects",
-            "updated": "2026-04-23T04:04:13+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2349,11 +2356,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME calendar",
-            "updated": "2026-04-23T04:04:13+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dmodules_path=/usr/libexec/apache2/modules",
             "description": "",
@@ -2372,11 +2379,11 @@
             "section": "base",
             "srcrev": "77ecbaddab0ed2121859926acbfccc9cecdee0db",
             "summary": "This is gnome-user-share 43.0, a system for easy sharing of user files.",
-            "updated": "2026-04-23T04:04:13+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true  ",
             "description": "",
@@ -2395,13 +2402,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small gobject library for playing system sounds",
-            "updated": "2026-04-23T04:04:13+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-Dintrospection=true  -Dintrospection=enabled --cross-file=/tmp/tmpjhp0r1ei/tmp/work/core2-32-oe-linux/file-roller/44.5/meson-file-roller.cross  -Dnautilus-actions=disabled -Dpackagekit=false",
+            "configopts": "-Dintrospection=true  -Dintrospection=enabled --cross-file=/tmp/tmp5074nbj2/tmp/work/core2-32-oe-linux/file-roller/44.5/meson-file-roller.cross  -Dnautilus-actions=disabled -Dpackagekit=false",
             "description": "",
             "filename": "file-roller_44.5.bb",
             "filepath": "recipes-gnome/file-roller",
@@ -2418,7 +2425,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "An archive manager utility for the  GNOME Environment",
-            "updated": "2026-04-23T04:04:14+0000"
+            "updated": "2026-05-21T23:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2441,11 +2448,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Portable C library for multiline text editing",
-            "updated": "2026-04-23T04:04:14+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=enabled -Ddocumentation=false  ",
             "description": "",
@@ -2464,7 +2471,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Portable C library for multiline text editing",
-            "updated": "2026-04-23T04:04:14+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2487,11 +2494,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Portable C library for multiline text editing",
-            "updated": "2026-04-23T04:04:14+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Gtksourceview Classic-Light theme",
@@ -2510,11 +2517,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:15+0000"
+            "updated": "2026-05-21T23:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Ddesktop_docs=false  -Dbuild_gtk4=true -Dlegacy_library=true",
             "description": "",
@@ -2533,11 +2540,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME library for reading .desktop files",
-            "updated": "2026-04-23T04:04:15+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dmanuals=false",
             "description": "",
@@ -2556,11 +2563,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "Access, organize and share your photos on GNOME",
-            "updated": "2026-04-23T04:04:15+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Denable-gtk-doc=false -Denable-introspection=true -Denable-grl-pls=false  -Denable-grl-net=true  -Denable-test-ui=false",
             "description": "",
@@ -2579,11 +2586,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Grilo is a framework for searching media content from various sources",
-            "updated": "2026-04-23T04:04:15+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Denable-lua-factory=yes -Denable-tracker3=yes",
             "description": "",
@@ -2602,11 +2609,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Grilo is a framework forsearching media content from various sources",
-            "updated": "2026-04-23T04:04:16+0000"
+            "updated": "2026-05-21T23:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2625,7 +2632,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Configuration editor for dconf",
-            "updated": "2026-04-23T04:04:16+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -2648,11 +2655,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "configuation database system",
-            "updated": "2026-04-23T04:04:16+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2671,11 +2678,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A simple text editor",
-            "updated": "2026-04-23T04:04:16+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2694,11 +2701,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tecla is a keyboard layout viewer that uses GTK/Libadwaita for UI, and libxkbcommon to deal with keyboard maps.",
-            "updated": "2026-04-23T04:04:17+0000"
+            "updated": "2026-05-21T23:05:27+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static  --enable-nls",
             "description": "",
@@ -2717,11 +2724,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNU Chess is a chess-playing program.",
-            "updated": "2026-04-23T04:04:17+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2740,11 +2747,11 @@
             "section": "base",
             "srcrev": "079ef83fe6c538be9178b03999724d5f4649bc69",
             "summary": "GNOME Chess is a 2D chess game, where games can be played between a combination of human and computer players.",
-            "updated": "2026-04-23T04:04:17+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "   -Ddocbook=false  -Dman=false -Dx11=true",
             "description": "",
@@ -2763,11 +2770,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME session",
-            "updated": "2026-04-23T04:04:17+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dwebkitgtk=true",
             "description": "",
@@ -2786,11 +2793,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "Display dialog boxes from the command line and shell scripts",
-            "updated": "2026-04-23T04:04:18+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://bugzilla.gnome.org/",
             "configopts": " ",
             "description": "",
@@ -2809,11 +2816,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Evolution database backend server",
-            "updated": "2026-04-23T04:04:18+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://bugzilla.gnome.org/",
             "configopts": "-Ddocs=false -Dintrospection=true ",
             "description": "",
@@ -2832,11 +2839,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Evolution database backend server",
-            "updated": "2026-04-23T04:04:18+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static --enable-nls  --disable-Werror --disable-xinerama",
             "description": "",
@@ -2855,7 +2862,7 @@
             "section": "x11/wm",
             "srcrev": "",
             "summary": "Metacity is the boring window manager for the adult in you",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
@@ -2878,11 +2885,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME menus",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "GNOME Screenshot is a small utility that takes a screenshot of the whole desktop, the currently focused window, or an area of the screen.",
@@ -2901,11 +2908,11 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME Screenshot",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=true   -Dnautilus=false",
             "description": "",
@@ -2924,7 +2931,7 @@
             "section": "x11/office",
             "srcrev": "",
             "summary": "Evince is a document viewer for document formats like pdf, ps, djvu",
-            "updated": "2026-04-23T04:04:19+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
@@ -2947,11 +2954,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Helper lib for keyboard management",
-            "updated": "2026-04-23T04:04:20+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true ",
             "description": "Time zone map widget for Gtk+",
@@ -2970,11 +2977,11 @@
             "section": "devel/lib",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:20+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dpython_site_dir=/usr/lib/python3.14/site-packages ",
             "description": "",
@@ -2993,11 +3000,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME tweaks: Advanced options for GNOME 3 session",
-            "updated": "2026-04-23T04:04:20+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Ddocs=false   -Dsysprof=false",
             "description": "",
@@ -3016,11 +3023,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A spellcheck library for GTK 4",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=true -Dtests=false ",
             "description": "",
@@ -3039,7 +3046,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "libmsgraph is a GLib-based library for accessing online serive APIs using MS Graph protocol.",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3062,11 +3069,11 @@
             "section": "devel/lib",
             "srcrev": "04ae06724d914c7d4fec6a2723edf9c6320ec502",
             "summary": "",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Ddocs=false -Dman=false  -Dgtk3=true -Dgtk4=true",
             "description": "",
@@ -3085,11 +3092,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GTK support library for colord",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3108,11 +3115,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME applications",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3131,11 +3138,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic GNOME desktop",
-            "updated": "2026-04-23T04:04:21+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Ddocs=false -Dintrospection=false ",
             "description": "",
@@ -3154,11 +3161,11 @@
             "section": "base",
             "srcrev": "6a70ab0338206bd1c7d01a4e1874ea0ee5b3a9d3",
             "summary": "Intelligent Input Bus for Linux/Unix",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Ddocs=false -Dintrospection=true ",
             "description": "",
@@ -3177,11 +3184,11 @@
             "section": "base",
             "srcrev": "6a70ab0338206bd1c7d01a4e1874ea0ee5b3a9d3",
             "summary": "Intelligent Input Bus for Linux/Unix",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://github.com/linuxwacom/libwacom/issues",
             "configopts": "     -Dtests=disabled  ",
             "description": "libwacom is a library to identify Wacom tablets and their model-specific features.                It provides easy access to information such as 'is this a built-in on-screen tablet\\',                'what is the size of this model', etc.",
@@ -3200,11 +3207,11 @@
             "section": "base",
             "srcrev": "44df53b14b008a8252427aa6b41128efada43b3a",
             "summary": "A tablet description library",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true  ",
             "description": "",
@@ -3223,11 +3230,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "libcloudproviders is a DBus API that allows cloud storage sync clients to expose their services.",
-            "updated": "2026-04-23T04:04:22+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dupdate_cache=true ",
             "description": "",
@@ -3246,7 +3253,7 @@
             "section": "base",
             "srcrev": "52232e4ba282b2fed68e8fcb4b5d45ed0eaa4ed3",
             "summary": "WebP GDK Pixbuf Loader library",
-            "updated": "2026-04-23T04:04:23+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3269,11 +3276,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tools for certain user account management tasks",
-            "updated": "2026-04-23T04:04:23+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true      -Drpm=false   -Dman=false",
             "description": "",
@@ -3292,7 +3299,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Objects and helper methods to help reading and writing AppStream metadata",
-            "updated": "2026-04-23T04:04:23+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "",
@@ -3315,7 +3322,7 @@
             "section": "base",
             "srcrev": "02b19e2aee88e4bf2cdc7094813ddd4a6c05d1e7",
             "summary": "An onscreen keyboard",
-            "updated": "2026-04-23T04:04:23+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "",
@@ -3338,11 +3345,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "user and group account administration library",
-            "updated": "2026-04-23T04:04:24+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false -Dintrospection=true   -Dadmin_group=wheel -Delogind=false",
             "description": "D-Bus interfaces for querying and manipulating user account information",
@@ -3361,11 +3368,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:24+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dappchooser=enabled -Dlockdown=enabled -Dsettings=enabled -Dwallpaper=enabled",
             "description": "",
@@ -3384,11 +3391,11 @@
             "section": "base",
             "srcrev": "337202d4e7179857bc37b03c1a6d8c9d92e47c44",
             "summary": "A backend implementation for xdg-desktop-portal that is using GTK and various pieces of GNOME infrastructure.",
-            "updated": "2026-04-23T04:04:24+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -3407,11 +3414,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A xdg-desktop-portal backend for gnome.",
-            "updated": "2026-04-23T04:04:24+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static  --enable-nls",
             "description": "",
@@ -3430,11 +3437,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A partition editor to graphically manage disk partitions ",
-            "updated": "2026-04-23T04:04:25+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "",
@@ -3453,11 +3460,11 @@
             "section": "base",
             "srcrev": "a0763a246a81188f60b0f9810143e49224dc752f",
             "summary": "PolicyKit-gnome provides an Authentication Agent for PolicyKit",
-            "updated": "2026-04-23T04:04:25+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -3476,11 +3483,11 @@
             "section": "network",
             "srcrev": "",
             "summary": "A simple GNOME application to access virtual machines.",
-            "updated": "2026-04-23T04:04:25+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Drdp=true -Dsystemd=true -Dtests=false -Dvnc=false",
             "description": "",
@@ -3499,11 +3506,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Remote desktop daemon for GNOME using pipewire.",
-            "updated": "2026-04-23T04:04:26+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://gitlab.gnome.org/GNOME/clutter/-/issues",
             "configopts": "-Denable_gi=true -Denable_docs=false  ",
             "description": "Clutter-GTK is a library providing facilities to integrate Clutter into GTK+ applications and vice versa. It provides a GTK+ widget, GtkClutterEmbed, for embedding the a Clutter stage into any GtkContainer; and GtkClutterActor, a Clutter actor for embedding any GtkWidget inside a Clutter stage.",
@@ -3522,11 +3529,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Library for embedding a Clutter canvas in a GTK+ application",
-            "updated": "2026-04-23T04:04:26+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true -Ddocs=false ",
             "description": "Clutter is an Open GL based interactive canvas library, designed for creating fast, mainly 2D single window applications such as media box UIs, presentations, kiosk style applications and so on.",
@@ -3545,11 +3552,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Graphics library for creating hardware-accelerated user interfaces",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://gitlab.gnome.org/GNOME/clutter-gst/-/issues",
             "configopts": "-Dintrospection=true -Ddocs=false ",
             "description": "Clutter-Gst is an integration library for using GStreamer with Clutter. It provides a GStreamer sink to upload frames to GL and an actor that implements the ClutterGstPlayer interface using playbin.",
@@ -3568,11 +3575,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GStreamer integration library for Clutter",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3591,11 +3598,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Clutter package groups",
-            "updated": "2026-04-23T04:04:27+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true -Ddocs=false ",
             "description": "Cogl is a small open source library for using 3D graphics hardware for rendering. The API departs from the flat state machine style of OpenGL and is designed to make it easy to write orthogonal components that can render without stepping on each others toes.",
@@ -3614,11 +3621,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Modern 3D graphics API with associated utility APIs",
-            "updated": "2026-04-23T04:04:28+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dprofile=release                  -Diso_639_xml=/usr/share/xml/iso-codes/iso_639.xml                  -Diso_3166_xml=/usr/share/xml/iso-codes/iso_3166.xml                    -Dlibunwind=disabled -Dtnef=disabled -Dvaladoc=disabled",
             "description": "",
@@ -3637,7 +3644,7 @@
             "section": "network",
             "srcrev": "46e93c0c0dafc381e8a308b1befb07e908121722",
             "summary": "Geary is an email application built around conversations, for the GNOME 3 desktop.",
-            "updated": "2026-04-23T04:04:28+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
@@ -3660,11 +3667,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "GTK+ applet for NetworkManager",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " -Dtests=false -Db_lto=false   -Dbluez_backend=false -Deds_backend=false -Dimport_tool=false -Dinspect_tool=false -Dofono_backend=false -Dtelepathy_backend=false",
             "description": "",
@@ -3683,11 +3690,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Folks is a contact aggregation library.",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dpulseaudio=enabled -Dsasl=enabled",
             "description": "",
@@ -3706,7 +3713,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A VNC client viewer widget for GTK",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "",
@@ -3729,7 +3736,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NetworkManager GUI library",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         }
     ],
     "wrtemplates": []

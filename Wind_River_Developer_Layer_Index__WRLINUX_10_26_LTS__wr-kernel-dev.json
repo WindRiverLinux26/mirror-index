@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-08T00:05:13+0000",
+            "updated": "2026-05-27T00:05:10+0000",
             "updates_enabled": true
         }
     ],
@@ -731,10 +738,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-07T21:05:29+0000",
-            "vcs_last_commit": "2026-05-07T20:05:33+0000",
-            "vcs_last_fetch": "2026-05-07T21:05:29+0000",
-            "vcs_last_rev": "b518533bb9b41e377a44a519d8c22479a6ad2ccb",
+            "updated": "2026-05-26T01:05:20+0000",
+            "vcs_last_commit": "2026-05-26T00:05:28+0000",
+            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
+            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -746,10 +753,10 @@
             "id": 1075125,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-05-07T03:05:56+0000",
-            "vcs_last_commit": "2026-05-07T02:05:35+0000",
-            "vcs_last_fetch": "2026-05-07T03:05:56+0000",
-            "vcs_last_rev": "9803091f87173416599e611d2983a7894772f005",
+            "updated": "2026-05-27T00:05:11+0000",
+            "vcs_last_commit": "2026-05-26T23:05:25+0000",
+            "vcs_last_fetch": "2026-05-27T00:05:11+0000",
+            "vcs_last_rev": "c3cb722561af5143d24e2aa657689f9e4ffe0eb8",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44213
@@ -761,10 +768,10 @@
             "id": 1075129,
             "layer": 487,
             "local_path": "",
-            "updated": "2026-04-23T04:04:56+0000",
-            "vcs_last_commit": "2025-12-01T01:12:55+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:56+0000",
-            "vcs_last_rev": "05168ffe615d3dc73800b97a249a25f86b1f8f16",
+            "updated": "2026-05-21T23:05:53+0000",
+            "vcs_last_commit": "2026-05-10T20:05:43+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:53+0000",
+            "vcs_last_rev": "35c4e94d7a1dfeee3f3897b333fd7372c8688560",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44213
@@ -866,11 +873,11 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Sanitized set of kernel headers for the C library's use",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -889,37 +896,37 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 135904,
+            "id": 136829,
             "layerbranch": 1075129,
             "name": "feature/kernel-alt-headers",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "description": "",
-            "id": 135905,
+            "id": 136830,
             "layerbranch": 1075129,
             "name": "feature/kernel-dev",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "description": "",
-            "id": 135906,
+            "id": 136831,
             "layerbranch": 1075129,
             "name": "feature/kernfeatures-clear",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "description": "",
-            "id": 135907,
+            "id": 136832,
             "layerbranch": 1075129,
             "name": "feature/custom-kernel",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         }
     ]
 }

@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-08T00:05:13+0000",
+            "updated": "2026-05-27T00:05:10+0000",
             "updates_enabled": true
         }
     ],
@@ -731,10 +738,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-07T21:05:29+0000",
-            "vcs_last_commit": "2026-05-07T20:05:33+0000",
-            "vcs_last_fetch": "2026-05-07T21:05:29+0000",
-            "vcs_last_rev": "b518533bb9b41e377a44a519d8c22479a6ad2ccb",
+            "updated": "2026-05-26T01:05:20+0000",
+            "vcs_last_commit": "2026-05-26T00:05:28+0000",
+            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
+            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -746,10 +753,10 @@
             "id": 1075078,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-04-27T19:04:20+0000",
-            "vcs_last_commit": "2026-04-24T04:04:22+0000",
-            "vcs_last_fetch": "2026-04-27T19:04:20+0000",
-            "vcs_last_rev": "818046faabbf8d6e3c81b0baaa0e5a583eaedf49",
+            "updated": "2026-05-26T21:05:50+0000",
+            "vcs_last_commit": "2026-05-26T20:05:36+0000",
+            "vcs_last_fetch": "2026-05-26T21:05:50+0000",
+            "vcs_last_rev": "45a684b1a27974d63c8a51809a490fb0782b76fe",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44228
@@ -761,10 +768,10 @@
             "id": 1075079,
             "layer": 10,
             "local_path": "",
-            "updated": "2026-04-23T04:04:55+0000",
-            "vcs_last_commit": "2026-04-16T12:04:07+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:55+0000",
-            "vcs_last_rev": "0c5517ff10dea49a14aba3c731d78369f61e1a5d",
+            "updated": "2026-05-21T23:05:15+0000",
+            "vcs_last_commit": "2026-05-18T00:05:21+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:15+0000",
+            "vcs_last_rev": "d42a2c03ae32317f6d61cf8aef9e44f66db165cf",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": 44228
@@ -847,7 +854,7 @@
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "    Swagger UI allows anyone \u2014 be it your development team or your end consumers \u2014 to visualize and     interact with the API\u2019s resources without having any of the implementation logic in place.     It\u2019s automatically generated from your OpenAPI (formerly known as Swagger) Specification,     with the visual documentation making it easy for back end implementation and client side consumption.     ",
@@ -866,11 +873,11 @@
             "section": "net",
             "srcrev": "d02a2df106961d8cb6bceb6b4b3aa8d9f6faaf4a",
             "summary": "Visually render documentation for an API defined with the OpenAPI",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -889,11 +896,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Web-based administration interface",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " -DENABLE_PLUGIN_EBPF=OFF -DBUILD_FOR_PACKAGING=ON                   -DENABLE_ACLK=OFF -DENABLE_EXPORTER_PROMETHEUS_REMOTE_WRITE=OFF -DCMAKE_INSTALL_PREFIX=''  -DENABLE_CLOUD=OFF -DENABLE_PLUGIN_CUPS=OFF -DENABLE_PLUGIN_FREEIPMI=ON  -DENABLE_PLUGIN_GO=OFF -DENABLE_PLUGIN_NFACCT=OFF -DENABLE_OPENSSL=ON -DENABLE_PLUGIN_SYSTEMD_JOURNAL=ON -DENABLE_PLUGIN_XENSTAT=OFF",
             "description": "Netdata is high-fidelity infrastructure monitoring and troubleshooting.                Open-source, free, preconfigured, opinionated, and always real-time.",
@@ -912,11 +919,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Real-time performance monitoring",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     --with-admin-group=root     --disable-doc     --with-systemdunitdir=/usr/lib/systemd/system     --with-pamdir=/usr/lib/security  --disable-static --enable-nls ",
             "description": "Cockpit makes it easy to administer your GNU/Linux servers via a web browser",
@@ -935,7 +942,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Admin interface for Linux machines",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -958,7 +965,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
@@ -981,11 +988,11 @@
             "section": "net",
             "srcrev": "",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " -DENABLE_IPV6=OFF                   -DENABLE_CACHE=OFF                   -DENABLE_DEBUG=OFF                   -DENABLE_TOOLKIT=OFF                   -DENABLE_CHROOT=OFF                   -DENABLE_XSLT=ON                   -DENABLE_TOMAHAWK=OFF                   -DCMAKE_INSTALL_MANDIR=/usr/share/man                   -DCMAKE_INSTALL_BINDIR=/usr/bin                   -DCMAKE_INSTALL_SBINDIR=/usr/sbin                   -DCMAKE_INSTALL_SYSCONFDIR=/etc                   -DCMAKE_INSTALL_LIBDIR=/usr/lib                   -DCMAKE_INSTALL_FULL_LOCALSTATEDIR=/var                   -DENABLE_TLS=ON                   -DCMAKE_POLICY_VERSION_MINIMUM=3.5 ",
             "description": "",
@@ -1004,15 +1011,15 @@
             "section": "net",
             "srcrev": "",
             "summary": "Lightweight secure web server",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://github.com/monkey/monkey/issues",
             "configopts": "-DMK_PATH_LOG=/var/log/monkey/                  -DPID_FILE=/run/monkey.pid                  -DMK_PATH_CONF=/etc/monkey/                  -DWITH_PLUGINS=*                  -DWITHOUT_PLUGINS=mbedtls                  -DWITH_DEBUG=1                  -DDEFAULT_USER='www-data'                  -DWITH_SYSTEM_MALLOC=1                  ",
             "description": "",
-            "filename": "monkey_1.8.4.bb",
+            "filename": "monkey_1.8.7.bb",
             "filepath": "recipes-httpd/monkey",
             "homepage": "https://github.com/monkey/monkey/issues/414",
             "id": 2430067,
@@ -1023,15 +1030,15 @@
             "pn": "monkey",
             "pr": "r0",
             "provides": "monkey ",
-            "pv": "1.8.4",
+            "pv": "1.8.7",
             "section": "net",
-            "srcrev": "94af273244369e1a8426d0d1f6376475aff90db9",
+            "srcrev": "0fd3bbd657c6d6339315709ef068493c572b973c",
             "summary": "Fast and Lightweight HTTP Server for Linux",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "A simple, small, portable, fast, and secure HTTP server (supported fork of thttpd).",
@@ -1050,7 +1057,7 @@
             "section": "base",
             "srcrev": "2845bf5bff2b820d2336c8c8061cbfc5f271e720",
             "summary": "A simple, small, portable, fast, and secure HTTP server",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -1073,11 +1080,11 @@
             "section": "net",
             "srcrev": "",
             "summary": "Apache HTTP Server",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--disable-lynx --disable-static ",
             "description": "Avahi Module for Apache2.",
@@ -1096,13 +1103,13 @@
             "section": "base",
             "srcrev": "be2fb9f6158f800685de7a1bc01c39b6cf1fa12c",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "APACHECTL=/tmp/tmp41afp7l3/tmp/work/core2-32-oe-linux/apache-websocket/0.1.2+git/recipe-sysroot/usr/sbin/apachectl --disable-static ",
+            "configopts": "APACHECTL=/tmp/tmpc3pg9s9l/tmp/work/core2-32-oe-linux/apache-websocket/0.1.2+git/recipe-sysroot/usr/sbin/apachectl --disable-static ",
             "description": "Process requests using the WebSocket protocol (RFC 6455)",
             "filename": "apache-websocket_git.bb",
             "filepath": "recipes-httpd/apache-mod",
@@ -1119,11 +1126,11 @@
             "section": "net",
             "srcrev": "0ee34c77fc78ff08fd548706300b80a7bc7874e4",
             "summary": "Websocket module for Apache web server",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "FastCGI is a protocol for interfacing interactive programs with a web server.",
@@ -1142,11 +1149,11 @@
             "section": "base",
             "srcrev": "47f2c03b7771f0ef61d887734ef91e6fa747f837",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dipv6=true",
             "description": "",
@@ -1165,11 +1172,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "spawn-fcgi is used to spawn FastCGI applications",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:14+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "FcgiWrap is a simple server for running CGI applications over FastCGI. Fcgiwrap can be used together with Nginx to serve CGI or Perl scripts",
@@ -1188,11 +1195,11 @@
             "section": "base",
             "srcrev": "99c942c90063c73734e56bacaa65f947772d9186",
             "summary": "FastCGI wrapper for CGI scripts",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:14+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1211,11 +1218,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:14+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1234,7 +1241,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-webserver packagegroups",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1257,13 +1264,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Web-based MySQL administration interface",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:14+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-xdebug -with-php-config=/tmp/tmp41afp7l3/tmp/work/core2-32-oe-linux/xdebug/3.5.1/recipe-sysroot/usr/bin/crossscripts/php-config --disable-static ",
+            "configopts": " --enable-xdebug -with-php-config=/tmp/tmpc3pg9s9l/tmp/work/core2-32-oe-linux/xdebug/3.5.1/recipe-sysroot/usr/bin/crossscripts/php-config --disable-static ",
             "description": "",
             "filename": "xdebug_3.5.1.bb",
             "filepath": "recipes-php/xdebug",
@@ -1280,7 +1287,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Debugging and profiling extension for PHP",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:15+0000"
         }
     ],
     "wrtemplates": []

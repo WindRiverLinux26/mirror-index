@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-08T00:05:13+0000",
+            "updated": "2026-05-27T00:05:10+0000",
             "updates_enabled": true
         }
     ],
@@ -731,10 +738,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-07T21:05:29+0000",
-            "vcs_last_commit": "2026-05-07T20:05:33+0000",
-            "vcs_last_fetch": "2026-05-07T21:05:29+0000",
-            "vcs_last_rev": "b518533bb9b41e377a44a519d8c22479a6ad2ccb",
+            "updated": "2026-05-26T01:05:20+0000",
+            "vcs_last_commit": "2026-05-26T00:05:28+0000",
+            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
+            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -746,13 +753,13 @@
             "id": 1075100,
             "layer": 559,
             "local_path": "",
-            "updated": "2026-05-07T21:05:48+0000",
-            "vcs_last_commit": "2026-05-07T18:05:11+0000",
-            "vcs_last_fetch": "2026-05-07T21:05:48+0000",
-            "vcs_last_rev": "5177a7b7f1da55aaaad294f68410c29de08298bf",
+            "updated": "2026-05-27T05:05:19+0000",
+            "vcs_last_commit": "2026-05-26T23:05:38+0000",
+            "vcs_last_fetch": "2026-05-27T05:05:19+0000",
+            "vcs_last_rev": "d246c4071079ad05c2eb2a3aaee1851cd24c60be",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 44228
+            "yp_compatible_version": 44229
         }
     ],
     "layerDependencies": [
@@ -806,80 +813,80 @@
     "machines": [
         {
             "description": "Nvidia Jetson Orin Nano 4GB module in p3768 carrier",
-            "id": 110976,
+            "id": 112854,
             "layerbranch": 1075100,
             "name": "p3768-0000-p3767-0004",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "description": "Nvidia Jetson Orin NX 16GB module in P3509 carrier",
-            "id": 110977,
+            "id": 112855,
             "layerbranch": 1075100,
             "name": "p3509-a02-p3767-0000",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "description": "Nvidia Jetson Orin NX module in P3768 carrier",
-            "id": 110978,
+            "id": 112856,
             "layerbranch": 1075100,
             "name": "p3768-0000-p3767-0000",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "description": "Nvidia Jetson Orin Nano 8G module in P3768 carrier",
-            "id": 110979,
+            "id": 112857,
             "layerbranch": 1075100,
             "name": "p3768-0000-p3767-0003",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "description": "Nvidia Jetson Orin Nano devkit",
-            "id": 110980,
+            "id": 112858,
             "layerbranch": 1075100,
             "name": "jetson-orin-nano-devkit",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "description": "Nvidia Jetson AGX Orin dev kit (P3701-0000 module in P3737-0000 carrier)",
-            "id": 110981,
+            "id": 112859,
             "layerbranch": 1075100,
             "name": "jetson-agx-orin-devkit",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "description": "Nvidia Jetson Orin Nano devkit using NVMe drive for rootfs",
-            "id": 110982,
+            "id": 112860,
             "layerbranch": 1075100,
             "name": "jetson-orin-nano-devkit-nvme",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "description": "Nvidia Jetson Orin dev kit (P3701-0005 module in P3737-0000 carrier)",
-            "id": 110983,
+            "id": 112861,
             "layerbranch": 1075100,
             "name": "p3737-0000-p3701-0005",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "description": "Nvidia Jetson AGX Orin Industrial 64GB module in P3737 carrier",
-            "id": 110984,
+            "id": 112862,
             "layerbranch": 1075100,
             "name": "jetson-agx-orin-devkit-industrial",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "description": "Nvidia Jetson Orin NX 8G module in P3768 carrier",
-            "id": 110985,
+            "id": 112863,
             "layerbranch": 1075100,
             "name": "p3768-0000-p3767-0001",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "description": "Nvidia Jetson Orin dev kit (P3701-0004 module in P3737-0000 carrier)",
-            "id": 110986,
+            "id": 112864,
             "layerbranch": 1075100,
             "name": "p3737-0000-p3701-0004",
-            "updated": "2026-04-23T04:04:29+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         }
     ],
     "recipes": [
@@ -887,7 +894,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/13.2.0     --with-build-time-tools=/tmp/tmpg57oytbo/tmp/work/x86_64-nativesdk-oesdk-linux/gcc-for-nvcc-cross-canadian-i686/13.2.0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpg57oytbo/tmp/work/x86_64-nativesdk-oesdk-linux/gcc-for-nvcc-cross-canadian-i686/13.2.0/recipe-sysroot                --enable-targets=all \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --with-plugin-ld=ld --enable-poison-system-directories --disable-static  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/13.2.0     --with-build-time-tools=/tmp/tmpz83huqfb/tmp/work/x86_64-nativesdk-oesdk-linux/gcc-for-nvcc-cross-canadian-i686/13.2.0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpz83huqfb/tmp/work/x86_64-nativesdk-oesdk-linux/gcc-for-nvcc-cross-canadian-i686/13.2.0/recipe-sysroot                --enable-targets=all \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --with-plugin-ld=ld --enable-poison-system-directories --disable-static  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-for-nvcc-cross-canadian_13.2.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -904,13 +911,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i686 target)",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/13.2.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/libgcc-for-nvcc/13.2.0/recipe-sysroot                --enable-targets=all \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --disable-static  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/13.2.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/libgcc-for-nvcc/13.2.0/recipe-sysroot                --enable-targets=all \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --disable-static  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "libgcc-for-nvcc_13.2.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -927,13 +934,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:28+0000"
         },
         {
             "bbclassextend": "nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/13.2.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/gcc-for-nvcc-runtime/13.2.0/recipe-sysroot                --enable-targets=all \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --disable-static  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit --cache-file=/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/gcc-for-nvcc-runtime/13.2.0/gcc-13.2.0/build.i686-oe-linux.i686-oe-linux/config.cache",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/13.2.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/gcc-for-nvcc-runtime/13.2.0/recipe-sysroot                --enable-targets=all \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --disable-static  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit --cache-file=/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/gcc-for-nvcc-runtime/13.2.0/gcc-13.2.0/build.i686-oe-linux.i686-oe-linux/config.cache",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-for-nvcc-runtime_13.2.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -950,11 +957,11 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Runtime libraries from GCC",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static  --disable-nls",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
@@ -973,13 +980,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/13.2.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpg57oytbo/tmp/work/x86_64-linux/gcc-for-nvcc-cross-i686/13.2.0/recipe-sysroot                --enable-targets=all \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --enable-poison-system-directories=error     --with-system-zlib  --disable-static  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/13.2.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpz83huqfb/tmp/work/x86_64-linux/gcc-for-nvcc-cross-i686/13.2.0/recipe-sysroot                --enable-targets=all \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --enable-poison-system-directories=error     --with-system-zlib  --disable-static  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-for-nvcc-cross_13.2.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -996,13 +1003,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=x86_64-oesdk-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include/c++/13.2.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpg57oytbo/tmp/work/x86_64-linux/gcc-for-nvcc-crosssdk-x86_64-oesdk-linux/13.2.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --enable-poison-system-directories=error     --with-system-zlib  --disable-static  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=x86_64-oesdk-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include/c++/13.2.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpz83huqfb/tmp/work/x86_64-linux/gcc-for-nvcc-crosssdk-x86_64-oesdk-linux/13.2.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --enable-poison-system-directories=error     --with-system-zlib  --disable-static  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-for-nvcc-crosssdk_13.2.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -1019,13 +1026,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:29+0000"
         },
         {
             "bbclassextend": "nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/13.2.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/libgcc-for-nvcc-initial/13.2.0/recipe-sysroot                --enable-targets=all \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --disable-shared --disable-static  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/13.2.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/libgcc-for-nvcc-initial/13.2.0/recipe-sysroot                --enable-targets=all \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --disable-shared --disable-static  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "libgcc-for-nvcc-initial_13.2.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -1042,13 +1049,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-build-sysroot=/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/gcc-for-nvcc/13.2.0/recipe-sysroot                --enable-targets=all \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --disable-static  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib     --enable-default-pie     --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-build-sysroot=/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/gcc-for-nvcc/13.2.0/recipe-sysroot                --enable-targets=all \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-13.2.0  --disable-static  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-for-nvcc_13.2.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -1065,11 +1072,11 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA TensorRT Samples for deep learning",
@@ -1088,11 +1095,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA TensorRT Prebuilt Plugins for deep learning",
@@ -1111,11 +1118,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA TensorRT Prebuilt Plugins for deep learning",
@@ -1134,11 +1141,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA TensorRT Core (GPU Inference Engine) for deep learning",
@@ -1157,11 +1164,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:30+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA TensorRT trtexec utility",
@@ -1180,11 +1187,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1203,11 +1210,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Vision Programming Interface(VPI) is an API for accelerated   computer vision and image processing for embedded systems.",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Compute Unified Programmable Vision Accelerator SDK",
@@ -1226,11 +1233,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Kconfiglib is a Kconfig implementation in Python",
@@ -1249,11 +1256,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA Nsight Systems is a multi-core CPU sampling profiler that     provides an interactive view of captured profiling data, helping improve     overall application performance.",
@@ -1272,11 +1279,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Replacement modules for CMake to fix issues with FindCUDA",
@@ -1295,11 +1302,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:31+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CCACHE_COMPILERCHECK wrapper for CUDA",
@@ -1318,11 +1325,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1341,11 +1348,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "NVIDIA CUDA Deep Neural Network samples",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1364,11 +1371,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "NVIDIA CUDA Deep Neural Network library",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-nvcc",
@@ -1387,11 +1394,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-cuobjdump",
@@ -1410,11 +1417,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:35+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-cccl",
@@ -1433,11 +1440,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:35+0000"
+            "updated": "2026-05-21T23:05:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-cupti",
@@ -1456,11 +1463,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:35+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package libnvjitlink",
@@ -1479,11 +1486,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:36+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-crt",
@@ -1502,11 +1509,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:36+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-nvvm",
@@ -1525,11 +1532,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:36+0000"
+            "updated": "2026-05-21T23:05:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Dummy recipe for bringing in CUDA tools and libraries",
@@ -1548,11 +1555,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:36+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-nvtx",
@@ -1571,11 +1578,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:37+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-sanitizer",
@@ -1594,11 +1601,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:37+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Dummy recipe for bringing in CUDA command-line tools",
@@ -1617,11 +1624,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:37+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package libcusparse",
@@ -1640,11 +1647,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:37+0000"
+            "updated": "2026-05-21T23:05:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package libcufile",
@@ -1663,11 +1670,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:38+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package libnvjpeg",
@@ -1686,11 +1693,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:38+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-nvcc-headers",
@@ -1709,11 +1716,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:39+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "SDK environment setup for CUDA toolchain",
@@ -1732,11 +1739,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:40+0000"
+            "updated": "2026-05-21T23:05:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package libcufft",
@@ -1755,11 +1762,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:41+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Dummy recipe for bringing in CUDA compilation tools",
@@ -1778,11 +1785,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:41+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-nvrtc",
@@ -1801,11 +1808,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:41+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "SDK environment setup for CUDA targets",
@@ -1824,11 +1831,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:42+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-nvdisasm",
@@ -1847,11 +1854,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:42+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA sample programs",
@@ -1870,11 +1877,11 @@
             "section": "base",
             "srcrev": "9c688d7ff78455ed42e345124d1495aad6bf66de",
             "summary": "",
-            "updated": "2026-04-23T04:04:42+0000"
+            "updated": "2026-05-21T23:05:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Dummy recipe for bringing in CUDA libraries",
@@ -1893,11 +1900,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:42+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package libnvfatbin",
@@ -1916,11 +1923,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:43+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package libcudla",
@@ -1939,11 +1946,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:43+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-gdb",
@@ -1962,11 +1969,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:43+0000"
+            "updated": "2026-05-21T23:05:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package libnpp",
@@ -1985,11 +1992,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:43+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-cuxxfilt",
@@ -2008,11 +2015,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:44+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package libcublas",
@@ -2031,11 +2038,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:44+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Workarounds for CUDA compiler compatibility with newer toolchains",
@@ -2054,11 +2061,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:44+0000"
+            "updated": "2026-05-21T23:05:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package libcusolver",
@@ -2077,11 +2084,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:44+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-cudart",
@@ -2100,11 +2107,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-compat",
@@ -2123,11 +2130,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-nvprof",
@@ -2146,11 +2153,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-nvml",
@@ -2169,11 +2176,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-driver",
@@ -2192,11 +2199,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package libcurand",
@@ -2215,11 +2222,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-profiler-api",
@@ -2238,11 +2245,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "CUDA package cuda-nvprune",
@@ -2261,11 +2268,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:40+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Script and systemd service to set up the boot control configuration file needed for tegra redundant boot support",
@@ -2284,11 +2291,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:40+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Tegra ID EEPROM tools",
@@ -2307,11 +2314,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Configuration files for WiFi on Tegra platforms",
@@ -2330,11 +2337,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA prebuilt binary-only GStreamer plugins",
@@ -2353,11 +2360,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Broadcom patchram utility for Tegra modules with on-board Bluetooth interfaces",
@@ -2376,11 +2383,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "nvs-service startup files",
@@ -2399,11 +2406,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2422,11 +2429,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2445,11 +2452,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2468,11 +2475,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Startup files for Tegra bootloader redundancy support",
@@ -2491,11 +2498,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:41+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "nvpmodel startup files",
@@ -2514,11 +2521,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2537,11 +2544,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2560,11 +2567,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2583,11 +2590,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2606,11 +2613,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2629,11 +2636,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2652,11 +2659,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2675,11 +2682,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2698,11 +2705,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:42+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2721,11 +2728,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:43+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "nvpmodel tool and configuration files",
@@ -2744,11 +2751,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:43+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2767,11 +2774,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:43+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA sensor HAL daemon",
@@ -2790,11 +2797,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:43+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2813,11 +2820,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:43+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA Power Hinting Service",
@@ -2836,11 +2843,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:43+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2859,11 +2866,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:43+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2882,11 +2889,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:43+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "nvphs startup files",
@@ -2905,11 +2912,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:43+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2928,11 +2935,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Miscellaneous tools provided by L4T",
@@ -2951,11 +2958,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2974,11 +2981,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Downloads NVIDIA L4T binary-only packages for sharing with other recipes",
@@ -2997,11 +3004,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "NVIDIA L4T binaries",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Flash helper scripts",
@@ -3020,11 +3027,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Tegra-specific firmware from the L4T BSP",
@@ -3043,11 +3050,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3066,11 +3073,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Machine-specific variables for tegraflash",
@@ -3089,11 +3096,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Storage layout XML definitions",
@@ -3112,11 +3119,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "nvsciipc startup files",
@@ -3135,11 +3142,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3158,11 +3165,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Miscellaneous configuration files provided by L4T",
@@ -3181,11 +3188,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "nvstartup initscript/service",
@@ -3204,11 +3211,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "L4T bootloader update support tools",
@@ -3227,11 +3234,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA Fan Control",
@@ -3250,11 +3257,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA CUDA utils",
@@ -3273,11 +3280,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3296,11 +3303,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3319,11 +3326,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "NVIDIA DLA Compiler",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Release version information file from L4T",
@@ -3342,11 +3349,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:46+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Encrypted keyblob image",
@@ -3365,11 +3372,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:46+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3388,11 +3395,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:46+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3411,11 +3418,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:46+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "nvpower tool and configuration files",
@@ -3434,11 +3441,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:46+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Sound configuration files provided by L4T",
@@ -3457,11 +3464,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:46+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Prebuilt OPTEE normal-world binaries",
@@ -3480,11 +3487,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:46+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3503,11 +3510,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:46+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "nvargusdaemon initscript/service",
@@ -3526,11 +3533,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:46+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA SEI metadata support library for GStreamer",
@@ -3549,11 +3556,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:46+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3572,11 +3579,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:47+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3595,11 +3602,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:47+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3618,11 +3625,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:47+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NvSciIpc initialization tool",
@@ -3641,11 +3648,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:47+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Scripts and configuration files for setting up the  integrated Bluetooth module on Tegra SoMs that have one.",
@@ -3664,11 +3671,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:47+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Configuration for setting up L4T USB device mode gadgets",
@@ -3687,11 +3694,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:47+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Generate UEFI capsules for bup paylods",
@@ -3710,11 +3717,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:47+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "L4T Launcher DTB overlay for enabling rootfs A/B redundancy",
@@ -3733,11 +3740,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:47+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "EFI system partition image for Jetson platforms",
@@ -3756,11 +3763,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:48+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Standalone Memory Manager for OP-TEE on Jetson platforms",
@@ -3779,11 +3786,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "UEFI EDK2 Firmware",
-            "updated": "2026-05-06T22:05:28+0000"
+            "updated": "2026-05-21T23:05:48+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "UEFI EDK2 Firmware for Jetson platforms",
@@ -3802,11 +3809,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "UEFI EDK2 Firmware",
-            "updated": "2026-05-06T22:05:28+0000"
+            "updated": "2026-05-21T23:05:48+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -3825,11 +3832,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "EDK2 Base Tools",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:48+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "UEFI EDK2 Minimal Firmware for flashing Jetson platforms",
@@ -3848,11 +3855,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "UEFI EDK2 Firmware",
-            "updated": "2026-05-06T22:05:28+0000"
+            "updated": "2026-05-21T23:05:48+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Generates DTB overlay containing UEFI certificate information for Tegra platforms",
@@ -3871,11 +3878,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:49+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Generate an extlinux.conf for use with L4TLauncher UEFI application",
@@ -3894,11 +3901,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:49+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Trusted Firmware-A (TF-A) provides a reference implementation of secure world software for Armv7-A and Armv8-A, including a Secure Monitor executing at Exception Level 3 (EL3).",
@@ -3917,11 +3924,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trusted Firmware-A - L4T distribution",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:49+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA Tegra Multimedia API sample programs",
@@ -3940,11 +3947,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:49+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA Tegra Multimedia API headers subset for Argus, nvosd, and nvbuf APIs",
@@ -3963,13 +3970,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:49+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DMULTIPROCESS=ON                  -DCMAKE_INCLUDE_PATH=/tmp/tmpg57oytbo/tmp/work/${TEGRA_PKGARCH}-oe-linux/argus-samples/36.5.0-20260115194252/sources/tegra-mmapi/usr/src/jetson_multimedia_api/include/libjpeg-8b-tegra                  -DJPEG_NAMES=libnvjpeg.so                  -DCMAKE_POLICY_VERSION_MINIMUM=3.5  -DWITH_X11=ON",
+            "configopts": "-DMULTIPROCESS=ON                  -DCMAKE_INCLUDE_PATH=/tmp/tmpz83huqfb/tmp/work/${TEGRA_PKGARCH}-oe-linux/argus-samples/36.5.0-20260115194252/sources/tegra-mmapi/usr/src/jetson_multimedia_api/include/libjpeg-8b-tegra                  -DJPEG_NAMES=libnvjpeg.so                  -DCMAKE_POLICY_VERSION_MINIMUM=3.5  -DWITH_X11=ON",
             "description": "NVIDIA Argus API sample programs",
             "filename": "argus-samples_36.5.0.bb",
             "filepath": "recipes-multimedia/argus",
@@ -3986,11 +3993,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:49+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static --enable-nls",
             "description": "NVIDIA video sinks GStreamer plugin",
@@ -4009,11 +4016,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static --enable-nls",
             "description": "NVIDIA v4l2 GStreamer plugin",
@@ -4032,11 +4039,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA video tee GStreamer plugin",
@@ -4055,11 +4062,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA-modified unixfd GStreamer plugin",
@@ -4078,11 +4085,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA video converter GStreamer plugin",
@@ -4101,11 +4108,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA v4l2camerasrc GStreamer plugin",
@@ -4124,11 +4131,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA compositor GStreamer plugin",
@@ -4147,11 +4154,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -4170,11 +4177,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "NVIDIA EGL/GLES GStreamer plugin",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA nvarguscamerasrc GStreamer plugin",
@@ -4193,11 +4200,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA custom gstreamer events helper library",
@@ -4216,11 +4223,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA DRM video sink GStreamer plugin",
@@ -4239,11 +4246,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Ddocs=false ",
             "description": "NVIDIA accelerated JPEG GStreamer plugin",
@@ -4262,11 +4269,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Dummy recipe for Tegra gstreamer plugins metapackage",
@@ -4285,11 +4292,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA-modified IPC pipeline GStreamer plugin",
@@ -4308,11 +4315,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA GStreamer applications",
@@ -4331,11 +4338,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dlibdvbv5=disabled -Dv4l-utils=false -Dqv4l2=disabled -Dqvidcap=disabled -Dgconv=disabled -Djpeg=disabled                  -Dudevdir=/usr/lib/udev -Dv4l2-compliance-32=false -Dv4l2-ctl-32=false ",
             "description": "",
@@ -4354,11 +4361,11 @@
             "section": "base",
             "srcrev": "4aee01a027923cab1e40969f56f8ba58d3e6c0d1",
             "summary": "libv4l2 from v4l-utils, minimally built",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -4377,11 +4384,11 @@
             "section": "base",
             "srcrev": "0b2f038a6c715e73e0c38ae8ec1680f4406d655d",
             "summary": "Wrapper for libv4l2_nvvidconv to work around STREAMOFF segfault issue",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static  --enable-examples --enable-gadget-schemes --with-libconfig=yes --disable-tests",
             "description": "",
@@ -4400,11 +4407,11 @@
             "section": "base",
             "srcrev": "45c14ef4d5d7ced0fbf984208de44ced6d5ed898",
             "summary": "USB Gadget neXt Configfs Library build for Tegra initrd flashing",
-            "updated": "2026-04-23T04:04:56+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "EFI_ARCH=ia32 --disable-static ",
             "description": "Utility for signing and verifying files for UEFI Secure Boot",
@@ -4423,11 +4430,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Construct a trusted OS image with ATF and OP-TEE",
@@ -4446,7 +4453,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-27T05:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -4469,7 +4476,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-27T05:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -4492,11 +4499,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "OP-TEE Trusted OS TA devkit",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-27T05:05:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA OP-TEE Tools",
@@ -4515,11 +4522,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-27T05:05:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA OP-TEE sample applications for Jetson platforms",
@@ -4538,7 +4545,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-27T05:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -4561,7 +4568,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "OP-TEE sanity testsuite",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-27T05:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -4584,7 +4591,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "OP-TEE Client API",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-27T05:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -4607,7 +4614,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-07T21:05:48+0000"
+            "updated": "2026-05-22T20:05:08+0000"
         },
         {
             "bbclassextend": "",
@@ -4630,7 +4637,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         },
         {
             "bbclassextend": "",
@@ -4653,11 +4660,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Adds a modprobe and modules load config for nvidia drm",
@@ -4676,11 +4683,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Linux kernel from sources provided by Nvidia for Tegra processors.",
@@ -4699,11 +4706,11 @@
             "section": "kernel",
             "srcrev": "9c6d5c8154dae5c6fbce37e44b68485e2aef201e",
             "summary": "Linux kernel",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "tar wrapper script for handling zstd suffix",
@@ -4722,11 +4729,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "EGL backend for libgbm",
@@ -4745,11 +4752,11 @@
             "section": "base",
             "srcrev": "b24587d4871a630d05e9e26da94c95e6ce4324f2",
             "summary": "",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Tegra GBM backend for mesa",
@@ -4768,11 +4775,11 @@
             "section": "base",
             "srcrev": "ee8ecd03d10e096ec2ca777f2d017c79e4a6ec5f",
             "summary": "",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Tegra-specific DRM header file",
@@ -4791,11 +4798,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "L4T graphics demo programs",
@@ -4814,11 +4821,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA Jetson-specific EGL and GLES2 extension headers",
@@ -4837,11 +4844,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Wayland EGL external platform library",
@@ -4860,11 +4867,11 @@
             "section": "base",
             "srcrev": "067e43d0d4af82e4ea3fdc8ce476e6a24f69956f",
             "summary": "",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "EGL external platform interface",
@@ -4883,11 +4890,11 @@
             "section": "base",
             "srcrev": "7c8f8e2218e46b1a4aa9538520919747f1184d86",
             "summary": "",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Utility to force reboot into recovery mode",
@@ -4906,11 +4913,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Minimal initramfs init script",
@@ -4929,11 +4936,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Minimal initramfs init script for initrd flashing",
@@ -4952,11 +4959,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -4975,11 +4982,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Host packages for CUDA SDK toolchain",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Minimal initramfs image for Tegra platforms",
@@ -4998,11 +5005,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Minimal initramfs image for initrd flashing",
@@ -5021,13 +5028,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DBUILD_SAMPLES=OFF -DSKIP_GPU_ARCHS=ON -DTRT_PLATFORM_ID=\"i686\"   -DCUDA_VERSION=\"${CUDA_VERSION}\"   -DCUDA_INCLUDE_DIRS=\"/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/tensorrt-plugins/10.3.0/recipe-sysroot/usr/local/cuda-${CUDA_VERSION}/include\"   -DENABLED_SMS=\"-DENABLE_SM${TEGRA_CUDA_ARCHITECTURE}\"   -DSTABLE_DIFFUSION_GENCODES=\"-gencode arch=compute_${TEGRA_CUDA_ARCHITECTURE},code=compute_${TEGRA_CUDA_ARCHITECTURE}\"   -DProtobuf_LIBRARY=\"/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/tensorrt-plugins/10.3.0/recipe-sysroot/usr/lib/libprotobuf.so\"   -DProtobuf_PROTOC_EXECUTABLE=\"/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/tensorrt-plugins/10.3.0/recipe-sysroot-native/usr/bin/protoc\"   -DONNX_CUSTOM_PROTOC_EXECUTABLE=\"/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/tensorrt-plugins/10.3.0/recipe-sysroot-native/usr/bin/protoc\"   -DONNX_USE_PROTOBUF_SHARED_LIBS=ON   -DCMAKE_FIND_PACKAGE_PREFER_CONFIG=ON   -DCMAKE_POLICY_VERSION_MINIMUM=3.5   -DBUILD_PARSERS=ON -DBUILD_PLUGINS=ON",
+            "configopts": "-DBUILD_SAMPLES=OFF -DSKIP_GPU_ARCHS=ON -DTRT_PLATFORM_ID=\"i686\"   -DCUDA_VERSION=\"${CUDA_VERSION}\"   -DCUDA_INCLUDE_DIRS=\"/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/tensorrt-plugins/10.3.0/recipe-sysroot/usr/local/cuda-${CUDA_VERSION}/include\"   -DENABLED_SMS=\"-DENABLE_SM${TEGRA_CUDA_ARCHITECTURE}\"   -DSTABLE_DIFFUSION_GENCODES=\"-gencode arch=compute_${TEGRA_CUDA_ARCHITECTURE},code=compute_${TEGRA_CUDA_ARCHITECTURE}\"   -DProtobuf_LIBRARY=\"/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/tensorrt-plugins/10.3.0/recipe-sysroot/usr/lib/libprotobuf.so\"   -DProtobuf_PROTOC_EXECUTABLE=\"/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/tensorrt-plugins/10.3.0/recipe-sysroot-native/usr/bin/protoc\"   -DONNX_CUSTOM_PROTOC_EXECUTABLE=\"/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/tensorrt-plugins/10.3.0/recipe-sysroot-native/usr/bin/protoc\"   -DONNX_USE_PROTOBUF_SHARED_LIBS=ON   -DCMAKE_FIND_PACKAGE_PREFER_CONFIG=ON   -DCMAKE_POLICY_VERSION_MINIMUM=3.5   -DBUILD_PARSERS=ON -DBUILD_PLUGINS=ON",
             "description": "NVIDIA TensorRT Plugins for deep learning",
             "filename": "tensorrt-plugins_10.3.0.bb",
             "filepath": "external/openembedded-layer/recipes-devtools/gie",
@@ -5044,11 +5051,11 @@
             "section": "base",
             "srcrev": "c5b9de37f7ef9034e2efc621c664145c7c12436e",
             "summary": "",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Replaces nvidia-docker with a new implementation based on nvidia-container-runtime",
@@ -5067,11 +5074,11 @@
             "section": "base",
             "srcrev": "178cec600ce52270f4b9d22326ba1fde218dba39",
             "summary": "nvidia-docker CLI wrapper",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "NVIDIA container runtime library The nvidia-container library provides an interface to configure GNU/Linux containers leveraging NVIDIA hardware. The implementation relies on several kernel subsystems and is designed to be agnostic of the container runtime. ",
@@ -5090,7 +5097,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NVIDIA container runtime library",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
@@ -5117,9 +5124,9 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DTENSORRT_ROOT=/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/python3-tensorrt/10.3.0/sources/python3-tensorrt-10.3.0 -DTENSORRT_LIBPATH=/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/python3-tensorrt/10.3.0/recipe-sysroot/usr/lib -DTENSORRT_MODULE=tensorrt                  -DCUDA_INCLUDE_DIRS=/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/python3-tensorrt/10.3.0/recipe-sysroot/usr/local/cuda-${CUDA_VERSION}/include                  -DTARGET=i686 -DCMAKE_BUILD_TYPE=Release                  -DPY_INCLUDE=/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/python3-tensorrt/10.3.0/recipe-sysroot/usr/include/python3.14 -DEXT_PATH=/tmp/tmpg57oytbo/tmp/work/core2-32-oe-linux/python3-tensorrt/10.3.0/recipe-sysroot/usr/include                  -DCMAKE_POLICY_VERSION_MINIMUM=3.5  ",
+            "configopts": "-DTENSORRT_ROOT=/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/python3-tensorrt/10.3.0/sources/python3-tensorrt-10.3.0 -DTENSORRT_LIBPATH=/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/python3-tensorrt/10.3.0/recipe-sysroot/usr/lib -DTENSORRT_MODULE=tensorrt                  -DCUDA_INCLUDE_DIRS=/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/python3-tensorrt/10.3.0/recipe-sysroot/usr/local/cuda-${CUDA_VERSION}/include                  -DTARGET=i686 -DCMAKE_BUILD_TYPE=Release                  -DPY_INCLUDE=/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/python3-tensorrt/10.3.0/recipe-sysroot/usr/include/python3.14 -DEXT_PATH=/tmp/tmpz83huqfb/tmp/work/core2-32-oe-linux/python3-tensorrt/10.3.0/recipe-sysroot/usr/include                  -DCMAKE_POLICY_VERSION_MINIMUM=3.5  ",
             "description": "",
             "filename": "python3-tensorrt_10.3.0.bb",
             "filepath": "external/meta-python/recipes-devtools/python3-tensorrt",
@@ -5136,7 +5143,7 @@
             "section": "base",
             "srcrev": "c5b9de37f7ef9034e2efc621c664145c7c12436e",
             "summary": "Python bindings for TensorRT",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         }
     ],
     "wrtemplates": []

@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-08T00:05:13+0000",
+            "updated": "2026-05-27T00:05:10+0000",
             "updates_enabled": true
         }
     ],
@@ -731,10 +738,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-07T21:05:29+0000",
-            "vcs_last_commit": "2026-05-07T20:05:33+0000",
-            "vcs_last_fetch": "2026-05-07T21:05:29+0000",
-            "vcs_last_rev": "b518533bb9b41e377a44a519d8c22479a6ad2ccb",
+            "updated": "2026-05-26T01:05:20+0000",
+            "vcs_last_commit": "2026-05-26T00:05:28+0000",
+            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
+            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -746,9 +753,9 @@
             "id": 1075077,
             "layer": 4,
             "local_path": "",
-            "updated": "2026-04-23T04:04:34+0000",
+            "updated": "2026-05-21T23:05:54+0000",
             "vcs_last_commit": "2026-04-14T08:04:29+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:34+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:54+0000",
             "vcs_last_rev": "58b1309892e6a65215810efedff56624e28c02e4",
             "vcs_subdir": "meta-initramfs",
             "version": null,
@@ -826,7 +833,7 @@
             "section": "base",
             "srcrev": "c01b0d5bb182bde35b464d14996acf354a3ada2e",
             "summary": "A command line tool for updating and displaying info about boot loaders",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -849,7 +856,7 @@
             "section": "base",
             "srcrev": "79ffbd28294818a36e515a441142125d70e3acbb",
             "summary": "Initramfs generator using udev",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -872,11 +879,11 @@
             "section": "base",
             "srcrev": "25bf13842a5c55f4a5ab1523e005b3b11b9ac38e",
             "summary": "Initramfs generator using udev",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entaglement, and portability, not speed.",
@@ -895,11 +902,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "klibc utils for initramfs statically compiled",
-            "updated": "2026-04-23T04:04:30+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entaglement, and portability, not speed.",
@@ -918,11 +925,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "The klcc crosscompiler for klibc",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entaglement, and portability, not speed.",
@@ -941,11 +948,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "klibc utils for initramfs",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "klibc is intended to be a minimalistic libc subset for use with initramfs.  It is deliberately written for small size, minimal entaglement, and portability, not speed.",
@@ -964,11 +971,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "klibc, a small C library for use with initramfs",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --without-tests --without-jffs --without-ubifs --disable-ubihealthd --disable-static  --without-lzo",
             "description": "Small sized tools from mtd-utils for use with initramfs.",
@@ -987,11 +994,11 @@
             "section": "base",
             "srcrev": "4594fc1f4496a0ed55cabd31fbeba4e3fbf05602",
             "summary": "UBI utils statically compiled against klibc",
-            "updated": "2026-04-23T04:04:31+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "klibc",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--enable-textui --enable-delay=2 --enable-evdev-rate=1000,250 --disable-static ",
             "description": "kexecboot is a graphical linux-as-bootloader implementation based on kexec.",
@@ -1010,11 +1017,11 @@
             "section": "base",
             "srcrev": "5a5e04be206140059f42ac786d424da1afaa04b6",
             "summary": "kexecboot linux-as-bootloader",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Default icon and boot.cfg for kexecboot linux-as-bootloader.",
@@ -1033,11 +1040,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Configuration files for kexecboot",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --without-zlib --without-lzma --without-xen --disable-static ",
             "description": "",
@@ -1056,11 +1063,11 @@
             "section": "kernel/userland",
             "srcrev": "15d78e5799eea7ec5ea9c5897ae95aaa0ce8970c",
             "summary": "Kexec tools, statically compiled against klibc",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1079,11 +1086,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Extremely basic live image init script",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1102,11 +1109,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-initramfs packagegroups",
-            "updated": "2026-04-23T04:04:32+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "This image provides kexecboot (linux as bootloader) and helpers.",
@@ -1125,11 +1132,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Initramfs image for kexecboot kernel (klibc-static binaries)",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Small image capable of booting a device. The kernel includes the Minimal RAM-based Initial Root Filesystem (initramfs), which one can use to check the hardware efficiently.",
@@ -1148,11 +1155,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1171,11 +1178,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "meta-initramfs build test image",
-            "updated": "2026-04-23T04:04:33+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "This image provides kexecboot (linux as bootloader) and helpers.",
@@ -1194,7 +1201,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Initramfs image for kexecboot kernel",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         }
     ],
     "wrtemplates": []

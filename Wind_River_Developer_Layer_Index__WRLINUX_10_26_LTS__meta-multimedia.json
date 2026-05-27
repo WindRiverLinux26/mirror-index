@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-08T00:05:13+0000",
+            "updated": "2026-05-27T00:05:10+0000",
             "updates_enabled": true
         }
     ],
@@ -731,10 +738,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-07T21:05:29+0000",
-            "vcs_last_commit": "2026-05-07T20:05:33+0000",
-            "vcs_last_fetch": "2026-05-07T21:05:29+0000",
-            "vcs_last_rev": "b518533bb9b41e377a44a519d8c22479a6ad2ccb",
+            "updated": "2026-05-26T01:05:20+0000",
+            "vcs_last_commit": "2026-05-26T00:05:28+0000",
+            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
+            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -746,10 +753,10 @@
             "id": 1075078,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-04-27T19:04:20+0000",
-            "vcs_last_commit": "2026-04-24T04:04:22+0000",
-            "vcs_last_fetch": "2026-04-27T19:04:20+0000",
-            "vcs_last_rev": "818046faabbf8d6e3c81b0baaa0e5a583eaedf49",
+            "updated": "2026-05-26T21:05:50+0000",
+            "vcs_last_commit": "2026-05-26T20:05:36+0000",
+            "vcs_last_fetch": "2026-05-26T21:05:50+0000",
+            "vcs_last_rev": "45a684b1a27974d63c8a51809a490fb0782b76fe",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44228
@@ -761,10 +768,10 @@
             "id": 1075080,
             "layer": 12,
             "local_path": "",
-            "updated": "2026-04-29T21:04:15+0000",
-            "vcs_last_commit": "2026-04-29T20:04:20+0000",
-            "vcs_last_fetch": "2026-04-29T21:04:15+0000",
-            "vcs_last_rev": "a80670e46e208f852d010a6fe85210e78668af69",
+            "updated": "2026-05-21T23:05:59+0000",
+            "vcs_last_commit": "2026-05-21T19:05:17+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:59+0000",
+            "vcs_last_rev": "6414e6d0c51a2caf7c7e901e8be031a7dcd3525c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44228
@@ -776,10 +783,10 @@
             "id": 1075082,
             "layer": 16,
             "local_path": "",
-            "updated": "2026-04-23T04:04:08+0000",
-            "vcs_last_commit": "2026-04-18T13:04:19+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:08+0000",
-            "vcs_last_rev": "ae92a2993cb1d9289ed45859c9891b810c62c1dc",
+            "updated": "2026-05-21T23:05:13+0000",
+            "vcs_last_commit": "2026-05-14T20:05:38+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:13+0000",
+            "vcs_last_rev": "14a681c11c6831a385bd578d6ef172a2a5f7b28d",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 44228
@@ -887,7 +894,7 @@
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -906,11 +913,11 @@
             "section": "base",
             "srcrev": "f5315fddda2d434e47035c038549a808d8b8eac7",
             "summary": "C++ library to parse and create Matroska files(.mkv and .mka)",
-            "updated": "2026-04-23T04:04:44+0000"
+            "updated": "2026-05-21T23:05:49+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-DBUILD_SHARED_LIBS=ON ",
             "description": "",
@@ -929,11 +936,11 @@
             "section": "base",
             "srcrev": "1878e784321673561039a6a37076b2736f4dc98f",
             "summary": "C++ library to parse EBML files",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:49+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --arch=i686                  --disable-hdhomerun_static                  --disable-ffmpeg_static                  --disable-libav                  --python=python3                  --disable-dvbscan                   --disable-static  --enable-nls",
             "description": "",
@@ -952,11 +959,11 @@
             "section": "base",
             "srcrev": "cc602833684953fc3e6f1c89d4f08f6dfef179e3",
             "summary": "Tvheadend: TV streaming server and recorder",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-DDEFAULT_CS_CONFDIR=/etc                  -DCMAKE_BUILD_TYPE=Debug                  -DCMAKE_POLICY_VERSION_MINIMUM=3.5                  ",
             "description": "",
@@ -975,11 +982,11 @@
             "section": "base",
             "srcrev": "190d6dee96ca70f8b614932b1498332b1504632b",
             "summary": "OSCam: Open Source Conditional Access Module",
-            "updated": "2026-04-23T04:04:45+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Python interface for libheif library",
@@ -998,11 +1005,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static  --enable-alsa=dyn --disable-amrnb --disable-amrwb --disable-ao --disable-flac --without-id3tag --without-lame --without-mad --with-magic --disable-oggvorbis --disable-opus --enable-pulseaudio=dyn --disable-wavpack",
             "description": "SoX is the Swiss Army knife of sound processing tools. It converts audio files among various standard audio file formats and can apply different effects and filters to the audio data.",
@@ -1021,11 +1028,11 @@
             "section": "audio",
             "srcrev": "f3094754a7c2a7e55c35621d20fa9945736e72df",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "VisualOn Adaptive Multi Rate Wideband (AMR-WB) encoder",
@@ -1044,11 +1051,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "OpenCORE Adaptive Multi Rate (AMR) speech codec library implementation",
@@ -1067,11 +1074,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "VisualOn Advanced Audio Coding (AAC) encoder",
@@ -1090,13 +1097,13 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:46+0000"
+            "updated": "2026-05-21T23:05:50+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "  -DIMPORT_EXECUTABLES=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/libmusicbrainz/5.1.0+git/recipe-sysroot-native/usr/lib/cmake/libmusicbrainz/ImportExecutables.cmake",
+            "configopts": "  -DIMPORT_EXECUTABLES=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/libmusicbrainz/5.1.0+git/recipe-sysroot-native/usr/lib/cmake/libmusicbrainz/ImportExecutables.cmake",
             "description": "The MusicBrainz client is a library which can be built into other programs.  The library allows you to access the data held on the MusicBrainz server.",
             "filename": "libmusicbrainz_git.bb",
             "filepath": "recipes-multimedia/musicbrainz",
@@ -1113,11 +1120,11 @@
             "section": "base",
             "srcrev": "4efbed3afae11ef68281816088d7cf3d0f704dfe",
             "summary": "MusicBrainz client library",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      -DAVIF_BUILD_MAN_PAGES=OFF     -DAVIF_CODEC_RAV1E=OFF     -DAVIF_LIBYUV=LOCAL   -DAVIF_CODEC_AOM=OFF -DAVIF_BUILD_APPS=OFF -DAVIF_LIBXML2=OFF -DAVIF_CODEC_DAV1D=SYSTEM -DAVIF_BUILD_GDK_PIXBUF=ON -DAVIF_CODEC_SVT=OFF",
             "description": "",
@@ -1136,11 +1143,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "This library aims to be a friendly, portable C implementation of the AV1 Image File Format",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1159,11 +1166,11 @@
             "section": "libs",
             "srcrev": "68d07a00e11d1944e27b7295ee69673239c00b4b",
             "summary": "library for USB video devices built atop libusb",
-            "updated": "2026-04-23T04:04:47+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "",
@@ -1182,7 +1189,7 @@
             "section": "libs/multimedia",
             "srcrev": "bc6c0b164a87ce05e9925785cc6fb3f54c02b026",
             "summary": "Open implementation of the DVB Common Scrambling Algorithm, encrypt and decrypt ",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1205,7 +1212,7 @@
             "section": "libs",
             "srcrev": "3c17d1fbb2bd93f221afee788ebf0d7394032e4d",
             "summary": "Linux libcamera framework",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1228,11 +1235,11 @@
             "section": "libs/multimedia",
             "srcrev": "e9e2e37c329dbe98bfeb27a1828ef9a71fa84f88",
             "summary": "Flite: a small run-time speech synthesis engine",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "libdvbpsi is a simple library designed for decoding and generation of MPEG TS and DVB PSI tables according to standards ISO/IEC 13818 and ITU-T H.222.0.",
@@ -1251,11 +1258,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:48+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " -DENABLE_PIC=ON -DENABLE_SHARED=ON -DENABLE_CLI=ON  -DHIGH_BIT_DEPTH=ON -DENABLE_HDR10_PLUS=ON -DENABLE_ASSEMBLY=OFF",
             "description": "A free software library and application for encoding video streams into the H.265/HEVC format.",
@@ -1274,13 +1281,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "H.265/HEVC video encoder",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DBUILD_SHARED_LIBS=1 -DENABLE_TESTS=0                  -DPERL_EXECUTABLE=/tmp/tmpr4ykxseg/tmp/hosttools/perl                  ",
+            "configopts": "-DBUILD_SHARED_LIBS=1 -DENABLE_TESTS=0                  -DPERL_EXECUTABLE=/tmp/tmpgno729bf/tmp/hosttools/perl                  ",
             "description": "Alliance for Open Media AV1 codec library",
             "filename": "aom_3.13.1.bb",
             "filepath": "recipes-multimedia/aom",
@@ -1297,11 +1304,11 @@
             "section": "base",
             "srcrev": "d772e334cc724105040382a977ebb10dfd393293",
             "summary": "Alliance for Open Media - AV1 Codec Library",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1320,11 +1327,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Linux DVB API applications and utilities",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "",
@@ -1343,11 +1350,11 @@
             "section": "libs/multimedia",
             "srcrev": "",
             "summary": "library for DVD navigation features",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "Tinycompress provides a minimal interface to interact with compress offload capabilities in ALSA.",
@@ -1366,11 +1373,11 @@
             "section": "base",
             "srcrev": "ea5c7245beb0b6aec1565cfae0454d6ba374dfdd",
             "summary": "",
-            "updated": "2026-04-23T04:04:49+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "libavc1394 is a programming interface for the 1394 Trade Association AV/C (Audio/Video Control) Digital Interface Command Set",
@@ -1389,11 +1396,11 @@
             "section": "libs/multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dtests=disabled ",
             "description": "Open source implementation of Audio Video Transport Protocol (AVTP)                specified in IEEE 1722-2016 spec.",
@@ -1412,11 +1419,11 @@
             "section": "base",
             "srcrev": "3599a5bf2d18fc3ae89b64f208d8380e6ee3a866",
             "summary": "Implements Audio Video Transport Protocol (AVTP)",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://codeberg.org/fsphil/fswebcam/issues",
             "configopts": " --disable-static ",
             "description": "    fswebcam captures images from a V4L1/V4L2 compatible device or file,     averages them to reduce noise and draws a caption using the GD Graphics     Library which also handles compressing the image to PNG or JPEG. The     resulting image is saved to a file or sent to stdio where it can be piped     to something like ncftpput or scp. ",
@@ -1435,11 +1442,11 @@
             "section": "graphics",
             "srcrev": "db35d4bbd336885a44f017ff142bc9523dbdce3c",
             "summary": "Webcam image grabber and manipulation application",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "The Fraunhofer FDK AAC Codec Library for Android (\\\"FDK AAC Codec\\\") is software that implements the MPEG Advanced Audio Coding (\\\"AAC\\\") encoding and decoding scheme for digital audio.",
@@ -1458,11 +1465,11 @@
             "section": "base",
             "srcrev": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
             "summary": "FDK-AAC audio codec",
-            "updated": "2026-04-23T04:04:50+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "An implementation of the most relevant parts of IEC 61883 over libraw1394 for transmission, reception, and management of media streams and devices such as DV, MPEG2-TS, audio, and MIDI",
@@ -1481,11 +1488,11 @@
             "section": "libs/multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1504,11 +1511,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-multimedia packagegroups",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "Mimic is a fast, lightweight Text-to-speech engine developed by Mycroft A.I. and VocaliD, based on Carnegie Mellon University\u2019s Flite (Festival-Lite) software. Mimic takes in text and reads it out loud to create a high quality voice.",
@@ -1527,11 +1534,11 @@
             "section": "multimedia",
             "srcrev": "adf655da0399530ac1b586590257847eb61be232",
             "summary": "A fast lightweight Text-to-speech engine",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1550,11 +1557,11 @@
             "section": "base",
             "srcrev": "31c900b79b3a1cd7f2944e92f24223d12589fdaa",
             "summary": "A minimalist command line interface to the Music Player Daemon",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dchat_screen=false -Dcolors=true -Dhelp_screen=true -Dkey_screen=true -Dlibrary_screen=true -Dlirc=disabled -Dlocale=enabled -Dlyrics_screen=true -Dmini=false -Dmouse=enabled -Dnls=enabled -Doutputs_screen=true -Dregex=enabled -Dsearch_screen=true -Dsong_screen=true",
             "description": "",
@@ -1573,11 +1580,11 @@
             "section": "base",
             "srcrev": "f81f875fc5785383d24f54fb9bd3cf06efd915a4",
             "summary": "A curses client for the Music Player Daemon",
-            "updated": "2026-04-23T04:04:51+0000"
+            "updated": "2026-05-21T23:05:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dtcp=true",
             "description": "",
@@ -1596,11 +1603,11 @@
             "section": "base",
             "srcrev": "5073329989bf52676d8c446176a1d29ed3ffccca",
             "summary": "C client library for the Music Player Daemon",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "",
@@ -1619,11 +1626,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Music Player Daemon library",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " -Dsystemd=enabled -Dsystemd_system_unit_dir=/usr/lib/systemd/system -Dsystemd_user_unit_dir=/usr/lib/systemd/user     -Dadplug=disabled     -Dsndio=disabled     -Dshine=disabled     -Dtremor=disabled   -Dfaad=disabled -Dalsa=enabled -Dao=enabled -Daudiofile=disabled -Dbzip2=enabled -Dcdio_paranoia=disabled -Ddaemon=true -Dffmpeg=disabled -Dfifo=true -Dflac=enabled -Dfluidsynth=enabled -Dhttpd=true -Did3tag=disabled -Diso9660=enabled -Djack=enabled -Dlame=disabled -Dlibsamplerate=enabled -Dmad=disabled -Dmms=enabled -Dmodplug=enabled -Dmpg123=enabled -Dopenal=enabled -Dopus=enabled -Doss=enabled -Drecorder=true -Dsmbclient=disabled -Dsndfile=enabled -Dupnp=pupnp -Dvorbis=enabled -Dwavpack=enabled -Dzlib=enabled",
             "description": "",
@@ -1642,11 +1649,11 @@
             "section": "base",
             "srcrev": "7a9afa059e95668c912f779219ee8fe1e44dd2aa",
             "summary": "Music Player Daemon",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Targeted to be small, portable and fast.",
@@ -1665,11 +1672,11 @@
             "section": "multimedia",
             "srcrev": "b546257f770768b2c88258c533da38b91a06f737",
             "summary": "dav1d AV1 decoder",
-            "updated": "2026-04-23T04:04:52+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Ddocs=false ",
             "description": "",
@@ -1688,11 +1695,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Dirac compressed video encoder/decoder",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-DCMAKE_POLICY_VERSION_MINIMUM=3.5  -DENABLE_SDL=OFF",
             "description": "libde265 is an open source implementation of the h.265 video codec. It is written from scratch and has a plain C API to enable a simple integration into other software.",
@@ -1711,13 +1718,13 @@
             "section": "libs/multimedia",
             "srcrev": "36ad04841c209cb8b3577ec2723d431b6bf7efa0",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "CC='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot' CFLAGS=' -O2 -g -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/cdparanoia/10.2/sources/cdparanoia-III-10.2=/usr/src/debug/cdparanoia/10.2  -ffile-prefix-map=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/cdparanoia/10.2/build=/usr/src/debug/cdparanoia/10.2  -ffile-prefix-map=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot=  -ffile-prefix-map=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot-native=  -pipe' --disable-static ",
+            "configopts": "CC='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot' CFLAGS=' -O2 -g -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/cdparanoia/10.2/sources/cdparanoia-III-10.2=/usr/src/debug/cdparanoia/10.2  -ffile-prefix-map=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/cdparanoia/10.2/build=/usr/src/debug/cdparanoia/10.2  -ffile-prefix-map=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot=  -ffile-prefix-map=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot-native=  -pipe' --disable-static ",
             "description": "library used to read audio CDs, which is able to perform error corrections, hence the name paranoia.",
             "filename": "cdparanoia_10.2.bb",
             "filepath": "recipes-multimedia/cdparanoia",
@@ -1734,11 +1741,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "cdparanoia library",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--with-os-name='OpenEmbedded' --with-os-version='' --disable-static --enable-nls ",
             "description": "MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients.",
@@ -1757,11 +1764,11 @@
             "section": "base",
             "srcrev": "1a9b32ee7a1c89e54e9f148199b73f9b33ad45ba",
             "summary": "",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Denable-gtk-doc=false  ",
             "description": "Gstreamer Daemon",
@@ -1780,11 +1787,11 @@
             "section": "multimedia",
             "srcrev": "dac03d5e4102080a8f3ef274a6a6583455962095",
             "summary": "GStreamer framework for controlling audio and video streaming using TCP connection messages",
-            "updated": "2026-04-23T04:04:53+0000"
+            "updated": "2026-05-21T23:05:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Ddocs=false ",
             "description": "Benchmarks and profiling tools for GStreamer",
@@ -1803,11 +1810,11 @@
             "section": "multimedia",
             "srcrev": "09ba05865dacd2824b5b40ab75a4b9545fcc1366",
             "summary": "Gst-Shark Tracers",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "Audio processing bits of the WebRTC reference implementation",
@@ -1826,11 +1833,11 @@
             "section": "audio",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Audio processing bits of the WebRTC reference implementation",
@@ -1849,11 +1856,11 @@
             "section": "audio",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Audio processing bits of the WebRTC reference implementation",
@@ -1872,11 +1879,11 @@
             "section": "audio",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1895,13 +1902,13 @@
             "section": "base",
             "srcrev": "1a5938ebaca4f13fe79ce074f5dee079783aa29f",
             "summary": "Low Complexity Communication Codec (LC3)",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " --with-included-argv=yes --with-included-libmad=no     --with-ogg-includes=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/include     --with-ogg-libraries=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/lib     --with-vorbis-includes=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/include     --with-vorbis-libraries=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/lib  --disable-static ",
+            "configopts": " --with-included-argv=yes --with-included-libmad=no     --with-ogg-includes=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/include     --with-ogg-libraries=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/lib     --with-vorbis-includes=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/include     --with-vorbis-libraries=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/lib  --disable-static ",
             "description": "This command-line tool can be used to record MPEG III and OGG online radio-streams into track-separated audio files.",
             "filename": "streamripper_1.64.6.bb",
             "filepath": "recipes-multimedia/streamripper",
@@ -1918,11 +1925,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "download online streams into audio files",
-            "updated": "2026-04-23T04:04:54+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "libcamera image",
@@ -1941,11 +1948,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Recipe to trigger execution of all meta-multimedia ptest images.",
@@ -1964,11 +1971,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Recipe to trigger execution of all fast meta-multimedia ptest images.",
@@ -1987,11 +1994,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:58+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2010,11 +2017,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2026-04-23T04:04:55+0000"
+            "updated": "2026-05-21T23:05:59+0000"
         },
         {
             "bbclassextend": "mcextend:gupnp mcextend:crossguid mcextend:gssdp mcextend:gupnp-av mcextend:gupnp-igd mcextend:libme",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": " Also including the ${MCNAME} ptest package.",
@@ -2033,11 +2040,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "meta-multimedia ptest test image",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:01+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The CAPS Audio Plugin Suite - LADSPA plugin suite",
@@ -2056,11 +2063,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:01+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-doc  --disable-static ",
             "description": "libdvdcss is a simple library designed for accessing DVDs like a block device without having to bother about the decryption.",
@@ -2079,13 +2086,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "libdvdcss is a simple library for accessing DVDs like block devices",
-            "updated": "2026-04-23T04:04:57+0000"
+            "updated": "2026-05-21T23:05:01+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "    --enable-run-as-root     --enable-xvideo     --disable-screen --disable-caca     --enable-vlm     --enable-freetype     --enable-tremor     --enable-v4l2 --disable-aa --disable-faad     --enable-dbus     --without-contrib     --without-kde-solid     --enable-realrtsp     --enable-avcodec     --disable-opencv     --disable-freerdp     ac_cv_path_MOC=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/vlc/3.0.23/recipe-sysroot-native/usr/bin${QT_DIR_NAME}/moc     ac_cv_path_RCC=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/vlc/3.0.23/recipe-sysroot-native/usr/bin${QT_DIR_NAME}/rcc     ac_cv_path_UIC=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/vlc/3.0.23/recipe-sysroot-native/usr/bin${QT_DIR_NAME}/uic  --disable-static  --disable-a52 --enable-dc1394 --enable-dv1394 --disable-dvbpsi --disable-dvdnav --enable-dvdread --enable-fontconfig --enable-freetype --disable-gst-decode --disable-jack --disable-libass --disable-libva --enable-live555 LIVE555_PREFIX=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/vlc/3.0.23/recipe-sysroot/usr --disable-mad --enable-notify --disable-ogg --enable-png --disable-postproc --disable-qt --disable-smbclient --disable-sftp --disable-speex --disable-svg --disable-svgdec --disable-upnp --disable-vdpau --disable-vnc --disable-vorbis --disable-vpx --disable-wayland --with-x --enable-xcb --enable-x264 --enable-nls",
+            "configopts": "    --enable-run-as-root     --enable-xvideo     --disable-screen --disable-caca     --enable-vlm     --enable-freetype     --enable-tremor     --enable-v4l2 --disable-aa --disable-faad     --enable-dbus     --without-contrib     --without-kde-solid     --enable-realrtsp     --enable-avcodec     --disable-opencv     --disable-freerdp     ac_cv_path_MOC=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/vlc/3.0.23/recipe-sysroot-native/usr/bin${QT_DIR_NAME}/moc     ac_cv_path_RCC=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/vlc/3.0.23/recipe-sysroot-native/usr/bin${QT_DIR_NAME}/rcc     ac_cv_path_UIC=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/vlc/3.0.23/recipe-sysroot-native/usr/bin${QT_DIR_NAME}/uic  --disable-static  --disable-a52 --enable-dc1394 --enable-dv1394 --disable-dvbpsi --disable-dvdnav --enable-dvdread --enable-fontconfig --enable-freetype --disable-gst-decode --disable-jack --disable-libass --disable-libva --enable-live555 LIVE555_PREFIX=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/vlc/3.0.23/recipe-sysroot/usr --disable-mad --enable-notify --disable-ogg --enable-png --disable-postproc --disable-qt --disable-smbclient --disable-sftp --disable-speex --disable-svg --disable-svgdec --disable-upnp --disable-vdpau --disable-vnc --disable-vorbis --disable-vpx --disable-wayland --with-x --enable-xcb --enable-x264 --enable-nls",
             "description": "Video player and streamer - davinci edition",
             "filename": "vlc_3.0.23.bb",
             "filepath": "recipes-multimedia/vlc",
@@ -2102,11 +2109,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:01+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "Library for opening, seeking, and decoding opus audio files",
@@ -2125,11 +2132,11 @@
             "section": "audio",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:02+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "OpenH264 is a codec library which supports H.264 encoding and decoding. It is suitable for use in real time applications such as WebRTC.",
@@ -2148,11 +2155,11 @@
             "section": "libs/multimedia",
             "srcrev": "19120fcb8f89b16126e9cfee096b2f0751554fdc",
             "summary": "Open Source H.264 Codec",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:02+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2171,11 +2178,11 @@
             "section": "base",
             "srcrev": "6dee419f934ec781e531f885f7e8e740752e67d1",
             "summary": "Free aptX / aptX-HD audio codec library (LGPL fork of openaptx 0.2.0)",
-            "updated": "2026-04-23T04:04:58+0000"
+            "updated": "2026-05-21T23:05:02+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "",
@@ -2194,11 +2201,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Freeware Advanced Audio Coder (MPEG2-AAC, MPEG4-AAC)",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:02+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -DWITH_AOM_ENCODER=ON -DWITH_AOM_DECODER=ON -DWITH_DAV1D=ON -DWITH_FFMPEG_DECODER=ON -DWITH_JPEG_DECODER=ON -DWITH_JPEG_ENCODER=ON -DWITH_OpenJPEG_ENCODER=ON -DWITH_OpenJPEG_DECODER=ON -DWITH_SvtEnc=OFF",
             "description": "",
@@ -2217,11 +2224,11 @@
             "section": "base",
             "srcrev": "62f1b8c76ed4d8305071fdacbe74ef9717bacac5",
             "summary": "libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file format decoder and encoder",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:02+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2240,11 +2247,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Big Buck Bunny movie - 1080P",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:03+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2263,11 +2270,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tears of Steel movie - 1080P",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:03+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2286,11 +2293,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Big Buck Bunny movie - 480P",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:03+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2309,11 +2316,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Big Buck Bunny movie - 720P",
-            "updated": "2026-04-23T04:04:59+0000"
+            "updated": "2026-05-21T23:05:03+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--enable-shared --disable-static ",
             "description": "tremor is a fixed point implementation of the vorbis codec.",
@@ -2332,11 +2339,11 @@
             "section": "libs",
             "srcrev": "7c30a66346199f3f09017a09567c6c8a3a0eedc8",
             "summary": "Fixed-point decoder",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:03+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A real-time adjustable equalizer plugin for ALSA",
@@ -2355,13 +2362,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-Denable-floats=ON -DLIB_SUFFIX= -DGCEM_INCLUDE_DIR=/tmp/tmpr4ykxseg/tmp/work/core2-32-oe-linux/fluidsynth/2.5.3/sources/fluidsynth-2.5.3/gcem/include  -Denable-alsa=ON -Denable-dbus=OFF -Denable-jack=OFF -Denable-oss=OFF -Denable-pipewire=OFF -Denable-portaudio=OFF -Denable-profiling=OFF -Denable-pulseaudio=ON -Denable-readline=OFF -Denable-sdl3=OFF -Denable-libsndfile=OFF -Denable-systemd=ON",
+            "configopts": "-Denable-floats=ON -DLIB_SUFFIX= -DGCEM_INCLUDE_DIR=/tmp/tmpgno729bf/tmp/work/core2-32-oe-linux/fluidsynth/2.5.3/sources/fluidsynth-2.5.3/gcem/include  -Denable-alsa=ON -Denable-dbus=OFF -Denable-jack=OFF -Denable-oss=OFF -Denable-pipewire=OFF -Denable-portaudio=OFF -Denable-profiling=OFF -Denable-pulseaudio=ON -Denable-readline=OFF -Denable-sdl3=OFF -Denable-libsndfile=OFF -Denable-systemd=ON",
             "description": "",
             "filename": "fluidsynth_2.5.3.bb",
             "filepath": "recipes-multimedia/fluidsynth",
@@ -2378,11 +2385,11 @@
             "section": "libs/multimedia",
             "srcrev": "",
             "summary": "Fluidsynth is a software synthesizer",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "      --disable-doxygen-doc     --disable-examples     --without-portaudiocpp  --disable-static  --with-flac --with-mpg123 --with-ogg --enable-openmpt123 --without-portaudio --with-pulseaudio --without-sdl2 --with-sndfile --enable-tests --with-vorbis --with-vorbisfile --with-zlib",
             "description": "libopenmpt is a cross-platform C++ and C library to decode tracked music files (modules) into a raw PCM audio stream. It also comes with openmpt123, a cross-platform command-line or terminal based module file player. libopenmpt is based on the player code of the OpenMPT project.",
@@ -2401,11 +2408,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "C and C++ cross-platform library for decoding tracked music files (modules)",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-doxygen-doc --disable-examples --disable-static ",
             "description": "",
@@ -2424,11 +2431,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Capture and control API for IIDC compliant cameras",
-            "updated": "2026-04-23T04:04:00+0000"
+            "updated": "2026-05-21T23:05:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -DWITH_AVCODEC=FALSE -DWITH_CURL=TRUE -DWITH_EXIF=TRUE -DWITH_EXIV2=FALSE -DWITH_INOTIFY=TRUE -DWITH_JS=TRUE -DWITH_MAGIC=TRUE -DWITH_MATROSKA=TRUE -DWITH_SYSTEMD=TRUE -DWITH_TAGLIB=TRUE -DWITH_WAVPACK=FALSE",
             "description": "",
@@ -2447,11 +2454,11 @@
             "section": "base",
             "srcrev": "7846f3dd5d0f848a60d0c3146c3b7290881a8992",
             "summary": "",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static  --enable-alsa --enable-pulse",
             "description": "Libao is a cross-platform audio library that allows programs to                output audio using a simple API on a wide variety of platforms.",
@@ -2470,11 +2477,11 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "Cross-platform audio output library and plugins",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://github.com/arkq/bluez-alsa/issues",
             "configopts": "    --disable-aptx     --disable-lc3plus     --disable-ldac     --disable-manpages  --disable-static  --disable-a2dpconf --disable-aac --enable-aplay --enable-cli --without-coverage --disable-debug --disable-debug-time --disable-faststream --enable-hcitop --without-libunwind --disable-midi --disable-mp3lame --disable-mpg123 --disable-msbc --disable-ofono --disable-payloadcheck --disable-rfcomm --enable-systemd --with-systemdsystemunitdir=/usr/lib/systemd/system                           --with-systemdbluealsaargs='-p a2dp-source -p a2dp-sink' --with-systemdbluealsaaplayargs='' --disable-test --disable-upower",
             "description": "    BlueALSA is a replacement for BlueZ >= 5, with which one can achieve the     same Bluetooth audio profile support as with PulseAudio, but with fewer     dependencies and at a lower level in the software stack. It is designed     specifically for use on small, low-powered, dedicated audio or audio/visual     systems where the high-level audio management features of PulseAudio or     PipeWire are not required. ",
@@ -2493,11 +2500,11 @@
             "section": "libs",
             "srcrev": "959573c2cccef5cf074f5b2fa7941abbd699c5f4",
             "summary": "Bluetooth Audio ALSA Backend",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2516,11 +2523,11 @@
             "section": "base",
             "srcrev": "e844e5b26f46bb77479f063029595293aa8f812d",
             "summary": "FFmpeg nvidia headers",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "TinyALSA is a small library to interface with ALSA in the Linux kernel. It is a lightweight alternative to libasound.",
@@ -2539,11 +2546,11 @@
             "section": "libs/multimedia",
             "srcrev": "f78ed25aced2dfea743867b8205a787bfb091340",
             "summary": "",
-            "updated": "2026-04-23T04:04:01+0000"
+            "updated": "2026-05-21T23:05:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2562,11 +2569,11 @@
             "section": "base",
             "srcrev": "b93deed1a231dd6dd7e39b9fe7d2abe05aa00158",
             "summary": "DTS Coherent Acoustics decoder with support for HD extensions",
-            "updated": "2026-04-23T04:04:02+0000"
+            "updated": "2026-05-21T23:05:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=enabled -Ddocumentation=disabled  -Dtests=false  -Dgst-plugin=enabled -Dusb=enabled -Dviewer=enabled",
             "description": "    Aravis is a glib/gobject based library for video acquisition using Genicam cameras.    It currently implements the gigabit ethernet and USB3 protocols used by industrial cameras.    It also provides a basic ethernet camera simulator and a simple video viewer.",
@@ -2585,11 +2592,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A vision library for genicam based cameras",
-            "updated": "2026-04-23T04:04:02+0000"
+            "updated": "2026-05-21T23:05:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2608,15 +2615,15 @@
             "section": "base",
             "srcrev": "4ac1d82d26bbf9c6f37c56546d26be5a03f886fa",
             "summary": "PipeWire Media Session is an example session manager for PipeWire",
-            "updated": "2026-04-23T04:04:02+0000"
+            "updated": "2026-05-21T23:05:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://gitlab.freedesktop.org/pipewire/pipewire/issues",
             "configopts": "      -Devl=disabled     -Dtests=disabled     -Dudevrulesdir=/usr/lib/udev/rules.d/     -Dsystemd-system-unit-dir=/usr/lib/systemd/system     -Dsystemd-user-unit-dir=/usr/lib/systemd/user     -Dman=disabled     -Dsession-managers='[]'     -Dlv2=disabled     -Droc=disabled     -Dbluez5-codec-ldac=disabled     -Dlegacy-rtkit=false     -Dlibmysofa=disabled   -Dalsa=enabled -Davahi=enabled -Dbluez5=enabled -Dbluez5-codec-aac=disabled -Dbluez5-codec-aptx=enabled -Dbluez5-backend-native-mm=disabled -Dbluez5-codec-lc3=disabled -Dbluez5-codec-opus=enabled -Ddocs=disabled -Dffmpeg=disabled -Dflatpak=enabled -Dgsettings=enabled -Dgstreamer=enabled -Djack=enabled -Dlibcamera=enabled -Dlibcanberra=disabled -Dlibusb=enabled -Dpipewire-alsa=disabled -Dpipewire-jack=disabled -Dlibpulse=enabled -Dpw-cat=enabled -Draop=enabled -Dreadline=enabled -Dsdl2=disabled -Dsndfile=enabled -Dlibsystemd=enabled -Dsystemd-system-service=enabled -Dsystemd-user-service=enabled -Dudev=enabled -Dv4l2=enabled -Dvolume=enabled -Dvulkan=enabled -Decho-cancel-webrtc=enabled",
             "description": "Linux server for handling and routing audio and video streams between applications and multimedia I/O devices",
-            "filename": "pipewire_1.6.2.bb",
+            "filename": "pipewire_1.6.3.bb",
             "filepath": "recipes-multimedia/pipewire",
             "homepage": "https://pipewire.org/",
             "id": 2430929,
@@ -2627,15 +2634,15 @@
             "pn": "pipewire",
             "pr": "r0",
             "provides": "pipewire ",
-            "pv": "1.6.2",
+            "pv": "1.6.3",
             "section": "multimedia",
-            "srcrev": "95da54a482b68475958bbc3fa572a9c20df0df74",
+            "srcrev": "cc3d0d1191266b263f6d0fa03fce1d1ef57151cc",
             "summary": "Multimedia processing server for Linux",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -DALSOFT_BACKEND_ALSA=ON -DALSOFT_EXAMPLES=OFF -DALSOFT_BACKEND_OSS=OFF -DALSOFT_BACKEND_PIPEWIRE=OFF -DALSOFT_BACKEND_PULSEAUDIO=ON -DALSOFT_BACKEND_SDL2=OFF",
             "description": "",
@@ -2654,11 +2661,11 @@
             "section": "base",
             "srcrev": "dc7d7054a5b4f3bec1dc23a42fd616a0847af948",
             "summary": "OpenAL is a cross-platform 3D audio API",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "",
@@ -2677,11 +2684,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Opus Audio Tools",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -DENABLE_DPMS=0 -DENABLE_GAMMA=0 -DENABLE_PIPEWIRE=0 -DENABLE_SCREEN=0 -DENABLE_YOCTOLIGHT=0",
             "description": "",
@@ -2700,11 +2707,11 @@
             "section": "utils",
             "srcrev": "d4e88b1d351d61151c99a399abd526d9b7dda12d",
             "summary": "D-Bus service providing screen management and ambient light detection",
-            "updated": "2026-04-23T04:04:03+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2723,11 +2730,11 @@
             "section": "libs",
             "srcrev": "3f60063e98631ce3fd25f70428b67ef15025597f",
             "summary": "Small and simple C actor library for modular projects",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2746,11 +2753,11 @@
             "section": "utils",
             "srcrev": "6a5ad96ce7643c433ea2f6bd597bc52dcc744120",
             "summary": "User daemon for automatic display management and ambient light adaptation",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Mycroft is the world\u2019s first open source assistant. ",
@@ -2769,11 +2776,11 @@
             "section": "multimedia",
             "srcrev": "913f29d3d550637934f9abf43a097eb2c30d76fc",
             "summary": "Mycroft is a hackable open source voice assistant.",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Projucer is used to build and generate support files and build infrastructure for all JUCE supported platforms, including Linux and Embedded Linux.",
@@ -2792,11 +2799,11 @@
             "section": "utils",
             "srcrev": "2f980209cc4091a4490bb1bafc5d530f16834e58",
             "summary": "JUCE's Projucer",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "rtmpdump is a toolkit for RTMP streams. All forms of RTMP are supported, including rtmp://, rtmpt://, rtmpe://, rtmpte://, and rtmps://.",
@@ -2815,11 +2822,11 @@
             "section": "base",
             "srcrev": "6f6bb1353fc84f4cc37138baa99f586750028a01",
             "summary": "RTMP Dump",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://github.com/freeswitch/spandsp/issues",
             "configopts": " --disable-static  --disable-avx --disable-avx2 --disable-fixed-point --disable-mmx --disable-neon --disable-sse --disable-sse2 --disable-sse3 --disable-sse4-1 --disable-sse4-2 --disable-sslfax --disable-ssse3 --disable-v32bis --disable-v34",
             "description": "    SpanDSP is a low-level signal processing library that modulates and     demodulates signals commonly used in telephony, such as the \\\"noise\\\"     generated by a fax modem or DTMF touchpad. ",
@@ -2838,11 +2845,11 @@
             "section": "libs",
             "srcrev": "797760168945c96e91af55bde9d4edaea2e654f9",
             "summary": "A DSP library for telephony",
-            "updated": "2026-04-23T04:04:04+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://trac.xiph.org",
             "configopts": " --disable-static  --enable-ogg123 --without-speex --enable-nls",
             "description": "Ogg Vorbis is a high-quality lossy audio codec that is free of intellectual property restrictions. vorbis-tools include some command line applications to use the libraries.",
@@ -2861,15 +2868,15 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "Vorbis Tools",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://gitlab.freedesktop.org/pipewire/wireplumber/issues",
             "configopts": "-Dintrospection=enabled       -Ddoc=disabled     -Dsystem-lua=true     -Delogind=disabled     -Dsystemd-system-unit-dir=/usr/lib/systemd/system     -Dsystemd-user-unit-dir=/usr/lib/systemd/user   -Dsystemd=enabled -Dsystemd-system-service=true -Dsystemd-user-service=true -Dtests=true",
             "description": "",
-            "filename": "wireplumber_0.5.13.bb",
+            "filename": "wireplumber_0.5.14.bb",
             "filepath": "recipes-multimedia/wireplumber",
             "homepage": "https://gitlab.freedesktop.org/pipewire/wireplumber",
             "id": 2430940,
@@ -2880,15 +2887,15 @@
             "pn": "wireplumber",
             "pr": "r0",
             "provides": "wireplumber ",
-            "pv": "0.5.13",
+            "pv": "0.5.14",
             "section": "multimedia",
-            "srcrev": "84429b47943d789389fbde17c06b82efb197d04e",
+            "srcrev": "07e730b279ac7a520699ae9f6b0797848a731b30",
             "summary": "Session / policy manager implementation for PipeWire",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -2907,11 +2914,11 @@
             "section": "base",
             "srcrev": "52e7d93c5947f72380521116c05d97c528863ba8",
             "summary": "The squish library (abbreviated to libsquish) is an open source DXT compression library written in C++ ",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://github.com/cisco/libsrtp/issues",
             "configopts": " ",
             "description": "This package provides an implementation of the Secure Real-time Transport Protocol (SRTP),                the Universal Security Transform (UST), and a supporting cryptographic kernel. The SRTP API                is documented in include/srtp.h, and the library is in libsrtp2.a (after compilation).",
@@ -2930,11 +2937,11 @@
             "section": "libs",
             "srcrev": "ee1a77c9f9dc02c42bda9901038c500c5efe4cfa",
             "summary": "Library implementing Secure RTP (RFC 3711)",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-DCMAKE_BUILD_TYPE=Release -DENABLE_UNITTESTS=OFF  -DENABLE_ENCRYPTION=ON -DENABLE_APPS=OFF",
             "description": "Secure Reliable Transport (SRT) is an open source transport technology that optimizes streaming performance across unpredictable networks, such as the Internet.",
@@ -2953,11 +2960,11 @@
             "section": "libs",
             "srcrev": "a8c6b65520f814c5bd8f801be48c33ceece7c4a6",
             "summary": "Secure Reliable Transport (SRT) Protocol",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Lightweight cross platform C++ GUID/UUID library",
@@ -2976,11 +2983,11 @@
             "section": "base",
             "srcrev": "ca1bf4b810e2d188d04cb6286f957008ee1b7681",
             "summary": "",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dman-pages=disabled -Dsystemd=enabled -Dsd-bus-provider=libsystemd",
             "description": "",
@@ -2999,11 +3006,11 @@
             "section": "base",
             "srcrev": "256eb4a9f6ecffd64289d6501d036c2094b47db6",
             "summary": "This provides screenshot/screencast xdg-desktop-portal backends for wlroots.",
-            "updated": "2026-04-23T04:04:05+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dui=enabled",
             "description": "",
@@ -3022,11 +3029,11 @@
             "section": "multimedia",
             "srcrev": "cb8977a6711657e32853159cd539d1d75fcbc772",
             "summary": "Profiling utilities for GStreamer 1.0 pipelines",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dimage_library=gdk-pixbuf ",
             "description": "",
@@ -3045,11 +3052,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Library tasked with managing, extracting and handling media art caches",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --enable-reuseaddr --disable-static ",
             "description": "The Portable SDK for UPnP Devices is an SDK for development of UPnP device and control point applications. It consists of the core UPnP protocols along with a UPnP-specific eXtensible Markup Language (XML) parser supporting the Document Object Model (DOM) Level 2 API and an optional, integrated mini web server for serving UPnP related documents.",
@@ -3068,11 +3075,11 @@
             "section": "base",
             "srcrev": "da7cf950f22357545061961b7e5610e08690b0cf",
             "summary": "Portable SDK for UPnP* Devices",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://gitlab.gnome.org/GNOME/gssdp/-/issues",
             "configopts": "-Dgtk_doc=false -Dintrospection=true  -Dmanpages=false  -Dsniffer=false",
             "description": "GSSDP implements resource discovery and announcement over SSDP                (Simpe Service Discovery Protocol).",
@@ -3091,11 +3098,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Resource discovery and announcement over SSDP",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true -Dgtk_doc=false  ",
             "description": "GUPnP-AV is a collection of helpers for building AV (audio/video) applications using GUPnP.",
@@ -3114,11 +3121,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Helpers for AV applications using UPnP",
-            "updated": "2026-04-23T04:04:06+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true  ",
             "description": "GUPnP is an elegant, object-oriented open source framework for creating UPnP  devices and control points, written in C using GObject and libsoup. The GUPnP API is intended to be easy to use, efficient and flexible. It provides the same set of features as libupnp, but shields the developer from most of UPnP's internals.",
@@ -3137,11 +3144,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "UPnP framework",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -Dav-tools=true",
             "description": "",
@@ -3160,11 +3167,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tools for GUPnP",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true   -Dgstreamer_backend=enabled",
             "description": "",
@@ -3183,11 +3190,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Helpers for AV applications using DLNA",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=true -Dgtk_doc=false  ",
             "description": "",
@@ -3206,11 +3213,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Helpers for interacting with Internet Gateway Devices over UPnP",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dintrospection=enabled -Dengines=gstreamer -Dplugins=external,mpris,ruih,gst-launch,media-export  -Dgtk=enabled",
             "description": "Rygel is a home media solution (UPnP AV MediaServer) that allow you to easily share audio, video and pictures to other devices. Additionally, media player software may use Rygel to become a MediaRenderer that may be controlled remotely by a UPnP or DLNA Controller.",
@@ -3229,7 +3236,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A UPnP AV media server and renderer",
-            "updated": "2026-04-23T04:04:07+0000"
+            "updated": "2026-05-21T23:05:13+0000"
         }
     ],
     "wrtemplates": []

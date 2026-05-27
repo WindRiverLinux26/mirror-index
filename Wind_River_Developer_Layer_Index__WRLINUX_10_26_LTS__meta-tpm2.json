@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-08T00:05:13+0000",
+            "updated": "2026-05-27T00:05:10+0000",
             "updates_enabled": true
         }
     ],
@@ -731,10 +738,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-07T21:05:29+0000",
-            "vcs_last_commit": "2026-05-07T20:05:33+0000",
-            "vcs_last_fetch": "2026-05-07T21:05:29+0000",
-            "vcs_last_rev": "b518533bb9b41e377a44a519d8c22479a6ad2ccb",
+            "updated": "2026-05-26T01:05:20+0000",
+            "vcs_last_commit": "2026-05-26T00:05:28+0000",
+            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
+            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -746,10 +753,10 @@
             "id": 1075078,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-04-27T19:04:20+0000",
-            "vcs_last_commit": "2026-04-24T04:04:22+0000",
-            "vcs_last_fetch": "2026-04-27T19:04:20+0000",
-            "vcs_last_rev": "818046faabbf8d6e3c81b0baaa0e5a583eaedf49",
+            "updated": "2026-05-26T21:05:50+0000",
+            "vcs_last_commit": "2026-05-26T20:05:36+0000",
+            "vcs_last_fetch": "2026-05-26T21:05:50+0000",
+            "vcs_last_rev": "45a684b1a27974d63c8a51809a490fb0782b76fe",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44228
@@ -761,10 +768,10 @@
             "id": 1075080,
             "layer": 12,
             "local_path": "",
-            "updated": "2026-04-29T21:04:15+0000",
-            "vcs_last_commit": "2026-04-29T20:04:20+0000",
-            "vcs_last_fetch": "2026-04-29T21:04:15+0000",
-            "vcs_last_rev": "a80670e46e208f852d010a6fe85210e78668af69",
+            "updated": "2026-05-21T23:05:59+0000",
+            "vcs_last_commit": "2026-05-21T19:05:17+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:59+0000",
+            "vcs_last_rev": "6414e6d0c51a2caf7c7e901e8be031a7dcd3525c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44228
@@ -776,9 +783,9 @@
             "id": 1075089,
             "layer": 152,
             "local_path": "",
-            "updated": "2026-04-23T04:04:36+0000",
+            "updated": "2026-05-21T23:05:19+0000",
             "vcs_last_commit": "2026-03-19T07:03:24+0000",
-            "vcs_last_fetch": "2026-04-23T04:04:36+0000",
+            "vcs_last_fetch": "2026-05-21T23:05:19+0000",
             "vcs_last_rev": "297d2cf2233f7351cfcd365f0cb3a8e024b693ee",
             "vcs_subdir": "meta-tpm2",
             "version": null,
@@ -887,7 +894,7 @@
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--disable-ptool-checks --disable-static ",
             "description": "PKCS #11 is a Public-Key Cryptography Standard that defines a standard method to access cryptographic services from tokens/ devices such as hardware security modules (HSM), smart cards, etc. In this project we intend to use a TPM2 device as the cryptographic token.",
@@ -906,7 +913,7 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "A PKCS#11 interface for TPM2 hardware",
-            "updated": "2026-04-23T04:04:34+0000"
+            "updated": "2026-05-21T23:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -929,7 +936,7 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "Software stack for TPM2.",
-            "updated": "2026-04-23T04:04:35+0000"
+            "updated": "2026-05-21T23:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -952,11 +959,11 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "TPM2 Access Broker & Resource Manager",
-            "updated": "2026-04-23T04:04:35+0000"
+            "updated": "2026-05-21T23:05:17+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "This is a reimplementation of tpmtotp software for TPM 2.0 using the tpm2-tss software stack. Its purpose is to attest the trustworthiness of a device against a human using time-based one-time passwords (TOTP), facilitating the Trusted Platform Module (TPM) to bind the TOTP secret to the known trustworthy system state.",
@@ -975,11 +982,11 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "Attest the trustworthiness of a device against a human using time-based one-time passwords",
-            "updated": "2026-04-23T04:04:35+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "The tpm2-tss-engine project implements a cryptographic engine for OpenSSL for Trusted Platform Module (TPM 2.0) using the tpm2-tss software stack that follows the Trusted Computing Groups (TCG) TPM Software Stack (TSS 2.0). It uses the Enhanced System API (ESAPI) interface of the TSS 2.0 for downwards communication. It supports RSA decryption and signatures as well as ECDSA signatures.",
@@ -998,7 +1005,7 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "A cryptographic engine for OpenSSL for TPM 2.0",
-            "updated": "2026-04-23T04:04:35+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1021,11 +1028,11 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "Trusted Platform Module 2.0 tools",
-            "updated": "2026-04-23T04:04:35+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "The tpm2-openssl project implements a provider that integrates the Trusted Platform Module (TPM 2.0) operations to the OpenSSL 3.x, which is the next version of OpenSSL after 1.1.1.",
@@ -1044,11 +1051,11 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "Provider for integration of TPM 2.0 to OpenSSL 3.X",
-            "updated": "2026-04-23T04:04:36+0000"
+            "updated": "2026-05-21T23:05:18+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "TPM2 TSS Python bindings for Enhanced System API (ESYS), Feature API (FAPI), Marshaling (MU), TCTI Loader (TCTILdr), TCTIs, policy, and RC Decoding (rcdecode) libraries.",
@@ -1067,7 +1074,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python bindings for TSS",
-            "updated": "2026-04-23T04:04:36+0000"
+            "updated": "2026-05-21T23:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1090,7 +1097,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:36+0000"
+            "updated": "2026-05-21T23:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1113,7 +1120,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-23T04:04:36+0000"
+            "updated": "2026-05-21T23:05:19+0000"
         }
     ],
     "wrtemplates": []
