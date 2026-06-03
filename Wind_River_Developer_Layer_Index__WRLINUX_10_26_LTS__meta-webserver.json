@@ -725,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-27T00:05:10+0000",
+            "updated": "2026-06-02T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -738,10 +738,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-26T01:05:20+0000",
-            "vcs_last_commit": "2026-05-26T00:05:28+0000",
-            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
-            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
+            "updated": "2026-06-02T07:06:47+0000",
+            "vcs_last_commit": "2026-06-02T01:06:58+0000",
+            "vcs_last_fetch": "2026-06-02T07:06:47+0000",
+            "vcs_last_rev": "cebcd92252ada0140634e66874d8a037c1ce984b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -753,10 +753,10 @@
             "id": 1075078,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-05-26T21:05:50+0000",
-            "vcs_last_commit": "2026-05-26T20:05:36+0000",
-            "vcs_last_fetch": "2026-05-26T21:05:50+0000",
-            "vcs_last_rev": "45a684b1a27974d63c8a51809a490fb0782b76fe",
+            "updated": "2026-05-31T19:05:17+0000",
+            "vcs_last_commit": "2026-05-31T18:05:01+0000",
+            "vcs_last_fetch": "2026-05-31T19:05:17+0000",
+            "vcs_last_rev": "60e912308b901c19b68df23914a86c21e83ba24a",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44228
@@ -768,9 +768,9 @@
             "id": 1075079,
             "layer": 10,
             "local_path": "",
-            "updated": "2026-05-21T23:05:15+0000",
+            "updated": "2026-05-28T00:05:53+0000",
             "vcs_last_commit": "2026-05-18T00:05:21+0000",
-            "vcs_last_fetch": "2026-05-21T23:05:15+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:53+0000",
             "vcs_last_rev": "d42a2c03ae32317f6d61cf8aef9e44f66db165cf",
             "vcs_subdir": "meta-webserver",
             "version": "1",
@@ -873,7 +873,7 @@
             "section": "net",
             "srcrev": "d02a2df106961d8cb6bceb6b4b3aa8d9f6faaf4a",
             "summary": "Visually render documentation for an API defined with the OpenAPI",
-            "updated": "2026-05-21T23:05:11+0000"
+            "updated": "2026-05-28T00:05:49+0000"
         },
         {
             "bbclassextend": "",
@@ -896,7 +896,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Web-based administration interface",
-            "updated": "2026-05-21T23:05:11+0000"
+            "updated": "2026-05-28T00:05:49+0000"
         },
         {
             "bbclassextend": "",
@@ -919,7 +919,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Real-time performance monitoring",
-            "updated": "2026-05-21T23:05:11+0000"
+            "updated": "2026-05-28T00:05:50+0000"
         },
         {
             "bbclassextend": "",
@@ -942,7 +942,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Admin interface for Linux machines",
-            "updated": "2026-05-21T23:05:11+0000"
+            "updated": "2026-05-28T00:05:50+0000"
         },
         {
             "bbclassextend": "",
@@ -965,7 +965,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2026-05-21T23:05:12+0000"
+            "updated": "2026-05-28T00:05:50+0000"
         },
         {
             "bbclassextend": "",
@@ -988,7 +988,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2026-05-21T23:05:12+0000"
+            "updated": "2026-05-28T00:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1011,7 +1011,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Lightweight secure web server",
-            "updated": "2026-05-21T23:05:12+0000"
+            "updated": "2026-05-28T00:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1034,7 +1034,7 @@
             "section": "net",
             "srcrev": "0fd3bbd657c6d6339315709ef068493c572b973c",
             "summary": "Fast and Lightweight HTTP Server for Linux",
-            "updated": "2026-05-21T23:05:12+0000"
+            "updated": "2026-05-28T00:05:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1057,7 +1057,7 @@
             "section": "base",
             "srcrev": "2845bf5bff2b820d2336c8c8061cbfc5f271e720",
             "summary": "A simple, small, portable, fast, and secure HTTP server",
-            "updated": "2026-05-21T23:05:12+0000"
+            "updated": "2026-05-28T00:05:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -1080,7 +1080,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Apache HTTP Server",
-            "updated": "2026-05-21T23:05:13+0000"
+            "updated": "2026-05-28T00:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1103,13 +1103,13 @@
             "section": "base",
             "srcrev": "be2fb9f6158f800685de7a1bc01c39b6cf1fa12c",
             "summary": "",
-            "updated": "2026-05-21T23:05:13+0000"
+            "updated": "2026-05-28T00:05:52+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "APACHECTL=/tmp/tmpc3pg9s9l/tmp/work/core2-32-oe-linux/apache-websocket/0.1.2+git/recipe-sysroot/usr/sbin/apachectl --disable-static ",
+            "configopts": "APACHECTL=/tmp/tmp39ml_7aj/tmp/work/core2-32-oe-linux/apache-websocket/0.1.2+git/recipe-sysroot/usr/sbin/apachectl --disable-static ",
             "description": "Process requests using the WebSocket protocol (RFC 6455)",
             "filename": "apache-websocket_git.bb",
             "filepath": "recipes-httpd/apache-mod",
@@ -1126,7 +1126,7 @@
             "section": "net",
             "srcrev": "0ee34c77fc78ff08fd548706300b80a7bc7874e4",
             "summary": "Websocket module for Apache web server",
-            "updated": "2026-05-21T23:05:13+0000"
+            "updated": "2026-05-28T00:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1149,7 +1149,7 @@
             "section": "base",
             "srcrev": "47f2c03b7771f0ef61d887734ef91e6fa747f837",
             "summary": "",
-            "updated": "2026-05-21T23:05:13+0000"
+            "updated": "2026-05-28T00:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1172,7 +1172,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "spawn-fcgi is used to spawn FastCGI applications",
-            "updated": "2026-05-21T23:05:14+0000"
+            "updated": "2026-05-28T00:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1195,7 +1195,7 @@
             "section": "base",
             "srcrev": "99c942c90063c73734e56bacaa65f947772d9186",
             "summary": "FastCGI wrapper for CGI scripts",
-            "updated": "2026-05-21T23:05:14+0000"
+            "updated": "2026-05-28T00:05:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1218,7 +1218,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2026-05-21T23:05:14+0000"
+            "updated": "2026-05-28T00:05:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1241,7 +1241,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-webserver packagegroups",
-            "updated": "2026-05-21T23:05:14+0000"
+            "updated": "2026-05-28T00:05:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1264,13 +1264,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Web-based MySQL administration interface",
-            "updated": "2026-05-21T23:05:14+0000"
+            "updated": "2026-05-28T00:05:53+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-xdebug -with-php-config=/tmp/tmpc3pg9s9l/tmp/work/core2-32-oe-linux/xdebug/3.5.1/recipe-sysroot/usr/bin/crossscripts/php-config --disable-static ",
+            "configopts": " --enable-xdebug -with-php-config=/tmp/tmp39ml_7aj/tmp/work/core2-32-oe-linux/xdebug/3.5.1/recipe-sysroot/usr/bin/crossscripts/php-config --disable-static ",
             "description": "",
             "filename": "xdebug_3.5.1.bb",
             "filepath": "recipes-php/xdebug",
@@ -1287,7 +1287,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Debugging and profiling extension for PHP",
-            "updated": "2026-05-21T23:05:15+0000"
+            "updated": "2026-05-28T00:05:53+0000"
         }
     ],
     "wrtemplates": []

@@ -725,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-27T00:05:10+0000",
+            "updated": "2026-06-02T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -738,10 +738,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-26T01:05:20+0000",
-            "vcs_last_commit": "2026-05-26T00:05:28+0000",
-            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
-            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
+            "updated": "2026-06-02T07:06:47+0000",
+            "vcs_last_commit": "2026-06-02T01:06:58+0000",
+            "vcs_last_fetch": "2026-06-02T07:06:47+0000",
+            "vcs_last_rev": "cebcd92252ada0140634e66874d8a037c1ce984b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -753,9 +753,9 @@
             "id": 1075080,
             "layer": 12,
             "local_path": "",
-            "updated": "2026-05-21T23:05:59+0000",
+            "updated": "2026-05-28T00:05:28+0000",
             "vcs_last_commit": "2026-05-21T19:05:17+0000",
-            "vcs_last_fetch": "2026-05-21T23:05:59+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:28+0000",
             "vcs_last_rev": "6414e6d0c51a2caf7c7e901e8be031a7dcd3525c",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -768,10 +768,10 @@
             "id": 1075106,
             "layer": 577,
             "local_path": "",
-            "updated": "2026-05-21T23:05:27+0000",
-            "vcs_last_commit": "2026-05-18T23:05:27+0000",
-            "vcs_last_fetch": "2026-05-21T23:05:27+0000",
-            "vcs_last_rev": "fed560775db977d49e8edfd0605b9e7764cdd449",
+            "updated": "2026-05-28T00:05:26+0000",
+            "vcs_last_commit": "2026-05-27T20:05:36+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:26+0000",
+            "vcs_last_rev": "13960aba2de009427d574bed453e9ab240241a6a",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44227
@@ -873,7 +873,7 @@
             "section": "base",
             "srcrev": "e21cdc11a0461d8b0cbd28cc356d993bf6be7282",
             "summary": "LLM inference in C/C++",
-            "updated": "2026-05-21T23:05:23+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -896,7 +896,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Get up and running with large language models.",
-            "updated": "2026-05-21T23:05:23+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -919,7 +919,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Gemma is a lightweight, family of models from Google built on Gemini technology. ",
-            "updated": "2026-05-21T23:05:24+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -942,7 +942,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Gemma is a lightweight, family of models from Google built on Gemini technology. ",
-            "updated": "2026-05-21T23:05:24+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -965,7 +965,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-            "updated": "2026-05-21T23:05:24+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -988,7 +988,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-            "updated": "2026-05-21T23:05:24+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1011,7 +1011,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-            "updated": "2026-05-21T23:05:24+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1034,7 +1034,7 @@
             "section": "base",
             "srcrev": "0008226fda83c7b0c6722844313a5adfae30001c",
             "summary": "",
-            "updated": "2026-05-21T23:05:25+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1057,7 +1057,7 @@
             "section": "base",
             "srcrev": "e507a4ebeea4c3f93cd48986014a3e2ca79230c2",
             "summary": "",
-            "updated": "2026-05-21T23:05:25+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1080,7 +1080,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Fast iterable JSON parser.",
-            "updated": "2026-05-21T23:05:25+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1103,11 +1103,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Run multiple generative AI models on your machine and hot-swap between them on demand.",
-            "updated": "2026-05-21T23:05:26+0000"
+            "updated": "2026-05-28T00:05:25+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1126,11 +1126,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Gemma 3, a multimodal addition to the Gemma family of lightweight open models.",
-            "updated": "2026-05-21T23:05:26+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1149,11 +1149,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Gemma 3, a multimodal addition to the Gemma family of lightweight open models.",
-            "updated": "2026-05-21T23:05:26+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1172,11 +1172,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Qwen3.5 represents a significant leap forward, integrating breakthroughs in multimodal learning, architectural efficiency, reinforcement learning scale, and global accessibility to empower developers ",
-            "updated": "2026-05-21T23:05:26+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
@@ -1195,7 +1195,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Qwen3.5 represents a significant leap forward, integrating breakthroughs in multimodal learning, architectural efficiency, reinforcement learning scale, and global accessibility to empower developers ",
-            "updated": "2026-05-21T23:05:26+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1218,7 +1218,7 @@
             "section": "nvidia/drivers",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:26+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1241,23 +1241,23 @@
             "section": "base",
             "srcrev": "2ccbad25e1af6a6ee6f38cf569f89f8b65d658ab",
             "summary": "",
-            "updated": "2026-05-21T23:05:26+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Add llama.cpp and llama-swap support to the project",
-            "id": 136698,
+            "id": 137195,
             "layerbranch": 1075106,
             "name": "feature/llama-cpp",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         },
         {
             "description": "Add ollama support to the project",
-            "id": 136699,
+            "id": 137196,
             "layerbranch": 1075106,
             "name": "feature/ollama",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         }
     ]
 }

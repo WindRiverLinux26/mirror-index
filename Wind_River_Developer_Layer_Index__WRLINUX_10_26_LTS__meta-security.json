@@ -725,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-27T00:05:10+0000",
+            "updated": "2026-06-02T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -738,10 +738,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-26T01:05:20+0000",
-            "vcs_last_commit": "2026-05-26T00:05:28+0000",
-            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
-            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
+            "updated": "2026-06-02T07:06:47+0000",
+            "vcs_last_commit": "2026-06-02T01:06:58+0000",
+            "vcs_last_fetch": "2026-06-02T07:06:47+0000",
+            "vcs_last_rev": "cebcd92252ada0140634e66874d8a037c1ce984b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -753,10 +753,10 @@
             "id": 1075078,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-05-26T21:05:50+0000",
-            "vcs_last_commit": "2026-05-26T20:05:36+0000",
-            "vcs_last_fetch": "2026-05-26T21:05:50+0000",
-            "vcs_last_rev": "45a684b1a27974d63c8a51809a490fb0782b76fe",
+            "updated": "2026-05-31T19:05:17+0000",
+            "vcs_last_commit": "2026-05-31T18:05:01+0000",
+            "vcs_last_fetch": "2026-05-31T19:05:17+0000",
+            "vcs_last_rev": "60e912308b901c19b68df23914a86c21e83ba24a",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44228
@@ -768,9 +768,9 @@
             "id": 1075083,
             "layer": 18,
             "local_path": "",
-            "updated": "2026-05-25T20:05:02+0000",
+            "updated": "2026-05-28T00:05:26+0000",
             "vcs_last_commit": "2026-05-25T20:05:56+0000",
-            "vcs_last_fetch": "2026-05-25T20:05:02+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:26+0000",
             "vcs_last_rev": "bc8e6a5653f2f97096f07f5baa60bf6ebfcdcc0f",
             "vcs_subdir": "",
             "version": null,
@@ -873,7 +873,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:24+0000"
+            "updated": "2026-05-28T00:05:59+0000"
         },
         {
             "bbclassextend": "native",
@@ -896,7 +896,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:24+0000"
+            "updated": "2026-05-28T00:05:59+0000"
         },
         {
             "bbclassextend": "",
@@ -919,7 +919,7 @@
             "section": "base",
             "srcrev": "06153321ea50d53a27446084e646d9f43fe46e0e",
             "summary": "Lynis is a free and open source security and auditing tool.",
-            "updated": "2026-05-21T23:05:24+0000"
+            "updated": "2026-05-28T00:05:00+0000"
         },
         {
             "bbclassextend": "",
@@ -942,7 +942,7 @@
             "section": "base",
             "srcrev": "a1b32362394c7739a7a94426c61c7cb24449d9a0",
             "summary": "",
-            "updated": "2026-05-21T23:05:24+0000"
+            "updated": "2026-05-28T00:05:00+0000"
         },
         {
             "bbclassextend": "native",
@@ -965,7 +965,7 @@
             "section": "base",
             "srcrev": "24986066961363e24fcff83294995b3cfe4058ba",
             "summary": "NIST Certified SCAP 1.2 toolkit",
-            "updated": "2026-05-21T23:05:25+0000"
+            "updated": "2026-05-28T00:05:00+0000"
         },
         {
             "bbclassextend": "",
@@ -988,7 +988,7 @@
             "section": "security",
             "srcrev": "",
             "summary": "locally checks for signs of a rootkit",
-            "updated": "2026-05-21T23:05:25+0000"
+            "updated": "2026-05-28T00:05:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1011,13 +1011,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:25+0000"
+            "updated": "2026-05-28T00:05:01+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DCMAKE_BUILD_TYPE=Release -DOPTIMIZE=ON -DENABLE_JSON_SHARED=OFF                  -DCLAMAV_GROUP=clamav -DCLAMAV_USER=clamav                  -DENABLE_TESTS=OFF -DBUILD_SHARED_LIBS=ON                  -DDO_NOT_SET_RPATH=ON                  -DCMAKE_INSTALL_PREFIX=/usr                  -DCMAKE_INSTALL_SYSCONFDIR=/etc                  -DCMAKE_INSTALL_FULL_SYSCONFDIR=/etc                  -DSYSCONFDIR=/etc                  -DAPP_CONFIG_DIRECTORY=/etc/clamav                  -DHAVE_SIGNED_RIGHT_SHIFT=1                  -DHAVE_UNAME_SYSCALL=1                  -DHAVE_FD_PASSING=1                  -Dtest_run_result=0                  -Dtest_run_result__TRYRUN_OUTPUT=''                  -DCMAKE_C_FLAGS=' -O2 -g   -ffile-prefix-map=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/clamav/1.4.4/sources/clamav-1.4.4=/usr/src/debug/clamav/1.4.4  -ffile-prefix-map=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/clamav/1.4.4/build=/usr/src/debug/clamav/1.4.4  -ffile-prefix-map=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/clamav/1.4.4/recipe-sysroot=  -ffile-prefix-map=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/clamav/1.4.4/recipe-sysroot-native=  -pipe -Wno-error=format-truncation -Wno-error=unused-function'                  -DRUST_COMPILER_TARGET=i686-oe-linux-gnu                    -DENABLE_CLAMONACC=ON  -DENABLE_FRESHCLAM_DNS_FIX=OFF -DENABLE_MILTER=OFF -DENABLE_SYSTEMD=ON -DSYSTEMD_UNIT_DIR=/usr/lib/systemd/system -DENABLE_UNRAR=OFF",
+            "configopts": "-DCMAKE_BUILD_TYPE=Release -DOPTIMIZE=ON -DENABLE_JSON_SHARED=OFF                  -DCLAMAV_GROUP=clamav -DCLAMAV_USER=clamav                  -DENABLE_TESTS=OFF -DBUILD_SHARED_LIBS=ON                  -DDO_NOT_SET_RPATH=ON                  -DCMAKE_INSTALL_PREFIX=/usr                  -DCMAKE_INSTALL_SYSCONFDIR=/etc                  -DCMAKE_INSTALL_FULL_SYSCONFDIR=/etc                  -DSYSCONFDIR=/etc                  -DAPP_CONFIG_DIRECTORY=/etc/clamav                  -DHAVE_SIGNED_RIGHT_SHIFT=1                  -DHAVE_UNAME_SYSCALL=1                  -DHAVE_FD_PASSING=1                  -Dtest_run_result=0                  -Dtest_run_result__TRYRUN_OUTPUT=''                  -DCMAKE_C_FLAGS=' -O2 -g   -ffile-prefix-map=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/clamav/1.4.4/sources/clamav-1.4.4=/usr/src/debug/clamav/1.4.4  -ffile-prefix-map=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/clamav/1.4.4/build=/usr/src/debug/clamav/1.4.4  -ffile-prefix-map=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/clamav/1.4.4/recipe-sysroot=  -ffile-prefix-map=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/clamav/1.4.4/recipe-sysroot-native=  -pipe -Wno-error=format-truncation -Wno-error=unused-function'                  -DRUST_COMPILER_TARGET=i686-oe-linux-gnu                    -DENABLE_CLAMONACC=ON  -DENABLE_FRESHCLAM_DNS_FIX=OFF -DENABLE_MILTER=OFF -DENABLE_SYSTEMD=ON -DSYSTEMD_UNIT_DIR=/usr/lib/systemd/system -DENABLE_UNRAR=OFF",
             "description": "ClamAV is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
             "filename": "clamav_1.4.4.bb",
             "filepath": "recipes-scanners/clamav",
@@ -1034,7 +1034,7 @@
             "section": "security",
             "srcrev": "f6d84be3c0048deb15c54d67e140dae062e5b82b",
             "summary": "ClamAV anti-virus utilities and scanner tools",
-            "updated": "2026-05-21T23:05:25+0000"
+            "updated": "2026-05-28T00:05:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -1057,7 +1057,7 @@
             "section": "security",
             "srcrev": "",
             "summary": "Linux security scanner",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -1080,7 +1080,7 @@
             "section": "security",
             "srcrev": "2753ebb89fcdc96433ae8a4c4e5a49214a845be2",
             "summary": "Linux system security checks",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1103,7 +1103,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Smack test scripts",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1126,7 +1126,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Binary used to test smack udp sockets",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1149,7 +1149,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Binary used to test smack tcp sockets",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1172,7 +1172,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Mmap binary used to test smack mmap attribute",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:03+0000"
         },
         {
             "bbclassextend": "native",
@@ -1195,7 +1195,7 @@
             "section": "Security/Access Control",
             "srcrev": "4a102c7584b39ce693995ffb65e0918a9df98dd8",
             "summary": "",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1218,7 +1218,7 @@
             "section": "admin",
             "srcrev": "b4dfdf50f50ed1d64161424d036a2453645f0cfe",
             "summary": "AppArmor another MAC control system",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1241,7 +1241,7 @@
             "section": "security",
             "srcrev": "",
             "summary": "Tomoyo",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1264,7 +1264,7 @@
             "section": "base",
             "srcrev": "2551bc71f14052344666f3ca2ad67f5b798020b9",
             "summary": "Linux namespaces and seccomp-bpf sandbox",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1287,13 +1287,13 @@
             "section": "base",
             "srcrev": "c5e396716caf3749f728e43d0895317b593f5b95",
             "summary": "CHIPSEC: Platform Security Assessment Framework",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:04+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     --with-libpcap-include=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/aircrack-ng/1.7/recipe-sysroot/usr/include/pcap     ac_cv_prog_ETHTOOL=/usr/bin/ethtool  --disable-static  --with-experimental=yes --with-ext-scripts=no --with-sqlite3=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/aircrack-ng/1.7/recipe-sysroot/usr",
+            "configopts": "     --with-libpcap-include=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/aircrack-ng/1.7/recipe-sysroot/usr/include/pcap     ac_cv_prog_ETHTOOL=/usr/bin/ethtool  --disable-static  --with-experimental=yes --with-ext-scripts=no --with-sqlite3=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/aircrack-ng/1.7/recipe-sysroot/usr",
             "description": "Aircrack-ng is an 802.11 WEP and WPA-PSK keys cracking program that can recover keys once enough data packets have been captured. It implements the standard FMS attack along with some optimizations like KoreK attacks, as well as the PTW attack, thus making the attack much faster compared to other WEP cracking tools.",
             "filename": "aircrack-ng_1.7.bb",
             "filepath": "recipes-security/aircrack-ng",
@@ -1310,7 +1310,7 @@
             "section": "security",
             "srcrev": "",
             "summary": "Aircrack-ng is a set of tools for auditing wireless networks",
-            "updated": "2026-05-21T23:05:29+0000"
+            "updated": "2026-05-28T00:05:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1333,7 +1333,7 @@
             "section": "base",
             "srcrev": "",
             "summary": " Intelligently block brute-force attacks by aggregating system logs ",
-            "updated": "2026-05-21T23:05:29+0000"
+            "updated": "2026-05-28T00:05:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1356,7 +1356,7 @@
             "section": "security",
             "srcrev": "",
             "summary": "redhat security tools",
-            "updated": "2026-05-21T23:05:29+0000"
+            "updated": "2026-05-28T00:05:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1379,7 +1379,7 @@
             "section": "base",
             "srcrev": "7c80c73c084ce9ea49a03b814dac7a82fd7b4c23",
             "summary": "low-level tool handling Linux filesystem encryption",
-            "updated": "2026-05-21T23:05:29+0000"
+            "updated": "2026-05-28T00:05:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1402,7 +1402,7 @@
             "section": "base",
             "srcrev": "e92098419c7ad82939e0483bc76df21eff705b80",
             "summary": "Resource Public Key Infrastructure (RPKI) daemon",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1425,13 +1425,13 @@
             "section": "base",
             "srcrev": "48d28f82bd51ae4bccc84fbbee93c375b026596b",
             "summary": "GLOME Login Client",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:06+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " --with-libnet-dir=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/isic/0.07/recipe-sysroot/usr/lib  --disable-static ",
+            "configopts": " --with-libnet-dir=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/isic/0.07/recipe-sysroot/usr/lib  --disable-static ",
             "description": "ISIC is a suite of utilities to exercise the stability of an IP Stack and its component stacks (TCP, UDP, ICMP et. al.)",
             "filename": "isic_0.07.bb",
             "filepath": "recipes-security/isic",
@@ -1448,7 +1448,7 @@
             "section": "security",
             "srcrev": "",
             "summary": "ISIC -- IP Stack Integrity Checker",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1471,13 +1471,13 @@
             "section": "base",
             "srcrev": "7c80c73c084ce9ea49a03b814dac7a82fd7b4c23",
             "summary": "fscrypt is a high-level tool for the management of Linux filesystem encryption",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:06+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " --with-libxml2=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/opendnssec/2.1.14/recipe-sysroot/usr --with-ldns=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/opendnssec/2.1.14/recipe-sysroot/usr                  --with-ssl=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/opendnssec/2.1.14/recipe-sysroot/usr   --disable-static   --without-cunit    --without-readline --with-sqlite3=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/opendnssec/2.1.14/recipe-sysroot/usr  --without-libunwind",
+            "configopts": " --with-libxml2=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/opendnssec/2.1.14/recipe-sysroot/usr --with-ldns=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/opendnssec/2.1.14/recipe-sysroot/usr                  --with-ssl=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/opendnssec/2.1.14/recipe-sysroot/usr   --disable-static   --without-cunit    --without-readline --with-sqlite3=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/opendnssec/2.1.14/recipe-sysroot/usr  --without-libunwind",
             "description": "",
             "filename": "opendnssec_2.1.14.bb",
             "filepath": "recipes-security/opendnssec",
@@ -1494,7 +1494,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "OpenDNSSEC is a policy-based zone signer that automates the process of keeping track of DNSSEC keys and the signing of zones",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1517,7 +1517,7 @@
             "section": "security",
             "srcrev": "7fab46addcb99326cbf60f41dbde22a1e87aebad",
             "summary": "Network authentication cracking tool",
-            "updated": "2026-05-21T23:05:33+0000"
+            "updated": "2026-05-28T00:05:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1540,7 +1540,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Linux encrypted filesystem management tool",
-            "updated": "2026-05-21T23:05:33+0000"
+            "updated": "2026-05-28T00:05:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1563,7 +1563,7 @@
             "section": "base",
             "srcrev": "962f353aac6cfc7b804547319db40f8b804f0b6c",
             "summary": "Google Authenticator PAM module",
-            "updated": "2026-05-21T23:05:33+0000"
+            "updated": "2026-05-28T00:05:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1586,7 +1586,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Dynamic hash table implementation",
-            "updated": "2026-05-21T23:05:33+0000"
+            "updated": "2026-05-28T00:05:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1609,7 +1609,7 @@
             "section": "libs",
             "srcrev": "ada76bdaec665f70505f0b3aefe871b873e7c4b6",
             "summary": "Exports a gssapi interface which calls other gssapi libraries",
-            "updated": "2026-05-21T23:05:33+0000"
+            "updated": "2026-05-28T00:05:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1632,7 +1632,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "The eCryptfs mount helper and support libraries",
-            "updated": "2026-05-21T23:05:34+0000"
+            "updated": "2026-05-28T00:05:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1655,7 +1655,7 @@
             "section": "security",
             "srcrev": "",
             "summary": "basic system security checks",
-            "updated": "2026-05-21T23:05:34+0000"
+            "updated": "2026-05-28T00:05:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1678,7 +1678,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Linux hardening tool",
-            "updated": "2026-05-21T23:05:34+0000"
+            "updated": "2026-05-28T00:05:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1701,13 +1701,13 @@
             "section": "security",
             "srcrev": "f1bbd1a8756c076c8fd4f4dd0bc34a8ef215ae79",
             "summary": "web server scanner",
-            "updated": "2026-05-21T23:05:34+0000"
+            "updated": "2026-05-28T00:05:08+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "      --disable-cifs-idmap-plugin     --without-nfsv4-idmapd-plugin     --without-ipa-getkeytab     --without-python2-bindings     --enable-pammoddir=/usr/lib/security     --with-xml-catalog-path=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/sssd/2.10.2/recipe-sysroot-native/etc/xml/catalog     --with-pid-path=/run/sssd     --with-os=fedora     --with-sssd-user=sssd  --disable-static  --with-autofs    --without-kcm  --with-manpages=no  --with-libnl=no  --without-oidc-child  --without-python3-bindings python3dir=/usr/lib/python3.14/site-packages  --with-samba=no  --with-selinux=no  --with-ssh=no --with-sudo --with-initscript=systemd --with-systemdunitdir=/usr/lib/systemd/system --with-systemdconfdir=/etc/systemd/system --enable-nls",
+            "configopts": "      --disable-cifs-idmap-plugin     --without-nfsv4-idmapd-plugin     --without-ipa-getkeytab     --without-python2-bindings     --enable-pammoddir=/usr/lib/security     --with-xml-catalog-path=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/sssd/2.10.2/recipe-sysroot-native/etc/xml/catalog     --with-pid-path=/run/sssd     --with-os=fedora     --with-sssd-user=sssd  --disable-static  --with-autofs    --without-kcm  --with-manpages=no  --with-libnl=no  --without-oidc-child  --without-python3-bindings python3dir=/usr/lib/python3.14/site-packages  --with-samba=no  --with-selinux=no  --with-ssh=no --with-sudo --with-initscript=systemd --with-systemdunitdir=/usr/lib/systemd/system --with-systemdconfdir=/etc/systemd/system --enable-nls",
             "description": "SSSD is a system security services daemon",
             "filename": "sssd_2.10.2.bb",
             "filepath": "dynamic-layers/networking-layer/recipes-security/sssd",
@@ -1724,7 +1724,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "system security services daemon",
-            "updated": "2026-05-21T23:05:34+0000"
+            "updated": "2026-05-28T00:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1747,7 +1747,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:35+0000"
+            "updated": "2026-05-28T00:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1770,7 +1770,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:35+0000"
+            "updated": "2026-05-28T00:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1793,7 +1793,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:35+0000"
+            "updated": "2026-05-28T00:05:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1816,7 +1816,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:35+0000"
+            "updated": "2026-05-28T00:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1839,7 +1839,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:35+0000"
+            "updated": "2026-05-28T00:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1862,7 +1862,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1885,7 +1885,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "identity, multifactor authentication (OTP), authorization, audit",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1908,7 +1908,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Add version info to file paths.",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1931,7 +1931,7 @@
             "section": "base",
             "srcrev": "2856092709470250dc299931bc748f112590059f",
             "summary": "Daemon to ban hosts that cause multiple authentication errors.",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1954,7 +1954,7 @@
             "section": "security",
             "srcrev": "5dc5cfea1f4dc8febdd5274d99e277c17df06acc",
             "summary": "Linux Kernel Runtime Guard",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1977,7 +1977,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2000,7 +2000,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2023,7 +2023,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2046,7 +2046,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2069,7 +2069,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2092,13 +2092,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " INSTALL='install -p' --disable-static   --enable-posix-acl  ac_cv_header_auparse_h=no --enable-ipv6     --with-database=postgresql --enable-xml-log PGSQL_INC_DIR=/tmp/tmpxqm_n87a/tmp/work/core2-32-oe-linux/samhain-server/4.5.3/recipe-sysroot/usr/include PGSQL_LIB_DIR=/tmp/tmpxqm_n87a/tmp/work/core2-32-oe-linux/samhain-server/4.5.3/recipe-sysroot/usr/lib --with-ps-path=/usr/bin/ps  --disable-selinux    ",
+            "configopts": " INSTALL='install -p' --disable-static   --enable-posix-acl  ac_cv_header_auparse_h=no --enable-ipv6     --with-database=postgresql --enable-xml-log PGSQL_INC_DIR=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/samhain-server/4.5.3/recipe-sysroot/usr/include PGSQL_LIB_DIR=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/samhain-server/4.5.3/recipe-sysroot/usr/lib --with-ps-path=/usr/bin/ps  --disable-selinux    ",
             "description": "Provides file integrity checking and log file monitoring/analysis",
             "filename": "samhain-server.bb",
             "filepath": "recipes-ids/samhain",
@@ -2115,13 +2115,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-25T20:05:01+0000"
+            "updated": "2026-05-28T00:05:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " INSTALL='install -p' --disable-static   --enable-posix-acl  ac_cv_header_auparse_h=no --enable-ipv6     --with-database=postgresql --enable-xml-log PGSQL_INC_DIR=/tmp/tmpxqm_n87a/tmp/work/core2-32-oe-linux/samhain-standalone/4.5.3/recipe-sysroot/usr/include PGSQL_LIB_DIR=/tmp/tmpxqm_n87a/tmp/work/core2-32-oe-linux/samhain-standalone/4.5.3/recipe-sysroot/usr/lib --with-ps-path=/usr/bin/ps  --disable-selinux    ",
+            "configopts": " INSTALL='install -p' --disable-static   --enable-posix-acl  ac_cv_header_auparse_h=no --enable-ipv6     --with-database=postgresql --enable-xml-log PGSQL_INC_DIR=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/samhain-standalone/4.5.3/recipe-sysroot/usr/include PGSQL_LIB_DIR=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/samhain-standalone/4.5.3/recipe-sysroot/usr/lib --with-ps-path=/usr/bin/ps  --disable-selinux    ",
             "description": "Provides file integrity checking and log file monitoring/analysis",
             "filename": "samhain-standalone.bb",
             "filepath": "recipes-ids/samhain",
@@ -2138,13 +2138,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-25T20:05:01+0000"
+            "updated": "2026-05-28T00:05:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " INSTALL='install -p'          --with-logserver=NULL         --with-port=49777          --disable-static   --enable-posix-acl  ac_cv_header_auparse_h=no --enable-ipv6     --with-database=postgresql --enable-xml-log PGSQL_INC_DIR=/tmp/tmpxqm_n87a/tmp/work/core2-32-oe-linux/samhain-client/4.5.3/recipe-sysroot/usr/include PGSQL_LIB_DIR=/tmp/tmpxqm_n87a/tmp/work/core2-32-oe-linux/samhain-client/4.5.3/recipe-sysroot/usr/lib --with-ps-path=/usr/bin/ps  --disable-selinux    ",
+            "configopts": " INSTALL='install -p'          --with-logserver=NULL         --with-port=49777          --disable-static   --enable-posix-acl  ac_cv_header_auparse_h=no --enable-ipv6     --with-database=postgresql --enable-xml-log PGSQL_INC_DIR=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/samhain-client/4.5.3/recipe-sysroot/usr/include PGSQL_LIB_DIR=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/samhain-client/4.5.3/recipe-sysroot/usr/lib --with-ps-path=/usr/bin/ps  --disable-selinux    ",
             "description": "Provides file integrity checking and log file monitoring/analysis",
             "filename": "samhain-client.bb",
             "filepath": "recipes-ids/samhain",
@@ -2161,13 +2161,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-25T20:05:02+0000"
+            "updated": "2026-05-28T00:05:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "  --disable-debug     --disable-gccmarch-native     --disable-suricata-update     --with-libjansson-includes=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/include --with-libjansson-libraries=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/lib      --disable-static  --with-libcap_ng-includes=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/include --with-libcap_ng-libraries=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/lib  --disable-ja4 --with-libnet-includes=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/include --with-libnet-libraries=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/lib    --disable-nfqueue --with-libpcap-includes=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/include --with-libpcap-libraries=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/lib --with-libpcre2-includes=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/include --with-libpcre2-libraries=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/lib --enable-python --enable-unittests --with-libyaml-includes=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/include --with-libyaml-libraries=/tmp/tmp_jl_754g/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/lib",
+            "configopts": "  --disable-debug     --disable-gccmarch-native     --disable-suricata-update     --with-libjansson-includes=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/include --with-libjansson-libraries=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/lib      --disable-static  --with-libcap_ng-includes=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/include --with-libcap_ng-libraries=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/lib  --disable-ja4 --with-libnet-includes=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/include --with-libnet-libraries=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/lib    --disable-nfqueue --with-libpcap-includes=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/include --with-libpcap-libraries=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/lib --with-libpcre2-includes=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/include --with-libpcre2-libraries=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/lib --enable-python --enable-unittests --with-libyaml-includes=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/include --with-libyaml-libraries=/tmp/tmphxkt7386/tmp/work/core2-32-oe-linux/suricata/8.0.4/recipe-sysroot/usr/lib",
             "description": "",
             "filename": "suricata_8.0.4.bb",
             "filepath": "recipes-ids/suricata",
@@ -2184,7 +2184,7 @@
             "section": "security Monitor/Admin",
             "srcrev": "",
             "summary": "The Suricata Engine is an Open Source Next Generation Intrusion Detection and Prevention Engine",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2207,7 +2207,7 @@
             "section": "security Monitor/Admin",
             "srcrev": "f76a61bdee69961537585a1036c4294da28495a5",
             "summary": "The tool for updating your Suricata rules",
-            "updated": "2026-05-21T23:05:46+0000"
+            "updated": "2026-05-28T00:05:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2230,7 +2230,7 @@
             "section": "base",
             "srcrev": "bf797c759994015274f3bc31fe2bed278cce67ee",
             "summary": "A full platform to monitor and control your systems",
-            "updated": "2026-05-21T23:05:46+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -2253,7 +2253,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Advanced Intrusion Detection Environment",
-            "updated": "2026-05-21T23:05:46+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2276,7 +2276,7 @@
             "section": "base",
             "srcrev": "027974f20cf422bbe1406cf4297fbff37417bd03",
             "summary": "CrowdSec is a free, modern & collaborative behavior detection engine, coupled with a global IP reputation network.",
-            "updated": "2026-05-21T23:05:47+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         }
     ],
     "wrtemplates": []

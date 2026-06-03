@@ -725,24 +725,24 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-27T00:05:10+0000",
+            "updated": "2026-06-02T00:06:05+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "AMD Xilinx Standalone distribution (no LTO)",
-            "id": 16760,
+            "id": 16842,
             "layerbranch": 1075128,
             "name": "xilinx-standalone-nolto",
-            "updated": "2026-05-21T23:05:42+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         },
         {
             "description": "AMD Xilinx Standalone distribution (LTO)",
-            "id": 16761,
+            "id": 16843,
             "layerbranch": 1075128,
             "name": "xilinx-standalone",
-            "updated": "2026-05-21T23:05:42+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         }
     ],
     "layerBranches": [
@@ -753,10 +753,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-26T01:05:20+0000",
-            "vcs_last_commit": "2026-05-26T00:05:28+0000",
-            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
-            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
+            "updated": "2026-06-02T07:06:47+0000",
+            "vcs_last_commit": "2026-06-02T01:06:58+0000",
+            "vcs_last_fetch": "2026-06-02T07:06:47+0000",
+            "vcs_last_rev": "cebcd92252ada0140634e66874d8a037c1ce984b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -768,9 +768,9 @@
             "id": 1075121,
             "layer": 436,
             "local_path": "",
-            "updated": "2026-05-26T08:05:28+0000",
+            "updated": "2026-06-02T07:06:47+0000",
             "vcs_last_commit": "2026-05-21T18:05:33+0000",
-            "vcs_last_fetch": "2026-05-26T08:05:28+0000",
+            "vcs_last_fetch": "2026-06-02T07:06:47+0000",
             "vcs_last_rev": "16cdd89034bb0b84b24144f589a7f588359ac787",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
@@ -783,9 +783,9 @@
             "id": 1075128,
             "layer": 435,
             "local_path": "",
-            "updated": "2026-05-21T23:05:42+0000",
+            "updated": "2026-05-28T00:05:26+0000",
             "vcs_last_commit": "2026-05-21T18:05:19+0000",
-            "vcs_last_fetch": "2026-05-21T23:05:42+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:26+0000",
             "vcs_last_rev": "e34617fa3993e0f666a69966fb630e5076352b47",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
@@ -894,7 +894,7 @@
             "section": "librfdc",
             "srcrev": "",
             "summary": "Linux rfdc library",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -917,7 +917,7 @@
             "section": "librfdc",
             "srcrev": "",
             "summary": "Linux rfdc library",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -940,7 +940,7 @@
             "section": "librfdc",
             "srcrev": "",
             "summary": "Linux rfdc library",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -963,7 +963,7 @@
             "section": "librfdc",
             "srcrev": "",
             "summary": "Linux rfdc library",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -986,7 +986,7 @@
             "section": "librfdc",
             "srcrev": "",
             "summary": "Linux rfdc library",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1009,7 +1009,7 @@
             "section": "librfdc",
             "srcrev": "",
             "summary": "Linux rfdc library",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1032,7 +1032,7 @@
             "section": "libdfeprach",
             "srcrev": "",
             "summary": "Linux dfeprach library",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1055,7 +1055,7 @@
             "section": "libdfeprach",
             "srcrev": "",
             "summary": "Linux dfeprach library",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1078,7 +1078,7 @@
             "section": "libdfeprach",
             "srcrev": "",
             "summary": "Linux dfeprach library",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1101,7 +1101,7 @@
             "section": "libdfeprach",
             "srcrev": "",
             "summary": "Linux dfeprach library",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1124,7 +1124,7 @@
             "section": "libdfeprach",
             "srcrev": "",
             "summary": "Linux dfeprach library",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1147,7 +1147,7 @@
             "section": "libdfeprach",
             "srcrev": "",
             "summary": "Linux dfeprach library",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1170,7 +1170,7 @@
             "section": "libdfeofdm",
             "srcrev": "",
             "summary": "Linux dfeofdm library",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1193,7 +1193,7 @@
             "section": "libdfeofdm",
             "srcrev": "",
             "summary": "Linux dfeofdm library",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1216,7 +1216,7 @@
             "section": "libdfeofdm",
             "srcrev": "",
             "summary": "Linux dfeofdm library",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1239,7 +1239,7 @@
             "section": "libdfeofdm",
             "srcrev": "",
             "summary": "Linux dfeofdm library",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1262,7 +1262,7 @@
             "section": "libdfeofdm",
             "srcrev": "",
             "summary": "Linux dfeofdm library",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1285,7 +1285,7 @@
             "section": "libdfeofdm",
             "srcrev": "",
             "summary": "Linux dfeofdm library",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1308,7 +1308,7 @@
             "section": "libdfeequ",
             "srcrev": "",
             "summary": "Linux dfeequ library",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1331,7 +1331,7 @@
             "section": "libdfeequ",
             "srcrev": "",
             "summary": "Linux dfeequ library",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1354,7 +1354,7 @@
             "section": "libdfeequ",
             "srcrev": "",
             "summary": "Linux dfeequ library",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1377,7 +1377,7 @@
             "section": "libdfeequ",
             "srcrev": "",
             "summary": "Linux dfeequ library",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1400,7 +1400,7 @@
             "section": "libdfeequ",
             "srcrev": "",
             "summary": "Linux dfeequ library",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1423,7 +1423,7 @@
             "section": "libdfeequ",
             "srcrev": "",
             "summary": "Linux dfeequ library",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1446,7 +1446,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq / Zynq UltraScale+ MPSoC First Stage Boot Loader (FSBL) firmware.",
-            "updated": "2026-05-21T23:05:32+0000"
+            "updated": "2026-05-28T00:05:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1469,7 +1469,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2026-05-21T23:05:33+0000"
+            "updated": "2026-05-28T00:05:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1492,7 +1492,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "PSM firmware for versal devices",
-            "updated": "2026-05-21T23:05:33+0000"
+            "updated": "2026-05-28T00:05:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1515,7 +1515,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Application Security Unit for Versal 2ve 2vm devices",
-            "updated": "2026-05-21T23:05:33+0000"
+            "updated": "2026-05-28T00:05:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1538,7 +1538,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq / Zynq UltraScale+ MPSoC First Stage Boot Loader (FSBL) firmware.",
-            "updated": "2026-05-21T23:05:33+0000"
+            "updated": "2026-05-28T00:05:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1561,7 +1561,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "PSM firmware for versal devices",
-            "updated": "2026-05-21T23:05:33+0000"
+            "updated": "2026-05-28T00:05:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1584,7 +1584,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq / Zynq UltraScale+ MPSoC First Stage Boot Loader (FSBL) firmware.",
-            "updated": "2026-05-21T23:05:33+0000"
+            "updated": "2026-05-28T00:05:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1607,7 +1607,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "PSM firmware for versal devices",
-            "updated": "2026-05-21T23:05:33+0000"
+            "updated": "2026-05-28T00:05:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1630,7 +1630,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Xilinx ESW configuration helper recipe (Lopper, SDT fragments and helper metadata).",
-            "updated": "2026-05-21T23:05:34+0000"
+            "updated": "2026-05-28T00:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1653,7 +1653,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "PSM firmware for versal devices",
-            "updated": "2026-05-21T23:05:34+0000"
+            "updated": "2026-05-28T00:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1676,7 +1676,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq UltraScale+ MPSoC Platform Management Unit (PMU) firmware (MicroBlaze).",
-            "updated": "2026-05-21T23:05:34+0000"
+            "updated": "2026-05-28T00:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1699,7 +1699,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Xilinx Embedded Software (embeddedsw) source tree.",
-            "updated": "2026-05-21T23:05:34+0000"
+            "updated": "2026-05-28T00:05:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1722,7 +1722,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Xilinx ESW configuration helper recipe (Lopper, SDT fragments and helper metadata).",
-            "updated": "2026-05-21T23:05:34+0000"
+            "updated": "2026-05-28T00:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1745,7 +1745,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq / Zynq UltraScale+ MPSoC First Stage Boot Loader (FSBL) firmware.",
-            "updated": "2026-05-21T23:05:34+0000"
+            "updated": "2026-05-28T00:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1768,7 +1768,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2026-05-21T23:05:35+0000"
+            "updated": "2026-05-28T00:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1791,7 +1791,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2026-05-21T23:05:35+0000"
+            "updated": "2026-05-28T00:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1814,7 +1814,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Xilinx Embedded Software (embeddedsw) source tree.",
-            "updated": "2026-05-21T23:05:35+0000"
+            "updated": "2026-05-28T00:05:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1837,7 +1837,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Xilinx Embedded Software (embeddedsw) source tree.",
-            "updated": "2026-05-21T23:05:35+0000"
+            "updated": "2026-05-28T00:05:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1860,7 +1860,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Xilinx ESW configuration helper recipe (Lopper, SDT fragments and helper metadata).",
-            "updated": "2026-05-21T23:05:35+0000"
+            "updated": "2026-05-28T00:05:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1883,7 +1883,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq UltraScale+ MPSoC Platform Management Unit (PMU) firmware (MicroBlaze).",
-            "updated": "2026-05-21T23:05:35+0000"
+            "updated": "2026-05-28T00:05:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1906,7 +1906,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq UltraScale+ MPSoC Platform Management Unit (PMU) firmware (MicroBlaze).",
-            "updated": "2026-05-21T23:05:35+0000"
+            "updated": "2026-05-28T00:05:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1929,7 +1929,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Xilinx Embedded Software (embeddedsw) source tree.",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1952,7 +1952,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Xilinx Embedded Software (embeddedsw) source tree.",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1975,7 +1975,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "PSM firmware for versal devices",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1998,7 +1998,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq / Zynq UltraScale+ MPSoC First Stage Boot Loader (FSBL) firmware.",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2021,7 +2021,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2044,7 +2044,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq UltraScale+ MPSoC Platform Management Unit (PMU) firmware (MicroBlaze).",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2067,7 +2067,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2090,7 +2090,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq UltraScale+ MPSoC Platform Management Unit (PMU) firmware (MicroBlaze).",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2113,7 +2113,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2136,7 +2136,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "PSM firmware for versal devices",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2159,7 +2159,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq UltraScale+ MPSoC Platform Management Unit (PMU) firmware (MicroBlaze).",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2182,7 +2182,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq / Zynq UltraScale+ MPSoC First Stage Boot Loader (FSBL) firmware.",
-            "updated": "2026-05-21T23:05:36+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2205,7 +2205,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Xilinx ESW configuration helper recipe (Lopper, SDT fragments and helper metadata).",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2228,7 +2228,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Xilinx Embedded Software (embeddedsw) source tree.",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2251,7 +2251,7 @@
             "section": "libdfeccf",
             "srcrev": "",
             "summary": "Linux dfeccf library",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2274,7 +2274,7 @@
             "section": "libdfeccf",
             "srcrev": "",
             "summary": "Linux dfeccf library",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2297,7 +2297,7 @@
             "section": "libdfeccf",
             "srcrev": "",
             "summary": "Linux dfeccf library",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2320,7 +2320,7 @@
             "section": "libdfeccf",
             "srcrev": "",
             "summary": "Linux dfeccf library",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2343,7 +2343,7 @@
             "section": "libdfeccf",
             "srcrev": "",
             "summary": "Linux dfeccf library",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2366,7 +2366,7 @@
             "section": "libdfeccf",
             "srcrev": "",
             "summary": "Linux dfeccf library",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2389,7 +2389,7 @@
             "section": "librfclk",
             "srcrev": "",
             "summary": "Linux rfclk library",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2412,7 +2412,7 @@
             "section": "librfclk",
             "srcrev": "",
             "summary": "Linux rfclk library",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2435,7 +2435,7 @@
             "section": "librfclk",
             "srcrev": "",
             "summary": "Linux rfclk library",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2458,7 +2458,7 @@
             "section": "librfclk",
             "srcrev": "",
             "summary": "Linux rfclk library",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2481,7 +2481,7 @@
             "section": "librfclk",
             "srcrev": "",
             "summary": "Linux rfclk library",
-            "updated": "2026-05-21T23:05:37+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2504,7 +2504,7 @@
             "section": "librfclk",
             "srcrev": "",
             "summary": "Linux rfclk library",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2527,7 +2527,7 @@
             "section": "libdfemix",
             "srcrev": "",
             "summary": "Linux dfemix library",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2550,7 +2550,7 @@
             "section": "libdfemix",
             "srcrev": "",
             "summary": "Linux dfemix library",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2573,7 +2573,7 @@
             "section": "libdfemix",
             "srcrev": "",
             "summary": "Linux dfemix library",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2596,7 +2596,7 @@
             "section": "libdfemix",
             "srcrev": "",
             "summary": "Linux dfemix library",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2619,7 +2619,7 @@
             "section": "libdfemix",
             "srcrev": "",
             "summary": "Linux dfemix library",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2642,7 +2642,7 @@
             "section": "libdfemix",
             "srcrev": "",
             "summary": "Linux dfemix library",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2665,7 +2665,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2688,7 +2688,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-intr application",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2711,7 +2711,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2734,7 +2734,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2757,7 +2757,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-intr application",
-            "updated": "2026-05-21T23:05:38+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2780,7 +2780,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2803,7 +2803,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2826,7 +2826,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-intr application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2849,7 +2849,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2872,7 +2872,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2895,7 +2895,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2918,7 +2918,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-intr application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2941,7 +2941,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2964,7 +2964,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-intr application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2987,7 +2987,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3010,7 +3010,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-intr application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3033,7 +3033,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3056,7 +3056,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3079,7 +3079,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-intr application",
-            "updated": "2026-05-21T23:05:40+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3102,7 +3102,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2026-05-21T23:05:40+0000"
+            "updated": "2026-05-28T00:05:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3125,7 +3125,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2026-05-21T23:05:40+0000"
+            "updated": "2026-05-28T00:05:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3148,7 +3148,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Application Security Unit for Versal 2ve 2vm devices",
-            "updated": "2026-05-21T23:05:40+0000"
+            "updated": "2026-05-28T00:05:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3171,7 +3171,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Xilinx Embedded Software (embeddedsw) source tree.",
-            "updated": "2026-05-21T23:05:40+0000"
+            "updated": "2026-05-28T00:05:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3194,7 +3194,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Xilinx ESW configuration helper recipe (Lopper, SDT fragments and helper metadata).",
-            "updated": "2026-05-21T23:05:40+0000"
+            "updated": "2026-05-28T00:05:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3217,7 +3217,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq / Zynq UltraScale+ MPSoC First Stage Boot Loader (FSBL) firmware.",
-            "updated": "2026-05-21T23:05:40+0000"
+            "updated": "2026-05-28T00:05:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3240,7 +3240,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2026-05-21T23:05:40+0000"
+            "updated": "2026-05-28T00:05:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3263,7 +3263,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "AMD Zynq UltraScale+ MPSoC Platform Management Unit (PMU) firmware (MicroBlaze).",
-            "updated": "2026-05-21T23:05:40+0000"
+            "updated": "2026-05-28T00:05:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3286,7 +3286,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "PSM firmware for versal devices",
-            "updated": "2026-05-21T23:05:41+0000"
+            "updated": "2026-05-28T00:05:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3309,7 +3309,7 @@
             "section": "libdfeccf",
             "srcrev": "",
             "summary": "Linux dfeccf library",
-            "updated": "2026-05-21T23:05:41+0000"
+            "updated": "2026-05-28T00:05:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3332,7 +3332,7 @@
             "section": "libdfeequ",
             "srcrev": "",
             "summary": "Linux dfeequ library",
-            "updated": "2026-05-21T23:05:41+0000"
+            "updated": "2026-05-28T00:05:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3355,7 +3355,7 @@
             "section": "libdfemix",
             "srcrev": "",
             "summary": "Linux dfemix library",
-            "updated": "2026-05-21T23:05:41+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3378,7 +3378,7 @@
             "section": "libdfeofdm",
             "srcrev": "",
             "summary": "Linux dfeofdm library",
-            "updated": "2026-05-21T23:05:41+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3401,7 +3401,7 @@
             "section": "libdfeprach",
             "srcrev": "",
             "summary": "Linux dfeprach library",
-            "updated": "2026-05-21T23:05:41+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3424,7 +3424,7 @@
             "section": "librfclk",
             "srcrev": "",
             "summary": "Linux rfclk library",
-            "updated": "2026-05-21T23:05:41+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3447,7 +3447,7 @@
             "section": "librfdc",
             "srcrev": "",
             "summary": "Linux rfdc library",
-            "updated": "2026-05-21T23:05:41+0000"
+            "updated": "2026-05-28T00:05:26+0000"
         }
     ],
     "wrtemplates": []

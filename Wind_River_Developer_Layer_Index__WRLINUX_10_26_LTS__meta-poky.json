@@ -725,38 +725,38 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-27T00:05:10+0000",
+            "updated": "2026-06-02T00:06:05+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 16737,
+            "id": 16823,
             "layerbranch": 1075087,
             "name": "poky-altcfg",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:14+0000"
         },
         {
             "description": "Poky Tiny",
-            "id": 16738,
+            "id": 16824,
             "layerbranch": 1075087,
             "name": "poky-tiny",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:14+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 16739,
+            "id": 16825,
             "layerbranch": 1075087,
             "name": "poky",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:14+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 16740,
+            "id": 16826,
             "layerbranch": 1075087,
             "name": "poky-bleeding",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:14+0000"
         }
     ],
     "layerBranches": [
@@ -767,10 +767,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-26T01:05:20+0000",
-            "vcs_last_commit": "2026-05-26T00:05:28+0000",
-            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
-            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
+            "updated": "2026-06-02T07:06:47+0000",
+            "vcs_last_commit": "2026-06-02T01:06:58+0000",
+            "vcs_last_fetch": "2026-06-02T07:06:47+0000",
+            "vcs_last_rev": "cebcd92252ada0140634e66874d8a037c1ce984b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -782,9 +782,9 @@
             "id": 1075087,
             "layer": 59,
             "local_path": "",
-            "updated": "2026-05-21T23:05:39+0000",
+            "updated": "2026-05-28T00:05:14+0000",
             "vcs_last_commit": "2026-05-14T20:05:22+0000",
-            "vcs_last_fetch": "2026-05-21T23:05:39+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:14+0000",
             "vcs_last_rev": "49e4bb9a19446f955b7840be43596a3a2ee58180",
             "vcs_subdir": "meta-poky",
             "version": "3",
@@ -843,7 +843,7 @@
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Basic init system for poky-tiny",
@@ -862,7 +862,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Poky-tiny init",
-            "updated": "2026-05-21T23:05:39+0000"
+            "updated": "2026-05-28T00:05:14+0000"
         }
     ],
     "wrtemplates": []

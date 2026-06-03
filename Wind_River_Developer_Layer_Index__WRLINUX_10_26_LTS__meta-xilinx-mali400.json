@@ -725,7 +725,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-27T00:05:10+0000",
+            "updated": "2026-06-02T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -738,10 +738,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-26T01:05:20+0000",
-            "vcs_last_commit": "2026-05-26T00:05:28+0000",
-            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
-            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
+            "updated": "2026-06-02T07:06:47+0000",
+            "vcs_last_commit": "2026-06-02T01:06:58+0000",
+            "vcs_last_fetch": "2026-06-02T07:06:47+0000",
+            "vcs_last_rev": "cebcd92252ada0140634e66874d8a037c1ce984b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -753,9 +753,9 @@
             "id": 1075121,
             "layer": 436,
             "local_path": "",
-            "updated": "2026-05-26T08:05:28+0000",
+            "updated": "2026-06-02T07:06:47+0000",
             "vcs_last_commit": "2026-05-21T18:05:33+0000",
-            "vcs_last_fetch": "2026-05-26T08:05:28+0000",
+            "vcs_last_fetch": "2026-06-02T07:06:47+0000",
             "vcs_last_rev": "16cdd89034bb0b84b24144f589a7f588359ac787",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
@@ -768,9 +768,9 @@
             "id": 1075124,
             "layer": 561,
             "local_path": "",
-            "updated": "2026-05-21T23:05:29+0000",
+            "updated": "2026-05-28T00:05:56+0000",
             "vcs_last_commit": "2026-05-21T18:05:19+0000",
-            "vcs_last_fetch": "2026-05-21T23:05:29+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:56+0000",
             "vcs_last_rev": "e34617fa3993e0f666a69966fb630e5076352b47",
             "vcs_subdir": "meta-xilinx-mali400",
             "version": null,
@@ -873,7 +873,7 @@
             "section": "kernel/modules",
             "srcrev": "",
             "summary": "A Mali 400 Linux Kernel module",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:55+0000"
         },
         {
             "bbclassextend": "",
@@ -896,11 +896,11 @@
             "section": "base",
             "srcrev": "644dc96597172e3cf15aea63b4ee947d421810aa",
             "summary": "Arm Mali-400 user-space GLES driver libraries for Zynq UltraScale+ MPSoC (EG/EV variants).",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " -Dbackend-default=auto -Dpipewire=false  -Dsimple-clients=all -Ddemo-clients=true -Dcolor-management-colord=false -Drenderer-gl=true -Dbackend-fbdev=true -Dbackend-headless=false -Dimage-jpeg=true -Dbackend-drm=true -Dweston-launch=true -Dcolor-management-lcms=false -Dpam=false -Dbackend-rdp=false -Dremoting=false -Dscreenshare=true -Dshell-desktop=true -Dshell-fullscreen=true -Dshell-ivi=true -Dsystemd=true -Dlauncher-logind=true -Dbackend-drm-screencast-vaapi=false -Dbackend-wayland=true -Dimage-webp=false -Dbackend-x11=true -Dxwayland=true",
             "description": "Weston is the reference implementation of a Wayland compositor",
@@ -919,7 +919,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Weston, a Wayland compositor",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:55+0000"
         },
         {
             "bbclassextend": "",
@@ -942,7 +942,7 @@
             "section": "graphics",
             "srcrev": "03e50c7db0489daaa41b5f62946fd6aaeab63a6e",
             "summary": "Simple terminal emulator based on linux kernel mode setting (KMS).",
-            "updated": "2026-05-21T23:05:29+0000"
+            "updated": "2026-05-28T00:05:56+0000"
         },
         {
             "bbclassextend": "",
@@ -965,7 +965,7 @@
             "section": "libs",
             "srcrev": "6cdacfc452bf29d98e297fe3a96e55e94a88ce3e",
             "summary": "Terminal Emulator State Machine",
-            "updated": "2026-05-21T23:05:29+0000"
+            "updated": "2026-05-28T00:05:56+0000"
         }
     ],
     "wrtemplates": []

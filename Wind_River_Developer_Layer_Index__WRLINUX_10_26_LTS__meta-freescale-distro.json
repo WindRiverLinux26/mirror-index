@@ -725,59 +725,59 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-27T00:05:10+0000",
+            "updated": "2026-06-02T00:06:05+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "",
-            "id": 16741,
+            "id": 16827,
             "layerbranch": 1075097,
             "name": "fslc-xwayland",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:33+0000"
         },
         {
             "description": "",
-            "id": 16742,
+            "id": 16828,
             "layerbranch": 1075097,
             "name": "fslc-framebuffer",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:33+0000"
         },
         {
             "description": "",
-            "id": 16743,
+            "id": 16829,
             "layerbranch": 1075097,
             "name": "fsl-framebuffer",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:33+0000"
         },
         {
             "description": "",
-            "id": 16744,
+            "id": 16830,
             "layerbranch": 1075097,
             "name": "fslc-x11",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:33+0000"
         },
         {
             "description": "",
-            "id": 16745,
+            "id": 16831,
             "layerbranch": 1075097,
             "name": "fslc-wayland",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:33+0000"
         },
         {
             "description": "",
-            "id": 16746,
+            "id": 16832,
             "layerbranch": 1075097,
             "name": "fsl-xwayland",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:33+0000"
         },
         {
             "description": "",
-            "id": 16747,
+            "id": 16833,
             "layerbranch": 1075097,
             "name": "fsl-wayland",
-            "updated": "2026-05-21T23:05:31+0000"
+            "updated": "2026-05-28T00:05:33+0000"
         }
     ],
     "layerBranches": [
@@ -788,10 +788,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-26T01:05:20+0000",
-            "vcs_last_commit": "2026-05-26T00:05:28+0000",
-            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
-            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
+            "updated": "2026-06-02T07:06:47+0000",
+            "vcs_last_commit": "2026-06-02T01:06:58+0000",
+            "vcs_last_fetch": "2026-06-02T07:06:47+0000",
+            "vcs_last_rev": "cebcd92252ada0140634e66874d8a037c1ce984b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -803,9 +803,9 @@
             "id": 1075087,
             "layer": 59,
             "local_path": "",
-            "updated": "2026-05-21T23:05:39+0000",
+            "updated": "2026-05-28T00:05:14+0000",
             "vcs_last_commit": "2026-05-14T20:05:22+0000",
-            "vcs_last_fetch": "2026-05-21T23:05:39+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:14+0000",
             "vcs_last_rev": "49e4bb9a19446f955b7840be43596a3a2ee58180",
             "vcs_subdir": "meta-poky",
             "version": "3",
@@ -818,9 +818,9 @@
             "id": 1075097,
             "layer": 470,
             "local_path": "",
-            "updated": "2026-05-21T23:05:31+0000",
+            "updated": "2026-05-28T00:05:33+0000",
             "vcs_last_commit": "2026-04-13T23:04:10+0000",
-            "vcs_last_fetch": "2026-05-21T23:05:31+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:33+0000",
             "vcs_last_rev": "dab930c1ba0449dc99127cc6b90d8b97a21e062d",
             "vcs_subdir": "",
             "version": null,
@@ -923,7 +923,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:26+0000"
+            "updated": "2026-05-28T00:05:28+0000"
         },
         {
             "bbclassextend": "",
@@ -946,7 +946,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community packagegroup - tools/testapps",
-            "updated": "2026-05-21T23:05:26+0000"
+            "updated": "2026-05-28T00:05:29+0000"
         },
         {
             "bbclassextend": "",
@@ -969,7 +969,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - full set of all GStreamer 1.0 plugins",
-            "updated": "2026-05-21T23:05:26+0000"
+            "updated": "2026-05-28T00:05:29+0000"
         },
         {
             "bbclassextend": "",
@@ -992,7 +992,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - tools/gpu",
-            "updated": "2026-05-21T23:05:26+0000"
+            "updated": "2026-05-28T00:05:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1015,7 +1015,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - networking",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1038,7 +1038,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - set of GStreamer 1.0 plugins with commercial licence flag",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1061,7 +1061,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community Package group - tools/gpu/external",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1084,7 +1084,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Communtiy package group - tools/benchmark",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1107,7 +1107,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - set of commonly used GStreamer 1.0 plugins",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1130,7 +1130,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Set of audio tools for inclusion on images",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1153,7 +1153,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1176,7 +1176,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:27+0000"
+            "updated": "2026-05-28T00:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1199,7 +1199,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1222,7 +1222,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1245,7 +1245,7 @@
             "section": "base",
             "srcrev": "f67165c2bb2af3060ecae7d20d6f731173485ad0",
             "summary": "single-file public domain (or MIT licensed) libraries for C/C++",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1268,7 +1268,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "C++ library for half precision floating point arithmetics",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1291,7 +1291,7 @@
             "section": "multimedia",
             "srcrev": "490564815d8049dbdd79087f546835b673ba6e88",
             "summary": "RTSP server for live-stream from a v4l2 video source",
-            "updated": "2026-05-21T23:05:28+0000"
+            "updated": "2026-05-28T00:05:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1314,7 +1314,7 @@
             "section": "base",
             "srcrev": "909c7abbff0ee35610f07f6fadeaf3a2eadce36e",
             "summary": "Low level header only C++11 RAII wrapper classes for the OpenVX API",
-            "updated": "2026-05-21T23:05:29+0000"
+            "updated": "2026-05-28T00:05:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1337,7 +1337,7 @@
             "section": "base",
             "srcrev": "e39a407c5ae880792d8843ada65a19dd26b3dca7",
             "summary": "Low level header only C++11 RAII wrapper classes for the Vulkan API",
-            "updated": "2026-05-21T23:05:29+0000"
+            "updated": "2026-05-28T00:05:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1360,7 +1360,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T23:05:29+0000"
+            "updated": "2026-05-28T00:05:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -1383,7 +1383,7 @@
             "section": "libs",
             "srcrev": "0c171ee87fcfe35a7e0e0445adef06f92e0b6a91",
             "summary": "OpenGL Image Library",
-            "updated": "2026-05-21T23:05:29+0000"
+            "updated": "2026-05-28T00:05:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1406,13 +1406,13 @@
             "section": "devel",
             "srcrev": "c35200e38ea8f058812b83de2ef32c6093b0ece2",
             "summary": "",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:32+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -DWAYLAND_SCANNER=/tmp/tmpsoxwu4io/tmp/work/core2-32-oe-linux/libxdg-shell/1.0/recipe-sysroot-native/usr/bin/wayland-scanner     -DWAYLAND_PROTOCOLS_DIR=/tmp/tmpsoxwu4io/tmp/work/core2-32-oe-linux/libxdg-shell/1.0/recipe-sysroot/usr/share/wayland-protocols  ",
+            "configopts": "     -DWAYLAND_SCANNER=/tmp/tmpr3wfku7t/tmp/work/core2-32-oe-linux/libxdg-shell/1.0/recipe-sysroot-native/usr/bin/wayland-scanner     -DWAYLAND_PROTOCOLS_DIR=/tmp/tmpr3wfku7t/tmp/work/core2-32-oe-linux/libxdg-shell/1.0/recipe-sysroot/usr/share/wayland-protocols  ",
             "description": "",
             "filename": "libxdg-shell.bb",
             "filepath": "recipes-graphics/imx-gpu-sdk",
@@ -1429,7 +1429,7 @@
             "section": "base",
             "srcrev": "35bbd45ed6eac169a778bd154283771b9bf39be7",
             "summary": "Provides XDG shell header and glue code library",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1452,7 +1452,7 @@
             "section": "base",
             "srcrev": "35bbd45ed6eac169a778bd154283771b9bf39be7",
             "summary": "i.MX GPU SDK Samples",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1475,7 +1475,7 @@
             "section": "base",
             "srcrev": "21254804a56ae96e8385c2652733c338d62da04f",
             "summary": "Experimental low level header only C++11 RAII wrapper classes for the OpenCL API",
-            "updated": "2026-05-21T23:05:30+0000"
+            "updated": "2026-05-28T00:05:33+0000"
         }
     ],
     "wrtemplates": []

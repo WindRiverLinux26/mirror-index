@@ -725,17 +725,17 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-05-27T00:05:10+0000",
+            "updated": "2026-06-02T00:06:05+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "",
-            "id": 16763,
+            "id": 16849,
             "layerbranch": 1077961,
             "name": "xilinx-image-recovery",
-            "updated": "2026-05-21T23:05:53+0000"
+            "updated": "2026-05-28T01:05:50+0000"
         }
     ],
     "layerBranches": [
@@ -746,10 +746,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-26T01:05:20+0000",
-            "vcs_last_commit": "2026-05-26T00:05:28+0000",
-            "vcs_last_fetch": "2026-05-26T01:05:20+0000",
-            "vcs_last_rev": "6bd5d118af9d20058db8ccae722c909b165cb0ca",
+            "updated": "2026-06-02T07:06:47+0000",
+            "vcs_last_commit": "2026-06-02T01:06:58+0000",
+            "vcs_last_fetch": "2026-06-02T07:06:47+0000",
+            "vcs_last_rev": "cebcd92252ada0140634e66874d8a037c1ce984b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -761,9 +761,9 @@
             "id": 1075121,
             "layer": 436,
             "local_path": "",
-            "updated": "2026-05-26T08:05:28+0000",
+            "updated": "2026-06-02T07:06:47+0000",
             "vcs_last_commit": "2026-05-21T18:05:33+0000",
-            "vcs_last_fetch": "2026-05-26T08:05:28+0000",
+            "vcs_last_fetch": "2026-06-02T07:06:47+0000",
             "vcs_last_rev": "16cdd89034bb0b84b24144f589a7f588359ac787",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
@@ -776,9 +776,9 @@
             "id": 1075128,
             "layer": 435,
             "local_path": "",
-            "updated": "2026-05-21T23:05:42+0000",
+            "updated": "2026-05-28T00:05:26+0000",
             "vcs_last_commit": "2026-05-21T18:05:19+0000",
-            "vcs_last_fetch": "2026-05-21T23:05:42+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:26+0000",
             "vcs_last_rev": "e34617fa3993e0f666a69966fb630e5076352b47",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
@@ -791,9 +791,9 @@
             "id": 1075134,
             "layer": 572,
             "local_path": "",
-            "updated": "2026-05-26T08:05:11+0000",
+            "updated": "2026-05-28T01:05:33+0000",
             "vcs_last_commit": "2026-05-21T18:05:19+0000",
-            "vcs_last_fetch": "2026-05-26T08:05:11+0000",
+            "vcs_last_fetch": "2026-05-28T01:05:33+0000",
             "vcs_last_rev": "e34617fa3993e0f666a69966fb630e5076352b47",
             "vcs_subdir": "meta-xilinx-standalone-sdt",
             "version": null,
@@ -806,9 +806,9 @@
             "id": 1077961,
             "layer": 581,
             "local_path": "",
-            "updated": "2026-05-21T23:05:53+0000",
+            "updated": "2026-05-28T01:05:50+0000",
             "vcs_last_commit": "2026-05-19T02:05:03+0000",
-            "vcs_last_fetch": "2026-05-21T23:05:53+0000",
+            "vcs_last_fetch": "2026-05-28T01:05:50+0000",
             "vcs_last_rev": "d8a188e04aa2b3596468276ce119b42e472dd12f",
             "vcs_subdir": "meta-xilinx-imgrcvry",
             "version": null,
@@ -948,7 +948,7 @@
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -963,11 +963,11 @@
             "pn": "mac-address-config",
             "pr": "",
             "provides": "",
-            "pv": "",
+            "pv": "1.0",
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-21T20:05:21+0000"
+            "updated": "2026-05-28T01:05:48+0000"
         },
         {
             "bbclassextend": "",
@@ -990,7 +990,7 @@
             "section": "bootloaders",
             "srcrev": "5e0d8abc7e092b62a5de17aa7aadfad7af5f0f59",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2026-05-21T23:05:51+0000"
+            "updated": "2026-05-28T01:05:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1013,7 +1013,7 @@
             "section": "bootloaders",
             "srcrev": "980da51527e0a9a7a79ac218347ade2bfd5bb330",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2026-05-21T23:05:52+0000"
+            "updated": "2026-05-28T01:05:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1036,7 +1036,7 @@
             "section": "base",
             "srcrev": "a38f20e793e69af4b767f630532b6650a33453de",
             "summary": "AMD Xilinx image-recovery Linux helper kernel for boot-image fall-back on supported boards.",
-            "updated": "2026-05-21T23:05:52+0000"
+            "updated": "2026-05-28T01:05:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1059,7 +1059,7 @@
             "section": "base",
             "srcrev": "801760d526a73902c0740a83fc1f208f679c6daf",
             "summary": "AMD Xilinx image-recovery Linux helper kernel for boot-image fall-back on supported boards.",
-            "updated": "2026-05-21T23:05:52+0000"
+            "updated": "2026-05-28T01:05:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1082,7 +1082,7 @@
             "section": "base",
             "srcrev": "acbe5b61f6ee2245abfa53f6fc7d08de6a757338",
             "summary": "AMD Xilinx image-recovery Linux helper kernel for boot-image fall-back on supported boards.",
-            "updated": "2026-05-21T23:05:52+0000"
+            "updated": "2026-05-28T01:05:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1105,7 +1105,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image recovery web",
-            "updated": "2026-05-21T23:05:52+0000"
+            "updated": "2026-05-28T01:05:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1128,7 +1128,7 @@
             "section": "base",
             "srcrev": "801760d526a73902c0740a83fc1f208f679c6daf",
             "summary": "AMD System Boot Image Management Tool",
-            "updated": "2026-05-21T23:05:52+0000"
+            "updated": "2026-05-28T01:05:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1151,7 +1151,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image capable of booting a image-recovery utility.",
-            "updated": "2026-05-21T23:05:53+0000"
+            "updated": "2026-05-28T01:05:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1174,7 +1174,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image_recovery specific libubootenv configuration files",
-            "updated": "2026-05-21T23:05:53+0000"
+            "updated": "2026-05-28T01:05:50+0000"
         }
     ],
     "wrtemplates": []
