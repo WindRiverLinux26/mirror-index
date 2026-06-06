@@ -1,0 +1,1254 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_26_LTS",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44223,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44224,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44226,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44227,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44228,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44229,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0"
+        },
+        {
+            "description": "",
+            "id": 44230,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44231,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44232,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_26_LTS",
+            "comparison": false,
+            "hidden": false,
+            "id": 492,
+            "name": "WRLINUX_10_26_LTS",
+            "short_description": "Wind River Linux 10_26 Long Term Support",
+            "sort_priority": 4,
+            "update_environment": null,
+            "updated": "2026-06-05T00:06:14+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "core",
+            "id": 1075067,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2026-06-04T20:06:01+0000",
+            "vcs_last_commit": "2026-06-04T19:06:24+0000",
+            "vcs_last_fetch": "2026-06-04T20:06:01+0000",
+            "vcs_last_rev": "d8834837eb3dc46b50d2904ad77c09a3d55700cb",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44226
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "meta-mchp-common",
+            "id": 1079285,
+            "layer": 584,
+            "local_path": "",
+            "updated": "2026-06-03T00:06:58+0000",
+            "vcs_last_commit": "2026-05-31T20:05:56+0000",
+            "vcs_last_fetch": "2026-06-03T00:06:58+0000",
+            "vcs_last_rev": "a918676e6393fe308b4dd2bafc43749226a52cc0",
+            "vcs_subdir": "meta-mchp-common",
+            "version": null,
+            "yp_compatible_version": 44229
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 156299,
+            "layerbranch": 1079285,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-mchp-common",
+            "comparison": false,
+            "description": "meta-mchp/meta-mchp-common",
+            "id": 584,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-mchp-common",
+            "status": "P",
+            "summary": "Microchip MPU common layer",
+            "updated": "2026-06-03T00:06:55+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-mchp",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
+            "filename": "u-boot-mchp_2025.07.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2481377,
+            "inherits": "cml1 deploy gcc gcc-native kernel-arch pkgconfig python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 1079285,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-mchp",
+            "pr": "r0",
+            "provides": "u-boot-mchp virtual/bootloader",
+            "pv": "v2025.07-mchp+gitX",
+            "section": "bootloaders",
+            "srcrev": "9fa52b889bd44a7d761b36be1a9c6b1db335022a",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2026-06-03T00:06:55+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
+            "filename": "u-boot-mchp_2023.07.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2481378,
+            "inherits": "cml1 deploy gcc gcc-native kernel-arch pkgconfig python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 1079285,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-mchp",
+            "pr": "r0",
+            "provides": "u-boot-mchp virtual/bootloader",
+            "pv": "v2023.07-mchp+gitX",
+            "section": "bootloaders",
+            "srcrev": "1caa245bad8d044d38bde4d708229c2c3d3992d6",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2026-06-03T00:06:55+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
+            "filename": "u-boot-mchp_2024.07.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2481379,
+            "inherits": "cml1 deploy gcc gcc-native kernel-arch pkgconfig python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 1079285,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-mchp",
+            "pr": "r0",
+            "provides": "u-boot-mchp virtual/bootloader",
+            "pv": "v2024.07-mchp+gitX",
+            "section": "bootloaders",
+            "srcrev": "c693f38f2bb3f2ee5d3592d116870a65da081a05",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2026-06-03T00:06:56+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Compile Microchip SoCs board device tree overlays and pack them in a FIT image",
+            "filename": "dt-overlay-mchp_git.bb",
+            "filepath": "recipes-bsp/dt-overlay-mchp",
+            "homepage": "",
+            "id": 2481380,
+            "inherits": "deploy gcc gcc-native",
+            "layerbranch": 1079285,
+            "license": "GPL-2.0-or-later & MIT",
+            "pe": "",
+            "pn": "dt-overlay-mchp",
+            "pr": "r0",
+            "provides": "dt-overlay-mchp ",
+            "pv": "1.0+gitX",
+            "section": "bsp",
+            "srcrev": "b656f6b963e44199c4d6401d833a9c2e54cf1061",
+            "summary": "",
+            "updated": "2026-06-03T00:06:56+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "mchp-wireless-firmware_16.5.bb",
+            "filepath": "recipes-bsp/mchp-wireless-firmware",
+            "homepage": "",
+            "id": 2481381,
+            "inherits": "allarch gcc gcc-native",
+            "layerbranch": 1079285,
+            "license": "MICROCHIP_FW",
+            "pe": "",
+            "pn": "mchp-wireless-firmware",
+            "pr": "r0",
+            "provides": "mchp-wireless-firmware ",
+            "pv": "16.5",
+            "section": "kernel",
+            "srcrev": "3290a8a3c524702fbb7c673a4223e99b1a993b62",
+            "summary": "Microchip WILC devices firmware files for use with Linux kernel",
+            "updated": "2026-06-03T00:06:56+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "     -Dpipelines=microchip-isc     -Dv4l2=true     -Dcam=enabled     -Dmchpcam=enabled     -Dlc-compliance=disabled     -Dtest=false     -Ddocumentation=disabled     -Dipas=microchip-isc   -Dgstreamer=enabled -Dipas=microchip-isc -Dmchpcam=enabled -Dpycamera=disabled",
+            "description": "",
+            "filename": "libcamera-mchp_0.7.0.bb",
+            "filepath": "recipes-multimedia/libcamera",
+            "homepage": "",
+            "id": 2481382,
+            "inherits": "gcc gcc-native meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 1079285,
+            "license": "GPL-2.0-or-later & LGPL-2.1-or-later",
+            "pe": "1",
+            "pn": "libcamera-mchp",
+            "pr": "r0",
+            "provides": "libcamera-mchp ",
+            "pv": "0.7.0+mchp-X",
+            "section": "libs",
+            "srcrev": "8d6f2a0cc4443a33abd8d407799fccd3b139efb3",
+            "summary": "Microchip libcamera framework \u2014 migration to upstream v0.7.0 base",
+            "updated": "2026-06-03T00:06:56+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "     -Dpipelines=auto     -Dv4l2=true     -Dcam=enabled     -Dmchpcam=enabled     -Dlc-compliance=disabled     -Dtest=false     -Ddocumentation=disabled     -Dipas=microchip-isc   -Dgstreamer=enabled -Dipas=microchip-isc -Dmchpcam=enabled -Dpycamera=disabled",
+            "description": "",
+            "filename": "libcamera-mchp_0.3.1.bb",
+            "filepath": "recipes-multimedia/libcamera",
+            "homepage": "",
+            "id": 2481383,
+            "inherits": "gcc gcc-native meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 1079285,
+            "license": "GPL-2.0-or-later & LGPL-2.1-or-later",
+            "pe": "1",
+            "pn": "libcamera-mchp",
+            "pr": "r0",
+            "provides": "libcamera-mchp ",
+            "pv": "0.3.1",
+            "section": "libs",
+            "srcrev": "f7268d4eadad95ce9a0512fba8d1379ecb171a3e",
+            "summary": "Microchip Linux libcamera framework",
+            "updated": "2026-06-03T00:06:56+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "packagegroup-mchp-apps.bb",
+            "filepath": "recipes-mchp/packagegroups",
+            "homepage": "",
+            "id": 2481384,
+            "inherits": "gcc gcc-native packagegroup",
+            "layerbranch": 1079285,
+            "license": "",
+            "pe": "",
+            "pn": "packagegroup-mchp-apps",
+            "pr": "r0",
+            "provides": "packagegroup-mchp-apps packagegroup-mchp-apps packagegroup-mchp-apps-dbg packagegroup-mchp-apps-dev packagegroup-mchp-apps-ptest",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Package group for Microchip apps and software.",
+            "updated": "2026-06-03T00:06:56+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "packagegroup-mchp-dev.bb",
+            "filepath": "recipes-mchp/packagegroups",
+            "homepage": "",
+            "id": 2481385,
+            "inherits": "allarch gcc gcc-native packagegroup",
+            "layerbranch": 1079285,
+            "license": "",
+            "pe": "",
+            "pn": "packagegroup-mchp-dev",
+            "pr": "r0",
+            "provides": "packagegroup-mchp-dev packagegroup-mchp-dev packagegroup-mchp-dev-dbg packagegroup-mchp-dev-dev packagegroup-mchp-dev-ptest packagegroup-mchp-dev-lua packagegroup-mchp-dev-lua-dbg packagegroup-mchp-dev-lua-dev packagegroup-mchp-dev-lua-ptest packagegroup-mchp-dev-python packagegroup-mchp-dev-python-dbg packagegroup-mchp-dev-python-dev packagegroup-mchp-dev-python-ptest packagegroup-mchp-dev-tools packagegroup-mchp-dev-tools-dbg packagegroup-mchp-dev-tools-dev packagegroup-mchp-dev-tools-ptest",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Package group for general development tools and libraries.",
+            "updated": "2026-06-03T00:06:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "packagegroup-mchp-security.bb",
+            "filepath": "recipes-mchp/packagegroups",
+            "homepage": "",
+            "id": 2481386,
+            "inherits": "gcc gcc-native packagegroup",
+            "layerbranch": 1079285,
+            "license": "",
+            "pe": "",
+            "pn": "packagegroup-mchp-security",
+            "pr": "r0",
+            "provides": "packagegroup-mchp-security packagegroup-mchp-security packagegroup-mchp-security-dbg packagegroup-mchp-security-dev packagegroup-mchp-security-ptest",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Package group for security software.",
+            "updated": "2026-06-03T00:06:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "packagegroup-mchp-utils.bb",
+            "filepath": "recipes-mchp/packagegroups",
+            "homepage": "",
+            "id": 2481387,
+            "inherits": "allarch gcc gcc-native packagegroup",
+            "layerbranch": 1079285,
+            "license": "",
+            "pe": "",
+            "pn": "packagegroup-mchp-utils",
+            "pr": "r0",
+            "provides": "packagegroup-mchp-utils packagegroup-mchp-utils packagegroup-mchp-utils-dbg packagegroup-mchp-utils-dev packagegroup-mchp-utils-ptest packagegroup-mchp-benchmark-utils packagegroup-mchp-benchmark-utils-dbg packagegroup-mchp-benchmark-utils-dev packagegroup-mchp-benchmark-utils-ptest packagegroup-mchp-file-utils packagegroup-mchp-file-utils-dbg packagegroup-mchp-file-utils-dev packagegroup-mchp-file-utils-ptest packagegroup-mchp-hw-utils packagegroup-mchp-hw-utils-dbg packagegroup-mchp-hw-utils-dev packagegroup-mchp-hw-utils-ptest packagegroup-mchp-system-utils packagegroup-mchp-system-utils-dbg packagegroup-mchp-system-utils-dev packagegroup-mchp-system-utils-ptest packagegroup-mchp-user-utils packagegroup-mchp-user-utils-dbg packagegroup-mchp-user-utils-dev packagegroup-mchp-user-utils-ptest",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Utilities package group with generic Linux tools",
+            "updated": "2026-06-03T00:06:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "packagegroup-mchp-networking.bb",
+            "filepath": "recipes-mchp/packagegroups",
+            "homepage": "",
+            "id": 2481388,
+            "inherits": "gcc gcc-native packagegroup",
+            "layerbranch": 1079285,
+            "license": "",
+            "pe": "",
+            "pn": "packagegroup-mchp-networking",
+            "pr": "r0",
+            "provides": "packagegroup-mchp-networking packagegroup-mchp-networking packagegroup-mchp-networking-dbg packagegroup-mchp-networking-dev packagegroup-mchp-networking-ptest",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Networking package group including basic network utilities.",
+            "updated": "2026-06-03T00:06:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "packagegroup-mchp-multimedia.bb",
+            "filepath": "recipes-mchp/packagegroups",
+            "homepage": "",
+            "id": 2481389,
+            "inherits": "allarch gcc gcc-native packagegroup",
+            "layerbranch": 1079285,
+            "license": "",
+            "pe": "",
+            "pn": "packagegroup-mchp-multimedia",
+            "pr": "r0",
+            "provides": "packagegroup-mchp-multimedia packagegroup-mchp-multimedia packagegroup-mchp-multimedia-dbg packagegroup-mchp-multimedia-dev packagegroup-mchp-multimedia-ptest packagegroup-mchp-multimedia-audio packagegroup-mchp-multimedia-audio-dbg packagegroup-mchp-multimedia-audio-dev packagegroup-mchp-multimedia-audio-ptest packagegroup-mchp-multimedia-gstreamer packagegroup-mchp-multimedia-gstreamer-dbg packagegroup-mchp-multimedia-gstreamer-dev packagegroup-mchp-multimedia-gstreamer-ptest",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "A set of tools for audio/video playback, encoding, decoding, and streaming",
+            "updated": "2026-06-03T00:06:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "packagegroup-mchp-graphics.bb",
+            "filepath": "recipes-mchp/packagegroups",
+            "homepage": "",
+            "id": 2481390,
+            "inherits": "gcc gcc-native packagegroup",
+            "layerbranch": 1079285,
+            "license": "",
+            "pe": "",
+            "pn": "packagegroup-mchp-graphics",
+            "pr": "r0",
+            "provides": "packagegroup-mchp-graphics packagegroup-mchp-graphics packagegroup-mchp-graphics-dbg packagegroup-mchp-graphics-dev packagegroup-mchp-graphics-ptest",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Package group for graphics software and libraries.",
+            "updated": "2026-06-03T00:06:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Base image with Microchip apps, networking, security, and utilities.",
+            "filename": "mchp-base-image.bb",
+            "filepath": "recipes-mchp/images",
+            "homepage": "",
+            "id": 2481391,
+            "inherits": "core-image create-spdx-image-3.0 create-spdx-sdk-3.0 gcc gcc-native image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-post",
+            "layerbranch": 1079285,
+            "license": "MIT",
+            "pe": "",
+            "pn": "mchp-base-image",
+            "pr": "r0",
+            "provides": "mchp-base-image ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-06-03T00:06:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static ",
+            "description": "Webcam image grabber and manipulation application.",
+            "filename": "fswebcam_git.bb",
+            "filepath": "dynamic-layers/openembedded-layer/recipes-multimedia/fswebcam",
+            "homepage": "http://www.sanslogic.co.uk/fswebcam/",
+            "id": 2481392,
+            "inherits": "autotools autotools-brokensep gcc gcc-native siteinfo",
+            "layerbranch": 1079285,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "fswebcam",
+            "pr": "r0",
+            "provides": "fswebcam ",
+            "pv": "git",
+            "section": "graphics",
+            "srcrev": "db35d4bbd336885a44f017ff142bc9523dbdce3c",
+            "summary": "",
+            "updated": "2026-06-03T00:06:58+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Linux kernel for Microchip SoCs",
+            "filename": "linux-mchp_6.6.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 2481393,
+            "inherits": "cml1 deploy features_check gcc gcc-native image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 1079285,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-mchp",
+            "pr": "r0",
+            "provides": "linux-mchp  virtual/kernel",
+            "pv": "6.6.64+gitX",
+            "section": "kernel",
+            "srcrev": "c05aab8dd660eeefd3b959b535d6296120761240",
+            "summary": "Linux kernel for Microchip SoCs",
+            "updated": "2026-06-03T00:06:58+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Linux kernel for Microchip SoCs",
+            "filename": "linux-mchp_6.18.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 2481394,
+            "inherits": "cml1 deploy features_check gcc gcc-native image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 1079285,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-mchp",
+            "pr": "r0",
+            "provides": "linux-mchp  virtual/kernel",
+            "pv": "6.18.17+gitX",
+            "section": "kernel",
+            "srcrev": "7fbe4f69684d19b9038beefbbc1d52bed3c141ab",
+            "summary": "Linux kernel for Microchip SoCs",
+            "updated": "2026-06-03T00:06:58+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Linux kernel for Microchip SoCs",
+            "filename": "linux-mchp_6.12.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 2481395,
+            "inherits": "cml1 deploy features_check gcc gcc-native image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 1079285,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "linux-mchp",
+            "pr": "r0",
+            "provides": "linux-mchp  virtual/kernel",
+            "pv": "6.12.48+gitX",
+            "section": "kernel",
+            "srcrev": "eed0a6f4a0e1b403c99906c49bdabb547e4b23fe",
+            "summary": "Linux kernel for Microchip SoCs",
+            "updated": "2026-06-03T00:06:58+0000"
+        }
+    ],
+    "wrtemplates": []
+}

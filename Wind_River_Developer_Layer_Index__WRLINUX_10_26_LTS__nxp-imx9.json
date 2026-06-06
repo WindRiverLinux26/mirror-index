@@ -1,0 +1,1136 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_26_LTS",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44223,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44224,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44226,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44227,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44228,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44229,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0"
+        },
+        {
+            "description": "",
+            "id": 44230,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44231,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44232,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_26_LTS",
+            "comparison": false,
+            "hidden": false,
+            "id": 492,
+            "name": "WRLINUX_10_26_LTS",
+            "short_description": "Wind River Linux 10_26 Long Term Support",
+            "sort_priority": 4,
+            "update_environment": null,
+            "updated": "2026-06-05T00:06:14+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "core",
+            "id": 1075067,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2026-06-04T20:06:01+0000",
+            "vcs_last_commit": "2026-06-04T19:06:24+0000",
+            "vcs_last_fetch": "2026-06-04T20:06:01+0000",
+            "vcs_last_rev": "d8834837eb3dc46b50d2904ad77c09a3d55700cb",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44226
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "freescale-layer",
+            "id": 1075092,
+            "layer": 231,
+            "local_path": "",
+            "updated": "2026-05-28T00:05:26+0000",
+            "vcs_last_commit": "2026-05-27T20:05:00+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:26+0000",
+            "vcs_last_rev": "9e38d0843e3557d95a904f158ad3406480f9e473",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44228
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "freescale-distro",
+            "id": 1075097,
+            "layer": 470,
+            "local_path": "",
+            "updated": "2026-06-04T23:06:02+0000",
+            "vcs_last_commit": "2026-06-04T20:06:12+0000",
+            "vcs_last_fetch": "2026-06-04T23:06:02+0000",
+            "vcs_last_rev": "8448a3d8113d3342b3e00ef1fe4ea8a5d4f74279",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44228
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "imx-machine-learning",
+            "id": 1075099,
+            "layer": 551,
+            "local_path": "",
+            "updated": "2026-05-28T00:05:15+0000",
+            "vcs_last_commit": "2026-04-02T20:04:50+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:15+0000",
+            "vcs_last_rev": "0973a0dd523718d0d3e525127c4dfead443a3cba",
+            "vcs_subdir": "meta-imx-ml",
+            "version": null,
+            "yp_compatible_version": 44231
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "fsl-bsp-release",
+            "id": 1075115,
+            "layer": 553,
+            "local_path": "",
+            "updated": "2026-06-04T23:06:14+0000",
+            "vcs_last_commit": "2026-06-04T21:06:34+0000",
+            "vcs_last_fetch": "2026-06-04T23:06:14+0000",
+            "vcs_last_rev": "327c3b9226a353c62d3ccc95855990be9a0b2a5b",
+            "vcs_subdir": "meta-imx-bsp",
+            "version": null,
+            "yp_compatible_version": 44231
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "fsl-sdk-release",
+            "id": 1075123,
+            "layer": 552,
+            "local_path": "",
+            "updated": "2026-06-03T00:06:31+0000",
+            "vcs_last_commit": "2026-06-02T23:06:58+0000",
+            "vcs_last_fetch": "2026-06-03T00:06:31+0000",
+            "vcs_last_rev": "df58e2421d282c83df37d7121ab7201bdaa5fe11",
+            "vcs_subdir": "meta-imx-sdk",
+            "version": null,
+            "yp_compatible_version": 44212
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "wrlinux",
+            "id": 1075125,
+            "layer": 49,
+            "local_path": "",
+            "updated": "2026-06-05T15:06:14+0000",
+            "vcs_last_commit": "2026-06-05T14:06:18+0000",
+            "vcs_last_fetch": "2026-06-05T15:06:14+0000",
+            "vcs_last_rev": "a084f6196e9950535a4307388776611cece5f9bf",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 44213
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "meta-freescale-ml",
+            "id": 1075506,
+            "layer": 578,
+            "local_path": "",
+            "updated": "2026-05-28T00:05:42+0000",
+            "vcs_last_commit": "2026-04-13T21:04:16+0000",
+            "vcs_last_fetch": "2026-05-28T00:05:42+0000",
+            "vcs_last_rev": "8c4f628daa58493dd2d2f51997f520a87d8d7f85",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44232
+        },
+        {
+            "actual_branch": "",
+            "branch": 492,
+            "collection": "wr-nxp-imx9",
+            "id": 1075583,
+            "layer": 538,
+            "local_path": "",
+            "updated": "2026-06-03T20:06:41+0000",
+            "vcs_last_commit": "2026-06-03T17:06:02+0000",
+            "vcs_last_fetch": "2026-06-03T20:06:41+0000",
+            "vcs_last_rev": "a09c39031ee8ac73dc97b0e55a9fca838516b82a",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 44213
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 154579,
+            "layerbranch": 1075583,
+            "required": true
+        },
+        {
+            "dependency": 470,
+            "id": 154580,
+            "layerbranch": 1075583,
+            "required": true
+        },
+        {
+            "dependency": 231,
+            "id": 154581,
+            "layerbranch": 1075583,
+            "required": true
+        },
+        {
+            "dependency": 553,
+            "id": 154582,
+            "layerbranch": 1075583,
+            "required": true
+        },
+        {
+            "dependency": 552,
+            "id": 154583,
+            "layerbranch": 1075583,
+            "required": true
+        },
+        {
+            "dependency": 551,
+            "id": 154584,
+            "layerbranch": 1075583,
+            "required": true
+        },
+        {
+            "dependency": 578,
+            "id": 155389,
+            "layerbranch": 1075583,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 155390,
+            "layerbranch": 1075583,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wrlinux",
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "freescale-layer",
+            "comparison": false,
+            "description": "This layer provides support for Freescale's platforms for use with\r\nOpenEmbedded and/or Yocto.",
+            "id": 231,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-freescale",
+            "status": "P",
+            "summary": "This layer provides support for Freescale's platforms for use with OpenEmbedded and/or Yocto.",
+            "updated": "2018-05-30T22:05:30+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-freescale",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "freescale-distro",
+            "comparison": false,
+            "description": "add meta-freescale-distro layer",
+            "id": 470,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-freescale-distro",
+            "status": "P",
+            "summary": "add meta-freescale-distro layer",
+            "updated": "2022-05-31T01:05:34+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-freescale-distro",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wr-nxp-imx9",
+            "comparison": false,
+            "description": "Add nxp-imx9 bsp layer",
+            "id": 538,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "nxp-imx9",
+            "status": "P",
+            "summary": "Add nxp-imx9 bsp layer",
+            "updated": "2024-03-12T02:03:08+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/nxp-imx9",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "imx-machine-learning",
+            "comparison": false,
+            "description": "meta-imx/meta-imx-ml",
+            "id": 551,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-imx-ml",
+            "status": "P",
+            "summary": "meta-imx/meta-imx-ml",
+            "updated": "2024-05-09T07:05:46+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-imx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "fsl-sdk-release",
+            "comparison": false,
+            "description": "meta-imx/meta-imx-sdk",
+            "id": 552,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-imx-sdk",
+            "status": "P",
+            "summary": "meta-imx/meta-imx-sdk",
+            "updated": "2024-05-09T07:05:08+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-imx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "fsl-bsp-release",
+            "comparison": false,
+            "description": "meta-imx/meta-imx-bsp",
+            "id": 553,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-imx-bsp",
+            "status": "P",
+            "summary": "meta-imx/meta-imx-bsp",
+            "updated": "2024-05-09T07:05:01+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-imx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-freescale-ml",
+            "comparison": false,
+            "description": "meta-freescale-ml",
+            "id": 578,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-freescale-ml",
+            "status": "P",
+            "summary": "meta-freescale-ml",
+            "updated": "2026-04-28T00:04:02+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-freescale-ml",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": "nxp-imx9",
+            "id": 113826,
+            "layerbranch": 1075583,
+            "name": "nxp-imx9",
+            "updated": "2026-05-28T00:05:55+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "pktgen-scripts contains scripts used to generate traffic using pktgen",
+            "filename": "pktgen-scripts.bb",
+            "filepath": "recipes-bsp/pktgen-scripts",
+            "homepage": "",
+            "id": 2435023,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1075583,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "pktgen-scripts",
+            "pr": "r0",
+            "provides": "pktgen-scripts ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "pktgen-scripts",
+            "updated": "2026-05-28T00:05:55+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 137269,
+            "layerbranch": 1075583,
+            "name": "default",
+            "updated": "2026-05-28T00:05:55+0000"
+        }
+    ]
+}
