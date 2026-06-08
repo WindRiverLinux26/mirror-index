@@ -713,6 +713,20 @@
             "image_url": "",
             "link_url": "",
             "name": "5.0 5.3"
+        },
+        {
+            "description": "",
+            "id": 44234,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44235,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1 wrl"
         }
     ],
     "branches": [
@@ -725,7 +739,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-06-05T00:06:14+0000",
+            "updated": "2026-06-07T00:06:13+0000",
             "updates_enabled": true
         }
     ],
@@ -828,10 +842,10 @@
             "id": 1075125,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-06-05T15:06:14+0000",
-            "vcs_last_commit": "2026-06-05T14:06:18+0000",
-            "vcs_last_fetch": "2026-06-05T15:06:14+0000",
-            "vcs_last_rev": "a084f6196e9950535a4307388776611cece5f9bf",
+            "updated": "2026-06-07T20:06:03+0000",
+            "vcs_last_commit": "2026-06-07T20:06:35+0000",
+            "vcs_last_fetch": "2026-06-07T20:06:03+0000",
+            "vcs_last_rev": "2df2099fb691adf2fff17325608430db27f0bb41",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44213
