@@ -727,6 +727,20 @@
             "image_url": "",
             "link_url": "",
             "name": "6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44236,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 6.0"
+        },
+        {
+            "description": "",
+            "id": 44237,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1"
         }
     ],
     "branches": [
@@ -739,7 +753,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-06-07T00:06:13+0000",
+            "updated": "2026-06-15T00:06:09+0000",
             "updates_enabled": true
         }
     ],
@@ -752,10 +766,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-04T20:06:01+0000",
-            "vcs_last_commit": "2026-06-04T19:06:24+0000",
-            "vcs_last_fetch": "2026-06-04T20:06:01+0000",
-            "vcs_last_rev": "d8834837eb3dc46b50d2904ad77c09a3d55700cb",
+            "updated": "2026-06-14T21:06:54+0000",
+            "vcs_last_commit": "2026-06-14T21:06:55+0000",
+            "vcs_last_fetch": "2026-06-14T21:06:54+0000",
+            "vcs_last_rev": "9876ac0d4e1151fe6741f87d8042a88987c8ead4",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -767,10 +781,10 @@
             "id": 1075125,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-06-07T20:06:03+0000",
-            "vcs_last_commit": "2026-06-07T20:06:35+0000",
-            "vcs_last_fetch": "2026-06-07T20:06:03+0000",
-            "vcs_last_rev": "2df2099fb691adf2fff17325608430db27f0bb41",
+            "updated": "2026-06-15T00:06:32+0000",
+            "vcs_last_commit": "2026-06-14T23:06:29+0000",
+            "vcs_last_fetch": "2026-06-15T00:06:32+0000",
+            "vcs_last_rev": "2e0a4578f82a67bb8162bffb7f51a7e350197973",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44213
@@ -812,10 +826,10 @@
             "id": 1079529,
             "layer": 586,
             "local_path": "",
-            "updated": "2026-06-06T07:06:40+0000",
-            "vcs_last_commit": "2026-06-02T18:06:37+0000",
-            "vcs_last_fetch": "2026-06-06T07:06:40+0000",
-            "vcs_last_rev": "e734eb415f76a6bf2df722be4382784967ba5167",
+            "updated": "2026-06-08T23:06:23+0000",
+            "vcs_last_commit": "2026-06-07T21:06:36+0000",
+            "vcs_last_fetch": "2026-06-08T23:06:23+0000",
+            "vcs_last_rev": "6899c1facf3e9877b0033b1931a9c8c0f307dc0d",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44227
@@ -950,7 +964,7 @@
             "id": 113948,
             "layerbranch": 1079529,
             "name": "microchip-pic64gx",
-            "updated": "2026-06-06T07:06:40+0000"
+            "updated": "2026-06-08T23:06:23+0000"
         }
     ],
     "recipes": [],

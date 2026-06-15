@@ -727,6 +727,20 @@
             "image_url": "",
             "link_url": "",
             "name": "6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44236,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 6.0"
+        },
+        {
+            "description": "",
+            "id": 44237,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1"
         }
     ],
     "branches": [
@@ -739,7 +753,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-06-07T00:06:13+0000",
+            "updated": "2026-06-15T00:06:09+0000",
             "updates_enabled": true
         }
     ],

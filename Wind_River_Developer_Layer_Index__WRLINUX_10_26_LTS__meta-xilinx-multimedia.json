@@ -727,6 +727,20 @@
             "image_url": "",
             "link_url": "",
             "name": "6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44236,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 6.0"
+        },
+        {
+            "description": "",
+            "id": 44237,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1"
         }
     ],
     "branches": [
@@ -739,7 +753,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-06-07T00:06:13+0000",
+            "updated": "2026-06-15T00:06:09+0000",
             "updates_enabled": true
         }
     ],
@@ -752,10 +766,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-04T20:06:01+0000",
-            "vcs_last_commit": "2026-06-04T19:06:24+0000",
-            "vcs_last_fetch": "2026-06-04T20:06:01+0000",
-            "vcs_last_rev": "d8834837eb3dc46b50d2904ad77c09a3d55700cb",
+            "updated": "2026-06-14T21:06:54+0000",
+            "vcs_last_commit": "2026-06-14T21:06:55+0000",
+            "vcs_last_fetch": "2026-06-14T21:06:54+0000",
+            "vcs_last_rev": "9876ac0d4e1151fe6741f87d8042a88987c8ead4",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -767,13 +781,13 @@
             "id": 1075105,
             "layer": 575,
             "local_path": "",
-            "updated": "2026-05-28T00:05:08+0000",
-            "vcs_last_commit": "2026-05-19T02:05:03+0000",
-            "vcs_last_fetch": "2026-05-28T00:05:08+0000",
-            "vcs_last_rev": "d8a188e04aa2b3596468276ce119b42e472dd12f",
+            "updated": "2026-06-08T20:06:23+0000",
+            "vcs_last_commit": "2026-06-08T18:06:35+0000",
+            "vcs_last_fetch": "2026-06-08T20:06:23+0000",
+            "vcs_last_rev": "2717a5538829f7778100f7454b1557fbb1500fef",
             "vcs_subdir": "meta-xilinx-multimedia",
             "version": null,
-            "yp_compatible_version": 44233
+            "yp_compatible_version": 44236
         }
     ],
     "layerDependencies": [
@@ -853,7 +867,7 @@
             "section": "multimedia",
             "srcrev": "d50ddc4a8c0dedd4f2de77d7f3f570548a1a0d76",
             "summary": "GStreamer Perf 1.0",
-            "updated": "2026-05-28T00:05:02+0000"
+            "updated": "2026-06-08T20:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -876,7 +890,7 @@
             "section": "multimedia",
             "srcrev": "814982ecd735e42ff2d14ce7c43039c259ec928b",
             "summary": "Gstreamer Interpipe 1.1.8",
-            "updated": "2026-05-28T00:05:02+0000"
+            "updated": "2026-06-08T20:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -899,30 +913,30 @@
             "section": "base",
             "srcrev": "",
             "summary": "Firmware for ISP",
-            "updated": "2026-05-28T00:05:02+0000"
+            "updated": "2026-06-08T20:06:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "",
-            "description": "",
+            "configopts": " --disable-static",
+            "description": "ISP Media Server application and required shared libraries.",
             "filename": "isp-media-server_2.0.bb",
             "filepath": "recipes-multimedia/isp",
             "homepage": "",
             "id": 2431716,
-            "inherits": "",
+            "inherits": "gcc gcc-native",
             "layerbranch": 1075105,
-            "license": "",
+            "license": "CLOSED",
             "pe": "",
             "pn": "isp-media-server",
-            "pr": "",
-            "provides": "",
+            "pr": "r0",
+            "provides": "isp-media-server ",
             "pv": "2.0",
-            "section": "",
+            "section": "base",
             "srcrev": "",
-            "summary": "",
-            "updated": "2026-05-28T00:05:02+0000"
+            "summary": "ISP Media Server and Libraries",
+            "updated": "2026-06-08T20:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -945,7 +959,7 @@
             "section": "kernel/modules",
             "srcrev": "4ef881f7d57a415076d288a75780b0b6d53d1b01",
             "summary": "Xilinx Versal2 ISP linux kernel module",
-            "updated": "2026-05-28T00:05:02+0000"
+            "updated": "2026-06-08T20:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -968,7 +982,7 @@
             "section": "base",
             "srcrev": "cefa58d585d0bf3296ee470cf16438803fc28fa8",
             "summary": "Control Software for VCU2",
-            "updated": "2026-05-28T00:05:02+0000"
+            "updated": "2026-06-08T20:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -991,7 +1005,7 @@
             "section": "base",
             "srcrev": "c36569c754aeb8b3f60d3b3a5d333eb27efa5b29",
             "summary": "OpenMAX Integration layer for VCU2",
-            "updated": "2026-05-28T00:05:03+0000"
+            "updated": "2026-06-08T20:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1014,7 +1028,7 @@
             "section": "base",
             "srcrev": "491a82ee4cace66c06a20fcf3fdbff185b7713f6",
             "summary": "OpenMAX Integration layer for VCU2",
-            "updated": "2026-05-28T00:05:03+0000"
+            "updated": "2026-06-08T20:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1037,7 +1051,7 @@
             "section": "base",
             "srcrev": "6cf3befce03a53cff185fb20e6c61ed5c6bde03e",
             "summary": "Firmware for VCU2",
-            "updated": "2026-05-28T00:05:03+0000"
+            "updated": "2026-06-08T20:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1060,7 +1074,7 @@
             "section": "kernel/modules",
             "srcrev": "056476b8a37d2ad2d4a3eb10ae5a1e3a24ef4e95",
             "summary": "Linux kernel module for Video Code Unit",
-            "updated": "2026-05-28T00:05:03+0000"
+            "updated": "2026-06-08T20:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1083,7 +1097,7 @@
             "section": "base",
             "srcrev": "c4ea06edb9ddf77d4ea4b29bb358bfb9fb29b34b",
             "summary": "OpenMAX Integration layer for VCU2",
-            "updated": "2026-05-28T00:05:03+0000"
+            "updated": "2026-06-08T20:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1106,7 +1120,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Big Buck Bunny Movie - 3840*2160@60fps",
-            "updated": "2026-05-28T00:05:03+0000"
+            "updated": "2026-06-08T20:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1129,7 +1143,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Big Buck Bunny Movie - 3840*2160@30fps",
-            "updated": "2026-05-28T00:05:03+0000"
+            "updated": "2026-06-08T20:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1152,7 +1166,7 @@
             "section": "base",
             "srcrev": "1bbaf265b6d0a9fa25fd4d67133e55cbf0e6daa7",
             "summary": "Control Software for VDU",
-            "updated": "2026-05-28T00:05:03+0000"
+            "updated": "2026-06-08T20:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1175,7 +1189,7 @@
             "section": "base",
             "srcrev": "724de80630edcb87d865d69f1a6c0dc61c3f9f12",
             "summary": "Firmware for VDU",
-            "updated": "2026-05-28T00:05:04+0000"
+            "updated": "2026-06-08T20:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1221,7 +1235,7 @@
             "section": "base",
             "srcrev": "4126404dfce767870a672f07804d880106d6d5e2",
             "summary": "OpenMAX Integration layer for VDU",
-            "updated": "2026-05-28T00:05:04+0000"
+            "updated": "2026-06-08T20:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1267,7 +1281,7 @@
             "section": "base",
             "srcrev": "e14e7614fbcbd72f0aa75b953e089bf4634ee128",
             "summary": "Firmware for VDU",
-            "updated": "2026-05-28T00:05:04+0000"
+            "updated": "2026-06-08T20:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1290,7 +1304,7 @@
             "section": "base",
             "srcrev": "361a822a223dc430ca44641be148fe1cbc13dd10",
             "summary": "Control Software for VDU",
-            "updated": "2026-05-28T00:05:04+0000"
+            "updated": "2026-06-08T20:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1313,7 +1327,7 @@
             "section": "base",
             "srcrev": "af9c6e8935799f4dcd579b0164dd05eb039b569d",
             "summary": "OpenMAX Integration layer for VDU",
-            "updated": "2026-05-28T00:05:04+0000"
+            "updated": "2026-06-08T20:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1336,7 +1350,7 @@
             "section": "base",
             "srcrev": "af9c6e8935799f4dcd579b0164dd05eb039b569d",
             "summary": "OpenMAX Integration layer for VDU",
-            "updated": "2026-05-28T00:05:05+0000"
+            "updated": "2026-06-08T20:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1359,7 +1373,7 @@
             "section": "base",
             "srcrev": "fb8730a808b707bfb86d3d64881899214a951ff6",
             "summary": "Control Software for VDU",
-            "updated": "2026-05-28T00:05:05+0000"
+            "updated": "2026-06-08T20:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1382,7 +1396,7 @@
             "section": "kernel/modules",
             "srcrev": "81b8c58f8d888eda535aeb773f768af134e9347c",
             "summary": "Linux kernel module for Video Decode Unit",
-            "updated": "2026-05-28T00:05:05+0000"
+            "updated": "2026-06-08T20:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1405,7 +1419,7 @@
             "section": "base",
             "srcrev": "724de80630edcb87d865d69f1a6c0dc61c3f9f12",
             "summary": "Firmware for VDU",
-            "updated": "2026-05-28T00:05:05+0000"
+            "updated": "2026-06-08T20:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1474,7 +1488,7 @@
             "section": "base",
             "srcrev": "ddb5221a3cd5875e8e8724dcf5df503d469ef16f",
             "summary": "Control Software for VCU",
-            "updated": "2026-05-28T00:05:05+0000"
+            "updated": "2026-06-08T20:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1497,7 +1511,7 @@
             "section": "base",
             "srcrev": "d801b0ce1e87867bdf4c0009da02f93ffd3341e2",
             "summary": "OpenMAX Integration layer for VCU",
-            "updated": "2026-05-28T00:05:05+0000"
+            "updated": "2026-06-08T20:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1520,7 +1534,7 @@
             "section": "base",
             "srcrev": "d801b0ce1e87867bdf4c0009da02f93ffd3341e2",
             "summary": "OpenMAX Integration layer for VCU",
-            "updated": "2026-05-28T00:05:06+0000"
+            "updated": "2026-06-08T20:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1566,7 +1580,7 @@
             "section": "kernel/modules",
             "srcrev": "432ac3d1578999a84ae96bb66c3ecdc0fe479867",
             "summary": "Linux kernel module for Video Code Unit",
-            "updated": "2026-05-28T00:05:06+0000"
+            "updated": "2026-06-08T20:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1658,7 +1672,7 @@
             "section": "base",
             "srcrev": "b259cf0b3eaa1b0b17d2e807f233bfef5b9dbddd",
             "summary": "OpenMAX Integration layer for VCU",
-            "updated": "2026-05-28T00:05:06+0000"
+            "updated": "2026-06-08T20:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1681,7 +1695,7 @@
             "section": "base",
             "srcrev": "dc34204543b89997577bd2c9757b3c218e6caccc",
             "summary": "OpenMAX Integration layer for VCU",
-            "updated": "2026-05-28T00:05:06+0000"
+            "updated": "2026-06-08T20:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1704,7 +1718,7 @@
             "section": "base",
             "srcrev": "4c5b7130eedb13635318e35bfe779061d06347d7",
             "summary": "OpenMAX Integration layer for VCU",
-            "updated": "2026-05-28T00:05:06+0000"
+            "updated": "2026-06-08T20:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1796,7 +1810,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-28T00:05:07+0000"
+            "updated": "2026-06-08T20:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1819,7 +1833,7 @@
             "section": "base",
             "srcrev": "204ed16c44478dfa1f426b22110c06fcf7da6259",
             "summary": "GStreamer demo scripts exercising the AV1/HEVC Video Decoder Unit (VDU) on AMD Versal devices.",
-            "updated": "2026-05-28T00:05:07+0000"
+            "updated": "2026-06-08T20:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1842,7 +1856,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-28T00:05:07+0000"
+            "updated": "2026-06-08T20:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1865,7 +1879,7 @@
             "section": "base",
             "srcrev": "204ed16c44478dfa1f426b22110c06fcf7da6259",
             "summary": "GStreamer demo scripts exercising the H.264/H.265 Video Codec Unit (VCU) on Zynq UltraScale+ MPSoC EV devices.",
-            "updated": "2026-05-28T00:05:07+0000"
+            "updated": "2026-06-08T20:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1888,7 +1902,7 @@
             "section": "kernel/modules",
             "srcrev": "7c6a60cde792d87a2d3d1d54e75780c5044d3436",
             "summary": "Xilinx Versal2 ISP linux kernel module",
-            "updated": "2026-05-28T00:05:07+0000"
+            "updated": "2026-06-08T20:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1911,7 +1925,7 @@
             "section": "base",
             "srcrev": "ba69cdab7f67c406cbf0fe9d435f72ad86e066da",
             "summary": "OpenMAX Integration layer for VCU",
-            "updated": "2026-05-28T00:05:07+0000"
+            "updated": "2026-06-08T20:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1934,7 +1948,7 @@
             "section": "base",
             "srcrev": "c6d904dbe8edb1ebf682a2019978292880c42eb5",
             "summary": "Firmware for VCU",
-            "updated": "2026-05-28T00:05:07+0000"
+            "updated": "2026-06-08T20:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1957,7 +1971,306 @@
             "section": "base",
             "srcrev": "6a4d272264acae356a9bf0717b386259cf02d6a3",
             "summary": "OpenMAX Integration layer for VCU2",
-            "updated": "2026-05-28T00:05:07+0000"
+            "updated": "2026-06-08T20:06:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "-Dintrospection=enabled       -Ddoc=disabled     -Ddebug_viewer=disabled     -Dtests=disabled     -Dvalidate=enabled     -Dnls=enabled   -Dcairo=disabled",
+            "description": "A Tool to test GStreamer components",
+            "filename": "gst-devtools_1.22.12.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "https://gstreamer.freedesktop.org/documentation/gst-devtools/index.html",
+            "id": 2481436,
+            "inherits": "gcc gcc-native gettext gobject-introspection gobject-introspection-data meson meson-routines pkgconfig python3-dir python3native qemu siteinfo upstream-version-is-even",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.1-or-later",
+            "pe": "",
+            "pn": "gst-devtools",
+            "pr": "r0",
+            "provides": "gst-devtools ",
+            "pv": "1.22.12",
+            "section": "multimedia",
+            "srcrev": "",
+            "summary": "Gstreamer validation tool",
+            "updated": "2026-06-08T20:06:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-examples/-/issues",
+            "configopts": " ",
+            "description": "GStreamer example applications",
+            "filename": "gst-examples_1.18.6.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "https://gitlab.freedesktop.org/gstreamer/gst-examples",
+            "id": 2481437,
+            "inherits": "features_check gcc gcc-native meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.0-or-later",
+            "pe": "",
+            "pn": "gst-examples",
+            "pr": "r0",
+            "provides": "gst-examples ",
+            "pv": "1.18.6",
+            "section": "base",
+            "srcrev": "70e4fcf4fc8ae19641aa990de5f37d758cdfcea4",
+            "summary": "GStreamer examples (including gtk-play, gst-play)",
+            "updated": "2026-06-08T20:06:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "      -Dtests=disabled  ",
+            "description": "Contains a GStreamer plugin for using the encoders, decoders, muxers, and demuxers provided by FFmpeg.",
+            "filename": "gstreamer1.0-libav_1.22.12.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "http://gstreamer.freedesktop.org/",
+            "id": 2481438,
+            "inherits": "gcc gcc-native meson meson-routines pkgconfig python3-dir python3native qemu siteinfo upstream-version-is-even",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.1-or-later",
+            "pe": "",
+            "pn": "gstreamer1.0-libav",
+            "pr": "r0",
+            "provides": "gstreamer1.0-libav ",
+            "pv": "1.22.12",
+            "section": "multimedia",
+            "srcrev": "",
+            "summary": "Libav-based GStreamer 1.x plugin",
+            "updated": "2026-06-08T20:06:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " -Dtarget=bellagio ",
+            "description": "Wraps available OpenMAX IL components and makes them available as standard GStreamer elements.",
+            "filename": "gstreamer1.0-omx_1.22.12.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "http://gstreamer.freedesktop.org/",
+            "id": 2481439,
+            "inherits": "gcc gcc-native meson meson-routines pkgconfig python3-dir python3native qemu siteinfo upstream-version-is-even",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.1-or-later",
+            "pe": "",
+            "pn": "gstreamer1.0-omx",
+            "pr": "r0",
+            "provides": "gstreamer1.0-omx ",
+            "pv": "1.22.12",
+            "section": "multimedia",
+            "srcrev": "",
+            "summary": "OpenMAX IL plugins for GStreamer",
+            "updated": "2026-06-08T20:06:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-bad/-/issues",
+            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Dgpl=disabled           -Ddoc=disabled     -Daes=enabled     -Dcodecalpha=enabled     -Ddecklink=enabled     -Ddvb=enabled     -Dfbdev=enabled     -Dipcpipeline=enabled     -Dshm=enabled     -Dtranscode=enabled     -Dandroidmedia=disabled     -Dapplemedia=disabled     -Dasio=disabled     -Dbs2b=disabled     -Dchromaprint=disabled     -Dd3dvideosink=disabled     -Dd3d11=disabled     -Ddirectsound=disabled     -Ddts=disabled     -Dfdkaac=disabled     -Dflite=disabled     -Dgme=disabled     -Dgs=disabled     -Dgsm=disabled     -Diqa=disabled     -Dkate=disabled     -Dladspa=disabled     -Dldac=disabled     -Dlv2=disabled     -Dmagicleap=disabled     -Dmediafoundation=disabled     -Dmicrodns=disabled     -Dmpeg2enc=disabled     -Dmplex=disabled     -Dmusepack=disabled     -Dnvcodec=disabled     -Dopenexr=disabled     -Dopenni2=disabled     -Dopenaptx=disabled     -Dopensles=disabled     -Donnx=disabled     -Dqroverlay=disabled     -Dsoundtouch=disabled     -Dspandsp=disabled     -Dsvthevcenc=disabled     -Dteletext=disabled     -Dwasapi=disabled     -Dwasapi2=disabled     -Dwildmidi=disabled     -Dwinks=disabled     -Dwinscreencap=disabled     -Dwpe=disabled     -Dzxing=disabled   -Daom=disabled -Dassrender=disabled -Davtp=disabled -Dbluez=enabled -Dbz2=enabled -Dclosedcaption=enabled -Dcurl=enabled -Ddash=enabled -Ddc1394=disabled -Ddirectfb=disabled -Ddtls=enabled -Dfaac=disabled -Dfaad=disabled -Dfluidsynth=disabled -Dgl=enabled -Dhls=enabled -Dkms=disabled -Dcolormanagement=disabled -Dlibde265=disabled -Dcurl-ssh2=disabled -Dmodplug=disabled -Dmsdk=disabled -Dneon=disabled -Dopenal=disabled -Dopencv=disabled -Dopenh264=disabled -Dopenjpeg=disabled -Dopenmpt=disabled -Dhls-crypto=openssl -Dopus=disabled -Dorc=enabled -Dresindvd=disabled -Drsvg=enabled -Drtmp=disabled -Dsbc=enabled -Dsctp=disabled -Dsmoothstreaming=enabled -Dsndfile=enabled -Dsrt=disabled -Dsrtp=disabled -Dtinyalsa=disabled -Dttml=enabled -Duvch264=enabled -Dv4l2codecs=disabled -Dva=disabled -Dvoaacenc=disabled -Dvoamrwbenc=disabled -Dvulkan=enabled -Dwayland=enabled -Dwebp=enabled -Dwebrtc=disabled -Dwebrtcdsp=disabled -Dx11=enabled -Dx265=disabled -Dzbar=disabled",
+            "description": "",
+            "filename": "gstreamer1.0-plugins-bad_1.22.12.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "https://gstreamer.freedesktop.org/",
+            "id": 2481440,
+            "inherits": "gcc gcc-native gettext gobject-introspection gobject-introspection-data meson meson-routines pkgconfig python3-dir python3native qemu siteinfo upstream-version-is-even",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.1-or-later & GPL-2.0-or-later",
+            "pe": "",
+            "pn": "gstreamer1.0-plugins-bad",
+            "pr": "r0",
+            "provides": "gstreamer1.0-plugins-bad ",
+            "pv": "1.22.12",
+            "section": "multimedia",
+            "srcrev": "",
+            "summary": "'Bad' GStreamer plugins and helper libraries ",
+            "updated": "2026-06-08T20:06:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-base/-/issues",
+            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Ddoc=disabled     -Dgl_api=opengl,gles2     -Dgl_platform=egl,glx     -Dgl_winsys=egl,wayland,x11   -Dalsa=enabled -Dcdparanoia=disabled -Dgl-graphene=disabled -Dgl-jpeg=enabled -Dogg=enabled -Dopus=disabled -Dorc=enabled -Dpango=enabled -Dgl-png=enabled -Dqt5=disabled -Dtheora=enabled -Dtremor=disabled -Dlibvisual=disabled -Dvorbis=enabled -Dx11=enabled -Dxvideo=enabled -Dxshm=enabled",
+            "description": "",
+            "filename": "gstreamer1.0-plugins-base_1.22.12.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "https://gstreamer.freedesktop.org/",
+            "id": 2481441,
+            "inherits": "gcc gcc-native gettext gobject-introspection gobject-introspection-data meson meson-routines pkgconfig python3-dir python3native qemu siteinfo upstream-version-is-even",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.1-or-later",
+            "pe": "",
+            "pn": "gstreamer1.0-plugins-base",
+            "pr": "r0",
+            "provides": "gstreamer1.0-plugins-base ",
+            "pv": "1.22.12",
+            "section": "multimedia",
+            "srcrev": "",
+            "summary": "'Base' GStreamer plugins and helper libraries",
+            "updated": "2026-06-08T20:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-good/-/issues",
+            "configopts": "      -Dexamples=disabled     -Dnls=enabled       -Ddoc=disabled     -Daalib=disabled     -Ddirectsound=disabled     -Ddv=disabled     -Dlibcaca=disabled     -Doss=enabled     -Doss4=disabled     -Dosxaudio=disabled     -Dosxvideo=disabled     -Dshout2=disabled     -Dtwolame=disabled     -Dwaveform=disabled   -Dasm=disabled -Dbz2=enabled -Dcairo=enabled -Ddv1394=disabled -Dflac=enabled -Dgdk-pixbuf=enabled -Dgtk3=disabled -Dv4l2-gudev=enabled -Djack=disabled -Djpeg=enabled -Dlame=enabled -Dpng=enabled -Dv4l2-libv4l2=disabled -Dmpg123=enabled -Dorc=enabled -Dpulse=enabled -Dqt5=disabled -Drpicamsrc=disabled -Dsoup=enabled -Dspeex=enabled -Dtaglib=enabled -Dv4l2=enabled -Dv4l2-probe=true -Dvpx=disabled -Dwavpack=disabled -Dximagesrc=enabled -Dximagesrc-xshm=enabled -Dximagesrc-xfixes=enabled -Dximagesrc-xdamage=enabled",
+            "description": "",
+            "filename": "gstreamer1.0-plugins-good_1.22.12.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "https://gstreamer.freedesktop.org/",
+            "id": 2481442,
+            "inherits": "gcc gcc-native gettext meson meson-routines pkgconfig python3-dir python3native qemu siteinfo upstream-version-is-even",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.1-or-later",
+            "pe": "",
+            "pn": "gstreamer1.0-plugins-good",
+            "pr": "r0",
+            "provides": "gstreamer1.0-plugins-good ",
+            "pv": "1.22.12",
+            "section": "multimedia",
+            "srcrev": "",
+            "summary": "'Good' GStreamer plugins",
+            "updated": "2026-06-08T20:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-ugly/-/issues",
+            "configopts": "           -Dnls=enabled       -Dgpl=enabled           -Ddoc=disabled     -Dsidplay=disabled   -Da52dec=enabled -Damrnb=disabled -Damrwbdec=disabled -Dcdio=disabled -Ddvdread=disabled -Dmpeg2dec=enabled -Dorc=enabled -Dx264=disabled",
+            "description": "",
+            "filename": "gstreamer1.0-plugins-ugly_1.22.12.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "https://gstreamer.freedesktop.org/",
+            "id": 2481443,
+            "inherits": "gcc gcc-native gettext meson meson-routines pkgconfig python3-dir python3native qemu siteinfo upstream-version-is-even",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.1-or-later & GPL-2.0-or-later",
+            "pe": "",
+            "pn": "gstreamer1.0-plugins-ugly",
+            "pr": "r0",
+            "provides": "gstreamer1.0-plugins-ugly ",
+            "pv": "1.22.12",
+            "section": "multimedia",
+            "srcrev": "",
+            "summary": "'Ugly GStreamer plugins",
+            "updated": "2026-06-08T20:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "     -Dtests=disabled     -Dplugin=enabled     -Dlibpython-dir=/usr/lib  ",
+            "description": "GStreamer Python binding overrides (complementing the bindings provided by python-gi) ",
+            "filename": "gstreamer1.0-python_1.22.12.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "http://cgit.freedesktop.org/gstreamer/gst-python/",
+            "id": 2481444,
+            "inherits": "features_check gcc gcc-native meson meson-routines pkgconfig python3-dir python3native python3targetconfig qemu setuptools3-base siteinfo upstream-version-is-even",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.1-or-later",
+            "pe": "",
+            "pn": "gstreamer1.0-python",
+            "pr": "r0",
+            "provides": "gstreamer1.0-python ",
+            "pv": "1.22.12",
+            "section": "multimedia",
+            "srcrev": "",
+            "summary": "Python bindings for GStreamer 1.0",
+            "updated": "2026-06-08T20:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "-Dintrospection=enabled       -Ddoc=disabled     -Dexamples=disabled     -Dtests=disabled  ",
+            "description": "",
+            "filename": "gstreamer1.0-rtsp-server_1.22.12.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "http://cgit.freedesktop.org/gstreamer/gst-rtsp-server/",
+            "id": 2481445,
+            "inherits": "gcc gcc-native gobject-introspection gobject-introspection-data meson meson-routines pkgconfig python3-dir python3native qemu siteinfo upstream-version-is-even",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.1-or-later",
+            "pe": "",
+            "pn": "gstreamer1.0-rtsp-server",
+            "pr": "r0",
+            "provides": "gstreamer1.0-rtsp-server ",
+            "pv": "1.22.12",
+            "section": "multimedia",
+            "srcrev": "",
+            "summary": "A library on top of GStreamer for building an RTSP server",
+            "updated": "2026-06-08T20:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "      -Ddoc=disabled     -Dexamples=disabled     -Dtests=enabled   -Ddrm=enabled -Degl=disabled -Dencoders=enabled -Dglx=enabled -Dwayland=enabled -Dx11=enabled",
+            "description": "gstreamer-vaapi consists of a collection of VA-API based plugins for GStreamer and helper libraries: `vaapidecode', `vaapiconvert', and `vaapisink'.",
+            "filename": "gstreamer1.0-vaapi_1.22.12.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "https://gstreamer.freedesktop.org/",
+            "id": 2481446,
+            "inherits": "features_check gcc gcc-native meson meson-routines pkgconfig python3-dir python3native qemu siteinfo upstream-version-is-even",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.1-or-later",
+            "pe": "",
+            "pn": "gstreamer1.0-vaapi",
+            "pr": "r0",
+            "provides": "gstreamer1.0-vaapi ",
+            "pv": "1.22.12",
+            "section": "base",
+            "srcrev": "",
+            "summary": "VA-API support to GStreamer",
+            "updated": "2026-06-08T20:06:23+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "https://bugzilla.gnome.org/enter_bug.cgi?product=Gstreamer",
+            "configopts": "-Dintrospection=enabled       -Ddoc=disabled     -Dexamples=disabled     -Ddbghelp=disabled     -Dnls=enabled   -Dbash-completion=disabled -Dcheck=enabled -Dcoretracers=disabled -Dgst_debug=true -Dlibdw=disabled -Dtests=enabled -Dinstalled_tests=true -Dtools=enabled -Dtracer_hooks=false -Dlibunwind=disabled",
+            "description": "GStreamer is a multimedia framework for encoding and decoding video and sound. It supports a wide range of formats including mp3, ogg, avi, mpeg and quicktime.",
+            "filename": "gstreamer1.0_1.22.12.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "http://gstreamer.freedesktop.org/",
+            "id": 2481447,
+            "inherits": "gcc gcc-native gettext gobject-introspection gobject-introspection-data meson meson-routines pkgconfig ptest ptest-gnome python3-dir python3native qemu siteinfo upstream-version-is-even",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.1-or-later",
+            "pe": "",
+            "pn": "gstreamer1.0",
+            "pr": "r0",
+            "provides": "gstreamer1.0 ",
+            "pv": "1.22.12",
+            "section": "multimedia",
+            "srcrev": "",
+            "summary": "GStreamer 1.0 multimedia framework",
+            "updated": "2026-06-08T20:06:23+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-doc --disable-Werror --disable-static ",
+            "description": "Bellagio is an opensource implementation of the Khronos OpenMAX                Integration Layer API to access multimedia components.",
+            "filename": "libomxil_0.9.3.bb",
+            "filepath": "recipes-multimedia/libomxil",
+            "homepage": "http://omxil.sourceforge.net/",
+            "id": 2481448,
+            "inherits": "autotools gcc gcc-native siteinfo",
+            "layerbranch": 1075105,
+            "license": "LGPL-2.1-or-later",
+            "pe": "",
+            "pn": "libomxil",
+            "pr": "r0",
+            "provides": "libomxil  virtual/libomxil",
+            "pv": "0.9.3",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Bellagio OpenMAX Integration Layer (IL)",
+            "updated": "2026-06-08T20:06:23+0000"
         }
     ],
     "wrtemplates": []
