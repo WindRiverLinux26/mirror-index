@@ -741,6 +741,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
         }
     ],
     "branches": [
@@ -753,7 +760,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-06-22T00:06:06+0000",
+            "updated": "2026-09-15T00:09:15+0000",
             "updates_enabled": true
         }
     ],
@@ -766,10 +773,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-17T00:06:35+0000",
-            "vcs_last_commit": "2026-06-17T00:06:36+0000",
-            "vcs_last_fetch": "2026-06-17T00:06:35+0000",
-            "vcs_last_rev": "e8fa62a88e05621ca167be31919a6e2c4cb817d5",
+            "updated": "2026-09-01T14:09:26+0000",
+            "vcs_last_commit": "2026-08-27T15:08:37+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:26+0000",
+            "vcs_last_rev": "af4bb5042906e34671322cec45e0d53b80b7650c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -781,10 +788,10 @@
             "id": 1075092,
             "layer": 231,
             "local_path": "",
-            "updated": "2026-06-07T22:06:22+0000",
-            "vcs_last_commit": "2026-06-07T21:06:13+0000",
-            "vcs_last_fetch": "2026-06-07T22:06:22+0000",
-            "vcs_last_rev": "6a1509b3515d29fac91fa7677ceaaf07ee56fc4a",
+            "updated": "2026-09-10T17:09:57+0000",
+            "vcs_last_commit": "2026-09-09T15:09:15+0000",
+            "vcs_last_fetch": "2026-09-10T17:09:57+0000",
+            "vcs_last_rev": "2b2780a0288069c2c1edc4c220551007c98f082f",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44228
@@ -796,10 +803,10 @@
             "id": 1075097,
             "layer": 470,
             "local_path": "",
-            "updated": "2026-06-04T23:06:02+0000",
-            "vcs_last_commit": "2026-06-04T20:06:12+0000",
-            "vcs_last_fetch": "2026-06-04T23:06:02+0000",
-            "vcs_last_rev": "8448a3d8113d3342b3e00ef1fe4ea8a5d4f74279",
+            "updated": "2026-09-10T17:09:07+0000",
+            "vcs_last_commit": "2026-09-09T15:09:01+0000",
+            "vcs_last_fetch": "2026-09-10T17:09:07+0000",
+            "vcs_last_rev": "6544049b136090d8633d032e7464f5ffb33294a4",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44228
@@ -811,13 +818,13 @@
             "id": 1075099,
             "layer": 551,
             "local_path": "",
-            "updated": "2026-05-28T00:05:15+0000",
-            "vcs_last_commit": "2026-04-02T20:04:50+0000",
-            "vcs_last_fetch": "2026-05-28T00:05:15+0000",
-            "vcs_last_rev": "0973a0dd523718d0d3e525127c4dfead443a3cba",
+            "updated": "2026-09-10T17:09:25+0000",
+            "vcs_last_commit": "2026-09-09T07:09:10+0000",
+            "vcs_last_fetch": "2026-09-10T17:09:25+0000",
+            "vcs_last_rev": "cc91bcb2eb3a6c1d5bdde1413f0f3e6aa469f6c1",
             "vcs_subdir": "meta-imx-ml",
             "version": null,
-            "yp_compatible_version": 44231
+            "yp_compatible_version": 44232
         },
         {
             "actual_branch": "",
@@ -826,13 +833,13 @@
             "id": 1075115,
             "layer": 553,
             "local_path": "",
-            "updated": "2026-06-04T23:06:14+0000",
-            "vcs_last_commit": "2026-06-04T21:06:34+0000",
-            "vcs_last_fetch": "2026-06-04T23:06:14+0000",
-            "vcs_last_rev": "327c3b9226a353c62d3ccc95855990be9a0b2a5b",
+            "updated": "2026-09-10T17:09:53+0000",
+            "vcs_last_commit": "2026-09-09T14:09:24+0000",
+            "vcs_last_fetch": "2026-09-10T17:09:53+0000",
+            "vcs_last_rev": "4bc47cbe3f023faf6378450cdce674b99c006f0e",
             "vcs_subdir": "meta-imx-bsp",
             "version": null,
-            "yp_compatible_version": 44231
+            "yp_compatible_version": 44232
         },
         {
             "actual_branch": "",
@@ -841,13 +848,13 @@
             "id": 1075123,
             "layer": 552,
             "local_path": "",
-            "updated": "2026-06-03T00:06:31+0000",
-            "vcs_last_commit": "2026-06-02T23:06:58+0000",
-            "vcs_last_fetch": "2026-06-03T00:06:31+0000",
-            "vcs_last_rev": "df58e2421d282c83df37d7121ab7201bdaa5fe11",
+            "updated": "2026-09-10T17:09:12+0000",
+            "vcs_last_commit": "2026-09-09T14:09:24+0000",
+            "vcs_last_fetch": "2026-09-10T17:09:12+0000",
+            "vcs_last_rev": "4bc47cbe3f023faf6378450cdce674b99c006f0e",
             "vcs_subdir": "meta-imx-sdk",
             "version": null,
-            "yp_compatible_version": 44212
+            "yp_compatible_version": 44238
         },
         {
             "actual_branch": "",
@@ -856,10 +863,10 @@
             "id": 1075125,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-06-16T02:06:25+0000",
-            "vcs_last_commit": "2026-06-16T01:06:53+0000",
-            "vcs_last_fetch": "2026-06-16T02:06:25+0000",
-            "vcs_last_rev": "9085470bf7316e522be43606bd3bda4d3080cd0f",
+            "updated": "2026-09-10T17:09:13+0000",
+            "vcs_last_commit": "2026-09-09T14:09:26+0000",
+            "vcs_last_fetch": "2026-09-10T17:09:13+0000",
+            "vcs_last_rev": "95fac9be10904ecfbc290967e9b3392aa3e7caaf",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44213
@@ -886,13 +893,13 @@
             "id": 1075583,
             "layer": 538,
             "local_path": "",
-            "updated": "2026-06-03T20:06:41+0000",
-            "vcs_last_commit": "2026-06-03T17:06:02+0000",
-            "vcs_last_fetch": "2026-06-03T20:06:41+0000",
-            "vcs_last_rev": "a09c39031ee8ac73dc97b0e55a9fca838516b82a",
+            "updated": "2026-09-10T17:09:26+0000",
+            "vcs_last_commit": "2026-09-09T15:09:10+0000",
+            "vcs_last_fetch": "2026-09-10T17:09:26+0000",
+            "vcs_last_rev": "9cbf42810679c802887f2c618529c89ca8e67055",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 44213
+            "yp_compatible_version": 44226
         }
     ],
     "layerDependencies": [
@@ -1124,7 +1131,7 @@
             "id": 113826,
             "layerbranch": 1075583,
             "name": "nxp-imx9",
-            "updated": "2026-05-28T00:05:55+0000"
+            "updated": "2026-09-10T17:09:26+0000"
         }
     ],
     "recipes": [
@@ -1158,7 +1165,7 @@
             "id": 137269,
             "layerbranch": 1075583,
             "name": "default",
-            "updated": "2026-05-28T00:05:55+0000"
+            "updated": "2026-09-10T17:09:26+0000"
         }
     ]
 }

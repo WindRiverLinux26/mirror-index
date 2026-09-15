@@ -741,6 +741,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
         }
     ],
     "branches": [
@@ -753,7 +760,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-06-22T00:06:06+0000",
+            "updated": "2026-09-15T00:09:15+0000",
             "updates_enabled": true
         }
     ],
@@ -766,10 +773,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-17T00:06:35+0000",
-            "vcs_last_commit": "2026-06-17T00:06:36+0000",
-            "vcs_last_fetch": "2026-06-17T00:06:35+0000",
-            "vcs_last_rev": "e8fa62a88e05621ca167be31919a6e2c4cb817d5",
+            "updated": "2026-09-01T14:09:26+0000",
+            "vcs_last_commit": "2026-08-27T15:08:37+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:26+0000",
+            "vcs_last_rev": "af4bb5042906e34671322cec45e0d53b80b7650c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -781,10 +788,10 @@
             "id": 1075112,
             "layer": 166,
             "local_path": "",
-            "updated": "2026-06-02T06:06:55+0000",
-            "vcs_last_commit": "2026-06-01T23:06:41+0000",
-            "vcs_last_fetch": "2026-06-02T06:06:55+0000",
-            "vcs_last_rev": "67017069192abd7167b651249e41261440e2dac8",
+            "updated": "2026-08-17T15:08:46+0000",
+            "vcs_last_commit": "2026-08-03T07:08:28+0000",
+            "vcs_last_fetch": "2026-08-17T15:08:46+0000",
+            "vcs_last_rev": "a22f5ac33bfd9f20a47ec3e2ea65db5759a0af3a",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 44229
@@ -864,7 +871,7 @@
             "id": 113736,
             "layerbranch": 1075112,
             "name": "intel-core2-32",
-            "updated": "2026-05-28T00:05:00+0000"
+            "updated": "2026-08-17T15:08:36+0000"
         }
     ],
     "recipes": [
@@ -887,9 +894,9 @@
             "provides": "slimboot-tools ",
             "pv": "0.0.0+gitX",
             "section": "base",
-            "srcrev": "7b6466faf6d48c64d46702356789ca2a22ef651f",
+            "srcrev": "edeb956ccf6dfa4b1519e87d1d3dc175264883cd",
             "summary": "Slim Bootloader Host Tools",
-            "updated": "2026-05-28T00:05:37+0000"
+            "updated": "2026-08-17T15:08:39+0000"
         },
         {
             "bbclassextend": "",
@@ -897,7 +904,7 @@
             "bugtracker": "",
             "configopts": "  -DENABLE_WAYLAND=ON",
             "description": "Intel Video Processing Library (VPL) Tools provides access to hardware accelerated video decode, encode and video processing capabilities on Intel\u00ae GPUs use cases.",
-            "filename": "libvpl-tools_1.5.0.bb",
+            "filename": "libvpl-tools_1.6.0.bb",
             "filepath": "recipes-multimedia/vpl",
             "homepage": "https://github.com/intel/libvpl-tools",
             "id": 2432136,
@@ -908,11 +915,11 @@
             "pn": "libvpl-tools",
             "pr": "r0",
             "provides": "libvpl-tools ",
-            "pv": "1.5.0",
+            "pv": "1.6.0",
             "section": "base",
-            "srcrev": "ad9deecaf0ee76f689373b55fe620c843e3c8a4d",
+            "srcrev": "3de25bf3358de6d68633aeb915a2564808197315",
             "summary": "Intel Video Processing Library Tools",
-            "updated": "2026-05-28T00:05:37+0000"
+            "updated": "2026-08-17T15:08:42+0000"
         },
         {
             "bbclassextend": "",
@@ -920,7 +927,7 @@
             "bugtracker": "https://github.com/intel/vpl-gpu-rt/issues",
             "configopts": " ",
             "description": "Intel(R) oneVPL runtime provides an runtime to access hardware-accelerated video decode, encode and filtering on Intel\u00ae graphics.",
-            "filename": "vpl-gpu-rt_26.1.0.bb",
+            "filename": "vpl-gpu-rt_26.2.3.bb",
             "filepath": "recipes-multimedia/vpl",
             "homepage": "https://github.com/intel/vpl-gpu-rt",
             "id": 2432137,
@@ -931,11 +938,11 @@
             "pn": "vpl-gpu-rt",
             "pr": "r0",
             "provides": "vpl-gpu-rt ",
-            "pv": "26.1.0",
+            "pv": "26.2.3",
             "section": "base",
-            "srcrev": "58c5fb3f1aa69c98dbb653b3707c92fc9d8dc4ff",
+            "srcrev": "2943e13f768add00b5391858e8fc193f6d22c40a",
             "summary": "Intel(R) oneVPL runtime for Intel GPU accelerated media processing",
-            "updated": "2026-05-28T00:05:37+0000"
+            "updated": "2026-08-17T15:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -943,7 +950,7 @@
             "bugtracker": "",
             "configopts": "-DBUILD_EXAMPLES=ON  -DBUILD_TOOLS=ON",
             "description": "Intel Video Processing Library (VPL) provides a single video processing API for encode, decode, and video processing that works across a wide range of accelerators.",
-            "filename": "libvpl_2.16.0.bb",
+            "filename": "libvpl_2.17.0.bb",
             "filepath": "recipes-multimedia/vpl",
             "homepage": "https://github.com/intel/libvpl",
             "id": 2432138,
@@ -954,19 +961,19 @@
             "pn": "libvpl",
             "pr": "r0",
             "provides": "libvpl ",
-            "pv": "2.16.0",
+            "pv": "2.17.0",
             "section": "base",
-            "srcrev": "778a66d6c6537f08eabb91955dbbf1bce3812894",
+            "srcrev": "d77f9195cf495b937631607333288fd917ae8939",
             "summary": "Intel Video Processing Library",
-            "updated": "2026-05-28T00:05:38+0000"
+            "updated": "2026-08-17T15:08:42+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://github.com/intel/media-driver/issues",
-            "configopts": "                     -DMEDIA_RUN_TEST_SUITE=OFF                    -DARCH=32                    -DMEDIA_BUILD_FATAL_WARNINGS=OFF                    -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \t\t   ",
+            "configopts": "                     -DMEDIA_RUN_TEST_SUITE=OFF                    -DARCH=32                    -DMEDIA_BUILD_FATAL_WARNINGS=OFF                    -DCMAKE_POLICY_VERSION_MINIMUM=3.5                    -DCMAKE_NINJA_FORCE_RESPONSE_FILE=ON \t\t   ",
             "description": "Intel Media Driver for VAAPI is a new VA-API (Video Acceleration API) user mode driver supporting hardware accelerated decoding, encoding, and video post processing for GEN based graphics hardware.",
-            "filename": "intel-media-driver_25.1.4.bb",
+            "filename": "intel-media-driver_26.2.3.bb",
             "filepath": "recipes-multimedia/libva",
             "homepage": "https://github.com/intel/media-driver",
             "id": 2432139,
@@ -977,34 +984,11 @@
             "pn": "intel-media-driver",
             "pr": "r0",
             "provides": "intel-media-driver ",
-            "pv": "25.1.4",
+            "pv": "26.2.3",
             "section": "base",
-            "srcrev": "14e2e7bcf1014186dbf1c099089c7c05cd880ae8",
+            "srcrev": "dcccc9f760fd03e34b528b70b954c301ce509901",
             "summary": "VA driver for Intel Gen based graphics hardware",
-            "updated": "2026-05-28T00:05:39+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "https://github.com/intel/intel-vaapi-driver/issues",
-            "configopts": "  -Dwith_wayland=yes -Dwith_x11=yes",
-            "description": "intel-vaapi-driver is the VA-API implementation for Intel G45 chipsets and Intel HD Graphics for Intel Core processor family.",
-            "filename": "intel-vaapi-driver_2.4.1.bb",
-            "filepath": "recipes-multimedia/libva",
-            "homepage": "https://github.com/intel/intel-vaapi-driver",
-            "id": 2432140,
-            "inherits": "features_check gcc gcc-native meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
-            "layerbranch": 1075112,
-            "license": "MIT",
-            "pe": "",
-            "pn": "intel-vaapi-driver",
-            "pr": "r0",
-            "provides": "intel-vaapi-driver ",
-            "pv": "2.4.1",
-            "section": "base",
-            "srcrev": "",
-            "summary": "VA driver for Intel G45 & HD Graphics family",
-            "updated": "2026-05-28T00:05:40+0000"
+            "updated": "2026-08-17T15:08:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1012,7 +996,7 @@
             "bugtracker": "",
             "configopts": " -DCMAKE_BUILD_TYPE=Release -DFORCE_32=ON ",
             "description": "The Instrumentation and Tracing Technology (ITT) API enables application to generate and control the collection of trace data during its execution across different Intel tools.",
-            "filename": "itt_3.26.5.bb",
+            "filename": "itt_3.28.0.bb",
             "filepath": "recipes-multimedia/itt",
             "homepage": "",
             "id": 2432141,
@@ -1023,11 +1007,11 @@
             "pn": "itt",
             "pr": "r0",
             "provides": "itt ",
-            "pv": "3.26.5",
+            "pv": "3.28.0",
             "section": "base",
-            "srcrev": "818c1f782acaeda5f9c566a915ac20f90baa9e5f",
+            "srcrev": "e537157e103373bf6af5ae84e5ef55f467748b43",
             "summary": "Intel\u00ae Instrumentation and Tracing Technology (ITT) and Just-In-Time (JIT) API",
-            "updated": "2026-05-28T00:05:40+0000"
+            "updated": "2026-08-17T15:08:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1050,7 +1034,7 @@
             "section": "base",
             "srcrev": "eecdf779a35384235d3c32a6213024f53368cb60",
             "summary": "Intel(R) Processor Trace Decoder Library",
-            "updated": "2026-05-28T00:05:40+0000"
+            "updated": "2026-08-17T15:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1058,7 +1042,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Software package which provides basic support for Intel(R) Resource Director Technology (Intel(R) RDT)",
-            "filename": "intel-cmt-cat_25.04.bb",
+            "filename": "intel-cmt-cat_26.06.bb",
             "filepath": "recipes-support/intel-cmt-cat",
             "homepage": "https://github.com/intel/intel-cmt-cat",
             "id": 2432143,
@@ -1069,19 +1053,19 @@
             "pn": "intel-cmt-cat",
             "pr": "r0",
             "provides": "intel-cmt-cat ",
-            "pv": "25.04",
+            "pv": "26.06",
             "section": "base",
-            "srcrev": "17629d0b726875836af6c7d9cb38b8ed23f32089",
+            "srcrev": "dae129762e411d0d4709c74bc143d93475aeea11",
             "summary": "intel-cmt-cat",
-            "updated": "2026-05-28T00:05:40+0000"
+            "updated": "2026-08-17T15:08:43+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "  -DARCH=intel64  -DTOOLCHAIN_OPTIONS=' --sysroot=/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/intel-crypto-mb/2021.12.1/recipe-sysroot' ",
+            "configopts": "  -DARCH=intel64  -DTOOLCHAIN_OPTIONS=' --sysroot=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/intel-crypto-mb/2.2.0/recipe-sysroot -Wno-error=unused-but-set-variable' ",
             "description": "Intel\u00ae Integrated Performance Primitives (Intel\u00ae IPP) Cryptography is a secure, fast and lightweight library of building blocks for cryptography, highly-optimized for various Intel\u00ae CPUs.",
-            "filename": "intel-crypto-mb_2021.12.1.bb",
+            "filename": "intel-crypto-mb_2.2.0.bb",
             "filepath": "recipes-support/crypto",
             "homepage": "https://github.com/intel/ipp-crypto",
             "id": 2432144,
@@ -1092,11 +1076,11 @@
             "pn": "intel-crypto-mb",
             "pr": "r0",
             "provides": "intel-crypto-mb ",
-            "pv": "2021.12.1",
+            "pv": "2.2.0",
             "section": "base",
-            "srcrev": "7d6ac349507258f49d00909df33d5dea4ff77f39",
+            "srcrev": "afe5ee9a38d57da0ffa37df789ecd1261cbfa2ed",
             "summary": "Crypto Multi-buffer Library",
-            "updated": "2026-05-28T00:05:40+0000"
+            "updated": "2026-08-17T15:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1104,7 +1088,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "MEETEE library provides a cross-platform simple  programing interface for accessing Intel HECI interfaces on devices  found in BigCore and Atom based products.",
-            "filename": "metee_6.0.2.bb",
+            "filename": "metee_6.2.4.bb",
             "filepath": "recipes-support/metee",
             "homepage": "",
             "id": 2432145,
@@ -1115,11 +1099,11 @@
             "pn": "metee",
             "pr": "r0",
             "provides": "metee ",
-            "pv": "6.0.2",
+            "pv": "6.2.4",
             "section": "base",
-            "srcrev": "93784f62070b2bc4e84b51e23c9add61f7600444",
+            "srcrev": "2e9390294f47c3d88590cb4a6e0293e31fd4a9db",
             "summary": "Intel(R) METEE Library",
-            "updated": "2026-05-28T00:05:41+0000"
+            "updated": "2026-08-17T15:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1127,7 +1111,7 @@
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "ISA-L is a collection of optimized low-level functions targeting storage applications.",
-            "filename": "isa-l_2.31.1.bb",
+            "filename": "isa-l_2.32.0.bb",
             "filepath": "recipes-support/isa-l",
             "homepage": "",
             "id": 2432146,
@@ -1138,19 +1122,19 @@
             "pn": "isa-l",
             "pr": "r0",
             "provides": "isa-l ",
-            "pv": "2.31.1",
+            "pv": "2.32.0",
             "section": "lib",
-            "srcrev": "c387163fcbca62701d646149564c550c78a4f985",
+            "srcrev": "c196241ae89b1aa4f62efeb849a937c011b3a926",
             "summary": "Intelligent Storage Acceleration Library",
-            "updated": "2026-05-28T00:05:41+0000"
+            "updated": "2026-08-17T15:08:43+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "                    -DISPC_EXECUTABLE=/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/openvkl/2.0.1/recipe-sysroot-native/usr/bin/ispc                    -DCMAKE_POLICY_VERSION_MINIMUM=3.5                    ",
+            "configopts": "                    -DISPC_EXECUTABLE=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/openvkl/2.0.2/recipe-sysroot-native/usr/bin/ispc                    -DCMAKE_POLICY_VERSION_MINIMUM=3.5                    ",
             "description": "Intel(R) Open Volume Kernel Library (Intel(R) Open VKL) is a collection of high-performance volume computation kernels. The target users of Open VKL are graphics application engineers who want to improve the performance of their volume rendering applications by leveraging Open VKL\u2019s performance-optimized kernels, which include volume traversal and sampling functionality for a variety of volumetric data formats. The kernels are optimized for the latest Intel(R) processors with support for SSE, AVX, AVX2, and AVX-512 instructions.",
-            "filename": "openvkl_2.0.1.bb",
+            "filename": "openvkl_2.0.2.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-oneapi/openvkl",
             "homepage": "https://www.openvkl.org/",
             "id": 2432147,
@@ -1161,17 +1145,17 @@
             "pn": "openvkl",
             "pr": "r0",
             "provides": "openvkl ",
-            "pv": "2.0.1",
+            "pv": "2.0.2",
             "section": "base",
-            "srcrev": "8c6ba526813b871a624cb9d73d4cbb689ac7f4ce",
+            "srcrev": "cd7277281cf43d1027752f8d272074fad4fb0a03",
             "summary": "Intel(R) Open Volume Kernel Library",
-            "updated": "2026-05-28T00:05:41+0000"
+            "updated": "2026-08-17T15:08:37+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "                    -DISPC_EXECUTABLE=/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/ospray/3.2.0/recipe-sysroot-native/usr/bin/ispc                   -DOSPRAY_ENABLE_APPS_BENCHMARK=OFF                   -DOSPRAY_ENABLE_APPS_TESTING=OFF                   -DOSPRAY_ENABLE_APPS_EXAMPLES=OFF                    ",
+            "configopts": "                    -DISPC_EXECUTABLE=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/ospray/3.2.0/recipe-sysroot-native/usr/bin/ispc                   -DOSPRAY_ENABLE_APPS_BENCHMARK=OFF                   -DOSPRAY_ENABLE_APPS_TESTING=OFF                   -DOSPRAY_ENABLE_APPS_EXAMPLES=OFF                    ",
             "description": "Intel OSPRay is an open source, scalable, and portable ray tracing engine for high-performance, high-fidelity visualization on Intel Architecture CPUs.",
             "filename": "ospray_3.2.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-oneapi/ospray",
@@ -1188,7 +1172,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Intel OSPray, Ray Tracing based Rendering Engine",
-            "updated": "2026-05-28T00:05:41+0000"
+            "updated": "2026-08-17T15:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1196,7 +1180,7 @@
             "bugtracker": "",
             "configopts": "                    -DEMBREE_IGNORE_CMAKE_CXX_FLAGS=OFF                    -DEMBREE_MAX_ISA=DEFAULT                    -DEMBREE_ISPC_SUPPORT=ON                    -DEMBREE_ZIP_MODE=OFF                      -DEMBREE_TUTORIALS=OFF",
             "description": "A collection of high-performance ray tracing kernels intended to graphics application engineers that want to improve the performance of their application.",
-            "filename": "embree_4.4.0.bb",
+            "filename": "embree_4.4.1.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-oneapi/embree",
             "homepage": "https://github.com/embree/embree",
             "id": 2432149,
@@ -1207,80 +1191,11 @@
             "pn": "embree",
             "pr": "r0",
             "provides": "embree ",
-            "pv": "4.4.0",
+            "pv": "4.4.1",
             "section": "base",
-            "srcrev": "ff9381774dc99fea81a932ad276677aad6a3d4dd",
+            "srcrev": "f590db83ef6559387df7f6d8725c34fb7acf851d",
             "summary": "Collection of high-performance ray tracing kernels",
-            "updated": "2026-05-28T00:05:41+0000"
-        },
-        {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": " --disable-static",
-            "description": "The Intel\u00ae oneAPI DPC++/C++ Compiler provides optimizations that help your applications run faster on Intel\u00ae 64 architectures with support for the latest C, C++, and SYCL language standards. This compiler produces optimized code that can run significantly faster by taking advantage of the ever-increasing core count and vector register width in Intel\u00ae Xeon\u00ae processors and compatible processors.",
-            "filename": "intel-oneapi-dpcpp-cpp_2024.0.0-49819.bb",
-            "filepath": "dynamic-layers/clang-layer/recipes-oneapi/dpcpp-compiler",
-            "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html",
-            "id": 2432150,
-            "inherits": "bin_package gcc gcc-native",
-            "layerbranch": 1075112,
-            "license": "EULA",
-            "pe": "",
-            "pn": "intel-oneapi-dpcpp-cpp",
-            "pr": "r0",
-            "provides": "intel-oneapi-dpcpp-cpp ",
-            "pv": "2024.0.0-49819",
-            "section": "base",
-            "srcrev": "",
-            "summary": "Intel\u00ae oneAPI DPC++/C++ Compiler",
-            "updated": "2026-05-28T00:05:41+0000"
-        },
-        {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": " --disable-static",
-            "description": "The Intel\u00ae oneAPI DPC++/C++ Compiler provides optimizations that help your applications run faster on Intel\u00ae 64 architectures with support for the latest C, C++, and SYCL language standards. This compiler produces optimized code that can run significantly faster by taking advantage of the ever-increasing core count and vector register width in Intel\u00ae Xeon\u00ae processors and compatible processors.",
-            "filename": "intel-oneapi-dpcpp-cpp-runtime_2024.0.0-49819.bb",
-            "filepath": "dynamic-layers/clang-layer/recipes-oneapi/dpcpp-compiler",
-            "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html",
-            "id": 2432151,
-            "inherits": "bin_package gcc gcc-native",
-            "layerbranch": 1075112,
-            "license": "EULA",
-            "pe": "",
-            "pn": "intel-oneapi-dpcpp-cpp-runtime",
-            "pr": "r0",
-            "provides": "intel-oneapi-dpcpp-cpp-runtime ",
-            "pv": "2024.0.0-49819",
-            "section": "base",
-            "srcrev": "",
-            "summary": "Intel\u00ae oneAPI DPC++/C++ Compiler runtime files",
-            "updated": "2026-05-28T00:05:42+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": " --disable-static",
-            "description": "The Intel\u00ae oneAPI Math Kernel Library (oneMKL) is a computing  math library of highly optimized and extensively parallelized routines  for applications that require maximum performance. oneMKL contains  the high-performance optimizations from the full Intel\u00ae Math Kernel Library  for CPU architectures (with C/Fortran programming language interfaces) and adds to them a set of DPC++ programming language interfaces for  achieving performance on various CPU architectures  and Intel Graphics Technology for certain key functionalities.",
-            "filename": "intel-oneapi-mkl_2024.0.0-49656.bb",
-            "filepath": "dynamic-layers/clang-layer/recipes-oneapi/mkl",
-            "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html",
-            "id": 2432152,
-            "inherits": "bin_package gcc gcc-native",
-            "layerbranch": 1075112,
-            "license": "ISSL",
-            "pe": "",
-            "pn": "intel-oneapi-mkl",
-            "pr": "r0",
-            "provides": "intel-oneapi-mkl ",
-            "pv": "2024.0.0-49656",
-            "section": "base",
-            "srcrev": "",
-            "summary": "Intel\u00ae oneAPI Math Kernel Library (oneMKL)",
-            "updated": "2026-05-28T00:05:42+0000"
+            "updated": "2026-08-17T15:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1288,7 +1203,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The oneAPI DPC++ Library (oneDPL) aims to work with the oneAPI DPC++ Compiler to provide high-productivity APIs to developers, which can minimize DPC++ programming efforts across devices for high performance parallel applications.",
-            "filename": "onedpl_2022.11.0.bb",
+            "filename": "onedpl_2022.12.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-oneapi/onedpl",
             "homepage": "https://github.com/oneapi-src/oneDPL",
             "id": 2432153,
@@ -1299,11 +1214,11 @@
             "pn": "onedpl",
             "pr": "r0",
             "provides": "onedpl ",
-            "pv": "2022.11.0",
+            "pv": "2022.12.0",
             "section": "base",
-            "srcrev": "1a9da9fb4d2dace64ace7dac3ce6072a13ecd35d",
+            "srcrev": "f8a7af46fe73e44cc1f64e8f02e9a25cc9155d1a",
             "summary": "oneAPI DPC++ Library (oneDPL)",
-            "updated": "2026-05-28T00:05:43+0000"
+            "updated": "2026-08-17T15:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1326,7 +1241,7 @@
             "section": "base",
             "srcrev": "674d4cbb1fb9648820f96d05bc3e875db712ab9e",
             "summary": "rkcommon - C++/CMake infrastructure",
-            "updated": "2026-05-28T00:05:43+0000"
+            "updated": "2026-08-17T15:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1334,30 +1249,30 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Intel Open Image Denoise is an open source library of high-performance, high-quality denoising filters for images rendered with ray tracing. Intel Open Image Denoise is part of the Intel\u00ae oneAPI Rendering Toolkit",
-            "filename": "oidn_2.4.1.bb",
+            "filename": "oidn_2.5.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-oneapi/oidn",
             "homepage": "https://www.openimagedenoise.org/",
             "id": 2432155,
             "inherits": "cmake gcc gcc-native",
             "layerbranch": 1075112,
-            "license": "Apache-2.0 & BSD-3-Clause",
+            "license": "Apache-2.0 & BSD-3-Clause & MIT",
             "pe": "",
             "pn": "oidn",
             "pr": "r0",
             "provides": "oidn ",
-            "pv": "2.4.1",
+            "pv": "2.5.0",
             "section": "base",
             "srcrev": "",
             "summary": "Intel\u00ae Open Image Denoise",
-            "updated": "2026-05-28T00:05:43+0000"
+            "updated": "2026-08-17T15:08:37+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                  -DIGC_DIR=/tmp/tmp3vuhv95n/tmp/work/core2-32-oe-linux/intel-compute-runtime/25.48.36300.8/recipe-sysroot/usr/include/igc                  -DBUILD_TYPE=Release                  -DSKIP_UNIT_TESTS=1                  -DCCACHE_ALLOWED=FALSE                  -DNEO_DISABLE_LD_LLD=ON                  -DNEO_DISABLE_LD_GOLD=ON                     -DBUILD_WITH_L0=OFF                                      -Docloc_cmd_prefix=ocloc                                      -DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmp3vuhv95n/tmp/work/core2-32-oe-linux/intel-compute-runtime/25.48.36300.8/qemuwrapper                                      ",
+            "configopts": "                  -DIGC_DIR=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/intel-compute-runtime/26.22.38646.4/recipe-sysroot/usr/include/igc                  -DBUILD_TYPE=Release                  -DSKIP_UNIT_TESTS=1                  -DCCACHE_ALLOWED=FALSE                  -DNEO_DISABLE_LD_LLD=ON                  -DNEO_DISABLE_LD_GOLD=ON                     -DBUILD_WITH_L0=OFF                                      -Docloc_cmd_prefix=ocloc                                      -DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/intel-compute-runtime/26.22.38646.4/qemuwrapper                                      ",
             "description": "The Intel(R) Graphics Compute Runtime for OpenCL(TM) is an open source project to converge Intel's development efforts on OpenCL(TM) compute stacks supporting the GEN graphics hardware architecture.",
-            "filename": "intel-compute-runtime_25.48.36300.8.bb",
+            "filename": "intel-compute-runtime_26.22.38646.4.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/compute-runtime",
             "homepage": "",
             "id": 2432156,
@@ -1368,17 +1283,17 @@
             "pn": "intel-compute-runtime",
             "pr": "r0",
             "provides": "intel-compute-runtime ",
-            "pv": "25.48.36300.8",
+            "pv": "26.22.38646.4",
             "section": "base",
-            "srcrev": "762b34beb3f6991e57d1562f587ab91ff220d708",
+            "srcrev": "17cc28c7c31f692219bd0c2c082bd5d01388682e",
             "summary": "The Intel(R) Graphics Compute Runtime for OpenCL(TM)",
-            "updated": "2026-05-28T23:05:17+0000"
+            "updated": "2026-08-17T15:08:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "                   -DLLVM_TABLEGEN_EXE=/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/opencl-clang/15.0.0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DCMAKE_SKIP_RPATH=TRUE                   -DPREFERRED_LLVM_VERSION=${LLVMVERSION}                   -DCMAKE_POLICY_VERSION_MINIMUM=3.5                    ",
+            "configopts": "                   -DLLVM_TABLEGEN_EXE=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/opencl-clang/15.0.0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DCMAKE_SKIP_RPATH=TRUE                   -DPREFERRED_LLVM_VERSION=${LLVMVERSION}                   -DCMAKE_POLICY_VERSION_MINIMUM=3.5                    ",
             "description": "Common clang has OpenCL-oriented API and is capable  to compile OpenCL C kernels to SPIR-V modules.",
             "filename": "opencl-clang_15.0.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/opencl-clang",
@@ -1395,15 +1310,15 @@
             "section": "base",
             "srcrev": "60fd799cc58755c16d951f9ebfde6d0f9b8554dd",
             "summary": "Common clang is a thin wrapper library around clang",
-            "updated": "2026-05-28T00:05:44+0000"
+            "updated": "2026-08-17T15:08:44+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                   -DIGC_OPTION__LLVM_PREFERRED_VERSION=${LLVMVERSION}                   -DVC_INTRINSICS_SRC=\"/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/intel-graphics-compiler/2.24.8/sources/intel-graphics-compiler-2.24.8/vc-intrinsics\"                   -DIGC_OPTION__LLVM_MODE=Prebuilds                   -DLLVM_TABLEGEN=/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/intel-graphics-compiler/2.24.8/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DLLVM_LINK_EXE=/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/intel-graphics-compiler/2.24.8/recipe-sysroot-native/usr/bin/llvm-link                   -DCLANG_EXE=/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/intel-graphics-compiler/2.24.8/recipe-sysroot-native/usr/bin/clang                   -DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/intel-graphics-compiler/2.24.8/qemuwrapper                   -DCMAKE_POLICY_VERSION_MINIMUM=3.5                     -DCMAKE_CXX_FLAGS='-Wno-error=cpp -Wno-error=free-nonheap-object'  -DIGC_BUILD__VC_ENABLED=ON -DIGC_OPTION__LINK_KHRONOS_SPIRV_TRANSLATOR=ON -DIGC_OPTION__SPIRV_TRANSLATOR_MODE=Prebuilds",
+            "configopts": "                   -DIGC_OPTION__LLVM_PREFERRED_VERSION=${LLVMVERSION}                   -DVC_INTRINSICS_SRC=\"/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/intel-graphics-compiler/2.36.3/sources/intel-graphics-compiler-2.36.3/vc-intrinsics\"                   -DIGC_OPTION__LLVM_MODE=Prebuilds                   -DLLVM_TABLEGEN=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/intel-graphics-compiler/2.36.3/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DLLVM_LINK_EXE=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/intel-graphics-compiler/2.36.3/recipe-sysroot-native/usr/bin/llvm-link                   -DCLANG_EXE=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/intel-graphics-compiler/2.36.3/recipe-sysroot-native/usr/bin/clang                   -DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/intel-graphics-compiler/2.36.3/qemuwrapper                   -DCMAKE_POLICY_VERSION_MINIMUM=3.5                     -DCMAKE_CXX_FLAGS='-Wno-error=cpp -Wno-error=free-nonheap-object'  -DIGC_BUILD__VC_ENABLED=ON -DIGC_OPTION__LINK_KHRONOS_SPIRV_TRANSLATOR=ON -DIGC_OPTION__SPIRV_TRANSLATOR_MODE=Prebuilds",
             "description": "The Intel(R) Graphics Compiler for OpenCL(TM) is an llvm based compiler for OpenCL(TM) targeting Intel Gen graphics hardware architecture.",
-            "filename": "intel-graphics-compiler_2.24.8.bb",
+            "filename": "intel-graphics-compiler_2.36.3.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-opencl/igc",
             "homepage": "",
             "id": 2432158,
@@ -1414,19 +1329,19 @@
             "pn": "intel-graphics-compiler",
             "pr": "r0",
             "provides": "intel-graphics-compiler ",
-            "pv": "2.24.8",
+            "pv": "2.36.3",
             "section": "base",
             "srcrev": "",
             "summary": "The Intel(R) Graphics Compiler for OpenCL(TM)",
-            "updated": "2026-05-28T00:05:45+0000"
+            "updated": "2026-08-17T15:08:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "                    --preset os                   -DLLVM_VERSION=20.1                   -DLLVM_DISABLE_ASSERTIONS=ON                   -DLLVM_ENABLE_LIBEDIT=OFF                   -DLLVM_ENABLE_TERMINFO=OFF                   -DLLVM_ENABLE_ZLIB=OFF                   -DLLVM_ENABLE_ZSTD=OFF                   -DLLVM_URL=/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/ispc/1.29.1/sources/git/llvm-project                   -DVC_INTRINSICS_URL=/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/ispc/1.29.1/sources/git/vc-intrinsics                   -DVC_INTRINSICS_SHA=b16218b8a00c5c1d4db32085dfab4d5eb9a03ad7                   -DSPIRV_TRANSLATOR_URL=/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/ispc/1.29.1/sources/git/SPIRV-LLVM-Translator                   -DSPIRV_TRANSLATOR_SHA=d1c69c3365dffed67124eb1692cb941cbae5bb2e                   -DSPIRV_TRANSLATOR_BRANCH=llvm_release_201                   -DISPC_CORPUS_URL=null                   -DISPC_CROSS=ON                   -DISPCRT_BUILD_TASK_MODEL=Threads                   -DISPC_INCLUDE_TESTS=OFF                   -DISPC_INCLUDE_EXAMPLES=OFF                   -DISPC_INCLUDE_RT=OFF                   -DISPC_INCLUDE_DPCPP=OFF                   -DISPC_PREPARE_PACKAGE=OFF                   -DARM_ENABLED=OFF                   -DISPC_ANDROID_TARGET=OFF                   -DISPC_FREEBSD_TARGET=OFF                   -DISPC_WINDOWS_TARGET=OFF                   -DISPC_IOS_TARGET=OFF                   -DISPC_PS_TARGET=OFF                   -DXE_DEPS=OFF                   -DCMAKE_FIND_ROOT_PATH_MODE_PACKAGE=NEVER                   -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=NEVER                   -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=NEVER                      ",
+            "configopts": "                    --preset os                   -DLLVM_VERSION=23.1                   -DLLVM_DISABLE_ASSERTIONS=ON                   -DLLVM_ENABLE_LIBEDIT=OFF                   -DLLVM_ENABLE_TERMINFO=OFF                   -DLLVM_ENABLE_ZLIB=OFF                   -DLLVM_ENABLE_ZSTD=OFF                   -DLLVM_URL=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/ispc/1.31.0/sources/git/llvm-project                   -DVC_INTRINSICS_URL=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/ispc/1.31.0/sources/git/vc-intrinsics                   -DVC_INTRINSICS_SHA=c9c1011e61c5aaa30c421d1feaedc7c74a9b67c1                   -DSPIRV_TRANSLATOR_URL=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/ispc/1.31.0/sources/git/SPIRV-LLVM-Translator                   -DSPIRV_TRANSLATOR_SHA=5b7e49f0aebe7a64f2da82a3525d8468b174ba46                   -DSPIRV_TRANSLATOR_BRANCH=llvm_release_231                   -DISPC_CORPUS_URL=null                   -DISPC_CROSS=ON                   -DISPCRT_BUILD_TASK_MODEL=Threads                   -DISPC_INCLUDE_TESTS=OFF                   -DISPC_INCLUDE_EXAMPLES=OFF                   -DISPC_INCLUDE_RT=OFF                   -DISPC_INCLUDE_DPCPP=OFF                   -DISPC_PREPARE_PACKAGE=OFF                   -DARM_ENABLED=OFF                   -DISPC_ANDROID_TARGET=OFF                   -DISPC_FREEBSD_TARGET=OFF                   -DISPC_WINDOWS_TARGET=OFF                   -DISPC_IOS_TARGET=OFF                   -DISPC_PS_TARGET=OFF                   -DXE_DEPS=OFF                   -DCMAKE_FIND_ROOT_PATH_MODE_PACKAGE=NEVER                   -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=NEVER                   -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=NEVER                      ",
             "description": "ispc is a compiler for a variant of the C programming language, with extensions for single program, multiple data programming.",
-            "filename": "ispc_1.29.1.bb",
+            "filename": "ispc_1.31.0.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-core/ispc",
             "homepage": "https://github.com/ispc/ispc",
             "id": 2432159,
@@ -1437,11 +1352,11 @@
             "pn": "ispc",
             "pr": "r0",
             "provides": "ispc ",
-            "pv": "1.29.1",
+            "pv": "1.31.0",
             "section": "base",
             "srcrev": "",
             "summary": "Intel(R) Implicit SPMD Program Compiler",
-            "updated": "2026-05-28T00:05:46+0000"
+            "updated": "2026-08-17T15:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1449,7 +1364,7 @@
             "bugtracker": "",
             "configopts": "                     -DDNNL_LIBRARY_TYPE=SHARED                    -DDNNL_BUILD_EXAMPLES=ON                    -DDNNL_BUILD_TESTS=ON                    -DDNNL_CPU_RUNTIME=OMP                    -DDNNL_ARCH_OPT_FLAGS=\"\"                    -DCMAKE_SKIP_RPATH=ON                    -DONEDNN_BUILD_GRAPH=OFF                    -DCMAKE_POLICY_VERSION_MINIMUM=3.5                      -DDNNL_GPU_RUNTIME=OCL",
             "description": "This software is a user mode library that acceleratesdeep-learning applications and frameworks on Intel architecture.",
-            "filename": "onednn_3.10.2.bb",
+            "filename": "onednn_3.12.1.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-core/dnn",
             "homepage": "https://www.oneapi.com",
             "id": 2432160,
@@ -1460,11 +1375,11 @@
             "pn": "onednn",
             "pr": "r0",
             "provides": "onednn ",
-            "pv": "3.10.2",
+            "pv": "3.12.1",
             "section": "lib",
-            "srcrev": "f1d471933dc852f956fd05389f9313c7148783d5",
+            "srcrev": "c8c37fdbecb5aa4dcf5ea7e77fba0fd1a98bd16f",
             "summary": "Deep Neural Network Library",
-            "updated": "2026-05-28T00:05:48+0000"
+            "updated": "2026-08-17T15:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1472,7 +1387,7 @@
             "bugtracker": "",
             "configopts": "                    -DCMAKE_POLICY_VERSION_MINIMUM=3.5                     -DNETWORK_CN=ON  -DNETWORK_NM=OFF",
             "description": "Intel Local Manageability Service allows applications to access the Intel Active Management Technology (AMT) firmware via the Intel Management Engine Interface (MEI).",
-            "filename": "lms_2550.0.0.0.bb",
+            "filename": "lms_2625.0.0.0.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-bsp/amt",
             "homepage": "",
             "id": 2432161,
@@ -1483,19 +1398,19 @@
             "pn": "lms",
             "pr": "r0",
             "provides": "lms ",
-            "pv": "2550.0.0.0",
+            "pv": "2625.0.0.0",
             "section": "base",
-            "srcrev": "5403352b8dc8d2c9a73ccbc04525998534aa2cb8",
+            "srcrev": "37d351760d7c6e7ed524e4c1f56bab2d7c7f64d3",
             "summary": "Intel(R) Local Managability Service",
-            "updated": "2026-05-28T00:05:49+0000"
+            "updated": "2026-08-17T15:08:38+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "  -DCMAKE_BUILD_TYPE=Release   -DCMAKE_CXX_FLAGS_RELEASE=-O2   -DCMAKE_INSTALL_FIRMWARE_DIR=/usr/lib  -DCMAKE_POLICY_VERSION_MINIMUM=3.5  -DCMAKE_CXX_FLAGS='-I/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/linux-npu-driver/1.28.0/recipe-sysroot/usr/include/level_zero' ",
+            "configopts": "  -DCMAKE_BUILD_TYPE=Release   -DCMAKE_CXX_FLAGS_RELEASE=-O2   -DCMAKE_INSTALL_FIRMWARE_DIR=/usr/lib  -DCMAKE_POLICY_VERSION_MINIMUM=3.5  -DCMAKE_CXX_FLAGS='-I/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/linux-npu-driver/1.33.0/recipe-sysroot/usr/include/level_zero' ",
             "description": "",
-            "filename": "linux-npu-driver_1.28.0.bb",
+            "filename": "linux-npu-driver_1.33.0.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-bsp/linux-npu-driver",
             "homepage": "https://github.com/intel/linux-npu-driver",
             "id": 2432162,
@@ -1506,11 +1421,11 @@
             "pn": "linux-npu-driver",
             "pr": "r0",
             "provides": "linux-npu-driver ",
-            "pv": "1.28.0",
+            "pv": "1.33.0",
             "section": "base",
             "srcrev": "",
             "summary": "User Mode Driver for Intel\u00ae NPU device",
-            "updated": "2026-05-28T00:05:49+0000"
+            "updated": "2026-08-17T15:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1533,53 +1448,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Utility for managing Intel Optane DC persistent memory modules",
-            "updated": "2026-05-28T00:05:50+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": " --disable-static",
-            "description": "Intel\u00ae Integrated Performance Primitives are production-ready  building blocks for cross-platform performance. Develop high-performance vision,  signal, security, and storage applications with this multithreaded software library.",
-            "filename": "intel-oneapi-ipp_2021.10.0-653.bb",
-            "filepath": "dynamic-layers/openembedded-layer/recipes-oneapi/ipp",
-            "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/ipp.html",
-            "id": 2432164,
-            "inherits": "bin_package gcc gcc-native",
-            "layerbranch": 1075112,
-            "license": "ISSL",
-            "pe": "",
-            "pn": "intel-oneapi-ipp",
-            "pr": "r0",
-            "provides": "intel-oneapi-ipp ",
-            "pv": "2021.10.0-653",
-            "section": "base",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2026-05-28T00:05:50+0000"
-        },
-        {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": " --disable-static",
-            "description": "Recipe to set up the environment for Intel\u00ae oneAPI runtime libraries via configuration file in ld.so.conf.d directory.",
-            "filename": "setup-intel-oneapi-env_2023.0.0-25370.bb",
-            "filepath": "dynamic-layers/openembedded-layer/recipes-oneapi/setup-oneapi-env",
-            "homepage": "",
-            "id": 2432165,
-            "inherits": "gcc gcc-native",
-            "layerbranch": 1075112,
-            "license": "EULA",
-            "pe": "",
-            "pn": "setup-intel-oneapi-env",
-            "pr": "r0",
-            "provides": "setup-intel-oneapi-env ",
-            "pv": "2023.0.0-25370",
-            "section": "base",
-            "srcrev": "",
-            "summary": "Intel\u00ae oneAPI runtime libraries environment set up",
-            "updated": "2026-05-28T00:05:51+0000"
+            "updated": "2026-08-17T15:08:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1587,7 +1456,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "",
-            "filename": "level-zero_1.21.1.bb",
+            "filename": "level-zero_1.31.0.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-core/levelzero",
             "homepage": "https://github.com/oneapi-src/level-zero",
             "id": 2432166,
@@ -1598,11 +1467,11 @@
             "pn": "level-zero",
             "pr": "r0",
             "provides": "level-zero ",
-            "pv": "1.21.1",
+            "pv": "1.31.0",
             "section": "base",
-            "srcrev": "e3b6efdd91d67bb03024b266094afabd39e213bf",
+            "srcrev": "87a396d3bdff4e6798d3a401224cd5b9b6a634bc",
             "summary": "oneAPI Level Zero Specification Headers and Loader",
-            "updated": "2026-05-28T00:05:52+0000"
+            "updated": "2026-08-17T15:08:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1621,11 +1490,11 @@
             "pn": "backport-iwlwifi",
             "pr": "r0",
             "provides": "backport-iwlwifi ",
-            "pv": "102",
+            "pv": "105",
             "section": "kernel",
-            "srcrev": "483a4f9d48dfd0c4a844a1d40a7dfa6214b4a3a8",
+            "srcrev": "973946e4d416728dda7282f87c5d59d9bc3133ea",
             "summary": "Intel Wireless LinuxCore kernel driver",
-            "updated": "2026-05-28T00:05:53+0000"
+            "updated": "2026-08-17T15:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1633,7 +1502,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "This virtual function driver supports kernel versions 2.6.x and newer This driver supports 82599, X540, X550, and X552-based virtual function devices that can only be activated on kernels that support SR-IOV. SR-IOV requires the correct platform and OS support. The guest OS loading this driver must support MSI-X interrupts.",
-            "filename": "ixgbevf_5.2.2.bb",
+            "filename": "ixgbevf_5.3.36.bb",
             "filepath": "recipes-kernel/intel-ethernet",
             "homepage": "https://github.com/intel/ethernet-linux-ixgbevf",
             "id": 2432168,
@@ -1644,11 +1513,11 @@
             "pn": "ixgbevf",
             "pr": "r0",
             "provides": "ixgbevf ",
-            "pv": "5.2.2",
+            "pv": "5.3.36",
             "section": "kernel/network",
             "srcrev": "",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2026-05-28T00:05:53+0000"
+            "updated": "2026-08-17T15:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1656,7 +1525,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The ixgbe driver supports 82598- and 82599-based PCI Express* 10 Gigabit Network Connections.",
-            "filename": "ixgbe_6.3.4.bb",
+            "filename": "ixgbe_6.4.4.bb",
             "filepath": "recipes-kernel/intel-ethernet",
             "homepage": "https://github.com/intel/ethernet-linux-ixgbe",
             "id": 2432169,
@@ -1667,11 +1536,11 @@
             "pn": "ixgbe",
             "pr": "r0",
             "provides": "ixgbe ",
-            "pv": "6.3.4",
+            "pv": "6.4.4",
             "section": "kernel/network",
             "srcrev": "",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2026-05-28T00:05:53+0000"
+            "updated": "2026-08-17T15:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1690,11 +1559,11 @@
             "pn": "linux-intel-rt",
             "pr": "r0",
             "provides": "linux-intel-rt  virtual/kernel",
-            "pv": "6.18.15+gitX",
+            "pv": "6.18.33+gitX",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2026-05-28T00:05:53+0000"
+            "updated": "2026-08-17T15:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1713,11 +1582,11 @@
             "pn": "linux-intel",
             "pr": "r0",
             "provides": "linux-intel  virtual/kernel",
-            "pv": "6.18.15+gitX",
+            "pv": "6.18.33+gitX",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2026-05-28T00:05:54+0000"
+            "updated": "2026-08-17T15:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1740,7 +1609,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2026-05-28T00:05:54+0000"
+            "updated": "2026-08-17T15:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1763,13 +1632,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2026-05-28T00:05:55+0000"
+            "updated": "2026-08-17T15:08:45+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " -DMD_PLATFORM=linux -DMD_LIBDRM_SRC=/tmp/tmpns_w48kg/tmp/work/core2-32-oe-linux/metrics-discovery/1.14.182/recipe-sysroot/usr/include ",
+            "configopts": " -DMD_PLATFORM=linux -DMD_LIBDRM_SRC=/tmp/tmpri48156v/tmp/work/core2-32-oe-linux/metrics-discovery/1.14.182/recipe-sysroot/usr/include ",
             "description": "This software is a user mode library that provides access to GPU performance data.",
             "filename": "metrics-discovery_1.14.182.bb",
             "filepath": "recipes-graphics/metrics-discovery",
@@ -1786,7 +1655,7 @@
             "section": "lib",
             "srcrev": "c41c5e042beaf3963a884402645bf41c1fadc7f0",
             "summary": "Intel Metrics Discovery Application Programming Interface",
-            "updated": "2026-05-28T00:05:55+0000"
+            "updated": "2026-08-17T15:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1794,7 +1663,7 @@
             "bugtracker": "https://github.com/intel/libva-utils/issues",
             "configopts": "  -Dwayland=true -Dx11=true",
             "description": "libva-utils is a collection of utilities and examples to exercise VA-API in accordance with the libva project.VA-API is an open-source library and API specification, which provides access to graphics hardware acceleration capabilities for video processing. It consists of a main library and driver-specific acceleration backends for each supported hardware vendor",
-            "filename": "libva-intel-utils_2.22.0.bb",
+            "filename": "libva-intel-utils_2.23.0.bb",
             "filepath": "recipes-graphics/libva",
             "homepage": "https://01.org/linuxmedia/vaapi",
             "id": 2432175,
@@ -1805,11 +1674,11 @@
             "pn": "libva-intel-utils",
             "pr": "r0",
             "provides": "libva-intel-utils libva-utils",
-            "pv": "2.22.0",
+            "pv": "2.23.0",
             "section": "x11",
-            "srcrev": "1a13ae13382b7b548f3a7e8035e1d7df66662c0a",
+            "srcrev": "5896b6779d36f83bf483aff62da8aae30ba8d664",
             "summary": "libva-utils is a collection of utilities from libva project",
-            "updated": "2026-05-28T00:05:55+0000"
+            "updated": "2026-08-17T15:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1817,7 +1686,7 @@
             "bugtracker": "https://github.com/intel/libva/issues",
             "configopts": "  -Dwith_glx=yes -Dwith_wayland=yes -Dwith_x11=yes",
             "description": "Video Acceleration API (VA API) is a library (libVA) and API specification which enables and provides access to graphics hardware (GPU) acceleration for video processing on Linux and UNIX based operating systems. Accelerated processing includes video decoding, video encoding, subpicture blending and rendering. The specification was originally designed by Intel for its GMA (Graphics Media Accelerator) series of GPU hardware, the API is however not limited to GPUs or Intel specific hardware, as other hardware and manufacturers can also freely use this API for hardware accelerated video decoding.",
-            "filename": "libva-intel_2.22.0.bb",
+            "filename": "libva-intel_2.23.0.bb",
             "filepath": "recipes-graphics/libva",
             "homepage": "https://01.org/linuxmedia/vaapi",
             "id": 2432176,
@@ -1828,11 +1697,11 @@
             "pn": "libva-intel",
             "pr": "r0",
             "provides": "libva-intel  libva",
-            "pv": "2.22.0",
+            "pv": "2.23.0",
             "section": "x11",
-            "srcrev": "217da1c28336d6a7e9c0c4cb8f1c303968a675f1",
+            "srcrev": "dbf83dc3b1ce6bad46e1628aaf2da5ef731157b8",
             "summary": "Video Acceleration (VA) API for Linux",
-            "updated": "2026-05-28T00:05:56+0000"
+            "updated": "2026-08-17T15:08:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1840,7 +1709,7 @@
             "bugtracker": "",
             "configopts": "      -DRUN_TEST_SUITE=OFF     -DCMAKE_POLICY_VERSION_MINIMUM=3.5      ",
             "description": "The Intel(R) Graphics Memory Management Library provides device specific and buffer management for the Intel(R) Graphics Compute Runtime for OpenCL(TM) and the Intel(R) Media Driver for VAAPI.",
-            "filename": "gmmlib_22.9.0.bb",
+            "filename": "gmmlib_22.10.0.bb",
             "filepath": "recipes-graphics/gmmlib",
             "homepage": "",
             "id": 2432177,
@@ -1851,11 +1720,11 @@
             "pn": "gmmlib",
             "pr": "r0",
             "provides": "gmmlib ",
-            "pv": "22.9.0",
+            "pv": "22.10.0",
             "section": "base",
-            "srcrev": "76a7aa3165daa393d3ad156a263d13941162afbd",
+            "srcrev": "676054be32ac9c8df0cb6366a95c96f300b5aa06",
             "summary": "Intel(R) Graphics Memory Management Library",
-            "updated": "2026-06-02T06:06:55+0000"
+            "updated": "2026-08-17T15:08:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1878,7 +1747,7 @@
             "section": "x11/drivers",
             "srcrev": "",
             "summary": "X.Org X server -- ASpeed Technologies graphics driver",
-            "updated": "2026-05-28T00:05:58+0000"
+            "updated": "2026-08-17T15:08:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -1901,7 +1770,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Update Intel CPU microcode",
-            "updated": "2026-05-28T00:05:59+0000"
+            "updated": "2026-08-17T15:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1909,7 +1778,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "The microcode data file contains the latest microcode definitions for all Intel processors. Intel releases microcode updates to correct processor behavior as documented in the respective processor specification updates. While the regular approach to getting this microcode update is via a BIOS upgrade, Intel realizes that this can be an administrative hassle. The Linux operating system and VMware ESX products have a mechanism to update the microcode after booting. For example, this file will be used by the operating system mechanism if the file is placed in the /etc/firmware directory of the Linux system.",
-            "filename": "intel-microcode_20260210.bb",
+            "filename": "intel-microcode_20260512.bb",
             "filepath": "recipes-core/microcode",
             "homepage": "http://www.intel.com/",
             "id": 2432180,
@@ -1920,11 +1789,11 @@
             "pn": "intel-microcode",
             "pr": "r0",
             "provides": "intel-microcode ",
-            "pv": "20260210",
+            "pv": "20260512",
             "section": "base",
-            "srcrev": "439ddde999b07b28877a60e874f753e72ec2cd59",
+            "srcrev": "98f8d817ca3d560c48ae988bd805d1b53b48a631",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2026-05-28T00:05:59+0000"
+            "updated": "2026-08-17T15:08:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1947,7 +1816,30 @@
             "section": "base",
             "srcrev": "",
             "summary": "A tiny image just capable of allowing a device to boot from RAM, this image recipe generates an image file which rather boots from initrd than from storage, it achieves this by using wic to pick up th",
-            "updated": "2026-05-28T00:05:00+0000"
+            "updated": "2026-08-17T15:08:46+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "The Intel\u00ae oneAPI Toolkit unifies the former Base and HPC toolkits into a single bundle. It ships the DPC++/C++ compiler (icx, icpx, dpcpp), Fortran compiler (ifx), DPC++ Compatibility Tool, Intel\u00ae Distribution for GDB*, oneAPI DPC++ Library (oneDPL), oneAPI Threading Building Blocks (oneTBB), oneAPI Math Kernel Library (oneMKL), oneAPI Deep Neural Network Library (oneDNN), oneCCL, Intel\u00ae IPP, Intel\u00ae Cryptography Primitives Library, and VTune Profiler. This recipe consumes the upstream offline self-extracting installer (intel-oneapi-toolkit-2026.0.0.198_offline.sh) and unpacks it into the target rootfs under /opt/intel/oneapi via Intel's silent installer. Each component is split into its own sub-package (intel-oneapi-toolkit-{compiler,runtime,mkl,tbb,dpl,debugger,ipp,ccl,vtune,onednn,common,licensing}). Note: oneDAL is no longer included by Intel and must be installed separately.",
+            "filename": "intel-oneapi-toolkit_2026.0.0.198.bb",
+            "filepath": "dynamic-layers/clang-layer/recipes-oneapi/toolkit",
+            "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/oneapi-toolkit-download.html",
+            "id": 2527531,
+            "inherits": "bin_package gcc gcc-native",
+            "layerbranch": 1075112,
+            "license": "EULA",
+            "pe": "",
+            "pn": "intel-oneapi-toolkit",
+            "pr": "r0",
+            "provides": "intel-oneapi-toolkit ",
+            "pv": "2026.0.0.198",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Intel\u00ae oneAPI Toolkit (2026.0) - unified Base + HPC toolkit",
+            "updated": "2026-08-17T15:08:46+0000"
         }
     ],
     "wrtemplates": []

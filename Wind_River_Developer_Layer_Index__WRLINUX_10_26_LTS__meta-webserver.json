@@ -741,6 +741,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
         }
     ],
     "branches": [
@@ -753,7 +760,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-06-22T00:06:06+0000",
+            "updated": "2026-09-15T00:09:15+0000",
             "updates_enabled": true
         }
     ],
@@ -766,10 +773,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-17T00:06:35+0000",
-            "vcs_last_commit": "2026-06-17T00:06:36+0000",
-            "vcs_last_fetch": "2026-06-17T00:06:35+0000",
-            "vcs_last_rev": "e8fa62a88e05621ca167be31919a6e2c4cb817d5",
+            "updated": "2026-09-01T14:09:26+0000",
+            "vcs_last_commit": "2026-08-27T15:08:37+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:26+0000",
+            "vcs_last_rev": "af4bb5042906e34671322cec45e0d53b80b7650c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -781,10 +788,10 @@
             "id": 1075078,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-06-16T01:06:15+0000",
-            "vcs_last_commit": "2026-06-16T00:06:05+0000",
-            "vcs_last_fetch": "2026-06-16T01:06:15+0000",
-            "vcs_last_rev": "2500e1f90331576d0ce05029e7421a5b12268ca0",
+            "updated": "2026-09-01T14:09:46+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:46+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44228
@@ -796,10 +803,10 @@
             "id": 1075079,
             "layer": 10,
             "local_path": "",
-            "updated": "2026-05-28T00:05:53+0000",
-            "vcs_last_commit": "2026-05-18T00:05:21+0000",
-            "vcs_last_fetch": "2026-05-28T00:05:53+0000",
-            "vcs_last_rev": "d42a2c03ae32317f6d61cf8aef9e44f66db165cf",
+            "updated": "2026-09-01T14:09:58+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:58+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": 44228
@@ -886,7 +893,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "    Swagger UI allows anyone \u2014 be it your development team or your end consumers \u2014 to visualize and     interact with the API\u2019s resources without having any of the implementation logic in place.     It\u2019s automatically generated from your OpenAPI (formerly known as Swagger) Specification,     with the visual documentation making it easy for back end implementation and client side consumption.     ",
-            "filename": "swagger-ui_5.32.2.bb",
+            "filename": "swagger-ui_5.32.14.bb",
             "filepath": "recipes-devtools/swagger-ui",
             "homepage": "https://github.com/swagger-api/swagger-ui",
             "id": 2430060,
@@ -897,11 +904,11 @@
             "pn": "swagger-ui",
             "pr": "r0",
             "provides": "swagger-ui ",
-            "pv": "5.32.2",
+            "pv": "5.32.14",
             "section": "net",
-            "srcrev": "d02a2df106961d8cb6bceb6b4b3aa8d9f6faaf4a",
+            "srcrev": "6e8ce248db64190e4113676aba996943c56f2491",
             "summary": "Visually render documentation for an API defined with the OpenAPI",
-            "updated": "2026-05-28T00:05:49+0000"
+            "updated": "2026-09-01T14:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1093,7 +1100,7 @@
             "bugtracker": "",
             "configopts": "    --enable-layout=Debian     --prefix=     --exec_prefix=/usr     --includedir=/usr/include/apache2     --sysconfdir=/etc/apache2     --datadir=/usr/share/apache2     --libdir=/usr/lib     --libexecdir=/usr/libexec/apache2/modules     --localstatedir=/var     --enable-ssl     --with-dbm=sdbm     --with-gdbm=no     --with-ndbm=no     --with-berkeley-db=no     --enable-info     --enable-rewrite     --with-mpm=prefork     --enable-mpms-shared     ap_cv_void_ptr_lt_long=no     ac_cv_have_threadsafe_pollset=no      --disable-static  --disable-ldap --disable-authnz-ldap --disable-selinux",
             "description": "The Apache HTTP Server is a powerful, efficient, and extensible web server.",
-            "filename": "apache2_2.4.66.bb",
+            "filename": "apache2_2.4.68.bb",
             "filepath": "recipes-httpd/apache2",
             "homepage": "http://httpd.apache.org/",
             "id": 2430069,
@@ -1104,11 +1111,11 @@
             "pn": "apache2",
             "pr": "r0",
             "provides": "apache2 ",
-            "pv": "2.4.66",
+            "pv": "2.4.68",
             "section": "net",
             "srcrev": "",
             "summary": "Apache HTTP Server",
-            "updated": "2026-05-28T00:05:52+0000"
+            "updated": "2026-08-17T15:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1298,9 +1305,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-xdebug -with-php-config=/tmp/tmp39ml_7aj/tmp/work/core2-32-oe-linux/xdebug/3.5.1/recipe-sysroot/usr/bin/crossscripts/php-config --disable-static ",
+            "configopts": " --enable-xdebug -with-php-config=/tmp/tmp5sku4qou/tmp/work/core2-32-oe-linux/xdebug/3.5.3/recipe-sysroot/usr/bin/crossscripts/php-config --disable-static ",
             "description": "",
-            "filename": "xdebug_3.5.1.bb",
+            "filename": "xdebug_3.5.3.bb",
             "filepath": "recipes-php/xdebug",
             "homepage": "https://xdebug.org/",
             "id": 2430078,
@@ -1311,11 +1318,11 @@
             "pn": "xdebug",
             "pr": "r0",
             "provides": "xdebug ",
-            "pv": "3.5.1",
+            "pv": "3.5.3",
             "section": "base",
             "srcrev": "",
             "summary": "Debugging and profiling extension for PHP",
-            "updated": "2026-05-28T00:05:53+0000"
+            "updated": "2026-08-17T15:08:33+0000"
         }
     ],
     "wrtemplates": []

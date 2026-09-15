@@ -741,6 +741,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
         }
     ],
     "branches": [
@@ -753,7 +760,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-06-22T00:06:06+0000",
+            "updated": "2026-09-15T00:09:15+0000",
             "updates_enabled": true
         }
     ],
@@ -766,10 +773,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-17T00:06:35+0000",
-            "vcs_last_commit": "2026-06-17T00:06:36+0000",
-            "vcs_last_fetch": "2026-06-17T00:06:35+0000",
-            "vcs_last_rev": "e8fa62a88e05621ca167be31919a6e2c4cb817d5",
+            "updated": "2026-09-01T14:09:26+0000",
+            "vcs_last_commit": "2026-08-27T15:08:37+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:26+0000",
+            "vcs_last_rev": "af4bb5042906e34671322cec45e0d53b80b7650c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -781,10 +788,10 @@
             "id": 1075078,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-06-16T01:06:15+0000",
-            "vcs_last_commit": "2026-06-16T00:06:05+0000",
-            "vcs_last_fetch": "2026-06-16T01:06:15+0000",
-            "vcs_last_rev": "2500e1f90331576d0ce05029e7421a5b12268ca0",
+            "updated": "2026-09-01T14:09:46+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:46+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44228
@@ -796,10 +803,10 @@
             "id": 1075080,
             "layer": 12,
             "local_path": "",
-            "updated": "2026-06-07T20:06:23+0000",
-            "vcs_last_commit": "2026-06-07T20:06:37+0000",
-            "vcs_last_fetch": "2026-06-07T20:06:23+0000",
-            "vcs_last_rev": "b5d35fb3ff42220f8bb80c2da14e3016eb267695",
+            "updated": "2026-09-01T14:09:10+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:10+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44228
@@ -811,10 +818,10 @@
             "id": 1075107,
             "layer": 11,
             "local_path": "",
-            "updated": "2026-06-16T02:06:01+0000",
-            "vcs_last_commit": "2026-06-16T01:06:51+0000",
-            "vcs_last_fetch": "2026-06-16T02:06:01+0000",
-            "vcs_last_rev": "2568fabdddfbbb8d1435536c416c41c26c3ca697",
+            "updated": "2026-09-01T14:09:58+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:58+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44228
@@ -826,10 +833,10 @@
             "id": 1075108,
             "layer": 15,
             "local_path": "",
-            "updated": "2026-05-28T00:05:55+0000",
-            "vcs_last_commit": "2026-04-20T07:04:36+0000",
-            "vcs_last_fetch": "2026-05-28T00:05:55+0000",
-            "vcs_last_rev": "799eb058e2fafe13aaa83db37fa3417dd891d460",
+            "updated": "2026-09-01T14:09:11+0000",
+            "vcs_last_commit": "2026-08-24T00:08:00+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:11+0000",
+            "vcs_last_rev": "206b109aae3ef2b9b8493395519a55fdb09bb88e",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": 44228
@@ -1357,7 +1364,7 @@
             "bugtracker": "",
             "configopts": "      -Dman=false -Dfunctional_tests=false     -Dsystemd_user_services=true     -Dsystemd_user_services_dir=/usr/lib/systemd/user   -Dbattery_detection=upower -Dcue=disabled -Dlibav=disabled -Dgif=disabled -Dcharset_detection=icu -Diso=disabled -Djpeg=enabled -Dlandlock=disabled -Dexif=enabled -Dgsf=enabled -Dpdf=enabled -Dpng=enabled -Draw=enabled -Dseccomp=true -Dtiff=enabled -Dxml=enabled -Dzip=enabled",
             "description": "",
-            "filename": "localsearch_3.11.0.bb",
+            "filename": "localsearch_3.11.1.bb",
             "filepath": "recipes-gnome/tracker",
             "homepage": "",
             "id": 2432019,
@@ -1368,11 +1375,11 @@
             "pn": "localsearch",
             "pr": "r0",
             "provides": "localsearch ",
-            "pv": "3.11.0",
+            "pv": "3.11.1",
             "section": "base",
             "srcrev": "",
             "summary": "Tracker miners and metadata extractors",
-            "updated": "2026-05-28T00:05:17+0000"
+            "updated": "2026-08-17T15:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1610,7 +1617,7 @@
             "bugtracker": "",
             "configopts": "-Dgtk_doc=false  -Dtests=false  -Dflatpak=true -Dfwupd=false -Dgtk_doc=false -Dmalcontent=false -Dman=false -Dpackagekit=false -Dsnap=false",
             "description": "",
-            "filename": "gnome-software_50.0.bb",
+            "filename": "gnome-software_50.3.bb",
             "filepath": "recipes-gnome/gnome-software",
             "homepage": "",
             "id": 2432030,
@@ -1621,11 +1628,11 @@
             "pn": "gnome-software",
             "pr": "r0",
             "provides": "gnome-software ",
-            "pv": "50.0",
+            "pv": "50.3",
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Software allows users to easily find, discover and install apps.",
-            "updated": "2026-05-28T00:05:19+0000"
+            "updated": "2026-09-01T14:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1702,7 +1709,7 @@
             "bugtracker": "",
             "configopts": "     -Dbluray=false     -Dgoogle=false    -Dadmin=false  -Dafc=false  -Darchive=false  -Dcdda=false  -Ddnssd=false  -Dfuse=false  -Dgcr=false  -Dgcrypt=false  -Dgoa=false  -Dhttp=false -Dgphoto2=true  -Dmtp=false  -Dlogind=false  -Dnfs=false  -Donedrive=false  -Dsmb=false -Dsystemduserunitdir=/usr/lib/systemd/user -Dtmpfilesdir=/usr/lib/tmpfiles.d  -Dudisks2=false",
             "description": "gvfs is a userspace virtual filesystem",
-            "filename": "gvfs_1.60.0.bb",
+            "filename": "gvfs_1.60.2.bb",
             "filepath": "recipes-gnome/gvfs",
             "homepage": "",
             "id": 2432034,
@@ -1713,11 +1720,11 @@
             "pn": "gvfs",
             "pr": "r0",
             "provides": "gvfs ",
-            "pv": "1.60.0",
+            "pv": "1.60.2",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-28T00:05:20+0000"
+            "updated": "2026-09-01T14:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2091,9 +2098,9 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -Ddefault-pam-config=openembedded     -Dpam-mod-dir=/usr/lib/security     --cross-file=/tmp/tmp88jvr6tc/tmp/work/core2-32-oe-linux/gdm/50.0/meson-gdm.cross   -Dplymouth=disabled -Dx11-support=true",
+            "configopts": "     -Ddefault-pam-config=openembedded     -Dpam-mod-dir=/usr/lib/security     --cross-file=/tmp/tmp0cy_j7r0/tmp/work/core2-32-oe-linux/gdm/50.2/meson-gdm.cross   -Dplymouth=disabled -Dx11-support=true",
             "description": "",
-            "filename": "gdm_50.0.bb",
+            "filename": "gdm_50.2.bb",
             "filepath": "recipes-gnome/gdm",
             "homepage": "",
             "id": 2432051,
@@ -2104,11 +2111,11 @@
             "pn": "gdm",
             "pr": "r0",
             "provides": "gdm ",
-            "pv": "50.0",
+            "pv": "50.2",
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Display Manager",
-            "updated": "2026-05-28T00:05:25+0000"
+            "updated": "2026-09-01T14:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2325,7 +2332,7 @@
             "description": "",
             "filename": "eog_49.3.bb",
             "filepath": "recipes-gnome/eog",
-            "homepage": "",
+            "homepage": "https://gitlab.gnome.org/GNOME/eog",
             "id": 2432061,
             "inherits": "features_check gcc gcc-native gettext gnomebase gobject-introspection gobject-introspection-data gsettings gtk-icon-cache meson meson-routines mime-xdg pkgconfig python3-dir python3native qemu siteinfo",
             "layerbranch": 1075108,
@@ -2338,7 +2345,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "This is the Eye of GNOME, an image viewer program.",
-            "updated": "2026-05-28T00:05:27+0000"
+            "updated": "2026-08-17T15:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2436,9 +2443,9 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-Dintrospection=true  -Dintrospection=enabled --cross-file=/tmp/tmp88jvr6tc/tmp/work/core2-32-oe-linux/file-roller/44.5/meson-file-roller.cross  -Dnautilus-actions=disabled -Dpackagekit=false",
+            "configopts": "-Dintrospection=true  -Dintrospection=enabled --cross-file=/tmp/tmp0cy_j7r0/tmp/work/core2-32-oe-linux/file-roller/44.7/meson-file-roller.cross  -Dnautilus-actions=disabled -Dpackagekit=false",
             "description": "",
-            "filename": "file-roller_44.5.bb",
+            "filename": "file-roller_44.7.bb",
             "filepath": "recipes-gnome/file-roller",
             "homepage": "",
             "id": 2432066,
@@ -2449,11 +2456,11 @@
             "pn": "file-roller",
             "pr": "r0",
             "provides": "file-roller ",
-            "pv": "44.5",
+            "pv": "44.7",
             "section": "base",
             "srcrev": "",
             "summary": "An archive manager utility for the  GNOME Environment",
-            "updated": "2026-05-28T00:05:29+0000"
+            "updated": "2026-09-01T14:09:11+0000"
         },
         {
             "bbclassextend": "",

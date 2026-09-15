@@ -741,6 +741,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
         }
     ],
     "branches": [
@@ -753,7 +760,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-06-22T00:06:06+0000",
+            "updated": "2026-09-15T00:09:15+0000",
             "updates_enabled": true
         }
     ],
@@ -766,10 +773,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-17T00:06:35+0000",
-            "vcs_last_commit": "2026-06-17T00:06:36+0000",
-            "vcs_last_fetch": "2026-06-17T00:06:35+0000",
-            "vcs_last_rev": "e8fa62a88e05621ca167be31919a6e2c4cb817d5",
+            "updated": "2026-09-01T14:09:26+0000",
+            "vcs_last_commit": "2026-08-27T15:08:37+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:26+0000",
+            "vcs_last_rev": "af4bb5042906e34671322cec45e0d53b80b7650c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -781,10 +788,10 @@
             "id": 1075078,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-06-16T01:06:15+0000",
-            "vcs_last_commit": "2026-06-16T00:06:05+0000",
-            "vcs_last_fetch": "2026-06-16T01:06:15+0000",
-            "vcs_last_rev": "2500e1f90331576d0ce05029e7421a5b12268ca0",
+            "updated": "2026-09-01T14:09:46+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:46+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44228
@@ -796,10 +803,10 @@
             "id": 1075080,
             "layer": 12,
             "local_path": "",
-            "updated": "2026-06-07T20:06:23+0000",
-            "vcs_last_commit": "2026-06-07T20:06:37+0000",
-            "vcs_last_fetch": "2026-06-07T20:06:23+0000",
-            "vcs_last_rev": "b5d35fb3ff42220f8bb80c2da14e3016eb267695",
+            "updated": "2026-09-01T14:09:10+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:10+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44228
@@ -811,10 +818,10 @@
             "id": 1075107,
             "layer": 11,
             "local_path": "",
-            "updated": "2026-06-16T02:06:01+0000",
-            "vcs_last_commit": "2026-06-16T01:06:51+0000",
-            "vcs_last_fetch": "2026-06-16T02:06:01+0000",
-            "vcs_last_rev": "2568fabdddfbbb8d1435536c416c41c26c3ca697",
+            "updated": "2026-09-01T14:09:58+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:58+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44228
@@ -941,7 +948,7 @@
             "section": "base",
             "srcrev": "851533c3cf63d16984d370ce39d586ecb3694971",
             "summary": "A C implementation of the Constrained Application Protocol",
-            "updated": "2026-05-28T00:05:56+0000"
+            "updated": "2026-08-17T15:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1478,7 +1485,7 @@
             "bugtracker": "",
             "configopts": "   -DWANT_I18N=NO -DWANT_ICU=YES -DWANT_IPV6=YES -DWANT_OPENSSL=YES -DWANT_ZLIB=YES",
             "description": "",
-            "filename": "znc_1.10.1.bb",
+            "filename": "znc_1.10.2.bb",
             "filepath": "recipes-irc/znc",
             "homepage": "",
             "id": 2431799,
@@ -1489,11 +1496,11 @@
             "pn": "znc",
             "pr": "r0",
             "provides": "znc ",
-            "pv": "1.10.1",
+            "pv": "1.10.2",
             "section": "net",
-            "srcrev": "29694fd26f5e9ec46731ee13bf66224181984966",
+            "srcrev": "59af2206c62724eec0d8c43d3c1c0b70610ca1d9",
             "summary": "ZNC, an advanced IRC bouncer",
-            "updated": "2026-05-28T00:05:02+0000"
+            "updated": "2026-08-17T15:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1654,7 +1661,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Netfilter Tables userspace utillites",
-            "updated": "2026-05-28T00:05:03+0000"
+            "updated": "2026-08-17T15:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2099,7 +2106,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
-            "filename": "dnsmasq_2.92.bb",
+            "filename": "dnsmasq_2.93.bb",
             "filepath": "recipes-support/dnsmasq",
             "homepage": "http://www.thekelleys.org.uk/dnsmasq/doc.html",
             "id": 2431826,
@@ -2110,11 +2117,11 @@
             "pn": "dnsmasq",
             "pr": "r0",
             "provides": "dnsmasq ",
-            "pv": "2.92",
+            "pv": "2.93",
             "section": "net",
             "srcrev": "",
             "summary": "Lightweight, easy to configure DNS forwarder and DHCP server",
-            "updated": "2026-05-28T00:05:07+0000"
+            "updated": "2026-08-17T15:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2283,7 +2290,7 @@
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "SIP stands for the Session Initiation Protocol and is described by the rfc3261 (wich deprecates rfc2543). This library aims to provide multimedia and telecom software developers an easy and powerful interface to initiate and control SIP based sessions in their applications. SIP is a open standard replacement from IETF for H323.",
-            "filename": "libosip2_5.3.1.bb",
+            "filename": "libosip2_5.3.2.bb",
             "filepath": "recipes-support/libosip2",
             "homepage": "http://www.gnu.org/software/osip/osip.html",
             "id": 2431834,
@@ -2294,11 +2301,11 @@
             "pn": "libosip2",
             "pr": "r0",
             "provides": "libosip2 ",
-            "pv": "5.3.1",
+            "pv": "5.3.2",
             "section": "libs",
             "srcrev": "",
             "summary": "The GNU oSIP library is an implementation of SIP - rfc3261",
-            "updated": "2026-05-28T00:05:09+0000"
+            "updated": "2026-08-25T14:08:42+0000"
         },
         {
             "bbclassextend": "",
@@ -2373,9 +2380,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-libpcap=/tmp/tmptirtoy1m/tmp/work/core2-32-oe-linux/tcpreplay/4.5.2/recipe-sysroot/usr --disable-static ",
+            "configopts": " --with-libpcap=/tmp/tmp40c6zp0z/tmp/work/core2-32-oe-linux/tcpreplay/4.5.5/recipe-sysroot/usr --disable-static ",
             "description": "",
-            "filename": "tcpreplay_4.5.2.bb",
+            "filename": "tcpreplay_4.5.5.bb",
             "filepath": "recipes-support/tcpreplay",
             "homepage": "https://tcpreplay.appneta.com/",
             "id": 2431838,
@@ -2386,11 +2393,11 @@
             "pn": "tcpreplay",
             "pr": "r0",
             "provides": "tcpreplay ",
-            "pv": "4.5.2",
+            "pv": "4.5.5",
             "section": "net",
             "srcrev": "",
             "summary": "Use previously captured traffic to test network devices",
-            "updated": "2026-05-28T00:05:10+0000"
+            "updated": "2026-08-25T14:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2559,7 +2566,7 @@
             "bugtracker": "",
             "configopts": " --disable-static  ac_cv_c_endian=little",
             "description": " memcached optimizes specific high-load serving applications that are designed  to take advantage of its versatile no-locking memory access system. Clients  are available in several different programming languages, to suit the needs  of the specific application. Traditionally this has been used in mod_perl  apps to avoid storing large chunks of data in Apache memory, and to share  this burden across several machines.",
-            "filename": "memcached_1.6.41.bb",
+            "filename": "memcached_1.6.45.bb",
             "filepath": "recipes-support/memcached",
             "homepage": "http://memcached.org/",
             "id": 2431846,
@@ -2570,11 +2577,11 @@
             "pn": "memcached",
             "pr": "r0",
             "provides": "memcached ",
-            "pv": "1.6.41",
+            "pv": "1.6.45",
             "section": "web",
             "srcrev": "",
             "summary": "A high-performance memory object caching system",
-            "updated": "2026-05-28T00:05:11+0000"
+            "updated": "2026-08-17T15:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2582,7 +2589,7 @@
             "bugtracker": "",
             "configopts": "         --without-lib-prefix         --with-dev-headers=/usr/include/strongswan  --with-systemdsystemunitdir=/usr/lib/systemd/system/ --disable-static  --disable-aes --disable-aesni --disable-bfd-backtraces --disable-charon --enable-curl --disable-curve25519 --disable-des --disable-eap-identity --disable-eap-mschapv2 --disable-fips-prf --disable-gmp --disable-hmac --disable-imc-attestation  --disable-imc-hcd --disable-imc-os --disable-imc-scanner  --disable-imc-swima --disable-imc-test --disable-imv-attestation  --disable-imv-hcd --disable-imv-os --disable-imv-scanner  --disable-imv-swima --disable-imv-test --disable-ldap --disable-md5 --disable-mysql --disable-nm --enable-openssl --disable-pkcs12 --disable-rc2 --disable-sha1 --disable-sha2 --disable-soup --enable-sqlite --disable-stroke --enable-swanctl --enable-systemd --disable-tnc-ifmap --disable-tnc-imc --disable-tnc-imv --disable-tnc-pdp --disable-tnccs-11 --disable-tnccs-20 --disable-tnccs-dynamic --disable-tpm",
             "description": "strongSwan is an OpenSource IPsec implementation for the Linux operating system.",
-            "filename": "strongswan_6.0.5.bb",
+            "filename": "strongswan_6.0.6.bb",
             "filepath": "recipes-support/strongswan",
             "homepage": "http://www.strongswan.org",
             "id": 2431847,
@@ -2593,11 +2600,11 @@
             "pn": "strongswan",
             "pr": "r0",
             "provides": "strongswan ",
-            "pv": "6.0.5",
+            "pv": "6.0.6",
             "section": "net",
             "srcrev": "",
             "summary": "strongSwan is an OpenSource IPsec implementation",
-            "updated": "2026-05-28T00:05:11+0000"
+            "updated": "2026-08-25T14:08:42+0000"
         },
         {
             "bbclassextend": "",
@@ -2666,7 +2673,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "A sophisticated network protocol analyzer",
-            "updated": "2026-05-28T00:05:12+0000"
+            "updated": "2026-08-17T15:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2835,7 +2842,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "",
-            "filename": "usbredir_0.14.0.bb",
+            "filename": "usbredir_0.15.0.bb",
             "filepath": "recipes-support/spice",
             "homepage": "",
             "id": 2431858,
@@ -2846,11 +2853,11 @@
             "pn": "usbredir",
             "pr": "r0",
             "provides": "usbredir ",
-            "pv": "0.14.0",
+            "pv": "0.15.0",
             "section": "base",
-            "srcrev": "2d373432e604960c1dcc14fb97098febe4d64025",
+            "srcrev": "41c79583a4eecaf6cfe938278554210c718c85d2",
             "summary": "usbredir libraries and utilities",
-            "updated": "2026-05-28T00:05:14+0000"
+            "updated": "2026-08-25T14:08:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2904,7 +2911,7 @@
             "bugtracker": "",
             "configopts": " --with-ioloop=epoll --disable-static  --without-ldap  --without-lua --without-lz4 --without-pam --with-systemd --enable-nls",
             "description": "Dovecot is an open source IMAP and POP3 email server for Linux/UNIX-like systems, written with security primarily in mind. Dovecot is an excellent choice for both small and large installations. It's fast, simple to set up, requires no special administration and it uses very little memory.",
-            "filename": "dovecot_2.4.3.bb",
+            "filename": "dovecot_2.4.4.bb",
             "filepath": "recipes-support/dovecot",
             "homepage": "https://www.dovecot.org/",
             "id": 2431861,
@@ -2915,11 +2922,11 @@
             "pn": "dovecot",
             "pr": "r0",
             "provides": "dovecot ",
-            "pv": "2.4.3",
+            "pv": "2.4.4",
             "section": "mail",
             "srcrev": "",
             "summary": "Dovecot is an open source IMAP and POP3 email server",
-            "updated": "2026-05-28T00:05:15+0000"
+            "updated": "2026-08-25T14:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -4253,7 +4260,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "A full-featured SSL VPN solution via tun device.",
-            "updated": "2026-05-28T00:05:28+0000"
+            "updated": "2026-09-01T14:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -4376,7 +4383,7 @@
             "bugtracker": "https://github.com/firewalld/firewalld/issues",
             "configopts": "    --with-iptables=/usr/sbin/iptables     --with-iptables-restore=/usr/sbin/iptables-restore     --with-ip6tables=/usr/sbin/ip6tables     --with-ip6tables-restore=/usr/sbin/ip6tables-restore     --disable-sysconfig  --disable-static --enable-nls  --disable-docs --without-ebtables --without-ebtables-restore --without-ipset --with-systemd-unitdir=/usr/lib/systemd/system",
             "description": "",
-            "filename": "firewalld_2.2.1.bb",
+            "filename": "firewalld_2.2.3.bb",
             "filepath": "dynamic-layers/meta-python/recipes-connectivity/firewalld",
             "homepage": "https://firewalld.org/",
             "id": 2431925,
@@ -4387,11 +4394,11 @@
             "pn": "firewalld",
             "pr": "r0",
             "provides": "firewalld ",
-            "pv": "2.2.1",
+            "pv": "2.2.3",
             "section": "base",
             "srcrev": "",
             "summary": "Dynamic firewall daemon with a D-Bus interface",
-            "updated": "2026-05-28T00:05:29+0000"
+            "updated": "2026-09-01T14:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -4537,7 +4544,7 @@
             "bugtracker": "",
             "configopts": " --without-embedded-libevent                  --disable-oldies                  --with-privsep-user=lldpd                  --with-privsep-group=lldpd                  --with-systemdsystemunitdir=/usr/lib/systemd/system                  --without-sysusersdir  --disable-static  --enable-cdp --disable-custom --enable-dot1 --enable-dot3 --enable-edp --enable-fdp --enable-lldpmed --without-readline --without-seccomp --without-snmp --enable-sonmp --without-xml",
             "description": "",
-            "filename": "lldpd_1.0.21.bb",
+            "filename": "lldpd_1.0.22.bb",
             "filepath": "recipes-daemons/lldpd",
             "homepage": "",
             "id": 2431932,
@@ -4548,11 +4555,11 @@
             "pn": "lldpd",
             "pr": "r0",
             "provides": "lldpd ",
-            "pv": "1.0.21",
+            "pv": "1.0.22",
             "section": "net/misc",
             "srcrev": "",
             "summary": "A 802.1ab implementation (LLDP) to help you locate neighbors of all your equipments",
-            "updated": "2026-05-28T00:05:31+0000"
+            "updated": "2026-08-17T15:08:09+0000"
         },
         {
             "bbclassextend": "",
@@ -4675,7 +4682,7 @@
             "bugtracker": "",
             "configopts": " --enable-largefile INSTALL=install --disable-static   --disable-facl  --disable-auth-file  --disable-cap  --disable-crtls  --disable-curses --disable-ncurses  --disable-dso  --without-getopt --enable-ipv6  --disable-nls  --disable-openssl  --disable-auth-pam  --disable-pcre  --disable-sendfile --enable-shadow  --disable-sia --enable-static=yes  --disable-strip",
             "description": "",
-            "filename": "proftpd_1.3.9.bb",
+            "filename": "proftpd_1.3.9c.bb",
             "filepath": "recipes-daemons/proftpd",
             "homepage": "http://www.proftpd.org",
             "id": 2431938,
@@ -4686,11 +4693,11 @@
             "pn": "proftpd",
             "pr": "r0",
             "provides": "proftpd ",
-            "pv": "1.3.9",
+            "pv": "1.3.9c",
             "section": "net",
-            "srcrev": "ae25959adb05ae1d6ebfa1f36bf778c9c34e9410",
+            "srcrev": "78a1bea439969913d7002bfb16ee7f0f60e262b4",
             "summary": "Secure and configurable FTP server",
-            "updated": "2026-05-28T00:05:33+0000"
+            "updated": "2026-08-17T15:08:09+0000"
         },
         {
             "bbclassextend": "",
@@ -4859,7 +4866,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Postfix is Wietse Venema's mail server that started life at IBM research as an alternative to the widely-used Sendmail program. Postfix attempts to be fast, easy to administer, and secure. The outsidei has a definite Sendmail-ish flavor, but the inside is completely different.",
-            "filename": "postfix_3.10.9.bb",
+            "filename": "postfix_3.10.13.bb",
             "filepath": "recipes-daemons/postfix",
             "homepage": "http://www.postfix.org",
             "id": 2431946,
@@ -4870,11 +4877,11 @@
             "pn": "postfix",
             "pr": "r0",
             "provides": "postfix ",
-            "pv": "3.10.9",
+            "pv": "3.10.13",
             "section": "mail",
             "srcrev": "",
             "summary": "Postfix Mail Transport Agent",
-            "updated": "2026-06-16T02:06:01+0000"
+            "updated": "2026-09-01T14:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -5110,9 +5117,9 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " --enable-fhs                  --with-piddir=/run                  --with-sockets-dir=/run/samba                  --with-modulesdir=/usr/lib/samba                  --with-privatelibdir=/usr/lib/samba                  --with-lockdir=/var/lib/samba                  --with-cachedir=/var/lib/samba                  --disable-rpath-install                  --disable-rpath                  --with-shared-modules=idmap_ad,idmap_rid,idmap_adex,idmap_hash,idmap_tdb2,pdb_tdbsam,pdb_ldap,pdb_ads,pdb_smbpasswd,pdb_wbc_sam,pdb_samba4,auth_unix,auth_wbc,auth_server,auth_netlogond,auth_script,auth_samba4                  --bundled-libraries=heimdal,libquic,NONE                  --disable-glusterfs                  --with-cluster-support                  --with-profiling-data                  --with-libiconv=/tmp/tmptirtoy1m/tmp/work/core2-32-oe-linux/samba/4.23.5/recipe-sysroot/usr                  --with-pam --with-pammodulesdir=/usr/lib/security                  --pythondir=/usr/lib/python3.14/site-packages                 ",
+            "configopts": " --enable-fhs                  --with-piddir=/run                  --with-sockets-dir=/run/samba                  --with-modulesdir=/usr/lib/samba                  --with-privatelibdir=/usr/lib/samba                  --with-lockdir=/var/lib/samba                  --with-cachedir=/var/lib/samba                  --disable-rpath-install                  --disable-rpath                  --with-shared-modules=idmap_ad,idmap_rid,idmap_adex,idmap_hash,idmap_tdb2,pdb_tdbsam,pdb_ldap,pdb_ads,pdb_smbpasswd,pdb_wbc_sam,pdb_samba4,auth_unix,auth_wbc,auth_server,auth_netlogond,auth_script,auth_samba4                  --bundled-libraries=heimdal,libquic,NONE                  --disable-glusterfs                  --with-cluster-support                  --with-profiling-data                  --with-libiconv=/tmp/tmp_pg25knu/tmp/work/core2-32-oe-linux/samba/4.23.11/recipe-sysroot/usr                  --with-pam --with-pammodulesdir=/usr/lib/security                  --pythondir=/usr/lib/python3.14/site-packages                 ",
             "description": "",
-            "filename": "samba_4.23.5.bb",
+            "filename": "samba_4.23.11.bb",
             "filepath": "recipes-connectivity/samba",
             "homepage": "https://www.samba.org/",
             "id": 2431957,
@@ -5123,11 +5130,11 @@
             "pn": "samba",
             "pr": "r0",
             "provides": "samba ",
-            "pv": "4.23.5",
+            "pv": "4.23.11",
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-28T00:05:46+0000"
+            "updated": "2026-09-01T14:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -5518,7 +5525,7 @@
             "section": "libs",
             "srcrev": "0bebf8b8c7f07abe3571ded48a11aa907a1ffb20",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2026-05-28T00:05:50+0000"
+            "updated": "2026-08-17T15:08:07+0000"
         },
         {
             "bbclassextend": "",

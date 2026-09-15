@@ -741,6 +741,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
         }
     ],
     "branches": [
@@ -753,7 +760,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-06-22T00:06:06+0000",
+            "updated": "2026-09-15T00:09:15+0000",
             "updates_enabled": true
         }
     ],
@@ -766,10 +773,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-17T00:06:35+0000",
-            "vcs_last_commit": "2026-06-17T00:06:36+0000",
-            "vcs_last_fetch": "2026-06-17T00:06:35+0000",
-            "vcs_last_rev": "e8fa62a88e05621ca167be31919a6e2c4cb817d5",
+            "updated": "2026-09-01T14:09:26+0000",
+            "vcs_last_commit": "2026-08-27T15:08:37+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:26+0000",
+            "vcs_last_rev": "af4bb5042906e34671322cec45e0d53b80b7650c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -781,10 +788,10 @@
             "id": 1075078,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-06-16T01:06:15+0000",
-            "vcs_last_commit": "2026-06-16T00:06:05+0000",
-            "vcs_last_fetch": "2026-06-16T01:06:15+0000",
-            "vcs_last_rev": "2500e1f90331576d0ce05029e7421a5b12268ca0",
+            "updated": "2026-09-01T14:09:46+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:46+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44228
@@ -796,10 +803,10 @@
             "id": 1075080,
             "layer": 12,
             "local_path": "",
-            "updated": "2026-06-07T20:06:23+0000",
-            "vcs_last_commit": "2026-06-07T20:06:37+0000",
-            "vcs_last_fetch": "2026-06-07T20:06:23+0000",
-            "vcs_last_rev": "b5d35fb3ff42220f8bb80c2da14e3016eb267695",
+            "updated": "2026-09-01T14:09:10+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:10+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44228
@@ -811,10 +818,10 @@
             "id": 1075082,
             "layer": 16,
             "local_path": "",
-            "updated": "2026-05-28T00:05:48+0000",
-            "vcs_last_commit": "2026-05-14T20:05:38+0000",
-            "vcs_last_fetch": "2026-05-28T00:05:48+0000",
-            "vcs_last_rev": "14a681c11c6831a385bd578d6ef172a2a5f7b28d",
+            "updated": "2026-09-01T14:09:33+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:33+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 44228
@@ -1677,7 +1684,7 @@
             "section": "base",
             "srcrev": "7a9afa059e95668c912f779219ee8fe1e44dd2aa",
             "summary": "Music Player Daemon",
-            "updated": "2026-05-28T00:05:30+0000"
+            "updated": "2026-09-01T14:09:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1731,7 +1738,7 @@
             "bugtracker": "",
             "configopts": "-DCMAKE_POLICY_VERSION_MINIMUM=3.5  -DENABLE_SDL=OFF",
             "description": "libde265 is an open source implementation of the h.265 video codec. It is written from scratch and has a plain C API to enable a simple integration into other software.",
-            "filename": "libde265_1.0.18.bb",
+            "filename": "libde265_1.0.19.bb",
             "filepath": "recipes-multimedia/libde265",
             "homepage": "http://www.libde265.org/",
             "id": 2430889,
@@ -1742,11 +1749,11 @@
             "pn": "libde265",
             "pr": "r0",
             "provides": "libde265 ",
-            "pv": "1.0.18",
+            "pv": "1.0.19",
             "section": "libs/multimedia",
-            "srcrev": "36ad04841c209cb8b3577ec2723d431b6bf7efa0",
+            "srcrev": "824b4138ecd51611d7073f1b50d5d6f982609b06",
             "summary": "",
-            "updated": "2026-05-28T00:05:31+0000"
+            "updated": "2026-08-25T14:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2396,9 +2403,9 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-Denable-floats=ON -DLIB_SUFFIX= -DGCEM_INCLUDE_DIR=/tmp/tmpaq3oqc4r/tmp/work/core2-32-oe-linux/fluidsynth/2.5.3/sources/fluidsynth-2.5.3/gcem/include  -Denable-alsa=ON -Denable-dbus=OFF -Denable-jack=OFF -Denable-oss=OFF -Denable-pipewire=OFF -Denable-portaudio=OFF -Denable-profiling=OFF -Denable-pulseaudio=ON -Denable-readline=OFF -Denable-sdl3=OFF -Denable-libsndfile=OFF -Denable-systemd=ON",
+            "configopts": "-Denable-floats=ON -DLIB_SUFFIX= -DGCEM_INCLUDE_DIR=/tmp/tmpkyjrvumf/tmp/work/core2-32-oe-linux/fluidsynth/2.5.7/sources/fluidsynth-2.5.7/gcem/include  -Denable-alsa=ON -Denable-dbus=OFF -Denable-jack=OFF -Denable-oss=OFF -Denable-pipewire=OFF -Denable-portaudio=OFF -Denable-profiling=OFF -Denable-pulseaudio=ON -Denable-readline=OFF -Denable-sdl3=OFF -Denable-libsndfile=OFF -Denable-systemd=ON",
             "description": "",
-            "filename": "fluidsynth_2.5.3.bb",
+            "filename": "fluidsynth_2.5.7.bb",
             "filepath": "recipes-multimedia/fluidsynth",
             "homepage": "http://www.fluidsynth.org/",
             "id": 2430918,
@@ -2409,11 +2416,11 @@
             "pn": "fluidsynth",
             "pr": "r0",
             "provides": "fluidsynth ",
-            "pv": "2.5.3",
+            "pv": "2.5.7",
             "section": "libs/multimedia",
             "srcrev": "",
             "summary": "Fluidsynth is a software synthesizer",
-            "updated": "2026-05-28T00:05:39+0000"
+            "updated": "2026-08-25T14:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2513,7 +2520,7 @@
             "bugtracker": "https://github.com/arkq/bluez-alsa/issues",
             "configopts": "    --disable-aptx     --disable-lc3plus     --disable-ldac     --disable-manpages  --disable-static  --disable-a2dpconf --disable-aac --enable-aplay --enable-cli --without-coverage --disable-debug --disable-debug-time --disable-faststream --enable-hcitop --without-libunwind --disable-midi --disable-mp3lame --disable-mpg123 --disable-msbc --disable-ofono --disable-payloadcheck --disable-rfcomm --enable-systemd --with-systemdsystemunitdir=/usr/lib/systemd/system                           --with-systemdbluealsaargs='-p a2dp-source -p a2dp-sink' --with-systemdbluealsaaplayargs='' --disable-test --disable-upower",
             "description": "    BlueALSA is a replacement for BlueZ >= 5, with which one can achieve the     same Bluetooth audio profile support as with PulseAudio, but with fewer     dependencies and at a lower level in the software stack. It is designed     specifically for use on small, low-powered, dedicated audio or audio/visual     systems where the high-level audio management features of PulseAudio or     PipeWire are not required. ",
-            "filename": "bluealsa_4.3.0.bb",
+            "filename": "bluealsa_4.3.1.bb",
             "filepath": "recipes-multimedia/bluealsa",
             "homepage": "https://github.com/Arkq/bluez-alsa",
             "id": 2430923,
@@ -2524,11 +2531,11 @@
             "pn": "bluealsa",
             "pr": "r0",
             "provides": "bluealsa ",
-            "pv": "4.3.0",
+            "pv": "4.3.1",
             "section": "libs",
-            "srcrev": "959573c2cccef5cf074f5b2fa7941abbd699c5f4",
+            "srcrev": "f11569451b98a765adf9abc081632bb013f89f57",
             "summary": "Bluetooth Audio ALSA Backend",
-            "updated": "2026-05-28T00:05:40+0000"
+            "updated": "2026-08-25T14:08:04+0000"
         },
         {
             "bbclassextend": "",
@@ -2651,7 +2658,7 @@
             "bugtracker": "https://gitlab.freedesktop.org/pipewire/pipewire/issues",
             "configopts": "      -Devl=disabled     -Dtests=disabled     -Dudevrulesdir=/usr/lib/udev/rules.d/     -Dsystemd-system-unit-dir=/usr/lib/systemd/system     -Dsystemd-user-unit-dir=/usr/lib/systemd/user     -Dman=disabled     -Dsession-managers='[]'     -Dlv2=disabled     -Droc=disabled     -Dbluez5-codec-ldac=disabled     -Dlegacy-rtkit=false     -Dlibmysofa=disabled   -Dalsa=enabled -Davahi=enabled -Dbluez5=enabled -Dbluez5-codec-aac=disabled -Dbluez5-codec-aptx=enabled -Dbluez5-backend-native-mm=disabled -Dbluez5-codec-lc3=disabled -Dbluez5-codec-opus=enabled -Ddocs=disabled -Dffmpeg=disabled -Dflatpak=enabled -Dgsettings=enabled -Dgstreamer=enabled -Djack=enabled -Dlibcamera=enabled -Dlibcanberra=disabled -Dlibusb=enabled -Dpipewire-alsa=disabled -Dpipewire-jack=disabled -Dlibpulse=enabled -Dpw-cat=enabled -Draop=enabled -Dreadline=enabled -Dsdl2=disabled -Dsndfile=enabled -Dlibsystemd=enabled -Dsystemd-system-service=enabled -Dsystemd-user-service=enabled -Dudev=enabled -Dv4l2=enabled -Dvolume=enabled -Dvulkan=enabled -Decho-cancel-webrtc=enabled",
             "description": "Linux server for handling and routing audio and video streams between applications and multimedia I/O devices",
-            "filename": "pipewire_1.6.3.bb",
+            "filename": "pipewire_1.6.8.bb",
             "filepath": "recipes-multimedia/pipewire",
             "homepage": "https://pipewire.org/",
             "id": 2430929,
@@ -2662,11 +2669,11 @@
             "pn": "pipewire",
             "pr": "r0",
             "provides": "pipewire ",
-            "pv": "1.6.3",
+            "pv": "1.6.8",
             "section": "multimedia",
-            "srcrev": "cc3d0d1191266b263f6d0fa03fce1d1ef57151cc",
+            "srcrev": "b741e0c74f5436f0c925f7741140db0efd32cf4e",
             "summary": "Multimedia processing server for Linux",
-            "updated": "2026-05-28T00:05:41+0000"
+            "updated": "2026-08-17T15:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -2950,7 +2957,7 @@
             "bugtracker": "https://github.com/cisco/libsrtp/issues",
             "configopts": " ",
             "description": "This package provides an implementation of the Secure Real-time Transport Protocol (SRTP),                the Universal Security Transform (UST), and a supporting cryptographic kernel. The SRTP API                is documented in include/srtp.h, and the library is in libsrtp2.a (after compilation).",
-            "filename": "libsrtp_2.7.0.bb",
+            "filename": "libsrtp_2.8.0.bb",
             "filepath": "recipes-support/libsrtp",
             "homepage": "https://github.com/cisco/libsrtp",
             "id": 2430942,
@@ -2961,11 +2968,11 @@
             "pn": "libsrtp",
             "pr": "r0",
             "provides": "libsrtp ",
-            "pv": "2.7.0",
+            "pv": "2.8.0",
             "section": "libs",
-            "srcrev": "ee1a77c9f9dc02c42bda9901038c500c5efe4cfa",
+            "srcrev": "24b3bf8f19b6f5ab4cd2bcceb4f4064efca86fd5",
             "summary": "Library implementing Secure RTP (RFC 3711)",
-            "updated": "2026-05-28T00:05:44+0000"
+            "updated": "2026-08-25T14:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2973,7 +2980,7 @@
             "bugtracker": "",
             "configopts": "-DCMAKE_BUILD_TYPE=Release -DENABLE_UNITTESTS=OFF  -DENABLE_ENCRYPTION=ON -DENABLE_APPS=OFF",
             "description": "Secure Reliable Transport (SRT) is an open source transport technology that optimizes streaming performance across unpredictable networks, such as the Internet.",
-            "filename": "srt_1.5.4.bb",
+            "filename": "srt_1.5.6.bb",
             "filepath": "recipes-support/srt",
             "homepage": "https://github.com/Haivision/srt",
             "id": 2430943,
@@ -2984,11 +2991,11 @@
             "pn": "srt",
             "pr": "r0",
             "provides": "srt ",
-            "pv": "1.5.4",
+            "pv": "1.5.6",
             "section": "libs",
-            "srcrev": "a8c6b65520f814c5bd8f801be48c33ceece7c4a6",
+            "srcrev": "c63c311e88aa55e430e3b7d94b89d790994f88c4",
             "summary": "Secure Reliable Transport (SRT) Protocol",
-            "updated": "2026-05-28T00:05:44+0000"
+            "updated": "2026-08-25T14:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3088,7 +3095,7 @@
             "bugtracker": "",
             "configopts": " --enable-reuseaddr --disable-static ",
             "description": "The Portable SDK for UPnP Devices is an SDK for development of UPnP device and control point applications. It consists of the core UPnP protocols along with a UPnP-specific eXtensible Markup Language (XML) parser supporting the Document Object Model (DOM) Level 2 API and an optional, integrated mini web server for serving UPnP related documents.",
-            "filename": "libupnp_1.14.25.bb",
+            "filename": "libupnp_1.14.31.bb",
             "filepath": "recipes-connectivity/libupnp",
             "homepage": "http://pupnp.sourceforge.net/",
             "id": 2430948,
@@ -3099,11 +3106,11 @@
             "pn": "libupnp",
             "pr": "r0",
             "provides": "libupnp ",
-            "pv": "1.14.25",
+            "pv": "1.14.31",
             "section": "base",
-            "srcrev": "da7cf950f22357545061961b7e5610e08690b0cf",
+            "srcrev": "79ff958ed1012e60faba84981481f76cea43c7f2",
             "summary": "Portable SDK for UPnP* Devices",
-            "updated": "2026-05-28T00:05:46+0000"
+            "updated": "2026-08-25T14:08:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3111,7 +3118,7 @@
             "bugtracker": "https://gitlab.gnome.org/GNOME/gssdp/-/issues",
             "configopts": "-Dgtk_doc=false -Dintrospection=true  -Dmanpages=false  -Dsniffer=false",
             "description": "GSSDP implements resource discovery and announcement over SSDP                (Simpe Service Discovery Protocol).",
-            "filename": "gssdp_1.6.4.bb",
+            "filename": "gssdp_1.6.6.bb",
             "filepath": "recipes-connectivity/gupnp",
             "homepage": "https://gitlab.gnome.org/GNOME/gssdp/",
             "id": 2430949,
@@ -3122,11 +3129,11 @@
             "pn": "gssdp",
             "pr": "r0",
             "provides": "gssdp ",
-            "pv": "1.6.4",
+            "pv": "1.6.6",
             "section": "base",
             "srcrev": "",
             "summary": "Resource discovery and announcement over SSDP",
-            "updated": "2026-05-28T00:05:46+0000"
+            "updated": "2026-08-25T14:08:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3157,7 +3164,7 @@
             "bugtracker": "",
             "configopts": "-Dintrospection=true  ",
             "description": "GUPnP is an elegant, object-oriented open source framework for creating UPnP  devices and control points, written in C using GObject and libsoup. The GUPnP API is intended to be easy to use, efficient and flexible. It provides the same set of features as libupnp, but shields the developer from most of UPnP's internals.",
-            "filename": "gupnp_1.6.9.bb",
+            "filename": "gupnp_1.6.10.bb",
             "filepath": "recipes-connectivity/gupnp",
             "homepage": "",
             "id": 2430951,
@@ -3168,11 +3175,11 @@
             "pn": "gupnp",
             "pr": "r0",
             "provides": "gupnp ",
-            "pv": "1.6.9",
+            "pv": "1.6.10",
             "section": "base",
             "srcrev": "",
             "summary": "UPnP framework",
-            "updated": "2026-05-28T00:05:47+0000"
+            "updated": "2026-08-25T14:08:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3180,7 +3187,7 @@
             "bugtracker": "",
             "configopts": "  -Dav-tools=true",
             "description": "",
-            "filename": "gupnp-tools_0.12.2.bb",
+            "filename": "gupnp-tools_0.12.4.bb",
             "filepath": "recipes-connectivity/gupnp",
             "homepage": "",
             "id": 2430952,
@@ -3191,11 +3198,11 @@
             "pn": "gupnp-tools",
             "pr": "r0",
             "provides": "gupnp-tools ",
-            "pv": "0.12.2",
+            "pv": "0.12.4",
             "section": "base",
             "srcrev": "",
             "summary": "Tools for GUPnP",
-            "updated": "2026-05-28T00:05:47+0000"
+            "updated": "2026-08-25T14:08:04+0000"
         },
         {
             "bbclassextend": "",

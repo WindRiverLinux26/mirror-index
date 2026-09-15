@@ -741,6 +741,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
         }
     ],
     "branches": [
@@ -753,7 +760,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-06-22T00:06:06+0000",
+            "updated": "2026-09-15T00:09:15+0000",
             "updates_enabled": true
         }
     ],
@@ -766,10 +773,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-17T00:06:35+0000",
-            "vcs_last_commit": "2026-06-17T00:06:36+0000",
-            "vcs_last_fetch": "2026-06-17T00:06:35+0000",
-            "vcs_last_rev": "e8fa62a88e05621ca167be31919a6e2c4cb817d5",
+            "updated": "2026-09-01T14:09:26+0000",
+            "vcs_last_commit": "2026-08-27T15:08:37+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:26+0000",
+            "vcs_last_rev": "af4bb5042906e34671322cec45e0d53b80b7650c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -781,10 +788,10 @@
             "id": 1075078,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-06-16T01:06:15+0000",
-            "vcs_last_commit": "2026-06-16T00:06:05+0000",
-            "vcs_last_fetch": "2026-06-16T01:06:15+0000",
-            "vcs_last_rev": "2500e1f90331576d0ce05029e7421a5b12268ca0",
+            "updated": "2026-09-01T14:09:46+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:46+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44228
@@ -1114,7 +1121,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "shared library for GIF images",
-            "updated": "2026-05-28T00:05:54+0000"
+            "updated": "2026-09-01T14:09:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1605,7 +1612,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_22.22.2.bb",
+            "filename": "nodejs_22.23.2.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 2429023,
@@ -1616,11 +1623,11 @@
             "pn": "nodejs",
             "pr": "r0",
             "provides": "nodejs ",
-            "pv": "22.22.2",
+            "pv": "22.23.2",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-28T00:05:59+0000"
+            "updated": "2026-08-25T14:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1628,7 +1635,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "OE helper for manipulating npm cache",
-            "filename": "nodejs-oe-cache-native_22.22.bb",
+            "filename": "nodejs-oe-cache-native_22.23.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "",
             "id": 2429024,
@@ -1639,11 +1646,11 @@
             "pn": "nodejs-oe-cache-native",
             "pr": "r0",
             "provides": "nodejs-oe-cache-native ",
-            "pv": "22.22",
+            "pv": "22.23",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-28T00:05:59+0000"
+            "updated": "2026-08-17T15:08:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1879,7 +1886,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DgRPC_CARES_PROVIDER=package     -DgRPC_ZLIB_PROVIDER=package     -DgRPC_SSL_PROVIDER=package     -DgRPC_PROTOBUF_PROVIDER=package     -D_gRPC_PROTOBUF_PROTOC_EXECUTABLE=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/grpc/1.80.0/recipe-sysroot-native/usr/bin/protoc     -DgRPC_ABSL_PROVIDER=package     -DgRPC_RE2_PROVIDER=package     -DgRPC_INSTALL=ON     -DCMAKE_CROSSCOMPILING=ON     -DgRPC_INSTALL_LIBDIR=lib     -DgRPC_INSTALL_CMAKEDIR=lib/cmake/grpc       -DgRPC_BUILD_GRPC_CPP_PLUGIN=ON -DgRPC_BUILD_GRPC_CSHARP_PLUGIN=OFF -DgRPC_BUILD_GRPC_NODE_PLUGIN=OFF -DgRPC_BUILD_GRPC_OBJECTIVE_C_PLUGIN=OFF -DgRPC_BUILD_GRPC_PHP_PLUGIN=OFF -DgRPC_USE_PROTO_LITE=OFF -DgRPC_BUILD_GRPC_PYTHON_PLUGIN=OFF -DgRPC_BUILD_GRPC_RUBY_PLUGIN=OFF -DBUILD_SHARED_LIBS=ON",
+            "configopts": "     -DgRPC_CARES_PROVIDER=package     -DgRPC_ZLIB_PROVIDER=package     -DgRPC_SSL_PROVIDER=package     -DgRPC_PROTOBUF_PROVIDER=package     -D_gRPC_PROTOBUF_PROTOC_EXECUTABLE=/tmp/tmp4sbo8res/tmp/work/core2-32-oe-linux/grpc/1.80.0/recipe-sysroot-native/usr/bin/protoc     -DgRPC_ABSL_PROVIDER=package     -DgRPC_RE2_PROVIDER=package     -DgRPC_INSTALL=ON     -DCMAKE_CROSSCOMPILING=ON     -DgRPC_INSTALL_LIBDIR=lib     -DgRPC_INSTALL_CMAKEDIR=lib/cmake/grpc       -DgRPC_BUILD_GRPC_CPP_PLUGIN=ON -DgRPC_BUILD_GRPC_CSHARP_PLUGIN=OFF -DgRPC_BUILD_GRPC_NODE_PLUGIN=OFF -DgRPC_BUILD_GRPC_OBJECTIVE_C_PLUGIN=OFF -DgRPC_BUILD_GRPC_PHP_PLUGIN=OFF -DgRPC_USE_PROTO_LITE=OFF -DgRPC_BUILD_GRPC_PYTHON_PLUGIN=OFF -DgRPC_BUILD_GRPC_RUBY_PLUGIN=OFF -DBUILD_SHARED_LIBS=ON",
             "description": "A high performance, open source, general-purpose RPC framework. Provides gRPC libraries for multiple languages written on top of shared C core library (C++, Node.js, Python, Ruby, Objective-C, PHP, C#)",
             "filename": "grpc_1.80.0.bb",
             "filepath": "recipes-devtools/grpc",
@@ -1896,7 +1903,7 @@
             "section": "libs",
             "srcrev": "f5e2d6e856176c2f6b7691032adfefe21e5f64c1",
             "summary": "",
-            "updated": "2026-05-28T00:05:01+0000"
+            "updated": "2026-08-17T15:08:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -2034,7 +2041,7 @@
             "section": "base",
             "srcrev": "7ef6e6097586b751cce298c256a919404dab259d",
             "summary": "ltrace intercepts and records dynamic library calls",
-            "updated": "2026-05-28T00:05:03+0000"
+            "updated": "2026-08-17T15:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2617,7 +2624,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Psycopg is the most popular PostgreSQL adapter for the Python programming language. Its core is a complete implementation of the Python DB API 2.0 specifications. Several extensions allow access to many of the features offered by PostgreSQL.",
-            "filename": "python3-psycopg_3.3.3.bb",
+            "filename": "python3-psycopg_3.3.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 2429067,
@@ -2628,11 +2635,11 @@
             "pn": "python3-psycopg",
             "pr": "r0",
             "provides": "python3-psycopg ",
-            "pv": "3.3.3",
+            "pv": "3.3.4",
             "section": "devel/python",
             "srcrev": "",
             "summary": "Psycopg 3 is the implementation of a PostgreSQL adapter for Python.",
-            "updated": "2026-05-28T00:05:10+0000"
+            "updated": "2026-09-01T14:09:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2793,7 +2800,7 @@
             "section": "utils",
             "srcrev": "4467af7068b1bcd7f882defff6e7ea674c5357f4",
             "summary": "Lightweight and flexible command-line JSON processor",
-            "updated": "2026-05-28T00:05:12+0000"
+            "updated": "2026-09-01T14:09:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3023,7 +3030,7 @@
             "section": "libs",
             "srcrev": "3455302847cf1e4671f1d8f5fa953fd46a7b1404",
             "summary": "JSON C++ lib used to read and write json file.",
-            "updated": "2026-05-28T00:05:15+0000"
+            "updated": "2026-08-17T15:08:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3075,9 +3082,9 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "--with-ssl=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/ldns/1.9.0/recipe-sysroot/usr --disable-static  --without-drill",
+            "configopts": "--with-ssl=/tmp/tmp4sbo8res/tmp/work/core2-32-oe-linux/ldns/1.9.2/recipe-sysroot/usr --disable-static  --without-drill",
             "description": "",
-            "filename": "ldns_1.9.0.bb",
+            "filename": "ldns_1.9.2.bb",
             "filepath": "recipes-devtools/ldns",
             "homepage": "https://nlnetlabs.nl/ldns",
             "id": 2429087,
@@ -3088,11 +3095,11 @@
             "pn": "ldns",
             "pr": "r0",
             "provides": "ldns ",
-            "pv": "1.9.0",
+            "pv": "1.9.2",
             "section": "base",
             "srcrev": "",
             "summary": "LDNS is a DNS library that facilitates DNS tool programming",
-            "updated": "2026-05-28T00:05:16+0000"
+            "updated": "2026-08-17T15:08:10+0000"
         },
         {
             "bbclassextend": "",
@@ -3167,24 +3174,24 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpx17s4p_h/tmp/work/core2-32-oe-linux/php/8.5.6/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpx17s4p_h/tmp/work/core2-32-oe-linux/php/8.5.6/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpx17s4p_h/tmp/work/core2-32-oe-linux/php/8.5.6/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpx17s4p_h/tmp/work/core2-32-oe-linux/php/8.5.6/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_path_PROG_SENDMAIL=sendmail                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8   --disable-static  --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpx17s4p_h/tmp/work/core2-32-oe-linux/php/8.5.6/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpx17s4p_h/tmp/work/core2-32-oe-linux/php/8.5.6/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
+            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpmvax_hpw/tmp/work/core2-32-oe-linux/php/8.5.9/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpmvax_hpw/tmp/work/core2-32-oe-linux/php/8.5.9/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpmvax_hpw/tmp/work/core2-32-oe-linux/php/8.5.9/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpmvax_hpw/tmp/work/core2-32-oe-linux/php/8.5.9/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_path_PROG_SENDMAIL=sendmail                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8   --disable-static  --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpmvax_hpw/tmp/work/core2-32-oe-linux/php/8.5.9/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpmvax_hpw/tmp/work/core2-32-oe-linux/php/8.5.9/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
             "description": "",
-            "filename": "php_8.5.6.bb",
+            "filename": "php_8.5.9.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "https://www.php.net",
             "id": 2429091,
             "inherits": "autotools gcc gcc-native gettext multilib_header multilib_script pkgconfig python3-dir python3native siteinfo systemd update-alternatives update-rc.d",
             "layerbranch": 1075078,
-            "license": "PHP-3.0",
+            "license": "PHP-3.01",
             "pe": "",
             "pn": "php",
             "pr": "r0",
             "provides": "php ",
-            "pv": "8.5.6",
+            "pv": "8.5.9",
             "section": "console/network",
             "srcrev": "",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2026-06-04T03:06:21+0000"
+            "updated": "2026-08-25T14:08:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -3414,7 +3421,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "The Perl Database Interface",
-            "updated": "2026-05-28T00:05:19+0000"
+            "updated": "2026-08-25T14:08:22+0000"
         },
         {
             "bbclassextend": "",
@@ -3667,7 +3674,7 @@
             "section": "console/tools",
             "srcrev": "6e1998413a5bca7c058b85999667893f167434bc",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2026-05-28T00:05:21+0000"
+            "updated": "2026-08-17T15:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -5007,7 +5014,7 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -Dmanpage-build=disabled     -Dlibbluray=disabled     -Ddvdnav=disabled     -Dcdda=disabled     -Duchardet=disabled     -Drubberband=disabled     -Dvapoursynth=disabled     -Dshaderc=disabled   -Ddrm=enabled -Degl=enabled -Dgbm=enabled -Djack=disabled -Dlcms2=disabled -Dlibarchive=disabled -Dlibmpv=true -Dlua=luajit -Dgl=enabled -Dpipewire=disabled -Dpulse=enabled -Dvaapi=disabled -Dvdpau=disabled -Dvulkan=enabled -Dwayland=enabled -Dx11=enabled -Dxv=disabled -Dgl-x11=enabled -Degl-x11=enabled -Degl-drm=enabled -Degl-wayland=enabled",
+            "configopts": "     -Dmanpage-build=disabled     -Dlibbluray=disabled     -Ddvdnav=disabled     -Dcdda=disabled     -Duchardet=disabled     -Drubberband=disabled     -Dvapoursynth=disabled     -Dshaderc=disabled   -Ddrm=enabled -Degl=enabled -Dgbm=enabled -Djack=disabled -Dlcms2=disabled -Dlibarchive=disabled -Dlibmpv=true -Dlua=luajit -Dgl=enabled -Dpipewire=disabled -Dpulse=enabled -Dvaapi=disabled -Dvdpau=disabled -Dvulkan=enabled -Dwayland=enabled -Dx11=enabled -Dxv=disabled",
             "description": "mpv is a fork of mplayer2 and MPlayer. It shares some features with the former projects while introducing many more.",
             "filename": "mpv_0.41.0.bb",
             "filepath": "recipes-multimedia/mplayer",
@@ -5024,7 +5031,7 @@
             "section": "multimedia",
             "srcrev": "41f6a645068483470267271e1d09966ca3b9f413",
             "summary": "Open Source multimedia player",
-            "updated": "2026-05-28T00:05:34+0000"
+            "updated": "2026-08-25T14:08:23+0000"
         },
         {
             "bbclassextend": "",
@@ -5053,9 +5060,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     --with-NE10-includes=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/libopus/1.6/recipe-sysroot/usr/include     --with-NE10-libraries=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/libopus/1.6/recipe-sysroot/usr/lib     --enable-asm     --enable-intrinsics     --enable-custom-modes  --disable-static ",
+            "configopts": "     --with-NE10-includes=/tmp/tmpmvax_hpw/tmp/work/core2-32-oe-linux/libopus/1.6.1/recipe-sysroot/usr/include     --with-NE10-libraries=/tmp/tmpmvax_hpw/tmp/work/core2-32-oe-linux/libopus/1.6.1/recipe-sysroot/usr/lib     --enable-asm     --enable-intrinsics     --enable-custom-modes  --disable-static ",
             "description": "The Opus codec is designed for interactive speech and audio transmission over the Internet. It is designed by the IETF Codec Working Group and incorporates technology from Skype's SILK codec and Xiph.Org's CELT codec.",
-            "filename": "libopus_1.6.bb",
+            "filename": "libopus_1.6.1.bb",
             "filepath": "recipes-multimedia/libopus",
             "homepage": "http://www.opus-codec.org/",
             "id": 2429173,
@@ -5066,11 +5073,11 @@
             "pn": "libopus",
             "pr": "r0",
             "provides": "libopus ",
-            "pv": "1.6",
+            "pv": "1.6.1",
             "section": "libs/multimedia",
             "srcrev": "",
             "summary": "Opus Audio Codec",
-            "updated": "2026-05-28T00:05:35+0000"
+            "updated": "2026-08-25T14:08:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -6197,7 +6204,7 @@
             "section": "libs",
             "srcrev": "c7a5c8b62a0ff012b16574f01651254ef7e664ee",
             "summary": "An OpenSSL provider that allows direct interfacing with pkcs11 drivers",
-            "updated": "2026-05-28T00:05:46+0000"
+            "updated": "2026-08-17T15:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -6274,7 +6281,7 @@
             "bugtracker": "",
             "configopts": " --disable-static ",
             "description": "",
-            "filename": "cjose_0.6.2.4.bb",
+            "filename": "cjose_0.6.2.8.bb",
             "filepath": "recipes-support/cjose",
             "homepage": "https://github.com/OpenIDC/cjose",
             "id": 2429226,
@@ -6285,11 +6292,11 @@
             "pn": "cjose",
             "pr": "r0",
             "provides": "cjose ",
-            "pv": "0.6.2.4",
+            "pv": "0.6.2.8",
             "section": "base",
-            "srcrev": "8d94c3ad3237ab6a83d2e92fa541542b1b92c023",
+            "srcrev": "e787ace6a203d483038a793fd58f958a2f9b48c1",
             "summary": "C library implementing the Javascript Object Signing and Encryption (JOSE)",
-            "updated": "2026-05-28T00:05:47+0000"
+            "updated": "2026-09-01T14:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -6366,7 +6373,7 @@
             "bugtracker": "",
             "configopts": "     -DWITH_PCAP=1     -DWITH_SFTP=1     -DWITH_ZLIB=1     -DWITH_EXAMPLES=0       -DWITH_GCRYPT=1  -DWITH_GSSAPI=0 -DUNIT_TESTING=1",
             "description": "",
-            "filename": "libssh_0.11.4.bb",
+            "filename": "libssh_0.11.5.bb",
             "filepath": "recipes-support/libssh",
             "homepage": "http://www.libssh.org",
             "id": 2429230,
@@ -6377,11 +6384,11 @@
             "pn": "libssh",
             "pr": "r0",
             "provides": "libssh ",
-            "pv": "0.11.4",
+            "pv": "0.11.5",
             "section": "libs",
-            "srcrev": "ca9c055d7c78ce357346ac7c2b14047568d47aa1",
+            "srcrev": "a09fdd00416e53b6ed436df6ff14339a4f884601",
             "summary": "Multiplatform C library implementing the SSHv2 and SSHv1 protocol",
-            "updated": "2026-05-28T00:05:48+0000"
+            "updated": "2026-09-01T14:09:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6450,7 +6457,7 @@
             "section": "libs",
             "srcrev": "afbb1ab68f29eec7079e2fdfa04b3efdbec6529d",
             "summary": "Modern, powerful open source cross-platform C++ class libraries",
-            "updated": "2026-05-28T00:05:54+0000"
+            "updated": "2026-08-17T15:08:17+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -6527,7 +6534,7 @@
             "bugtracker": "",
             "configopts": "--enable-pam-config=suse --enable-fuse                 --enable-pixman --enable-painter --enable-vsock                 --enable-ipv6 --with-imlib2 --with-socketdir=/var/run/xrdp --disable-static   --enable-fuse  --enable-tests",
             "description": "",
-            "filename": "xrdp_0.10.6.bb",
+            "filename": "xrdp_0.10.6.1.bb",
             "filepath": "recipes-support/xrdp",
             "homepage": "",
             "id": 2429237,
@@ -6538,11 +6545,11 @@
             "pn": "xrdp",
             "pr": "r0",
             "provides": "xrdp ",
-            "pv": "0.10.6",
+            "pv": "0.10.6.1",
             "section": "base",
             "srcrev": "",
             "summary": "An open source remote desktop protocol(rdp) server.",
-            "updated": "2026-05-28T00:05:58+0000"
+            "updated": "2026-08-25T14:08:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -6596,7 +6603,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A suite of tools for manipulating the metadata of the dm-thin device-mapper target.",
-            "filename": "thin-provisioning-tools_1.3.1.bb",
+            "filename": "thin-provisioning-tools_1.3.3.bb",
             "filepath": "recipes-support/thin-provisioning-tools",
             "homepage": "https://github.com/device-mapper-utils/thin-provisioning-tools",
             "id": 2429240,
@@ -6607,11 +6614,11 @@
             "pn": "thin-provisioning-tools",
             "pr": "r0",
             "provides": "thin-provisioning-tools ",
-            "pv": "1.3.1",
+            "pv": "1.3.3",
             "section": "devel",
-            "srcrev": "8b663fb4c6fb8e52ca06cea57b986c5ba45f668d",
+            "srcrev": "b61de422f87f06ca7526d0b378de4412ad2c760c",
             "summary": "Tools of dm-thin device-mapper",
-            "updated": "2026-05-28T00:05:01+0000"
+            "updated": "2026-09-01T14:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -6887,7 +6894,7 @@
             "section": "base",
             "srcrev": "c5f98152a274e25b5107101104bef632b83a0cc9",
             "summary": "A spell checker and morphological analyzer library",
-            "updated": "2026-05-28T00:05:10+0000"
+            "updated": "2026-08-17T15:08:16+0000"
         },
         {
             "bbclassextend": "",
@@ -7516,7 +7523,7 @@
             "bugtracker": "",
             "configopts": "  -Dkeyutils=enabled -Dliburing=disabled -Dopenssl=enabled -Dpython=disabled",
             "description": "libnvme provides type definitions for NVMe specification structures, enumerations, and bit fields, helper functions to construct, dispatch, and decode commands and payloads, and utilities to connect, scan, and manage nvme devices on a Linux system.",
-            "filename": "libnvme_1.16.1.bb",
+            "filename": "libnvme_1.16.2.bb",
             "filepath": "recipes-support/libnvme",
             "homepage": "https://github.com/linux-nvme/libnvme",
             "id": 2429280,
@@ -7527,11 +7534,11 @@
             "pn": "libnvme",
             "pr": "r0",
             "provides": "libnvme ",
-            "pv": "1.16.1",
+            "pv": "1.16.2",
             "section": "libs",
-            "srcrev": "becae3d874b40bfedede672b4b2f58ae8c3be3b5",
+            "srcrev": "07d6c32c10fd63fad141cd0120314a055695de32",
             "summary": "libnvme development C library",
-            "updated": "2026-05-28T00:05:19+0000"
+            "updated": "2026-08-17T15:08:16+0000"
         },
         {
             "bbclassextend": "",
@@ -8520,7 +8527,7 @@
             "section": "base",
             "srcrev": "ab3f67fc4fad88cdf07b258c08e4164e06bf7506",
             "summary": "A simple, lightweight JavaScript API for handling cookies.",
-            "updated": "2026-05-28T00:05:27+0000"
+            "updated": "2026-08-17T15:08:16+0000"
         },
         {
             "bbclassextend": "",
@@ -8942,22 +8949,22 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "",
-            "filename": "vboxguestdrivers_7.2.6.bb",
+            "filename": "vboxguestdrivers_7.2.8.bb",
             "filepath": "recipes-support/vboxguestdrivers",
             "homepage": "https://www.virtualbox.org/",
             "id": 2429342,
-            "inherits": "gcc gcc-native kernel-arch kernel-module-split module module-base pkgconfig",
+            "inherits": "gcc gcc-native kernel-arch kernel-module-split linux-kernel-base module module-base pkgconfig",
             "layerbranch": 1075078,
             "license": "GPL-3.0-only",
             "pe": "",
             "pn": "vboxguestdrivers",
             "pr": "r0",
             "provides": "vboxguestdrivers ",
-            "pv": "7.2.6",
+            "pv": "7.2.8",
             "section": "core",
             "srcrev": "",
             "summary": "VirtualBox Linux Guest Drivers",
-            "updated": "2026-05-28T00:05:31+0000"
+            "updated": "2026-09-01T14:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -9509,7 +9516,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Making color management just work",
-            "updated": "2026-05-28T00:05:36+0000"
+            "updated": "2026-08-25T14:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -9630,7 +9637,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/hdf5/2.0.0/qemuwrapper      -DHDF5_INSTALL_CMAKE_DIR=/usr/lib/cmake     -DCMAKE_INSTALL_PREFIX='/usr'     -DHDF5_INSTALL_LIB_DIR='lib'  ",
+            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpmvax_hpw/tmp/work/core2-32-oe-linux/hdf5/2.0.0/qemuwrapper      -DHDF5_INSTALL_CMAKE_DIR=/usr/lib/cmake     -DCMAKE_INSTALL_PREFIX='/usr'     -DHDF5_INSTALL_LIB_DIR='lib'  ",
             "description": "Unique technology suite that makes possible the management of extremely large and complex data collections",
             "filename": "hdf5_2.0.0.bb",
             "filepath": "recipes-support/hdf5",
@@ -9647,7 +9654,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Management suite for extremely large and complex data collections",
-            "updated": "2026-05-28T00:05:38+0000"
+            "updated": "2026-08-25T14:08:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -9724,7 +9731,7 @@
             "bugtracker": "",
             "configopts": " --disable-static  --without-apache --disable-code-coverage --without-jq --without-memcache --without-redis",
             "description": "",
-            "filename": "liboauth2_2.2.0.bb",
+            "filename": "liboauth2_2.3.0.bb",
             "filepath": "recipes-support/liboauth2",
             "homepage": "https://github.com/OpenIDC/liboauth2",
             "id": 2429376,
@@ -9735,11 +9742,11 @@
             "pn": "liboauth2",
             "pr": "r0",
             "provides": "liboauth2 ",
-            "pv": "2.2.0",
+            "pv": "2.3.0",
             "section": "base",
-            "srcrev": "12571b6d6568c2db7d5f080f60ecb55795c0db19",
+            "srcrev": "5aeae56ab2c0ae1ff1c70bc13e0628b134ece70c",
             "summary": "OAuth 2.x and OpenID Connect C library",
-            "updated": "2026-05-28T00:05:38+0000"
+            "updated": "2026-08-25T14:08:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10115,7 +10122,7 @@
             "bugtracker": "",
             "configopts": "--program-prefix= --program-suffix=.im7 --without-perl --enable-largefile --disable-static  --with-magick-plus-plus --without-gvc --without-heic --without-jxl --without-lzma --without-openjp2 --without-pango --without-raw --without-rsvg --with-tcmalloc=no --with-webp --without-wmf --with-x --with-xml",
             "description": "ImageMagick is a collection of tools for displaying, converting, and editing raster and vector image files. It can read and write over 200 image file formats.",
-            "filename": "imagemagick_7.1.2-19.bb",
+            "filename": "imagemagick_7.1.2-27.bb",
             "filepath": "recipes-support/imagemagick",
             "homepage": "https://www.imagemagick.org/",
             "id": 2429393,
@@ -10126,11 +10133,11 @@
             "pn": "imagemagick",
             "pr": "r0",
             "provides": "imagemagick ",
-            "pv": "7.1.2-19",
+            "pv": "7.1.2-27",
             "section": "console/utils",
-            "srcrev": "9fbd2b79450e930edb95e8158d412e57a7b27e83",
+            "srcrev": "b661ac969aa3a0d326690f95830aab246569f090",
             "summary": "ImageMagick is an image conversion toolkit",
-            "updated": "2026-05-28T00:05:42+0000"
+            "updated": "2026-08-17T15:08:16+0000"
         },
         {
             "bbclassextend": "",
@@ -10322,7 +10329,7 @@
             "bugtracker": "",
             "configopts": "-DCARES_STATIC=OFF  -DCARES_BUILD_TESTS=ON",
             "description": "",
-            "filename": "c-ares_1.34.6.bb",
+            "filename": "c-ares_1.34.8.bb",
             "filepath": "recipes-support/c-ares",
             "homepage": "https://c-ares.org/",
             "id": 2429402,
@@ -10333,11 +10340,11 @@
             "pn": "c-ares",
             "pr": "r0",
             "provides": "c-ares ",
-            "pv": "1.34.6",
+            "pv": "1.34.8",
             "section": "libs",
             "srcrev": "",
             "summary": "c-ares is a C library that resolves names asynchronously.",
-            "updated": "2026-05-28T00:05:44+0000"
+            "updated": "2026-08-17T15:08:15+0000"
         },
         {
             "bbclassextend": "",
@@ -10851,7 +10858,7 @@
             "bugtracker": "https://github.com/smarty-php/smarty/issues",
             "configopts": " --disable-static",
             "description": "    Smarty facilitates the separation of presentation (HTML/CSS) from     application logic. This implies that PHP code is application logic, and is     separated from the presentation. ",
-            "filename": "smarty_5.8.0.bb",
+            "filename": "smarty_5.8.4.bb",
             "filepath": "recipes-support/smarty",
             "homepage": "https://smarty-php.github.io/smarty/",
             "id": 2429425,
@@ -10862,11 +10869,11 @@
             "pn": "smarty",
             "pr": "r0",
             "provides": "smarty ",
-            "pv": "5.8.0",
+            "pv": "5.8.4",
             "section": "base",
-            "srcrev": "78d259d3b971c59a0cd719c270cc5cbb740c36a7",
+            "srcrev": "94a27cbbc7820198d7adc17a2be8d457fb267753",
             "summary": "Template engine for PHP",
-            "updated": "2026-05-28T00:05:48+0000"
+            "updated": "2026-08-25T14:08:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11725,7 +11732,7 @@
             "bugtracker": "",
             "configopts": "      -DURIPARSER_BUILD_DOCS:BOOL=OFF   -DURIPARSER_BUILD_TESTS:BOOL=ON",
             "description": "",
-            "filename": "uriparser_1.0.0.bb",
+            "filename": "uriparser_1.0.2.bb",
             "filepath": "recipes-support/uriparser",
             "homepage": "https://uriparser.github.io",
             "id": 2429463,
@@ -11736,11 +11743,11 @@
             "pn": "uriparser",
             "pr": "r0",
             "provides": "uriparser ",
-            "pv": "1.0.0",
+            "pv": "1.0.2",
             "section": "base",
             "srcrev": "",
             "summary": "RFC 3986 compliant URI parsing library",
-            "updated": "2026-05-28T00:05:00+0000"
+            "updated": "2026-08-17T15:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -12430,7 +12437,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2026-05-28T00:05:06+0000"
+            "updated": "2026-09-01T14:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -12438,7 +12445,7 @@
             "bugtracker": "https://github.com/fastfetch-cli/fastfetch/issues",
             "configopts": "     -DENABLE_SYSTEM_YYJSON=ON   -DENABLE_CHAFA=OFF -DENABLE_DBUS=ON -DENABLE_DCONF=OFF -DENABLE_DDCUTIL=OFF -DENABLE_DRM=ON -DENABLE_DRM_AMDGPU=OFF -DENABLE_EGL=ON -DENABLE_ELF=OFF -DBUILD_FLASHFETCH=OFF -DENABLE_FREETYPE=OFF -DENABLE_GIO=OFF -DENABLE_GLX=ON -DENABLE_IMAGEMAGICK7=OFF -DENABLE_IMAGEMAGICK6=OFF -DENABLE_OPENCL=OFF -DENABLE_PULSE=ON -DENABLE_RPM=OFF -DENABLE_SQLITE3=ON -DENABLE_VULKAN=ON -DENABLE_WAYLAND=ON -DENABLE_XCB_RANDR=ON -DENABLE_XRANDR=ON -DENABLE_LIBZFS=OFF -DENABLE_ZLIB=OFF",
             "description": "Fastfetch is a neofetch-like tool for fetching system information and displaying it in a visually appealing way. It is written mainly in C, with a focus on performance and customizability.",
-            "filename": "fastfetch_2.61.0.bb",
+            "filename": "fastfetch_2.62.1.bb",
             "filepath": "recipes-support/fastfetch",
             "homepage": "https://github.com/fastfetch-cli/fastfetch",
             "id": 2429494,
@@ -12449,11 +12456,11 @@
             "pn": "fastfetch",
             "pr": "r0",
             "provides": "fastfetch ",
-            "pv": "2.61.0",
+            "pv": "2.62.1",
             "section": "base",
-            "srcrev": "e5d600600614f5496b02907a11a7bc80c369d266",
+            "srcrev": "4a61cdb1c9e4044ee959751e00bac1266dc6ebf9",
             "summary": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
-            "updated": "2026-05-28T00:05:06+0000"
+            "updated": "2026-08-17T15:08:15+0000"
         },
         {
             "bbclassextend": "",
@@ -12967,7 +12974,7 @@
             "bugtracker": "",
             "configopts": "    --enable-nistest=yes     --enable-olt=yes     --enable-threads=no  --disable-static ",
             "description": "The haveged project is an attempt to provide an easy-to-use, unpredictable random number generator based upon an adaptation of the HAVEGE algorithm. Haveged was created to remedy low-entropy conditions in the Linux random device that can occur under some workloads, especially on headless servers.",
-            "filename": "haveged_1.9.21.bb",
+            "filename": "haveged_1.9.23.bb",
             "filepath": "recipes-extended/haveged",
             "homepage": "https://www.issihosts.com/haveged/index.html",
             "id": 2429517,
@@ -12978,11 +12985,11 @@
             "pn": "haveged",
             "pr": "r0",
             "provides": "haveged ",
-            "pv": "1.9.21",
+            "pv": "1.9.23",
             "section": "base",
-            "srcrev": "8d1ed0a1f74c0e426e7ebcbdd60cf2a0d1b35cb0",
+            "srcrev": "99d5b8de8339ba7725e3cff005e2f77ccf699582",
             "summary": "haveged - A simple entropy daemon",
-            "updated": "2026-05-31T19:05:17+0000"
+            "updated": "2026-08-17T15:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -13034,7 +13041,7 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "                -DCMAKE_POLICY_VERSION_MINIMUM=3.5                 -DBUILD_DRIVER=OFF                 -DMINIMAL_BUILD=ON                 -DUSE_BUNDLED_DEPS=OFF                 -DCREATE_TEST_TARGETS=OFF                 -DDIR_ETC=/etc                 -DLUA_INCLUDE_DIR=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/sysdig/0.39.0/recipe-sysroot/usr/include/luajit-2.1                 -DFALCOSECURITY_LIBS_SOURCE_DIR=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/sysdig/0.39.0/sources/sysdig-0.39.0/falcosecurity-libs                 -DDRIVER_SOURCE_DIR=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/sysdig/0.39.0/sources/sysdig-0.39.0/driver                 -DVALIJSON_INCLUDE=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/sysdig/0.39.0/recipe-sysroot/usr/include/valijson                 -DUSE_BUNDLED_RE2=OFF                 -DUSE_BUNDLED_TBB=OFF                 -DUSE_BUNDLED_JSONCPP=OFF                 -DBUILD_SYSDIG_MODERN_BPF=OFF                 -DCREATE_TEST_TARGETS=OFF  ",
+            "configopts": "                -DCMAKE_POLICY_VERSION_MINIMUM=3.5                 -DBUILD_DRIVER=OFF                 -DMINIMAL_BUILD=ON                 -DUSE_BUNDLED_DEPS=OFF                 -DCREATE_TEST_TARGETS=OFF                 -DDIR_ETC=/etc                 -DLUA_INCLUDE_DIR=/tmp/tmp4sbo8res/tmp/work/core2-32-oe-linux/sysdig/0.39.0/recipe-sysroot/usr/include/luajit-2.1                 -DFALCOSECURITY_LIBS_SOURCE_DIR=/tmp/tmp4sbo8res/tmp/work/core2-32-oe-linux/sysdig/0.39.0/sources/sysdig-0.39.0/falcosecurity-libs                 -DDRIVER_SOURCE_DIR=/tmp/tmp4sbo8res/tmp/work/core2-32-oe-linux/sysdig/0.39.0/sources/sysdig-0.39.0/driver                 -DVALIJSON_INCLUDE=/tmp/tmp4sbo8res/tmp/work/core2-32-oe-linux/sysdig/0.39.0/recipe-sysroot/usr/include/valijson                 -DUSE_BUNDLED_RE2=OFF                 -DUSE_BUNDLED_TBB=OFF                 -DUSE_BUNDLED_JSONCPP=OFF                 -DBUILD_SYSDIG_MODERN_BPF=OFF                 -DCREATE_TEST_TARGETS=OFF  ",
             "description": "Sysdig is open source, system-level exploration: capture system state and activity from a running Linux instance, then save, filter and analyze.",
             "filename": "sysdig_0.39.0.bb",
             "filepath": "recipes-extended/sysdig",
@@ -13051,7 +13058,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A New System Troubleshooting Tool Built for the Way You Work",
-            "updated": "2026-05-28T00:05:12+0000"
+            "updated": "2026-08-17T15:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -13172,9 +13179,9 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " -DBIT7Z_CUSTOM_7ZIP_PATH=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/bit7z/4.0.11/recipe-sysroot/usr/include/7zip       -DBIT7Z_BUILD_TESTS=ON -DBIT7Z_DISABLE_USE_STD_FILESYSTEM=ON     -DBIT7Z_TESTS_USE_SYSTEM_7ZIP=OFF -DBIT7Z_TESTS_7Z_LIBRARY_PATH=/usr/lib/lib7z.so     -DBIT7Z_TESTS_DATA_DIR_TARGET=/usr/lib/bit7z/ptest/data     -DCPM_SOURCE_CACHE=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/bit7z/4.0.11/build/cpm_cache -DFETCHCONTENT_SOURCE_DIR_BIT7Z-TEST-DATA=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/bit7z/4.0.11/sources/testdata -DFETCHCONTENT_SOURCE_DIR_CATCH2=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/bit7z/4.0.11/build/catch2 ",
+            "configopts": " -DBIT7Z_CUSTOM_7ZIP_PATH=/tmp/tmp4sbo8res/tmp/work/core2-32-oe-linux/bit7z/4.0.12/recipe-sysroot/usr/include/7zip       -DBIT7Z_BUILD_TESTS=ON -DBIT7Z_DISABLE_USE_STD_FILESYSTEM=ON     -DBIT7Z_TESTS_USE_SYSTEM_7ZIP=OFF -DBIT7Z_TESTS_7Z_LIBRARY_PATH=/usr/lib/lib7z.so     -DBIT7Z_TESTS_DATA_DIR_TARGET=/usr/lib/bit7z/ptest/data     -DCPM_SOURCE_CACHE=/tmp/tmp4sbo8res/tmp/work/core2-32-oe-linux/bit7z/4.0.12/build/cpm_cache -DFETCHCONTENT_SOURCE_DIR_BIT7Z-TEST-DATA=/tmp/tmp4sbo8res/tmp/work/core2-32-oe-linux/bit7z/4.0.12/sources/testdata -DFETCHCONTENT_SOURCE_DIR_CATCH2=/tmp/tmp4sbo8res/tmp/work/core2-32-oe-linux/bit7z/4.0.12/build/catch2 ",
             "description": "",
-            "filename": "bit7z_4.0.11.bb",
+            "filename": "bit7z_4.0.12.bb",
             "filepath": "recipes-extended/7zip",
             "homepage": "https://github.com/rikyoz/bit7z",
             "id": 2429526,
@@ -13185,11 +13192,11 @@
             "pn": "bit7z",
             "pr": "r0",
             "provides": "bit7z ",
-            "pv": "4.0.11",
+            "pv": "4.0.12",
             "section": "base",
-            "srcrev": "82f359371fda5c16c037ac0659b969334816a9c4",
+            "srcrev": "9a43c9fb96003141dcb49c82843382a52afec86a",
             "summary": "A C++ static library offering a clean and simple interface to the 7-Zip shared libraries",
-            "updated": "2026-05-28T00:05:13+0000"
+            "updated": "2026-08-17T15:08:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13212,7 +13219,7 @@
             "section": "base",
             "srcrev": "839151eaaad24771892afaae6bac690e31e58384",
             "summary": "7-zip is a commandline utility handling 7z archives.",
-            "updated": "2026-05-28T00:05:14+0000"
+            "updated": "2026-08-17T15:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -14232,7 +14239,7 @@
             "bugtracker": "",
             "configopts": "  -DENABLE_SSL=ON -DDISABLE_TESTS=OFF -DENABLE_ASYNC_TESTS=ON  -DENABLE_SSL_TESTS=OFF",
             "description": "Minimalistic C client library for Redis",
-            "filename": "hiredis_1.3.0.bb",
+            "filename": "hiredis_1.3.1.bb",
             "filepath": "recipes-extended/hiredis",
             "homepage": "http://github.com/redis/hiredis",
             "id": 2429572,
@@ -14243,11 +14250,11 @@
             "pn": "hiredis",
             "pr": "r0",
             "provides": "hiredis ",
-            "pv": "1.3.0",
+            "pv": "1.3.1",
             "section": "libs",
-            "srcrev": "ccad7ebaf99310957004661d1c5f82d2a33ebd10",
+            "srcrev": "bad0c4dbde7d8b9bb116002fe10235c663949730",
             "summary": "",
-            "updated": "2026-05-28T00:05:24+0000"
+            "updated": "2026-09-01T14:09:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -14385,7 +14392,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Internationalized Domain Name support library",
-            "updated": "2026-05-28T00:05:25+0000"
+            "updated": "2026-08-17T15:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -14960,7 +14967,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2026-05-28T00:05:34+0000"
+            "updated": "2026-09-01T14:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -15014,7 +15021,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "A flexible distributed key-value datastore that supports both caching and beyond caching workloads.",
-            "filename": "valkey_9.0.3.bb",
+            "filename": "valkey_9.0.5.bb",
             "filepath": "recipes-extended/valkey",
             "homepage": "http://valkey.io",
             "id": 2429606,
@@ -15025,11 +15032,11 @@
             "pn": "valkey",
             "pr": "r0",
             "provides": "valkey ",
-            "pv": "9.0.3",
+            "pv": "9.0.5",
             "section": "libs",
-            "srcrev": "6e63ad9ccdceea562a6ea9ea9df9160c0d1109d6",
+            "srcrev": "a253513ac7ff5790ca119053f3c7fbca4fdaad44",
             "summary": "Valkey key-value store",
-            "updated": "2026-05-28T00:05:35+0000"
+            "updated": "2026-08-25T14:08:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -15495,7 +15502,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --disable-static ",
+            "configopts": " LIBS='-lm' --disable-static ",
             "description": "",
             "filename": "libfastjson_1.2304.0.bb",
             "filepath": "recipes-extended/rsyslog",
@@ -15512,7 +15519,7 @@
             "section": "base",
             "srcrev": "3a8402c1de7c7747c95229db26d8d32fb85a7a52",
             "summary": "A fork of json-c library",
-            "updated": "2026-05-28T00:05:38+0000"
+            "updated": "2026-09-01T14:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -15834,7 +15841,7 @@
             "section": "base",
             "srcrev": "17d96e8f9a5bce7cee5e2222855ab46a246dba51",
             "summary": "Libuio - helper library for UIO subsystem",
-            "updated": "2026-05-28T00:05:41+0000"
+            "updated": "2026-08-17T15:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -16208,7 +16215,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpoemh0iuu/tmp/work/x86_64-linux/mariadb-native/11.4.12/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_PCDIR:PATH=lib/pkgconfig                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpoemh0iuu/tmp/work/x86_64-linux/mariadb-native/11.4.12/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DLSTAT_FOLLOWS_SLASHED_SYMLINK_EXITCODE=0                  -DSTAT_EMPTY_STRING_BUG_EXITCODE=0                  -DMASK_LONGDOUBLE_EXITCODE=0                  -DCMAKE_AR:FILEPATH=ar      -DWITH_SSL='bundled' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
+            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmp4sbo8res/tmp/work/x86_64-linux/mariadb-native/11.4.12/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_PCDIR:PATH=lib/pkgconfig                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmp4sbo8res/tmp/work/x86_64-linux/mariadb-native/11.4.12/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DLSTAT_FOLLOWS_SLASHED_SYMLINK_EXITCODE=0                  -DSTAT_EMPTY_STRING_BUG_EXITCODE=0                  -DMASK_LONGDOUBLE_EXITCODE=0                  -DCMAKE_AR:FILEPATH=ar      -DWITH_SSL='bundled' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
             "description": "",
             "filename": "mariadb-native_11.4.12.bb",
             "filepath": "recipes-dbs/mysql",
@@ -16225,7 +16232,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2026-06-15T00:06:05+0000"
+            "updated": "2026-08-17T15:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -16248,7 +16255,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2026-06-15T00:06:05+0000"
+            "updated": "2026-08-17T15:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -16509,7 +16516,7 @@
             "bugtracker": "",
             "configopts": "  -Dman=disabled -Dselinux=disabled",
             "description": "Unprivileged sandboxing tool",
-            "filename": "bubblewrap_0.11.1.bb",
+            "filename": "bubblewrap_0.11.2.bb",
             "filepath": "recipes-security/bubblewrap",
             "homepage": "https://github.com/containers/bubblewrap",
             "id": 2429671,
@@ -16520,11 +16527,11 @@
             "pn": "bubblewrap",
             "pr": "r0",
             "provides": "bubblewrap ",
-            "pv": "0.11.1",
+            "pv": "0.11.2",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-28T00:05:51+0000"
+            "updated": "2026-08-17T15:08:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -16576,7 +16583,7 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "--with-libdnet=included --with-liblinear=included --without-subversion --with-liblua=included --without-zenmap --disable-static   --without-libz --without-ndiff --with-pcap=linux --with-libpcre=/tmp/tmp1mib_x95/tmp/work/core2-32-oe-linux/nmap/7.95/recipe-sysroot/usr/lib/..  --without-openssh2  --without-openssl --without-nmap-update",
+            "configopts": "--with-libdnet=included --with-liblinear=included --without-subversion --with-liblua=included --without-zenmap --disable-static   --without-libz --without-ndiff --with-pcap=linux --with-libpcre=/tmp/tmp4sbo8res/tmp/work/core2-32-oe-linux/nmap/7.95/recipe-sysroot/usr/lib/..  --without-openssh2  --without-openssl --without-nmap-update",
             "description": "Nmap (Network Mapper) is a free and open source (license) utility for network discovery and security auditing.\\nGui support via appending to IMAGE_FEATURES x11-base in local.conf",
             "filename": "nmap_7.95.bb",
             "filepath": "recipes-security/nmap",
@@ -16593,7 +16600,7 @@
             "section": "security",
             "srcrev": "",
             "summary": "network auditing tool",
-            "updated": "2026-05-28T00:05:51+0000"
+            "updated": "2026-08-17T15:08:15+0000"
         },
         {
             "bbclassextend": "",
@@ -16992,7 +16999,7 @@
             "bugtracker": "",
             "configopts": "-Dtesting=false -Dunit_testing=false ",
             "description": "Netplan is a utility for easily configuring networking on a linux system. You simply create a YAML description of the required network interfaces and what each should be configured to do. From this description Netplan will generate all the necessary configuration for your chosen renderer tool.",
-            "filename": "netplan_1.2.1.bb",
+            "filename": "netplan_1.2.2.bb",
             "filepath": "dynamic-layers/meta-python/recipes-connectivity/netplan",
             "homepage": "https://netplan.io",
             "id": 2429692,
@@ -17003,11 +17010,11 @@
             "pn": "netplan",
             "pr": "r0",
             "provides": "netplan ",
-            "pv": "1.2.1",
+            "pv": "1.2.2",
             "section": "net/misc",
-            "srcrev": "f758e3f6415aa68b7cf28991bc5b3e9631297d6d",
+            "srcrev": "e9dd90a96727bc6b7264c36526b39d1dacccc00f",
             "summary": "The network configuration abstraction renderer",
-            "updated": "2026-05-28T00:05:55+0000"
+            "updated": "2026-08-25T14:08:20+0000"
         },
         {
             "bbclassextend": "",
@@ -17705,7 +17712,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Monocypher is an easy to use, easy to deploy, auditable crypto library written in portable C. It approaches the size of TweetNaCl and the speed of libsodium.",
-            "filename": "monocypher_4.0.2.bb",
+            "filename": "monocypher_4.0.3.bb",
             "filepath": "recipes-crypto/monocypher",
             "homepage": "https://monocypher.org/",
             "id": 2429723,
@@ -17716,11 +17723,11 @@
             "pn": "monocypher",
             "pr": "r0",
             "provides": "monocypher ",
-            "pv": "4.0.2",
+            "pv": "4.0.3",
             "section": "libs",
             "srcrev": "",
             "summary": "Monocypher is an easy-to-use crypto library",
-            "updated": "2026-05-28T00:05:02+0000"
+            "updated": "2026-08-17T15:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -17797,7 +17804,7 @@
             "bugtracker": "",
             "configopts": "--enable-static --enable-largefile --disable-static-cryptsetup --disable-libargon2 --disable-asciidoc --with-luks2-pbkdf=argon2i     --with-luks2-memory-kb=1048576     --with-luks2-parallel-threads=4     --with-luks2-iter-time=2000 --disable-static  --enable-blkid --enable-cryptsetup --disable-dev-random --disable-fips --enable-integritysetup --enable-internal-argon2 --disable-internal-sse-argon2 --enable-kernel_crypto --enable-keyring --enable-luks-adjust-xts-keysize --with-default-luks-format=LUKS1 --enable-luks2-reencryption --with-crypto_backend=openssl --disable-passwdqc --disable-pwquality --disable-selinux --enable-ssh-token --enable-udev --enable-veritysetup --enable-nls",
             "description": "Cryptsetup is used to conveniently setup dm-crypt managed device-mapper mappings. These include plain dm-crypt volumes and LUKS volumes. The difference is that LUKS uses a metadata header and can hence offer more features than plain dm-crypt. On the other hand, the header is visible and vulnerable to damage.",
-            "filename": "cryptsetup_2.8.6.bb",
+            "filename": "cryptsetup_2.8.7.bb",
             "filepath": "recipes-crypto/cryptsetup",
             "homepage": "https://gitlab.com/cryptsetup/cryptsetup",
             "id": 2429727,
@@ -17808,11 +17815,11 @@
             "pn": "cryptsetup",
             "pr": "r0",
             "provides": "cryptsetup ",
-            "pv": "2.8.6",
+            "pv": "2.8.7",
             "section": "console",
             "srcrev": "",
             "summary": "Manage plain dm-crypt and LUKS encrypted volumes",
-            "updated": "2026-05-28T00:05:03+0000"
+            "updated": "2026-08-25T14:08:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -20189,7 +20196,7 @@
             "bugtracker": "https://github.com/kmscon/kmscon/issues",
             "configopts": "    -Delogind=disabled     -Dextra_debug=false     -Dfont_unifont=enabled     -Dsession_dummy=enabled     -Dsession_terminal=enabled     -Dtests=false     -Dvideo_fbdev=enabled    -Dfont_freetype=disabled  -Dfont_pango=disabled  -Dmulti_seat=disabled -Drenderer_gltex=enabled -Dvideo_drm3d=enabled  -Dvideo_drm2d=disabled",
             "description": "    Kmscon is a simple terminal emulator based on linux kernel mode setting     (KMS). It is an attempt to replace the in-kernel VT implementation with     a userspace console. ",
-            "filename": "kmscon_9.3.3.bb",
+            "filename": "kmscon_9.3.5.bb",
             "filepath": "recipes-graphics/kmscon",
             "homepage": "https://github.com/kmscon/kmscon",
             "id": 2429831,
@@ -20200,11 +20207,11 @@
             "pn": "kmscon",
             "pr": "r0",
             "provides": "kmscon ",
-            "pv": "9.3.3",
+            "pv": "9.3.5",
             "section": "graphics",
-            "srcrev": "03e50c7db0489daaa41b5f62946fd6aaeab63a6e",
+            "srcrev": "a8832afb1dcca5bb4c0476d4c13c7239fecbd93a",
             "summary": "Simple terminal emulator based on linux kernel mode setting (KMS).",
-            "updated": "2026-05-28T00:05:28+0000"
+            "updated": "2026-08-17T15:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -20258,7 +20265,7 @@
             "bugtracker": "https://github.com/kmscon/libtsm/issues",
             "configopts": "      -Dextra_debug=false     -Dtests=false     -Dgtktsm=false ",
             "description": "    TSM is a state machine for DEC VT100-VT520 compatible terminal emulators.     It tries to support all common standards while keeping compatibility to     existing emulators like xterm, gnome-terminal, konsole, etc.     TSM itself does not provide any rendering nor window management. It is a     simple plain state machine without any external dependencies. It can be     used to implement terminal emulators, but also to implement other     applications that need to interpret terminal escape sequences. ",
-            "filename": "libtsm_4.4.3.bb",
+            "filename": "libtsm_4.5.0.bb",
             "filepath": "recipes-graphics/libtsm",
             "homepage": "https://github.com/kmscon/libtsm",
             "id": 2429834,
@@ -20269,11 +20276,11 @@
             "pn": "libtsm",
             "pr": "r0",
             "provides": "libtsm ",
-            "pv": "4.4.3",
+            "pv": "4.5.0",
             "section": "libs",
-            "srcrev": "6cdacfc452bf29d98e297fe3a96e55e94a88ce3e",
+            "srcrev": "556373437d1c5f57f4dfc7c6cc1330e5088a4174",
             "summary": "Terminal Emulator State Machine",
-            "updated": "2026-05-28T00:05:28+0000"
+            "updated": "2026-08-17T15:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -20701,7 +20708,7 @@
             "id": 2429853,
             "inherits": "allarch fontcache gcc gcc-native",
             "layerbranch": 1075078,
-            "license": "BitstreamVera",
+            "license": "Bitstream-Vera",
             "pe": "",
             "pn": "ttf-dejavu",
             "pr": "r0",
@@ -20710,7 +20717,7 @@
             "section": "fonts",
             "srcrev": "",
             "summary": "DejaVu font - TTF Edition",
-            "updated": "2026-05-28T00:05:33+0000"
+            "updated": "2026-08-17T15:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -21615,7 +21622,7 @@
             "bugtracker": "",
             "configopts": "  -Dbenchmarks=false -Dexamples=false -Djpeg=disabled -Dtls=disabled",
             "description": "This is a liberally licensed VNC server library that's intended to be fast and neat.",
-            "filename": "neatvnc_0.9.5.bb",
+            "filename": "neatvnc_0.9.6.bb",
             "filepath": "recipes-graphics/neatvnc",
             "homepage": "https://github.com/any1/neatvnc",
             "id": 2429893,
@@ -21626,11 +21633,11 @@
             "pn": "neatvnc",
             "pr": "r0",
             "provides": "neatvnc ",
-            "pv": "0.9.5",
+            "pv": "0.9.6",
             "section": "base",
-            "srcrev": "36ef59a83291368d72f471700702a8b6a76f763b",
+            "srcrev": "3295c11b934a83dbcb44beabf3f21a8b885a2d11",
             "summary": "A liberally licensed VNC server library",
-            "updated": "2026-05-28T00:05:40+0000"
+            "updated": "2026-08-17T15:08:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -22075,7 +22082,7 @@
             "bugtracker": "http://bugzilla.libsdl.org/",
             "configopts": " \t-DSDL_OSS_DEFAULT=OFF \t-DSDL_DISKAUDIO=OFF \t-DSDL_DUMMYVIDEO=OFF \t-DSDL_RPI=OFF \t-DSDL_PTHREADS=ON \t-DSDL_RPATH=OFF \t-DSDL_SNDIO=OFF \t-DSDL_X11_XDBE=OFF \t-DSDL_X11_XFIXES=OFF \t-DSDL_X11_XSCRNSAVER=OFF \t-DSDL_X11_XSHAPE=OFF   -DSDL_ALSA=ON -DSDL_ARMNEON=OFF -DSDL_OPENGLES=ON -DSDL_JACK=OFF -DSDL_KMSDRM=OFF -DSDL_WAYLAND_LIBDECOR=OFF -DSDL_HIDAPI_LIBUSB=OFF -DSDL_OPENGL=ON -DSDL_PIPEWIRE_SHARED=OFF -DSDL_PULSEAUDIO=ON -DSDL_VULKAN=ON -DSDL_RENDER_VULKAN=ON -DSDL_WAYLAND=ON -DSDL_X11=ON",
             "description": "Simple DirectMedia Layer is a cross-platform multimedia library designed to provide low level access to audio, keyboard, mouse, joystick, 3D hardware via OpenGL, and 2D video framebuffer.",
-            "filename": "libsdl3_3.4.4.bb",
+            "filename": "libsdl3_3.4.8.bb",
             "filepath": "recipes-graphics/libsdl3",
             "homepage": "http://www.libsdl.org",
             "id": 2429913,
@@ -22086,11 +22093,11 @@
             "pn": "libsdl3",
             "pr": "r0",
             "provides": "libsdl3 ",
-            "pv": "3.4.4",
+            "pv": "3.4.8",
             "section": "libs",
             "srcrev": "",
             "summary": "Simple DirectMedia Layer",
-            "updated": "2026-05-28T00:05:47+0000"
+            "updated": "2026-09-01T14:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -22098,7 +22105,7 @@
             "bugtracker": "",
             "configopts": " -DSDLIMAGE_JXL=ON  -DSDLIMAGE_AVIF=OFF",
             "description": "",
-            "filename": "libsdl3-image_3.4.2.bb",
+            "filename": "libsdl3-image_3.4.4.bb",
             "filepath": "recipes-graphics/libsdl3",
             "homepage": "",
             "id": 2429914,
@@ -22109,11 +22116,11 @@
             "pn": "libsdl3-image",
             "pr": "r0",
             "provides": "libsdl3-image ",
-            "pv": "3.4.2",
+            "pv": "3.4.4",
             "section": "libs",
-            "srcrev": "96a73a551a857b7c8d0ca3cc553a266eabbab6a7",
+            "srcrev": "bec9134a26c7d0f31b36d6083c25296e04cabff5",
             "summary": "Simple DirectMedia Layer image library v2",
-            "updated": "2026-05-28T00:05:47+0000"
+            "updated": "2026-09-01T14:09:44+0000"
         },
         {
             "bbclassextend": "nativesdk native",
@@ -22642,7 +22649,7 @@
             "section": "console/tests",
             "srcrev": "ab77643023f5d7e3c1b71a7576a564f368bf577a",
             "summary": "Filesystem and hardware benchmark and stress tool",
-            "updated": "2026-05-28T00:05:52+0000"
+            "updated": "2026-08-17T15:08:06+0000"
         },
         {
             "bbclassextend": "",
@@ -23631,7 +23638,7 @@
             "section": "libs",
             "srcrev": "b3d8fc43e9cb531d958c17ef2cd93b374bc14e8a",
             "summary": "libsystemd static library",
-            "updated": "2026-05-28T00:05:20+0000"
+            "updated": "2026-08-25T14:08:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -24206,7 +24213,7 @@
             "section": "base",
             "srcrev": "fbb0baf6af9c4324f0f1591734c78b0089b599d4",
             "summary": "Canonical libwebsockets.org websocket library",
-            "updated": "2026-05-28T00:05:25+0000"
+            "updated": "2026-08-17T15:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -24490,7 +24497,7 @@
             "bugtracker": "",
             "configopts": "-DRUN_CLANG_TIDY=OFF  -DENABLE_GTK=ON -DWITH_SYSTEMD=ON",
             "description": "Transmission is a fast, easy, and free BitTorrent client",
-            "filename": "transmission_4.1.1.bb",
+            "filename": "transmission_4.1.3.bb",
             "filepath": "recipes-connectivity/transmission",
             "homepage": "https://transmissionbt.com/",
             "id": 2430018,
@@ -24501,11 +24508,11 @@
             "pn": "transmission",
             "pr": "r0",
             "provides": "transmission ",
-            "pv": "4.1.1",
+            "pv": "4.1.3",
             "section": "network",
-            "srcrev": "56442e2929cf4e9e20c8604a229e99fbb352190c",
+            "srcrev": "838877323facc4cc2b677fe817e203779c437bb1",
             "summary": "",
-            "updated": "2026-05-28T00:05:28+0000"
+            "updated": "2026-08-25T14:08:21+0000"
         },
         {
             "bbclassextend": "",
@@ -24850,7 +24857,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Wireless daemon for Linux",
-            "updated": "2026-05-28T00:05:31+0000"
+            "updated": "2026-08-17T15:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -25264,7 +25271,7 @@
             "section": "kernel/userland",
             "srcrev": "",
             "summary": "User space daemon for extended IEEE 802.11 management",
-            "updated": "2026-05-28T00:05:34+0000"
+            "updated": "2026-08-17T15:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -25425,7 +25432,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Apache Thrift",
-            "updated": "2026-05-28T00:05:37+0000"
+            "updated": "2026-08-25T14:08:21+0000"
         },
         {
             "bbclassextend": "",

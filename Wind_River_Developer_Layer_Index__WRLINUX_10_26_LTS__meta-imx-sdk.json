@@ -741,6 +741,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
         }
     ],
     "branches": [
@@ -753,38 +760,52 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-06-22T00:06:06+0000",
+            "updated": "2026-09-15T00:09:15+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
-            "description": "NXP i.MX Release Distro",
+            "description": "NXP i.MX Distro with Wayland and XWayland",
             "id": 16851,
             "layerbranch": 1075123,
             "name": "fsl-imx-xwayland",
-            "updated": "2026-06-02T07:06:58+0000"
+            "updated": "2026-09-10T17:09:09+0000"
         },
         {
-            "description": "NXP i.MX Release Distro",
+            "description": "NXP i.MX Distro with Framebuffer",
             "id": 16852,
             "layerbranch": 1075123,
             "name": "fsl-imx-fb",
-            "updated": "2026-06-02T07:06:58+0000"
+            "updated": "2026-09-10T17:09:09+0000"
         },
         {
-            "description": "NXP i.MX Release Distro",
-            "id": 16853,
-            "layerbranch": 1075123,
-            "name": "fsl-imx-x11",
-            "updated": "2026-06-02T07:06:58+0000"
-        },
-        {
-            "description": "NXP i.MX Release Distro",
+            "description": "NXP i.MX Distro with Wayland",
             "id": 16854,
             "layerbranch": 1075123,
             "name": "fsl-imx-wayland",
-            "updated": "2026-06-02T07:06:58+0000"
+            "updated": "2026-09-10T17:09:09+0000"
+        },
+        {
+            "description": "NXP i.MX Minimal Distro with Framebuffer",
+            "id": 17142,
+            "layerbranch": 1075123,
+            "name": "fsl-imx-fb-minimal",
+            "updated": "2026-09-10T17:09:09+0000"
+        },
+        {
+            "description": "NXP i.MX Minimal Distro with Wayland",
+            "id": 17143,
+            "layerbranch": 1075123,
+            "name": "fsl-imx-wayland-minimal",
+            "updated": "2026-09-10T17:09:09+0000"
+        },
+        {
+            "description": "NXP i.MX Minimal Distro with Wayland and XWayland",
+            "id": 17144,
+            "layerbranch": 1075123,
+            "name": "fsl-imx-xwayland-minimal",
+            "updated": "2026-09-10T17:09:09+0000"
         }
     ],
     "layerBranches": [
@@ -795,10 +816,10 @@
             "id": 1075081,
             "layer": 13,
             "local_path": "",
-            "updated": "2026-05-28T00:05:08+0000",
-            "vcs_last_commit": "2026-04-02T09:04:46+0000",
-            "vcs_last_fetch": "2026-05-28T00:05:08+0000",
-            "vcs_last_rev": "9546a4e07d62cd3fc0b8adce5634275d8f38acce",
+            "updated": "2026-09-01T14:09:23+0000",
+            "vcs_last_commit": "2026-08-25T18:08:01+0000",
+            "vcs_last_fetch": "2026-09-01T14:09:23+0000",
+            "vcs_last_rev": "14282a02be9c74a1276a7cda7d6c89e054699a11",
             "vcs_subdir": "meta-perl",
             "version": "1",
             "yp_compatible_version": 44228
@@ -810,10 +831,10 @@
             "id": 1075087,
             "layer": 59,
             "local_path": "",
-            "updated": "2026-05-28T00:05:14+0000",
-            "vcs_last_commit": "2026-05-14T20:05:22+0000",
-            "vcs_last_fetch": "2026-05-28T00:05:14+0000",
-            "vcs_last_rev": "49e4bb9a19446f955b7840be43596a3a2ee58180",
+            "updated": "2026-08-25T12:08:38+0000",
+            "vcs_last_commit": "2026-08-24T14:08:49+0000",
+            "vcs_last_fetch": "2026-08-25T12:08:38+0000",
+            "vcs_last_rev": "90be5bf4a4f56605ed7432413f4f7df4ddfa2a03",
             "vcs_subdir": "meta-poky",
             "version": "3",
             "yp_compatible_version": 44227
@@ -825,10 +846,10 @@
             "id": 1075097,
             "layer": 470,
             "local_path": "",
-            "updated": "2026-06-04T23:06:02+0000",
-            "vcs_last_commit": "2026-06-04T20:06:12+0000",
-            "vcs_last_fetch": "2026-06-04T23:06:02+0000",
-            "vcs_last_rev": "8448a3d8113d3342b3e00ef1fe4ea8a5d4f74279",
+            "updated": "2026-09-10T17:09:07+0000",
+            "vcs_last_commit": "2026-09-09T15:09:01+0000",
+            "vcs_last_fetch": "2026-09-10T17:09:07+0000",
+            "vcs_last_rev": "6544049b136090d8633d032e7464f5ffb33294a4",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44228
@@ -840,13 +861,13 @@
             "id": 1075115,
             "layer": 553,
             "local_path": "",
-            "updated": "2026-06-04T23:06:14+0000",
-            "vcs_last_commit": "2026-06-04T21:06:34+0000",
-            "vcs_last_fetch": "2026-06-04T23:06:14+0000",
-            "vcs_last_rev": "327c3b9226a353c62d3ccc95855990be9a0b2a5b",
+            "updated": "2026-09-10T17:09:53+0000",
+            "vcs_last_commit": "2026-09-09T14:09:24+0000",
+            "vcs_last_fetch": "2026-09-10T17:09:53+0000",
+            "vcs_last_rev": "4bc47cbe3f023faf6378450cdce674b99c006f0e",
             "vcs_subdir": "meta-imx-bsp",
             "version": null,
-            "yp_compatible_version": 44231
+            "yp_compatible_version": 44232
         },
         {
             "actual_branch": "",
@@ -855,13 +876,13 @@
             "id": 1075123,
             "layer": 552,
             "local_path": "",
-            "updated": "2026-06-03T00:06:31+0000",
-            "vcs_last_commit": "2026-06-02T23:06:58+0000",
-            "vcs_last_fetch": "2026-06-03T00:06:31+0000",
-            "vcs_last_rev": "df58e2421d282c83df37d7121ab7201bdaa5fe11",
+            "updated": "2026-09-10T17:09:12+0000",
+            "vcs_last_commit": "2026-09-09T14:09:24+0000",
+            "vcs_last_fetch": "2026-09-10T17:09:12+0000",
+            "vcs_last_rev": "4bc47cbe3f023faf6378450cdce674b99c006f0e",
             "vcs_subdir": "meta-imx-sdk",
             "version": null,
-            "yp_compatible_version": 44212
+            "yp_compatible_version": 44238
         }
     ],
     "layerDependencies": [
@@ -1010,7 +1031,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-06-02T07:06:59+0000"
+            "updated": "2026-09-10T17:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1040,7 +1061,7 @@
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
-            "description": "Package group used by FSL Community to add the packages which provide GPU support.",
+            "description": "Package group related to i.MX GPU support.",
             "filename": "packagegroup-fsl-tools-gpu.bb",
             "filepath": "recipes-fsl/packagegroup",
             "homepage": "",
@@ -1056,7 +1077,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - tools/gpu",
-            "updated": "2026-06-02T07:06:59+0000"
+            "updated": "2026-09-10T17:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1125,7 +1146,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Set of audio tools for inclusion on images",
-            "updated": "2026-06-02T07:06:59+0000"
+            "updated": "2026-09-10T17:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1148,7 +1169,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community Package group - tools/gpu/external",
-            "updated": "2026-06-02T07:06:59+0000"
+            "updated": "2026-09-10T17:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1266,7 +1287,7 @@
             "updated": "2026-06-02T07:06:00+0000"
         },
         {
-            "bbclassextend": "nativesdk",
+            "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --disable-static",
@@ -1286,7 +1307,7 @@
             "section": "base",
             "srcrev": "392836a46ce3c92b55dc88a1aebbcfdfc5dcddce",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2026-06-02T07:06:00+0000"
+            "updated": "2026-09-10T17:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1315,9 +1336,9 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "--host aarch64-fsl-linux --with-dpdk-lib=/tmp/tmpnlaj8lvp/tmp/work/core2-32-oe-linux/mtcp-dpdk/22.11/recipe-sysroot/usr --disable-static ",
+            "configopts": "--host aarch64-fsl-linux --with-dpdk-lib=/tmp/tmpwqnro7mg/tmp/work/core2-32-oe-linux/mtcp-dpdk/25.11+git/recipe-sysroot/usr --disable-static ",
             "description": "mTCP on DPDK",
-            "filename": "mtcp-dpdk_22.11.bb",
+            "filename": "mtcp-dpdk_git.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "",
             "id": 2478171,
@@ -1328,11 +1349,11 @@
             "pn": "mtcp-dpdk",
             "pr": "r0",
             "provides": "mtcp-dpdk ",
-            "pv": "22.11",
+            "pv": "25.11+git",
             "section": "base",
-            "srcrev": "c1a01163bad0a0805b47892f593676d018b31f73",
+            "srcrev": "76aa50b28ac8f543b2e16302e89c2ba9619dd2dc",
             "summary": "",
-            "updated": "2026-06-02T07:06:01+0000"
+            "updated": "2026-09-10T17:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1340,7 +1361,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "DPDK based Fast Path Routing",
-            "filename": "dpdk-fpr_22.11.bb",
+            "filename": "dpdk-fpr_git.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "http://dpdk.org",
             "id": 2478172,
@@ -1351,19 +1372,19 @@
             "pn": "dpdk-fpr",
             "pr": "r0",
             "provides": "dpdk-fpr ",
-            "pv": "22.11",
+            "pv": "25.11+git",
             "section": "base",
-            "srcrev": "acd7f3b4b56627591355bee3d16fd23b58ba0021",
+            "srcrev": "83f0701658f565bf93b841b36b38b9db9f95c11b",
             "summary": "",
-            "updated": "2026-06-02T07:06:01+0000"
+            "updated": "2026-09-10T17:09:10+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -Ddrivers_install_subdir=     -Denable_examples_source_install=false     -Denable_apps=pdump,test-pmd,dumpcap,proc-info,test-crypto-perf   -Denable_examples_bin_install=true -Dexamples=",
+            "configopts": "     -Denable_examples_source_install=false     -Denable_apps=pdump,test-pmd,dumpcap,proc-info,test-crypto-perf   -Denable_examples_bin_install=true -Dexamples=",
             "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk_22.11.bb",
+            "filename": "dpdk_25.11.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "http://dpdk.org",
             "id": 2478173,
@@ -1374,17 +1395,17 @@
             "pn": "dpdk",
             "pr": "r0",
             "provides": "dpdk ",
-            "pv": "22.11",
+            "pv": "25.11",
             "section": "base",
-            "srcrev": "09c4ac8ed0a8db3ed0852f02184b7daa6997d9b4",
+            "srcrev": "3e0f88d98ea0a7e6b4db17d143ecb0cd0e463ccc",
             "summary": "",
-            "updated": "2026-06-02T07:06:01+0000"
+            "updated": "2026-09-10T17:09:11+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -DNXP_SMW_DIR=/tmp/tmpnlaj8lvp/tmp/work/core2-32-oe-linux/oem-prov-app/2.0+gitX/recipe-sysroot/usr/lib/cmake     -Del2go_agent_DIR=/tmp/tmpnlaj8lvp/tmp/work/core2-32-oe-linux/oem-prov-app/2.0+gitX/recipe-sysroot/usr/lib/cmake/el2go-agent     -DVERBOSE=2 ",
+            "configopts": "     -DNXP_SMW_DIR=/tmp/tmpwqnro7mg/tmp/work/core2-32-oe-linux/oem-prov-app/2.3+gitX/recipe-sysroot/usr/lib/cmake     -Del2go_agent_DIR=/tmp/tmpwqnro7mg/tmp/work/core2-32-oe-linux/oem-prov-app/2.3+gitX/recipe-sysroot/usr/lib/cmake/el2go-agent     -DVERBOSE=2 ",
             "description": "NXP i.MX EdgeLock 2GO OEM provisioning application",
             "filename": "oem-prov-app_git.bb",
             "filepath": "recipes-security/oem-prov-app",
@@ -1397,57 +1418,11 @@
             "pn": "oem-prov-app",
             "pr": "r0",
             "provides": "oem-prov-app ",
-            "pv": "2.0+gitX",
+            "pv": "2.3+gitX",
             "section": "base",
-            "srcrev": "321628f36706ee9642ca898b72539c33f2d9b44c",
+            "srcrev": "ceda6e8a7dcbee0210295f97a8967c0e32302123",
             "summary": "NXP i.MX EdgeLock 2GO OEM provisioning application",
-            "updated": "2026-06-02T07:06:05+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "stmm-imx_git.bb",
-            "filepath": "recipes-security/stmm-imx",
-            "homepage": "",
-            "id": 2478175,
-            "inherits": "",
-            "layerbranch": 1075123,
-            "license": "",
-            "pe": "",
-            "pn": "stmm-imx",
-            "pr": "",
-            "provides": "",
-            "pv": "git",
-            "section": "",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2026-06-02T07:06:05+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "edk2-firmware_202508.bb",
-            "filepath": "recipes-security/stmm-imx",
-            "homepage": "",
-            "id": 2478176,
-            "inherits": "",
-            "layerbranch": 1075123,
-            "license": "",
-            "pe": "",
-            "pn": "edk2-firmware",
-            "pr": "",
-            "provides": "",
-            "pv": "202508",
-            "section": "",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2026-06-02T07:06:05+0000"
+            "updated": "2026-09-10T17:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1476,9 +1451,9 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -DSSS_HAVE_HOSTCRYPTO_MBEDTLS=ON     -DNXP_IOT_AGENT_HAVE_PSA_IMPL_SMW=ON     -DSSS_HAVE_MBEDTLS_ALT_PSA=ON     -DSSS_HAVE_HOST_LINUX_LIKE=ON     -DCMAKE_SYSROOT=/tmp/tmpnlaj8lvp/tmp/work/core2-32-oe-linux/el2go-agent/6.4.2/recipe-sysroot     -DMbedTLS_DIR=/tmp/tmpnlaj8lvp/tmp/work/core2-32-oe-linux/el2go-agent/6.4.2/recipe-sysroot/usr/local/el2go/lib/cmake/MbedTLS     -DNXP_SMW_DIR=/tmp/tmpnlaj8lvp/tmp/work/core2-32-oe-linux/el2go-agent/6.4.2/recipe-sysroot/usr/lib/cmake ",
+            "configopts": "     -DSSS_HAVE_HOSTCRYPTO_MBEDTLS=ON     -DNXP_IOT_AGENT_HAVE_PSA_IMPL_SMW=ON     -DSSS_HAVE_MBEDTLS_ALT_PSA=ON     -DSSS_HAVE_HOST_LINUX_LIKE=ON     -DCMAKE_SYSROOT=/tmp/tmpwqnro7mg/tmp/work/core2-32-oe-linux/el2go-agent/6.5.1/recipe-sysroot     -DMbedTLS_DIR=/tmp/tmpwqnro7mg/tmp/work/core2-32-oe-linux/el2go-agent/6.5.1/recipe-sysroot/usr/local/el2go/lib/cmake/MbedTLS     -DNXP_SMW_DIR=/tmp/tmpwqnro7mg/tmp/work/core2-32-oe-linux/el2go-agent/6.5.1/recipe-sysroot/usr/lib/cmake ",
             "description": "NXP i.MX EdgeLock 2GO IoT Agent",
-            "filename": "el2go-agent_6.4.2.bb",
+            "filename": "el2go-agent_6.5.1.bb",
             "filepath": "recipes-security/iot-agent",
             "homepage": "",
             "id": 2478178,
@@ -1489,11 +1464,11 @@
             "pn": "el2go-agent",
             "pr": "r0",
             "provides": "el2go-agent ",
-            "pv": "6.4.2",
+            "pv": "6.5.1",
             "section": "base",
-            "srcrev": "9d2ba6398a49e7c956fc57814d0d2867e0f90b8f",
+            "srcrev": "bb7337553d79635575b74e5507c1f9f4c66dfc50",
             "summary": "NXP i.MX EdgeLock 2GO IoT Agent",
-            "updated": "2026-06-02T07:06:05+0000"
+            "updated": "2026-09-10T17:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1522,8 +1497,8 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "  --with-cpal=bpf --disable-static ",
-            "description": "Connection Montitoring Manager for offloading kernel and register entity info ",
+            "configopts": " --with-cpal=bpf --disable-static ",
+            "description": "Connection Monitoring Manager for offloading kernel and register entity info ",
             "filename": "cmm_19.0.1.bb",
             "filepath": "dynamic-layers/clang-layer/recipes-extended/cmm",
             "homepage": "",
@@ -1537,9 +1512,9 @@
             "provides": "cmm ",
             "pv": "19.0.1",
             "section": "base",
-            "srcrev": "2c539dd4fd643276bc309c22e0f4a6b9ec589b0b",
+            "srcrev": "4db6470481d60dd786e2e60fc44b1cb69f05e8e5",
             "summary": "",
-            "updated": "2026-06-02T07:06:05+0000"
+            "updated": "2026-09-10T17:09:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1560,9 +1535,9 @@
             "provides": "xdp-fp ",
             "pv": "1.0.0",
             "section": "base",
-            "srcrev": "b7c3205aa1f42f4efe71b0398b0fd294e96bf49c",
+            "srcrev": "8cc98a399c24f63ff06074e49abf7884e7931dc0",
             "summary": "",
-            "updated": "2026-06-02T07:06:05+0000"
+            "updated": "2026-09-10T17:09:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1614,7 +1589,7 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "      -DOPENCL_ICD_LOADER_HEADERS_DIR=/tmp/tmpnlaj8lvp/tmp/work/core2-32-oe-linux/opencl-icd-loader/2024.10.24/recipe-sysroot/usr/include ",
+            "configopts": "      -DOPENCL_ICD_LOADER_HEADERS_DIR=/tmp/tmpwqnro7mg/tmp/work/core2-32-oe-linux/opencl-icd-loader/2024.10.24/recipe-sysroot/usr/include ",
             "description": "OpenCL compute ICD Loader from Khronos Group",
             "filename": "opencl-icd-loader_2024.10.24.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-core/opencl",
@@ -1631,7 +1606,7 @@
             "section": "base",
             "srcrev": "5907ac1114079de4383cecddf1c8640e3f52f92b",
             "summary": "OpenCL ICD Loader",
-            "updated": "2026-06-02T07:06:06+0000"
+            "updated": "2026-09-10T17:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1823,7 +1798,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "xen-tools_4.19.imx.bb",
+            "filename": "xen-tools_4.21.imx.bb",
             "filepath": "dynamic-layers/virtualization-layer/recipes-extended/xen",
             "homepage": "",
             "id": 2478193,
@@ -1838,7 +1813,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-06-02T07:06:06+0000"
+            "updated": "2026-09-10T17:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1846,7 +1821,7 @@
             "bugtracker": "",
             "configopts": "      --exec-prefix=/usr     --prefix=/usr     --host=i686-oe-linux     --disable-stubdom     --disable-ioemu-stubdom     --disable-pv-grub     --disable-xenstore-stubdom     --disable-rombios     --disable-ocamltools     --disable-qemu-traditional     --disable-pvshim --disable-seabios      --disable-static  --enable-systemd --disable-xsmpolicy",
             "description": "The Xen hypervisor",
-            "filename": "xen_4.19.imx.bb",
+            "filename": "xen_4.21.imx.bb",
             "filepath": "dynamic-layers/virtualization-layer/recipes-extended/xen",
             "homepage": "http://xen.org",
             "id": 2478194,
@@ -1857,11 +1832,11 @@
             "pn": "xen",
             "pr": "r0",
             "provides": "xen ",
-            "pv": "4.19.imx+stable",
+            "pv": "4.21.imx+stable",
             "section": "console/tools",
-            "srcrev": "570890ce5e1d0387bb1b931715a79885a78b0c1c",
+            "srcrev": "5b50ecdab259f803211b2099afccda212a0662b5",
             "summary": "Xen hypervisor",
-            "updated": "2026-06-02T07:06:06+0000"
+            "updated": "2026-09-10T17:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1938,7 +1913,7 @@
             "bugtracker": "",
             "configopts": "     -Dpipelines=auto     -Dv4l2=true     -Dcam=enabled     -Dlc-compliance=disabled     -Dtest=false     -Ddocumentation=disabled       --python.platlibdir=/usr/lib/python3.14/site-packages   -Dgstreamer=enabled -Dpycamera=enabled",
             "description": "",
-            "filename": "libcamera_0.6.0.imx.bb",
+            "filename": "libcamera_0.7.1.imx.bb",
             "filepath": "dynamic-layers/multimedia-layer/recipes-multimedia/libcamera",
             "homepage": "",
             "id": 2478198,
@@ -1949,21 +1924,21 @@
             "pn": "libcamera",
             "pr": "r0",
             "provides": "libcamera ",
-            "pv": "0.6.0.imx",
+            "pv": "0.7.1.imx",
             "section": "libs",
-            "srcrev": "3e6f5d83e397e11cccd3844e121463748f56de39",
+            "srcrev": "e2e7c015cee997b9f992376fd2c29fa2d8813e1b",
             "summary": "Linux libcamera framework",
-            "updated": "2026-06-02T07:06:08+0000"
+            "updated": "2026-09-10T17:09:10+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -Dpipelines=auto     -Dcam=enabled     -Dlc-compliance=disabled     -Dtest=false     -Ddocumentation=disabled   -Dgstreamer=disabled -Dpycamera=disabled -Dv4l2=true",
+            "configopts": "     -Dpipelines=auto     -Dcam=enabled     -Dlc-compliance=disabled     -Dtest=false     -Ddocumentation=disabled   -Dgstreamer=disabled -Dpycamera=disabled -Dv4l2=false",
             "description": "",
-            "filename": "libcamera_0.5.2.bb",
+            "filename": "libcamera_0.6.0.bb",
             "filepath": "dynamic-layers/multimedia-layer/recipes-multimedia/libcamera",
-            "homepage": "",
+            "homepage": "https://libcamera.org/",
             "id": 2478199,
             "inherits": "gcc gcc-native meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
             "layerbranch": 1075123,
@@ -1972,11 +1947,11 @@
             "pn": "libcamera",
             "pr": "r0",
             "provides": "libcamera ",
-            "pv": "0.5.2",
+            "pv": "0.6.0",
             "section": "libs",
-            "srcrev": "096c50ca881f72d858aca19757a5e73b4775a7cc",
+            "srcrev": "3c17d1fbb2bd93f221afee788ebf0d7394032e4d",
             "summary": "Linux libcamera framework",
-            "updated": "2026-06-02T07:06:08+0000"
+            "updated": "2026-09-10T17:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1984,7 +1959,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "An Image Processing Algorithm library for libcamera, for i.MX95 ISP, based on proprietary MM Solutions EAD uGuzzi 3A library",
-            "filename": "neo-ipa-uguzzi_0.2.6.bb",
+            "filename": "neo-ipa-uguzzi_0.2.7.bb",
             "filepath": "dynamic-layers/multimedia-layer/recipes-multimedia/libcamera",
             "homepage": "",
             "id": 2478200,
@@ -1995,11 +1970,11 @@
             "pn": "neo-ipa-uguzzi",
             "pr": "r0",
             "provides": "neo-ipa-uguzzi ",
-            "pv": "0.2.6",
+            "pv": "0.2.7",
             "section": "libs",
-            "srcrev": "3c3b18e397a81fac2babe14dca01f4ada1ecc8b2",
+            "srcrev": "23fdfc14330253b789f24c35e53786bc46d35703",
             "summary": "uGuzzi IPA for the libcamera NXP NEO pipeline",
-            "updated": "2026-06-02T07:06:08+0000"
+            "updated": "2026-09-10T17:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2020,55 +1995,32 @@
             "provides": "gputop ",
             "pv": "git",
             "section": "base",
-            "srcrev": "ee449b4f4d5293e971693b7865972f8387f8d171",
+            "srcrev": "143f2e8a62db5aa1368b8dc1f14d929fb7df2ec8",
             "summary": "",
-            "updated": "2026-06-02T07:06:08+0000"
+            "updated": "2026-09-10T17:09:11+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "libgpuperfcnt_r54p1.4.bb",
-            "filepath": "recipes-graphics/libgpuperfcnt",
-            "homepage": "",
-            "id": 2478202,
-            "inherits": "",
-            "layerbranch": 1075123,
-            "license": "",
-            "pe": "",
-            "pn": "libgpuperfcnt",
-            "pr": "",
-            "provides": "",
-            "pv": "r54p1.4",
-            "section": "",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2026-06-02T07:06:08+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "libgpuperfcnt_6.4.11.p4.4.bb",
+            "configopts": "     -DCMAKE_POLICY_VERSION_MINIMUM=3.5     -DENABLE_SHARED=ON       ",
+            "description": "A library to retrieve i.MX GPU information",
+            "filename": "libgpuperfcnt_git.bb",
             "filepath": "recipes-graphics/libgpuperfcnt",
             "homepage": "",
             "id": 2478203,
-            "inherits": "",
+            "inherits": "cmake gcc gcc-native pkgconfig",
             "layerbranch": 1075123,
-            "license": "",
+            "license": "BSD-3-Clause",
             "pe": "",
             "pn": "libgpuperfcnt",
-            "pr": "",
-            "provides": "",
-            "pv": "6.4.11.p4.4",
-            "section": "",
-            "srcrev": "",
+            "pr": "r0",
+            "provides": "libgpuperfcnt ",
+            "pv": "1.4.0+git",
+            "section": "base",
+            "srcrev": "00f2448c4c2f9fe42042baf1dc7676bec6cbbb43",
             "summary": "",
-            "updated": "2026-06-02T07:06:08+0000"
+            "updated": "2026-09-10T17:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2145,7 +2097,7 @@
             "bugtracker": "",
             "configopts": " --disable-static",
             "description": "Set of sample applications for i.MX GPU",
-            "filename": "imx-gpu-sdk_6.5.0.bb",
+            "filename": "imx-gpu-sdk_6.5.2.bb",
             "filepath": "recipes-graphics/imx-gpu-sdk",
             "homepage": "",
             "id": 2478207,
@@ -2156,34 +2108,11 @@
             "pn": "imx-gpu-sdk",
             "pr": "r0",
             "provides": "imx-gpu-sdk ",
-            "pv": "6.5.0",
+            "pv": "6.5.2",
             "section": "base",
-            "srcrev": "1f512be500cecb392b24a154e83f0e7cd4655f3e",
+            "srcrev": "74778e7e04ab89e7f94929019a4b428c0791fcdd",
             "summary": "i.MX GPU SDK Samples",
-            "updated": "2026-06-02T07:06:09+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "http://w1.fi/security/",
-            "configopts": " --disable-static",
-            "description": "wpa_supplicant is a WPA Supplicant for Linux, BSD, Mac OS X, and Windows with support for WPA and WPA2 (IEEE 802.11i / RSN). Supplicant is the IEEE 802.1X/WPA component that is used in the client stations. It implements key negotiation with a WPA Authenticator and it controls the roaming and IEEE 802.11 authentication/association of the wlan driver.",
-            "filename": "wpa-supplicant_2.11.imx.bb",
-            "filepath": "recipes-connectivity/wpa-supplicant",
-            "homepage": "http://w1.fi/wpa_supplicant/",
-            "id": 2478208,
-            "inherits": "gcc gcc-native pkgconfig systemd",
-            "layerbranch": 1075123,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "wpa-supplicant",
-            "pr": "r0",
-            "provides": "wpa-supplicant ",
-            "pv": "2.11.imx",
-            "section": "network",
-            "srcrev": "",
-            "summary": "Client for Wi-Fi Protected Access (WPA)",
-            "updated": "2026-06-02T07:06:09+0000"
+            "updated": "2026-09-10T17:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2207,6 +2136,29 @@
             "srcrev": "fd7359aed6aaba745e31dd0a9fed80578372d554",
             "summary": "Tools for WFA Sigma DUT/CA",
             "updated": "2026-06-02T07:06:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "From the EFI Tools package in the Linux user-space, it's now possible to read and manipulate the UEFI signatures database via the new efi-readvar and efi-updatevar commands. Aside from needing efitools 1.4, the EFIVARFS file-system is also needed, which was only introduced in the Linux 3.8 kernel. ",
+            "filename": "nativesdk-efitools_1.9.2.bb",
+            "filepath": "recipes-bsp/efitools",
+            "homepage": "",
+            "id": 2536530,
+            "inherits": "gcc gcc-native nativesdk perlnative",
+            "layerbranch": 1075123,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "nativesdk-efitools",
+            "pr": "r0",
+            "provides": "nativesdk-efitools",
+            "pv": "1.9.2",
+            "section": "base",
+            "srcrev": "392836a46ce3c92b55dc88a1aebbcfdfc5dcddce",
+            "summary": "Tools to support reading and manipulating the UEFI signature database",
+            "updated": "2026-09-10T17:09:12+0000"
         }
     ],
     "wrtemplates": []
