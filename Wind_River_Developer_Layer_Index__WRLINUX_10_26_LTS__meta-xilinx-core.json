@@ -709,13 +709,6 @@
         },
         {
             "description": "",
-            "id": 44233,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.3"
-        },
-        {
-            "description": "",
             "id": 44234,
             "image_url": "",
             "link_url": "",
@@ -748,6 +741,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44239,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3 6.0"
         }
     ],
     "branches": [
@@ -760,7 +760,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-09-15T00:09:15+0000",
+            "updated": "2026-09-23T00:09:11+0000",
             "updates_enabled": true
         }
     ],
@@ -773,10 +773,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-09-01T14:09:26+0000",
-            "vcs_last_commit": "2026-08-27T15:08:37+0000",
-            "vcs_last_fetch": "2026-09-01T14:09:26+0000",
-            "vcs_last_rev": "af4bb5042906e34671322cec45e0d53b80b7650c",
+            "updated": "2026-09-16T16:09:51+0000",
+            "vcs_last_commit": "2026-09-16T15:09:04+0000",
+            "vcs_last_fetch": "2026-09-16T16:09:51+0000",
+            "vcs_last_rev": "022343ed6c86ee6cdde066ab552804e9ba6aaffd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -788,10 +788,10 @@
             "id": 1075113,
             "layer": 474,
             "local_path": "",
-            "updated": "2026-08-25T12:08:58+0000",
-            "vcs_last_commit": "2026-06-30T06:06:17+0000",
-            "vcs_last_fetch": "2026-08-25T12:08:58+0000",
-            "vcs_last_rev": "bcc633b8ce103914a7390b5ebff7be22d6f9e6cc",
+            "updated": "2026-09-16T15:09:01+0000",
+            "vcs_last_commit": "2026-09-02T16:09:18+0000",
+            "vcs_last_fetch": "2026-09-16T15:09:01+0000",
+            "vcs_last_rev": "9dab8bdd4991973faa6dfc5b3c607f4c09cc1cdb",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 44229
@@ -803,10 +803,10 @@
             "id": 1075121,
             "layer": 436,
             "local_path": "",
-            "updated": "2026-06-08T20:06:33+0000",
-            "vcs_last_commit": "2026-06-08T18:06:35+0000",
-            "vcs_last_fetch": "2026-06-08T20:06:33+0000",
-            "vcs_last_rev": "73c8c75f0fd2c1af3181ad6fca10bae4698478d6",
+            "updated": "2026-09-22T08:09:54+0000",
+            "vcs_last_commit": "2026-09-22T06:09:13+0000",
+            "vcs_last_fetch": "2026-09-22T08:09:54+0000",
+            "vcs_last_rev": "bdd17304edf8cc26644d56beafd225ea50c235e8",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 44236
@@ -1009,6 +1009,13 @@
             "layerbranch": 1075121,
             "name": "microblaze-generic",
             "updated": "2026-06-02T07:06:20+0000"
+        },
+        {
+            "description": "Generic machine configuration for the AMD Versal Series Gen 2 adaptive SoC family (Cortex-A72 APU, Cortex-R5 RPU, and MicroBlaze PMC/PSM). Required by board- and series-specific Versal Gen 2 machines.",
+            "id": 117577,
+            "layerbranch": 1075121,
+            "name": "versal-2vp-generic",
+            "updated": "2026-09-20T21:09:26+0000"
         }
     ],
     "recipes": [
@@ -1085,7 +1092,7 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr     --bindir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/share/doc/qemu-xilinx     --sysconfdir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/var     --with-suffix=qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -L/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --disable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --disable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=aarch64-linux-user,arm-linux-user,microblaze-linux-user,microblazeel-linux-user,riscv32-linux-user,riscv64-linux-user,x86_64-linux-user --disable-tools --disable-install-blobs --disable-guest-agent",
+            "configopts": "     --prefix=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr     --bindir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/share/doc/qemu-xilinx     --sysconfdir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/var     --with-suffix=qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -L/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --disable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --disable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=aarch64-linux-user,arm-linux-user,microblaze-linux-user,microblazeel-linux-user,riscv32-linux-user,riscv64-linux-user,x86_64-linux-user --disable-tools --disable-install-blobs --disable-guest-agent",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-xilinx-native_8.2.7.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1100,15 +1107,15 @@
             "provides": "qemu-xilinx-native  qemu-native",
             "pv": "8.2.7+git",
             "section": "base",
-            "srcrev": "e7f3a735f517820c549a1e329b49138f4ec93689",
+            "srcrev": "09c90f09b99af539a56b25fd91e005e1884e8d18",
             "summary": "Xilinx's fork of a fast open source processor emulator",
-            "updated": "2026-06-08T20:06:27+0000"
+            "updated": "2026-09-20T21:09:27+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr     --bindir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/share/doc/qemu-xilinx     --sysconfdir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/var     --with-suffix=qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -L/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpztguz6du/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --enable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --enable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --enable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --enable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=aarch64-softmmu,arm-softmmu,microblaze-softmmu,microblazeel-softmmu,riscv32-softmmu,riscv64-softmmu,x86_64-softmmu",
+            "configopts": "     --prefix=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr     --bindir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/share/doc/qemu-xilinx     --sysconfdir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/var     --with-suffix=qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -L/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpzc_4sn8l/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --enable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --enable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --enable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --enable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=aarch64-softmmu,arm-softmmu,microblaze-softmmu,microblazeel-softmmu,riscv32-softmmu,riscv64-softmmu,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-xilinx-system-native_8.2.7.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1123,15 +1130,15 @@
             "provides": "qemu-xilinx-system-native  qemu-system-native",
             "pv": "8.2.7+git",
             "section": "base",
-            "srcrev": "e7f3a735f517820c549a1e329b49138f4ec93689",
+            "srcrev": "09c90f09b99af539a56b25fd91e005e1884e8d18",
             "summary": "Xilinx's fork of a fast open source processor emulator",
-            "updated": "2026-06-08T20:06:23+0000"
+            "updated": "2026-09-20T21:09:28+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu-xilinx     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags=' -O2 -g -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmpztguz6du/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/sources/qemu-xilinx-8.2.7+git=/usr/src/debug/qemu-xilinx/8.2.7+git  -ffile-prefix-map=/tmp/tmpztguz6du/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/build=/usr/src/debug/qemu-xilinx/8.2.7+git  -ffile-prefix-map=/tmp/tmpztguz6du/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/recipe-sysroot=  -ffile-prefix-map=/tmp/tmpztguz6du/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/recipe-sysroot-native=  -pipe '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -Wl,-z,relro,-z,now'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --enable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --enable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --enable-pa --disable-rbd --disable-rdma --enable-sdl --enable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --enable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --cross-prefix=i686-oe-linux- --target-list=aarch64-linux-user,aarch64-softmmu,arm-linux-user,arm-softmmu,microblaze-linux-user,microblaze-softmmu,microblazeel-linux-user,microblazeel-softmmu,riscv32-linux-user,riscv32-softmmu,riscv64-linux-user,riscv64-softmmu,x86_64-linux-user,x86_64-softmmu",
+            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu-xilinx     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags=' -O2 -g -fcanon-prefix-map  -ffile-prefix-map=/tmp/tmpzc_4sn8l/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/sources/qemu-xilinx-8.2.7+git=/usr/src/debug/qemu-xilinx/8.2.7+git  -ffile-prefix-map=/tmp/tmpzc_4sn8l/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/build=/usr/src/debug/qemu-xilinx/8.2.7+git  -ffile-prefix-map=/tmp/tmpzc_4sn8l/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/recipe-sysroot=  -ffile-prefix-map=/tmp/tmpzc_4sn8l/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/recipe-sysroot-native=  -pipe '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -Wl,-z,relro,-z,now'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --enable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --enable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --enable-pa --disable-rbd --disable-rdma --enable-sdl --enable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --enable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --cross-prefix=i686-oe-linux- --target-list=aarch64-linux-user,aarch64-softmmu,arm-linux-user,arm-softmmu,microblaze-linux-user,microblaze-softmmu,microblazeel-linux-user,microblazeel-softmmu,riscv32-linux-user,riscv32-softmmu,riscv64-linux-user,riscv64-softmmu,x86_64-linux-user,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-xilinx_8.2.7.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1146,9 +1153,9 @@
             "provides": "qemu-xilinx  qemu",
             "pv": "8.2.7+git",
             "section": "base",
-            "srcrev": "e7f3a735f517820c549a1e329b49138f4ec93689",
+            "srcrev": "09c90f09b99af539a56b25fd91e005e1884e8d18",
             "summary": "Xilinx's fork of a fast open source processor emulator",
-            "updated": "2026-06-08T20:06:27+0000"
+            "updated": "2026-09-20T21:09:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1192,9 +1199,9 @@
             "provides": "qemu-devicetrees ",
             "pv": "8.2.7+git",
             "section": "base",
-            "srcrev": "667deddd389f0606c3247bdaf2064a60ac628fa0",
+            "srcrev": "a0a511f8306fa49d4c8a54c654c67ea93b038d68",
             "summary": "Xilinx's hardware device trees required for QEMU",
-            "updated": "2026-06-08T20:06:28+0000"
+            "updated": "2026-09-20T21:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1422,9 +1429,9 @@
             "provides": "bootgen ",
             "pv": "2026.1",
             "section": "base",
-            "srcrev": "d7f3852b0e144e4f8143b47e75c25e7a94ec4d33",
+            "srcrev": "eb7256bca6825a1a002cb4d9779d178060036bb0",
             "summary": "Building and installing bootgen",
-            "updated": "2026-06-08T20:06:22+0000"
+            "updated": "2026-09-20T21:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1882,9 +1889,9 @@
             "provides": "u-boot-tools-xlnx u-boot-mkimage u-boot-mkenvimage u-boot-mkeficapsule u-boot-tools u-boot-tools-xlnx-mkfwumdata u-boot-tools-xlnx-efivars",
             "pv": "2026.01-xilinx-v2026.1+git",
             "section": "bootloaders",
-            "srcrev": "980da51527e0a9a7a79ac218347ade2bfd5bb330",
+            "srcrev": "9a86d4351c5e29db068a2a0e230b74d4fbd55997",
             "summary": "U-Boot bootloader tools",
-            "updated": "2026-06-08T20:06:29+0000"
+            "updated": "2026-09-20T21:09:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1905,9 +1912,9 @@
             "provides": "u-boot-xlnx virtual/bootloader",
             "pv": "2026.01-xilinx-v2026.1+git",
             "section": "bootloaders",
-            "srcrev": "980da51527e0a9a7a79ac218347ade2bfd5bb330",
+            "srcrev": "9a86d4351c5e29db068a2a0e230b74d4fbd55997",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2026-06-08T20:06:30+0000"
+            "updated": "2026-09-20T21:09:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2183,7 +2190,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Extracts CDO (Configuration Data Object) files from a Versal boot.bin so they can be supplied to QEMU.",
-            "updated": "2026-06-02T07:06:29+0000"
+            "updated": "2026-09-20T21:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2390,7 +2397,7 @@
             "section": "devel",
             "srcrev": "6ee6a4da5f55bd66d278d5032108f0ebe920a501",
             "summary": "Xilinx AI Engine FAL(Functional Abstraction Layer)",
-            "updated": "2026-06-08T20:06:20+0000"
+            "updated": "2026-09-20T21:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2436,7 +2443,7 @@
             "section": "libs",
             "srcrev": "6ee6a4da5f55bd66d278d5032108f0ebe920a501",
             "summary": "Xilinx AI Engine runtime",
-            "updated": "2026-06-08T20:06:20+0000"
+            "updated": "2026-09-20T21:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2643,7 +2650,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Generates boot.bin using bootgen tool",
-            "updated": "2026-06-08T20:06:20+0000"
+            "updated": "2026-09-20T21:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2689,7 +2696,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "The BIF file for bootbin requires a Base pdi unique id file in a text format",
-            "updated": "2026-06-02T07:06:31+0000"
+            "updated": "2026-09-20T21:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2804,7 +2811,7 @@
             "section": "base",
             "srcrev": "e9b1373a7dd9fce25b5a2fe6189dd5ec6eedf24a",
             "summary": "AMD Xilinx fork of TF-A (trusted-firmware-a) for Zynq UltraScale+ MPSoC, Versal and Versal NET.",
-            "updated": "2026-06-08T20:06:21+0000"
+            "updated": "2026-09-20T21:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3722,9 +3729,9 @@
             "provides": "optee-os ",
             "pv": "4.9.0-xlnx-v2026.1",
             "section": "base",
-            "srcrev": "66e2ff08e59a8d9da1643fd815e40d09cc902ab9",
+            "srcrev": "8243c65adfb6344a7a08225120ed6f3182714f29",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2026-06-02T07:06:35+0000"
+            "updated": "2026-09-20T21:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3837,9 +3844,9 @@
             "provides": "optee-os-tadevkit ",
             "pv": "4.9.0-xlnx-v2026.1",
             "section": "base",
-            "srcrev": "66e2ff08e59a8d9da1643fd815e40d09cc902ab9",
+            "srcrev": "8243c65adfb6344a7a08225120ed6f3182714f29",
             "summary": "OP-TEE Trusted OS TA devkit",
-            "updated": "2026-06-02T07:06:36+0000"
+            "updated": "2026-09-20T21:09:30+0000"
         },
         {
             "bbclassextend": "",
@@ -4527,9 +4534,9 @@
             "provides": "kernel-module-dp ",
             "pv": "6.18.0+git",
             "section": "kernel/modules",
-            "srcrev": "fb2fe5b1236afd17b51ddc0cb4cd69aa7f80c79f",
+            "srcrev": "f7b1b2858d674a07bc8ecd82010adb7de6c76534",
             "summary": "Xilinx DisplayPort Linux Kernel module",
-            "updated": "2026-06-08T20:06:23+0000"
+            "updated": "2026-09-20T21:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -4732,11 +4739,11 @@
             "pn": "linux-xlnx",
             "pr": "r0",
             "provides": "linux-xlnx  virtual/kernel",
-            "pv": "6.18.10+git+v2026.1",
+            "pv": "6.18.10+git",
             "section": "kernel",
             "srcrev": "85dd9d925c66aa5f21f2d51c7d1db3df23c456ad",
             "summary": "AMD Xilinx Linux kernel (linux-xlnx).",
-            "updated": "2026-06-08T20:06:25+0000"
+            "updated": "2026-09-20T21:09:27+0000"
         },
         {
             "bbclassextend": "",
@@ -4801,11 +4808,11 @@
             "pn": "linux-xlnx-small",
             "pr": "r0",
             "provides": "linux-xlnx-small  virtual/kernel",
-            "pv": "6.18.10+git+v2026.1",
+            "pv": "6.18.10+git",
             "section": "kernel",
             "srcrev": "85dd9d925c66aa5f21f2d51c7d1db3df23c456ad",
             "summary": "AMD Xilinx Linux kernel (linux-xlnx) with a reduced defconfig for image-recovery use.",
-            "updated": "2026-06-08T20:06:32+0000"
+            "updated": "2026-09-20T21:09:28+0000"
         },
         {
             "bbclassextend": "",
@@ -5150,7 +5157,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Xilinx Runtime(XRT) - minimal native build for xclbinutil",
-            "updated": "2026-06-08T20:06:27+0000"
+            "updated": "2026-09-20T21:09:29+0000"
         },
         {
             "bbclassextend": "",
@@ -5196,7 +5203,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Xilinx Runtime(XRT) libraries",
-            "updated": "2026-06-08T20:06:27+0000"
+            "updated": "2026-09-20T21:09:29+0000"
         },
         {
             "bbclassextend": "",
@@ -5357,7 +5364,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Xilinx Runtime(XRT) driver module",
-            "updated": "2026-06-08T20:06:27+0000"
+            "updated": "2026-09-20T21:09:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",

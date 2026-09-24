@@ -709,13 +709,6 @@
         },
         {
             "description": "",
-            "id": 44233,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.3"
-        },
-        {
-            "description": "",
             "id": 44234,
             "image_url": "",
             "link_url": "",
@@ -748,6 +741,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44239,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3 6.0"
         }
     ],
     "branches": [
@@ -760,7 +760,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-09-15T00:09:15+0000",
+            "updated": "2026-09-23T00:09:11+0000",
             "updates_enabled": true
         }
     ],
@@ -773,10 +773,10 @@
             "id": 1075067,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-09-01T14:09:26+0000",
-            "vcs_last_commit": "2026-08-27T15:08:37+0000",
-            "vcs_last_fetch": "2026-09-01T14:09:26+0000",
-            "vcs_last_rev": "af4bb5042906e34671322cec45e0d53b80b7650c",
+            "updated": "2026-09-16T16:09:51+0000",
+            "vcs_last_commit": "2026-09-16T15:09:04+0000",
+            "vcs_last_fetch": "2026-09-16T16:09:51+0000",
+            "vcs_last_rev": "022343ed6c86ee6cdde066ab552804e9ba6aaffd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44226
@@ -803,10 +803,10 @@
             "id": 1075113,
             "layer": 474,
             "local_path": "",
-            "updated": "2026-08-25T12:08:58+0000",
-            "vcs_last_commit": "2026-06-30T06:06:17+0000",
-            "vcs_last_fetch": "2026-08-25T12:08:58+0000",
-            "vcs_last_rev": "bcc633b8ce103914a7390b5ebff7be22d6f9e6cc",
+            "updated": "2026-09-16T15:09:01+0000",
+            "vcs_last_commit": "2026-09-02T16:09:18+0000",
+            "vcs_last_fetch": "2026-09-16T15:09:01+0000",
+            "vcs_last_rev": "9dab8bdd4991973faa6dfc5b3c607f4c09cc1cdb",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 44229
@@ -1297,7 +1297,7 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " -DTFM_TOOLCHAIN_FILE=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/toolchain_GNUARM.cmake -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM=qemux86 -DCMAKE_BUILD_TYPE=Release     -DCMSIS_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/cmsis     -DMBEDCRYPTO_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/mbedtls     -DMCUBOOT_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/mcuboot     -DQCBOR_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/qcbor     -DT_COSE_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/t_cose     -DTFM_EXTRAS_REPO_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/tfm-extras     -DTFM_TEST_REPO_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/tf-m-tests     ",
+            "configopts": " -DTFM_TOOLCHAIN_FILE=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/toolchain_GNUARM.cmake -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM=qemux86 -DCMAKE_BUILD_TYPE=Release     -DCMSIS_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/cmsis     -DMBEDCRYPTO_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/mbedtls     -DMCUBOOT_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/mcuboot     -DQCBOR_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/qcbor     -DT_COSE_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/t_cose     -DTFM_EXTRAS_REPO_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/tfm-extras     -DTFM_TEST_REPO_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/git/sources/tfm/external/tf-m-tests     ",
             "description": "Trusted Firmware-M",
             "filename": "trusted-firmware-m_git.bb",
             "filepath": "recipes-bsp/trusted-firmware-m",
@@ -1314,13 +1314,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trusted Firmware for Cortex-M",
-            "updated": "2026-05-28T00:05:25+0000"
+            "updated": "2026-09-16T15:09:00+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " -DTFM_TOOLCHAIN_FILE=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/toolchain_GNUARM.cmake -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM=qemux86 -DCMAKE_BUILD_TYPE=Release     -DCMSIS_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/cmsis     -DMBEDCRYPTO_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/mbedtls     -DMCUBOOT_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/mcuboot     -DQCBOR_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/qcbor     -DT_COSE_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/t_cose     -DTFM_EXTRAS_REPO_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/tfm-extras     -DTFM_TEST_REPO_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/tf-m-tests     ",
+            "configopts": " -DTFM_TOOLCHAIN_FILE=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/toolchain_GNUARM.cmake -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM=qemux86 -DCMAKE_BUILD_TYPE=Release     -DCMSIS_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/cmsis     -DMBEDCRYPTO_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/mbedtls     -DMCUBOOT_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/mcuboot     -DQCBOR_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/qcbor     -DT_COSE_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/t_cose     -DTFM_EXTRAS_REPO_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/tfm-extras     -DTFM_TEST_REPO_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.2.2/sources/tfm/external/tf-m-tests     ",
             "description": "Trusted Firmware-M",
             "filename": "trusted-firmware-m_2.2.2.bb",
             "filepath": "recipes-bsp/trusted-firmware-m",
@@ -1337,7 +1337,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trusted Firmware for Cortex-M",
-            "updated": "2026-05-28T00:05:26+0000"
+            "updated": "2026-09-16T15:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1389,7 +1389,7 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " -DTFM_TOOLCHAIN_FILE=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/toolchain_GNUARM.cmake -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM=qemux86 -DCMAKE_BUILD_TYPE=Release     -DCMSIS_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/cmsis     -DMBEDCRYPTO_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/mbedtls     -DMCUBOOT_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/mcuboot     -DQCBOR_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/qcbor     -DT_COSE_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/t_cose     -DTFM_EXTRAS_REPO_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/tfm-extras     -DTFM_TEST_REPO_PATH=/tmp/tmp8tn396t9/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/tf-m-tests     ",
+            "configopts": " -DTFM_TOOLCHAIN_FILE=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/toolchain_GNUARM.cmake -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DTFM_PLATFORM=qemux86 -DCMAKE_BUILD_TYPE=Release     -DCMSIS_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/cmsis     -DMBEDCRYPTO_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/mbedtls     -DMCUBOOT_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/mcuboot     -DQCBOR_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/qcbor     -DT_COSE_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/t_cose     -DTFM_EXTRAS_REPO_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/tfm-extras     -DTFM_TEST_REPO_PATH=/tmp/tmpiqqfvm23/tmp/work/qemux86-oe-linux/trusted-firmware-m/2.1.4/sources/tfm/external/tf-m-tests     ",
             "description": "Trusted Firmware-M",
             "filename": "trusted-firmware-m_2.1.4.bb",
             "filepath": "recipes-bsp/trusted-firmware-m",
@@ -1406,7 +1406,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trusted Firmware for Cortex-M",
-            "updated": "2026-05-28T00:05:26+0000"
+            "updated": "2026-09-16T15:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1475,7 +1475,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-28T00:05:26+0000"
+            "updated": "2026-09-16T15:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1590,7 +1590,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-28T00:05:27+0000"
+            "updated": "2026-09-16T15:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1636,7 +1636,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-28T00:05:27+0000"
+            "updated": "2026-09-16T15:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1682,7 +1682,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-28T00:05:27+0000"
+            "updated": "2026-09-16T15:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1728,7 +1728,7 @@
             "section": "base",
             "srcrev": "190e938c2da3631b4834a90448516423099c79f7",
             "summary": "SCP and MCP Firmware",
-            "updated": "2026-05-28T00:05:28+0000"
+            "updated": "2026-09-16T15:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1751,7 +1751,7 @@
             "section": "base",
             "srcrev": "57bb4a303d848f11cef182b24ef16060d371858c",
             "summary": "SCP and MCP Firmware",
-            "updated": "2026-05-28T00:05:28+0000"
+            "updated": "2026-09-16T15:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2487,7 +2487,7 @@
             "section": "base",
             "srcrev": "c2b0684fcd89929976a8726e6e3af922b48dd2c7",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2026-05-28T00:05:33+0000"
+            "updated": "2026-09-16T15:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2556,7 +2556,7 @@
             "section": "base",
             "srcrev": "86660925433a8d4d1b19cfa5fe940081d77b34b4",
             "summary": "OP-TEE Trusted OS TA devkit",
-            "updated": "2026-05-28T00:05:33+0000"
+            "updated": "2026-09-16T15:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2579,7 +2579,7 @@
             "section": "base",
             "srcrev": "86660925433a8d4d1b19cfa5fe940081d77b34b4",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2026-05-28T00:05:33+0000"
+            "updated": "2026-09-16T15:09:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2648,7 +2648,7 @@
             "section": "base",
             "srcrev": "c2b0684fcd89929976a8726e6e3af922b48dd2c7",
             "summary": "OP-TEE Trusted OS TA devkit",
-            "updated": "2026-05-28T00:05:34+0000"
+            "updated": "2026-09-16T15:09:00+0000"
         },
         {
             "bbclassextend": "",
