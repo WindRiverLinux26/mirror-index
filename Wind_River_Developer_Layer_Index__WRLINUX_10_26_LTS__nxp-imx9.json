@@ -760,7 +760,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-09-23T00:09:11+0000",
+            "updated": "2026-10-02T00:10:07+0000",
             "updates_enabled": true
         }
     ],
@@ -818,10 +818,10 @@
             "id": 1075099,
             "layer": 551,
             "local_path": "",
-            "updated": "2026-09-10T17:09:25+0000",
-            "vcs_last_commit": "2026-09-09T07:09:10+0000",
-            "vcs_last_fetch": "2026-09-10T17:09:25+0000",
-            "vcs_last_rev": "cc91bcb2eb3a6c1d5bdde1413f0f3e6aa469f6c1",
+            "updated": "2026-09-24T14:09:39+0000",
+            "vcs_last_commit": "2026-09-24T11:09:18+0000",
+            "vcs_last_fetch": "2026-09-24T14:09:39+0000",
+            "vcs_last_rev": "dbef399caf14588326d67e2726603703341225b2",
             "vcs_subdir": "meta-imx-ml",
             "version": null,
             "yp_compatible_version": 44232
@@ -833,10 +833,10 @@
             "id": 1075115,
             "layer": 553,
             "local_path": "",
-            "updated": "2026-09-16T19:09:23+0000",
-            "vcs_last_commit": "2026-09-16T18:09:37+0000",
-            "vcs_last_fetch": "2026-09-16T19:09:23+0000",
-            "vcs_last_rev": "941e09931a4fad510c698c36f6866b4440d9097a",
+            "updated": "2026-09-28T18:09:40+0000",
+            "vcs_last_commit": "2026-09-28T17:09:39+0000",
+            "vcs_last_fetch": "2026-09-28T18:09:40+0000",
+            "vcs_last_rev": "91e2243cd8b16626b5cbeeaf70ab5c80d0e3cdde",
             "vcs_subdir": "meta-imx-bsp",
             "version": null,
             "yp_compatible_version": 44232
@@ -848,10 +848,10 @@
             "id": 1075123,
             "layer": 552,
             "local_path": "",
-            "updated": "2026-09-10T17:09:12+0000",
-            "vcs_last_commit": "2026-09-09T14:09:24+0000",
-            "vcs_last_fetch": "2026-09-10T17:09:12+0000",
-            "vcs_last_rev": "4bc47cbe3f023faf6378450cdce674b99c006f0e",
+            "updated": "2026-09-24T14:09:59+0000",
+            "vcs_last_commit": "2026-09-24T11:09:18+0000",
+            "vcs_last_fetch": "2026-09-24T14:09:59+0000",
+            "vcs_last_rev": "a796a2c12e13657f8d4e28f2779decf358c8936b",
             "vcs_subdir": "meta-imx-sdk",
             "version": null,
             "yp_compatible_version": 44238
@@ -863,10 +863,10 @@
             "id": 1075125,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-09-18T13:09:20+0000",
-            "vcs_last_commit": "2026-09-18T11:09:11+0000",
-            "vcs_last_fetch": "2026-09-18T13:09:20+0000",
-            "vcs_last_rev": "7bb2652c64ec57386ceddc47b097881aa78bcd79",
+            "updated": "2026-09-29T17:09:28+0000",
+            "vcs_last_commit": "2026-09-29T16:09:21+0000",
+            "vcs_last_fetch": "2026-09-29T17:09:28+0000",
+            "vcs_last_rev": "537a818cf70f35a7860e6aa63ef26b045695a782",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44213
@@ -893,10 +893,10 @@
             "id": 1075583,
             "layer": 538,
             "local_path": "",
-            "updated": "2026-09-16T19:09:53+0000",
-            "vcs_last_commit": "2026-09-16T18:09:37+0000",
-            "vcs_last_fetch": "2026-09-16T19:09:53+0000",
-            "vcs_last_rev": "ab9298ce24a83b2d877be3d8a970100eb3460423",
+            "updated": "2026-09-24T14:09:13+0000",
+            "vcs_last_commit": "2026-09-24T11:09:07+0000",
+            "vcs_last_fetch": "2026-09-24T14:09:13+0000",
+            "vcs_last_rev": "05dc3748ffa239212c54a98dafda7476a294b79b",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44226
@@ -1165,7 +1165,7 @@
             "id": 137269,
             "layerbranch": 1075583,
             "name": "default",
-            "updated": "2026-09-16T19:09:53+0000"
+            "updated": "2026-09-24T14:09:13+0000"
         }
     ]
 }

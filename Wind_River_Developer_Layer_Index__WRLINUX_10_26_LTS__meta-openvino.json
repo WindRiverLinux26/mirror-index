@@ -760,7 +760,7 @@
             "short_description": "Wind River Linux 10_26 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-09-23T00:09:11+0000",
+            "updated": "2026-10-02T00:10:07+0000",
             "updates_enabled": true
         }
     ],
@@ -818,10 +818,10 @@
             "id": 1075101,
             "layer": 562,
             "local_path": "",
-            "updated": "2026-08-25T14:08:11+0000",
-            "vcs_last_commit": "2026-08-24T15:08:58+0000",
-            "vcs_last_fetch": "2026-08-25T14:08:11+0000",
-            "vcs_last_rev": "b4216f38ec47d9b9f26a99b623a6fbc73904b377",
+            "updated": "2026-10-01T13:10:04+0000",
+            "vcs_last_commit": "2026-10-01T13:10:50+0000",
+            "vcs_last_fetch": "2026-10-01T13:10:04+0000",
+            "vcs_last_rev": "fecce6ef30320c42d16d67a4f466b916ed692836",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 44228
@@ -948,7 +948,7 @@
             "section": "base",
             "srcrev": "f44f09dfd263c2bb0238f4323e366a210e9d4aae",
             "summary": "The ARM Computer Vision and Machine Learning library",
-            "updated": "2026-08-25T14:08:10+0000"
+            "updated": "2026-10-01T13:10:04+0000"
         },
         {
             "bbclassextend": "",
