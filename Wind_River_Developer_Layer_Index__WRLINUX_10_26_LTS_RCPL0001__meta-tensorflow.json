@@ -1,0 +1,1199 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_26_LTS_RCPL0001",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44223,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44224,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44226,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44227,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44228,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44229,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0"
+        },
+        {
+            "description": "",
+            "id": 44230,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44231,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44232,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44234,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44235,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44236,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 6.0"
+        },
+        {
+            "description": "",
+            "id": 44237,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44239,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44240,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1"
+        },
+        {
+            "description": "",
+            "id": 44241,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 6.1"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_26_LTS_RCPL0001",
+            "comparison": false,
+            "hidden": false,
+            "id": 497,
+            "name": "WRLINUX_10_26_LTS_RCPL0001",
+            "short_description": "WRLinux 10_26 LTS RCPL 0001",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2026-10-14T00:10:10+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "core",
+            "id": 1078463,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2026-10-14T20:10:16+0000",
+            "vcs_last_commit": "2026-10-10T07:10:34+0000",
+            "vcs_last_fetch": "2026-10-14T20:10:16+0000",
+            "vcs_last_rev": "2acc0d0060bf962d486c867c1d40f2cb0267190b",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44226
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "openembedded-layer",
+            "id": 1078467,
+            "layer": 7,
+            "local_path": "",
+            "updated": "2026-09-15T13:09:16+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-15T13:09:16+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": 44228
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "meta-python",
+            "id": 1078469,
+            "layer": 12,
+            "local_path": "",
+            "updated": "2026-09-15T13:09:54+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-15T13:09:54+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
+            "vcs_subdir": "meta-python",
+            "version": "1",
+            "yp_compatible_version": 44228
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "meta-tensorflow",
+            "id": 1078483,
+            "layer": 349,
+            "local_path": "",
+            "updated": "2026-09-15T13:09:50+0000",
+            "vcs_last_commit": "2026-08-24T14:08:50+0000",
+            "vcs_last_fetch": "2026-09-15T13:09:50+0000",
+            "vcs_last_rev": "3d48d19772134239b1c76af0e2e1f60a3f824c1d",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 44229
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 155781,
+            "layerbranch": 1078483,
+            "required": true
+        },
+        {
+            "dependency": 12,
+            "id": 155782,
+            "layerbranch": 1078483,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 155783,
+            "layerbranch": 1078483,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "openembedded-layer",
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-python",
+            "comparison": false,
+            "description": "PYTHON Language related items",
+            "id": 12,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-python",
+            "status": "P",
+            "summary": "PYTHON Language related items",
+            "updated": "2018-05-30T22:05:58+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-tensorflow",
+            "comparison": false,
+            "description": "TensorFlow is an open source software library for high performance numerical\r\ncomputation primarily used in machine learning. Its flexible architecture\r\nallows easy deployment of computation across a variety of types of platforms\r\n(CPUs, GPUs, TPUs), and a range of systems from single desktops to clusters\r\nof servers to mobile and edge devices.\r\n(https://www.tensorflow.org/)\r\n\r\nThe build system of TensorFlow is Bazel (https://bazel.build/).\r\n\r\nThis layer integrates TensorFlow to OE/Yocto platform\r\n- Integrate Google's bazel to Yocto\r\n- Add Yocto toolchain for bazel to support cross compiling.\r\n- Replace python package system(pip/wheel) with Yocto package system(rpm/deb/ipk).",
+            "id": 349,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-tensorflow",
+            "status": "P",
+            "summary": "This layer integrates TensorFlow to OE/Yocto platform",
+            "updated": "2020-03-31T01:03:04+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-tensorflow",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-tensorflow.git/commit/?id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "TensorFlow C/C++ Libraries",
+            "filename": "tensorflow-native_2.21.0.bb",
+            "filepath": "recipes-framework/tensorflow",
+            "homepage": "",
+            "id": 2465443,
+            "inherits": "bazel bazel-base gcc gcc-native native nopackages python3-dir python3native relocatable tensorflow_ver unsupportarch",
+            "layerbranch": 1078483,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "tensorflow-native",
+            "pr": "r0",
+            "provides": "tensorflow-native ",
+            "pv": "2.21.0",
+            "section": "base",
+            "srcrev": "a481b10260dfdf833a1b16007eead49c1d7febf3",
+            "summary": "",
+            "updated": "2026-05-26T03:05:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "TensorFlow C/C++ Libraries",
+            "filename": "tensorflow-lite_2.21.0.bb",
+            "filepath": "recipes-framework/tensorflow",
+            "homepage": "",
+            "id": 2465444,
+            "inherits": "bazel bazel-base clang gcc-native python3-dir python3native siteinfo tensorflow_ver unsupportarch",
+            "layerbranch": 1078483,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "tensorflow-lite",
+            "pr": "r0",
+            "provides": "tensorflow-lite ",
+            "pv": "2.21.0",
+            "section": "base",
+            "srcrev": "a481b10260dfdf833a1b16007eead49c1d7febf3",
+            "summary": "",
+            "updated": "2026-05-26T03:05:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "TensorFlow C/C++ Libraries",
+            "filename": "tensorflow_2.21.0.bb",
+            "filepath": "recipes-framework/tensorflow",
+            "homepage": "",
+            "id": 2465445,
+            "inherits": "bazel bazel-base clang gcc-native python3-dir python3native siteinfo tensorflow_ver unsupportarch",
+            "layerbranch": 1078483,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "tensorflow",
+            "pr": "r0",
+            "provides": "tensorflow ",
+            "pv": "2.21.0",
+            "section": "base",
+            "srcrev": "a481b10260dfdf833a1b16007eead49c1d7febf3",
+            "summary": "",
+            "updated": "2026-05-26T03:05:11+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "python3-keras_3.13.2.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/keras-team/keras",
+            "id": 2465446,
+            "inherits": "gcc gcc-native pypi python3-dir python3native python3targetconfig python_pep517 python_setuptools_build_meta setuptools3-base",
+            "layerbranch": 1078483,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "python3-keras",
+            "pr": "r0",
+            "provides": "python3-keras ",
+            "pv": "3.13.2",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "Keras 3: Deep Learning for Humans",
+            "updated": "2026-05-26T03:05:11+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "python3-opt-einsum_3.4.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/dgasmith/opt_einsum",
+            "id": 2465447,
+            "inherits": "gcc gcc-native pypi python3-dir python3native python3targetconfig python_hatchling python_pep517 setuptools3-base",
+            "layerbranch": 1078483,
+            "license": "MIT",
+            "pe": "",
+            "pn": "python3-opt-einsum",
+            "pr": "r0",
+            "provides": "python3-opt-einsum ",
+            "pv": "3.4.0",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "A tensor contraction order optimizer",
+            "updated": "2026-05-26T03:05:11+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "python3-astunparse_1.6.3.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/simonpercivall/astunparse",
+            "id": 2465448,
+            "inherits": "gcc gcc-native pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 1078483,
+            "license": "PSF-2.0",
+            "pe": "",
+            "pn": "python3-astunparse",
+            "pr": "r0",
+            "provides": "python3-astunparse ",
+            "pv": "1.6.3",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "An AST unparser for Python",
+            "updated": "2026-05-26T03:05:12+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "python3-mldtypes_0.5.4.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/jax-ml/ml_dtypes",
+            "id": 2465449,
+            "inherits": "gcc gcc-native pypi python3-dir python3native python3targetconfig python_pep517 python_setuptools_build_meta setuptools3-base",
+            "layerbranch": 1078483,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "python3-mldtypes",
+            "pr": "r0",
+            "provides": "python3-mldtypes ",
+            "pv": "0.5.4",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "The ml_dtypes is a stand-alone implementation of several NumPy dtype extensions used in machine learning libraries",
+            "updated": "2026-05-26T03:05:12+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "python3-google-pasta_0.2.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/google/pasta",
+            "id": 2465450,
+            "inherits": "gcc gcc-native pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 1078483,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "python3-google-pasta",
+            "pr": "r0",
+            "provides": "python3-google-pasta ",
+            "pv": "0.2.0",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "The AST-based Python refactoring library",
+            "updated": "2026-05-26T03:05:12+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "python3-optree_0.19.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/metaopt/optree",
+            "id": 2465451,
+            "inherits": "gcc gcc-native pypi python3-dir python3native python3targetconfig python_pep517 python_setuptools_build_meta setuptools3-base",
+            "layerbranch": 1078483,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "python3-optree",
+            "pr": "r0",
+            "provides": "python3-optree ",
+            "pv": "0.19.0",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "Optimized PyTree Utilities.",
+            "updated": "2026-05-26T03:05:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Java runtime based upon the OpenJDK Project, the community builds using source code from OpenJDK project",
+            "filename": "openjdk-21-native_21.0.2.bb",
+            "filepath": "recipes-devtools/openjdk",
+            "homepage": "",
+            "id": 2465452,
+            "inherits": "gcc gcc-native native nopackages relocatable",
+            "layerbranch": 1078483,
+            "license": "GPL-2.0-with-classpath-exception",
+            "pe": "",
+            "pn": "openjdk-21-native",
+            "pr": "r0",
+            "provides": "openjdk-21-native ",
+            "pv": "21.0.2",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-05-26T03:05:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Bazel build and test tool",
+            "filename": "bazel-native_7.7.0.bb",
+            "filepath": "recipes-devtools/bazel",
+            "homepage": "",
+            "id": 2465453,
+            "inherits": "bazel-base gcc gcc-native native nopackages python3-dir python3native relocatable",
+            "layerbranch": 1078483,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "bazel-native",
+            "pr": "r0",
+            "provides": "bazel-native ",
+            "pv": "7.7.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-05-26T03:05:12+0000"
+        }
+    ],
+    "wrtemplates": []
+}

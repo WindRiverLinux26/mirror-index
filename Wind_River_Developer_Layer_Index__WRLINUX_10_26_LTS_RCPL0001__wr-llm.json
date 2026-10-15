@@ -1,0 +1,1312 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_26_LTS_RCPL0001",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44223,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44224,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44226,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44227,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44228,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44229,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0"
+        },
+        {
+            "description": "",
+            "id": 44230,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44231,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44232,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44234,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44235,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44236,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 6.0"
+        },
+        {
+            "description": "",
+            "id": 44237,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44239,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44240,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1"
+        },
+        {
+            "description": "",
+            "id": 44241,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 6.1"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_26_LTS_RCPL0001",
+            "comparison": false,
+            "hidden": false,
+            "id": 497,
+            "name": "WRLINUX_10_26_LTS_RCPL0001",
+            "short_description": "WRLinux 10_26 LTS RCPL 0001",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2026-10-14T00:10:10+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "core",
+            "id": 1078463,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2026-10-14T20:10:16+0000",
+            "vcs_last_commit": "2026-10-10T07:10:34+0000",
+            "vcs_last_fetch": "2026-10-14T20:10:16+0000",
+            "vcs_last_rev": "2acc0d0060bf962d486c867c1d40f2cb0267190b",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44226
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "meta-python",
+            "id": 1078469,
+            "layer": 12,
+            "local_path": "",
+            "updated": "2026-09-15T13:09:54+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-15T13:09:54+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
+            "vcs_subdir": "meta-python",
+            "version": "1",
+            "yp_compatible_version": 44228
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "wr-llm",
+            "id": 1078496,
+            "layer": 577,
+            "local_path": "",
+            "updated": "2026-05-31T22:05:45+0000",
+            "vcs_last_commit": "2026-05-27T20:05:36+0000",
+            "vcs_last_fetch": "2026-05-31T22:05:45+0000",
+            "vcs_last_rev": "13960aba2de009427d574bed453e9ab240241a6a",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 44227
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 155806,
+            "layerbranch": 1078496,
+            "required": true
+        },
+        {
+            "dependency": 12,
+            "id": 155807,
+            "layerbranch": 1078496,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-python",
+            "comparison": false,
+            "description": "PYTHON Language related items",
+            "id": 12,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-python",
+            "status": "P",
+            "summary": "PYTHON Language related items",
+            "updated": "2018-05-30T22:05:58+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wr-llm",
+            "comparison": false,
+            "description": "This layer integrates ollama and llama.cpp to Wind River Linux based on Yocto/OE platform\r\n\r\n- Ollama: The easiest way to build with open models [1] \r\n\r\n- Llama.cpp: Run LLM Inference in C/C++ [2] \r\n\r\n[1] https://ollama.com/\r\n[2] https://llama-cpp.com/",
+            "id": 577,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "wr-llm",
+            "status": "P",
+            "summary": "Get up and running with large language models locally",
+            "updated": "2026-04-22T03:04:30+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/wr-llm",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "    -DCMAKE_BUILD_TYPE=Release     -DLLAMA_BUILD_TESTS=OFF  ",
+            "description": "The main goal of llama.cpp is to enable LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware - locally and in the cloud.",
+            "filename": "llama-cpp_b8783.bb",
+            "filepath": "recipes-framework/llama-cpp",
+            "homepage": "https://github.com/ggml-org/llama.cpp",
+            "id": 2465899,
+            "inherits": "cmake gcc gcc-native",
+            "layerbranch": 1078496,
+            "license": "MIT",
+            "pe": "",
+            "pn": "llama-cpp",
+            "pr": "r0",
+            "provides": "llama-cpp ",
+            "pv": "b8783",
+            "section": "base",
+            "srcrev": "e21cdc11a0461d8b0cbd28cc356d993bf6be7282",
+            "summary": "LLM inference in C/C++",
+            "updated": "2026-05-26T03:05:18+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "",
+            "filename": "ollama_0.20.3.bb",
+            "filepath": "recipes-framework/ollama",
+            "homepage": "https://ollama.com",
+            "id": 2465900,
+            "inherits": "cmake gcc gcc-native go goarch linuxloader systemd useradd useradd_base",
+            "layerbranch": 1078496,
+            "license": "MIT",
+            "pe": "",
+            "pn": "ollama",
+            "pr": "r0",
+            "provides": "ollama ",
+            "pv": "0.20.3",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Get up and running with large language models.",
+            "updated": "2026-05-26T03:05:18+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "ol-gemma3-4b_0.1.bb",
+            "filepath": "recipes-ollama-models/ol-gemma3",
+            "homepage": "https://ollama.com/library/gemma3",
+            "id": 2465901,
+            "inherits": "allarch features_check gcc gcc-native ollama-model useradd useradd_base",
+            "layerbranch": 1078496,
+            "license": "Gemma2",
+            "pe": "",
+            "pn": "ol-gemma3-4b",
+            "pr": "r0",
+            "provides": "ol-gemma3-4b ",
+            "pv": "0.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Gemma is a lightweight, family of models from Google built on Gemini technology. ",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "ol-gemma3-1b_0.1.bb",
+            "filepath": "recipes-ollama-models/ol-gemma3",
+            "homepage": "https://ollama.com/library/gemma3",
+            "id": 2465902,
+            "inherits": "allarch features_check gcc gcc-native ollama-model useradd useradd_base",
+            "layerbranch": 1078496,
+            "license": "Gemma2",
+            "pe": "",
+            "pn": "ol-gemma3-1b",
+            "pr": "r0",
+            "provides": "ol-gemma3-1b ",
+            "pv": "0.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Gemma is a lightweight, family of models from Google built on Gemini technology. ",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "ol-qwen3.5-4b_0.1.bb",
+            "filepath": "recipes-ollama-models/ol-qwen3.5",
+            "homepage": "https://ollama.com/library/qwen3.5",
+            "id": 2465903,
+            "inherits": "allarch features_check gcc gcc-native ollama-model useradd useradd_base",
+            "layerbranch": 1078496,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "ol-qwen3.5-4b",
+            "pr": "r0",
+            "provides": "ol-qwen3.5-4b ",
+            "pv": "0.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "ol-qwen3.5-0.8b_0.1.bb",
+            "filepath": "recipes-ollama-models/ol-qwen3.5",
+            "homepage": "https://ollama.com/library/qwen3.5",
+            "id": 2465904,
+            "inherits": "allarch features_check gcc gcc-native ollama-model useradd useradd_base",
+            "layerbranch": 1078496,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "ol-qwen3.5-0.8b",
+            "pr": "r0",
+            "provides": "ol-qwen3.5-0.8b ",
+            "pv": "0.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "ol-qwen3.5-2b_0.1.bb",
+            "filepath": "recipes-ollama-models/ol-qwen3.5",
+            "homepage": "https://ollama.com/library/qwen3.5",
+            "id": 2465905,
+            "inherits": "allarch features_check gcc gcc-native ollama-model useradd useradd_base",
+            "layerbranch": 1078496,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "ol-qwen3.5-2b",
+            "pr": "r0",
+            "provides": "ol-qwen3.5-2b ",
+            "pv": "0.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "The Ollama Python library provides the easiest way to integrate Python 3.8+ projects with Ollama.",
+            "filename": "python3-ollama_0.6.1.bb",
+            "filepath": "recipes-python/python3-ollama",
+            "homepage": "https://github.com/ollama/ollama-python",
+            "id": 2465906,
+            "inherits": "gcc gcc-native python3-dir python3native python3targetconfig python_hatchling python_pep517 setuptools3-base",
+            "layerbranch": 1078496,
+            "license": "MIT",
+            "pe": "",
+            "pn": "python3-ollama",
+            "pr": "r0",
+            "provides": "python3-ollama ",
+            "pv": "0.6.1",
+            "section": "base",
+            "srcrev": "0008226fda83c7b0c6722844313a5adfae30001c",
+            "summary": "",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "The OpenAI Python library provides convenient access to the OpenAI REST API from any Python 3.9+ application.",
+            "filename": "python3-openai_2.32.0.bb",
+            "filepath": "recipes-python/python3-openai",
+            "homepage": "https://github.com/openai/openai-python",
+            "id": 2465907,
+            "inherits": "gcc gcc-native python3-dir python3native python3targetconfig python_hatchling python_pep517 setuptools3-base",
+            "layerbranch": 1078496,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "python3-openai",
+            "pr": "r0",
+            "provides": "python3-openai ",
+            "pv": "2.32.0",
+            "section": "base",
+            "srcrev": "e507a4ebeea4c3f93cd48986014a3e2ca79230c2",
+            "summary": "",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "python3-jiter_0.14.0.bb",
+            "filepath": "recipes-python/jiter",
+            "homepage": "",
+            "id": 2465908,
+            "inherits": "cargo cargo-update-recipe-crates cargo_common gcc gcc-native pypi python3-dir python3native python3targetconfig python_maturin python_pep517 python_pyo3 rust rust-common rust-target-config setuptools3-base siteinfo",
+            "layerbranch": 1078496,
+            "license": "MIT",
+            "pe": "",
+            "pn": "python3-jiter",
+            "pr": "r0",
+            "provides": "python3-jiter ",
+            "pv": "0.14.0",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "Fast iterable JSON parser.",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "llama-swap_202.bb",
+            "filepath": "recipes-extended/llama-swap",
+            "homepage": "https://github.com/mostlygeek/llama-swap",
+            "id": 2465909,
+            "inherits": "gcc gcc-native go goarch linuxloader systemd",
+            "layerbranch": 1078496,
+            "license": "MIT",
+            "pe": "",
+            "pn": "llama-swap",
+            "pr": "r0",
+            "provides": "llama-swap ",
+            "pv": "202",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Run multiple generative AI models on your machine and hot-swap between them on demand.",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "hf-gemma-3-1b-it-gguf-q4_0.1.bb",
+            "filepath": "recipes-hf-models/hf-gemma3",
+            "homepage": "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF",
+            "id": 2465910,
+            "inherits": "allarch features_check gcc gcc-native hf-model systemd",
+            "layerbranch": 1078496,
+            "license": "Gemma",
+            "pe": "",
+            "pn": "hf-gemma-3-1b-it-gguf-q4",
+            "pr": "r0",
+            "provides": "hf-gemma-3-1b-it-gguf-q4 ",
+            "pv": "0.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Gemma 3, a multimodal addition to the Gemma family of lightweight open models.",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "hf-gemma-3-1b-it-gguf-q8_0.1.bb",
+            "filepath": "recipes-hf-models/hf-gemma3",
+            "homepage": "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF",
+            "id": 2465911,
+            "inherits": "allarch features_check gcc gcc-native hf-model systemd",
+            "layerbranch": 1078496,
+            "license": "Gemma",
+            "pe": "",
+            "pn": "hf-gemma-3-1b-it-gguf-q8",
+            "pr": "r0",
+            "provides": "hf-gemma-3-1b-it-gguf-q8 ",
+            "pv": "0.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Gemma 3, a multimodal addition to the Gemma family of lightweight open models.",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "hf-qwen3.5-2b-gguf-ud-q4_0.1.bb",
+            "filepath": "recipes-hf-models/hf-qwen3.5",
+            "homepage": "https://unsloth.ai/docs/models/qwen3.5",
+            "id": 2465912,
+            "inherits": "allarch features_check gcc gcc-native hf-model systemd",
+            "layerbranch": 1078496,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "hf-qwen3.5-2b-gguf-ud-q4",
+            "pr": "r0",
+            "provides": "hf-qwen3.5-2b-gguf-ud-q4 ",
+            "pv": "0.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Qwen3.5 represents a significant leap forward, integrating breakthroughs in multimodal learning, architectural efficiency, reinforcement learning scale, and global accessibility to empower developers ",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "hf-qwen3.5-0.8b-gguf-ud-q4_0.1.bb",
+            "filepath": "recipes-hf-models/hf-qwen3.5",
+            "homepage": "https://unsloth.ai/docs/models/qwen3.5",
+            "id": 2465913,
+            "inherits": "allarch features_check gcc gcc-native hf-model systemd",
+            "layerbranch": 1078496,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "hf-qwen3.5-0.8b-gguf-ud-q4",
+            "pr": "r0",
+            "provides": "hf-qwen3.5-0.8b-gguf-ud-q4 ",
+            "pv": "0.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Qwen3.5 represents a significant leap forward, integrating breakthroughs in multimodal learning, architectural efficiency, reinforcement learning scale, and global accessibility to empower developers ",
+            "updated": "2026-05-26T03:05:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "NVIDIA Linux Driver",
+            "filename": "nvidia-driver-x86-64_590.48.01.bb",
+            "filepath": "dynamic-layers/meta-tegra/recipes-devtools/cuda",
+            "homepage": "",
+            "id": 2465914,
+            "inherits": "gcc gcc-native nvidia-driver-x86-64 systemd",
+            "layerbranch": 1078496,
+            "license": "Proprietary",
+            "pe": "",
+            "pn": "nvidia-driver-x86-64",
+            "pr": "r0",
+            "provides": "nvidia-driver-x86-64 ",
+            "pv": "590.48.01",
+            "section": "nvidia/drivers",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-05-26T03:05:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "NVIDIA Linux Open GPU Kernel Module Source",
+            "filename": "nvidia-open-gpu-kernel-module_590.48.01.bb",
+            "filepath": "dynamic-layers/meta-tegra/recipes-kernel/nvidia-kernel-oot",
+            "homepage": "github.com/NVIDIA/open-gpu-kernel-modules",
+            "id": 2465915,
+            "inherits": "gcc gcc-native kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 1078496,
+            "license": "MIT & GPL-2.0-only",
+            "pe": "",
+            "pn": "nvidia-open-gpu-kernel-module",
+            "pr": "r0",
+            "provides": "nvidia-open-gpu-kernel-module ",
+            "pv": "590.48.01",
+            "section": "base",
+            "srcrev": "2ccbad25e1af6a6ee6f38cf569f89f8b65d658ab",
+            "summary": "",
+            "updated": "2026-05-26T03:05:21+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "Add llama.cpp and llama-swap support to the project",
+            "id": 136842,
+            "layerbranch": 1078496,
+            "name": "feature/llama-cpp",
+            "updated": "2026-05-26T03:05:18+0000"
+        },
+        {
+            "description": "Add ollama support to the project",
+            "id": 136843,
+            "layerbranch": 1078496,
+            "name": "feature/ollama",
+            "updated": "2026-05-26T03:05:18+0000"
+        }
+    ]
+}

@@ -1,0 +1,1759 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_26_LTS_RCPL0001",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44223,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44224,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44226,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44227,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44228,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44229,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0"
+        },
+        {
+            "description": "",
+            "id": 44230,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44231,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44232,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44234,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44235,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44236,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 6.0"
+        },
+        {
+            "description": "",
+            "id": 44237,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44239,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44240,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1"
+        },
+        {
+            "description": "",
+            "id": 44241,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 6.1"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_26_LTS_RCPL0001",
+            "comparison": false,
+            "hidden": false,
+            "id": 497,
+            "name": "WRLINUX_10_26_LTS_RCPL0001",
+            "short_description": "WRLinux 10_26 LTS RCPL 0001",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2026-10-14T00:10:10+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [
+        {
+            "description": "OpenEmbedded",
+            "id": 16784,
+            "layerbranch": 1078519,
+            "name": "ostree",
+            "updated": "2026-05-26T03:05:19+0000"
+        }
+    ],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "core",
+            "id": 1078463,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2026-10-14T20:10:16+0000",
+            "vcs_last_commit": "2026-10-10T07:10:34+0000",
+            "vcs_last_fetch": "2026-10-14T20:10:16+0000",
+            "vcs_last_rev": "2acc0d0060bf962d486c867c1d40f2cb0267190b",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44226
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "wr-template",
+            "id": 1078475,
+            "layer": 55,
+            "local_path": "",
+            "updated": "2026-05-26T03:05:11+0000",
+            "vcs_last_commit": "2026-04-16T19:04:04+0000",
+            "vcs_last_fetch": "2026-05-26T03:05:11+0000",
+            "vcs_last_rev": "ae6ae791deab69d6027369be066fbf8325ecc8ba",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 44213
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "wrlinux",
+            "id": 1078519,
+            "layer": 49,
+            "local_path": "",
+            "updated": "2026-10-14T20:10:47+0000",
+            "vcs_last_commit": "2026-10-14T19:10:49+0000",
+            "vcs_last_fetch": "2026-10-14T20:10:47+0000",
+            "vcs_last_rev": "f8e5a08679fded4c8d5e809e29576c019cccbf52",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 44213
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 155885,
+            "layerbranch": 1078519,
+            "required": true
+        },
+        {
+            "dependency": 55,
+            "id": 155886,
+            "layerbranch": 1078519,
+            "required": true
+        },
+        {
+            "dependency": 353,
+            "id": 155887,
+            "layerbranch": 1078519,
+            "required": false
+        },
+        {
+            "dependency": 192,
+            "id": 155888,
+            "layerbranch": 1078519,
+            "required": false
+        },
+        {
+            "dependency": 8,
+            "id": 155889,
+            "layerbranch": 1078519,
+            "required": false
+        },
+        {
+            "dependency": 15,
+            "id": 155890,
+            "layerbranch": 1078519,
+            "required": false
+        },
+        {
+            "dependency": 235,
+            "id": 155891,
+            "layerbranch": 1078519,
+            "required": false
+        },
+        {
+            "dependency": 11,
+            "id": 155892,
+            "layerbranch": 1078519,
+            "required": false
+        },
+        {
+            "dependency": 7,
+            "id": 155893,
+            "layerbranch": 1078519,
+            "required": false
+        },
+        {
+            "dependency": 45,
+            "id": 155894,
+            "layerbranch": 1078519,
+            "required": false
+        },
+        {
+            "dependency": 10,
+            "id": 155895,
+            "layerbranch": 1078519,
+            "required": false
+        },
+        {
+            "dependency": 5,
+            "id": 155896,
+            "layerbranch": 1078519,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wrlinux",
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wr-template",
+            "comparison": false,
+            "description": "This layer provides template processing support to OpenEmbedded.  Wind River\r\ntemplates are a mechanism that permit various configurations to be enabled\r\nwith a simple setting.",
+            "id": 55,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "wr-template",
+            "status": "P",
+            "summary": "Wind River Template Support",
+            "updated": "2018-05-30T22:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-template",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "This package contains scripts to find out if the build resultdiffers to a former build.",
+            "filename": "build-compare_git.bb",
+            "filepath": "recipes-devtools/build-compare",
+            "homepage": "https://github.com/openSUSE/build-compare",
+            "id": 2467282,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1078519,
+            "license": "GPL-2.0-only",
+            "pe": "1",
+            "pn": "build-compare",
+            "pr": "r0",
+            "provides": "build-compare ",
+            "pv": "2020.05.29+gitX",
+            "section": "base",
+            "srcrev": "102d844ce052c6dec6c56ee1d471bde72a1b4633",
+            "summary": "Build Result Compare Script",
+            "updated": "2026-10-14T20:10:41+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "git-lfs_3.7.1.bb",
+            "filepath": "recipes-devtools/git-lfs",
+            "homepage": "https://github.com/git-lfs/git-lfs",
+            "id": 2467283,
+            "inherits": "gcc gcc-native go goarch linuxloader",
+            "layerbranch": 1078519,
+            "license": "MIT",
+            "pe": "",
+            "pn": "git-lfs",
+            "pr": "r0",
+            "provides": "git-lfs ",
+            "pv": "3.7.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Git LFS is a command line extension and specification for managing large files with Git.",
+            "updated": "2026-10-14T20:10:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "u-boot-uenv_2.0.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "",
+            "id": 2467284,
+            "inherits": "deploy features_check gcc gcc-native",
+            "layerbranch": 1078519,
+            "license": "MIT",
+            "pe": "",
+            "pn": "u-boot-uenv",
+            "pr": "r0",
+            "provides": "u-boot-uenv ",
+            "pv": "2.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "U-Boot boot.scr SD boot environment generation for ARM targets",
+            "updated": "2026-10-14T20:10:42+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "mttyexec_0.1.bb",
+            "filepath": "recipes-support/mttyexec",
+            "homepage": "https://github.com/WindRiver-Labs/wr-ostree",
+            "id": 2467285,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1078519,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "mttyexec",
+            "pr": "r0",
+            "provides": "mttyexec ",
+            "pv": "0.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Service funtion to multiplex one or more serial ports and tty console devices",
+            "updated": "2026-10-14T20:10:42+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Example of how to run some postinstall and postrm operations to complete an upgrade with ostree",
+            "filename": "ostree-upgrade-mgr_1.0.bb",
+            "filepath": "recipes-support/ostree-upgrade-mgr",
+            "homepage": "",
+            "id": 2467286,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1078519,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "ostree-upgrade-mgr",
+            "pr": "r0",
+            "provides": "ostree-upgrade-mgr ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "ostree upgrade config manager",
+            "updated": "2026-10-14T20:10:42+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "anspass is a daemon/client utility to save and retrieve     credentials by other utilities that implement the askpass interface.",
+            "filename": "anspass_git.bb",
+            "filepath": "recipes-support/anspass",
+            "homepage": "",
+            "id": 2467287,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1078519,
+            "license": "LGPL-2.0-only",
+            "pe": "",
+            "pn": "anspass",
+            "pr": "r0",
+            "provides": "anspass ",
+            "pv": "1.0+gitX",
+            "section": "base",
+            "srcrev": "726c141fe582add0addf7d128aa33d1e3c532b56",
+            "summary": "Credential storage for utilities that implement the askpass interface",
+            "updated": "2026-10-14T20:10:42+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "An image with Anaconda to do installation.",
+            "filename": "wrlinux-image-installer.bb",
+            "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
+            "homepage": "",
+            "id": 2467288,
+            "inherits": "anaconda_image core-image create-spdx-image-3.0 create-spdx-sdk-3.0 fs-uuid gcc gcc-native image image-artifact-names image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common nopackages overlayfs-etc popula",
+            "layerbranch": 1078519,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wrlinux-image-installer",
+            "pr": "r0",
+            "provides": "wrlinux-image-installer ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-10-14T20:10:43+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "The initramfs contains anaconda installer, which supports PXE install (net boot installation)",
+            "filename": "wrlinux-image-installer-initramfs.bb",
+            "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
+            "homepage": "",
+            "id": 2467289,
+            "inherits": "anaconda_image core-image create-spdx-image-3.0 create-spdx-sdk-3.0 gcc gcc-native image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemub",
+            "layerbranch": 1078519,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wrlinux-image-installer-initramfs",
+            "pr": "r0",
+            "provides": "wrlinux-image-installer-initramfs ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-10-14T20:10:43+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Wind River logos for branding",
+            "filename": "windriver-logos.bb",
+            "filepath": "dynamic-layers/meta-anaconda/recipes-installer/logos",
+            "homepage": "",
+            "id": 2467290,
+            "inherits": "allarch gcc gcc-native",
+            "layerbranch": 1078519,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "windriver-logos",
+            "pr": "r0",
+            "provides": "windriver-logos ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-10-14T20:10:43+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "initramfs-ostree.bb",
+            "filepath": "dynamic-layers/openembedded-layer/recipes-sota/initrdscripts",
+            "homepage": "",
+            "id": 2467291,
+            "inherits": "gcc gcc-native",
+            "layerbranch": 1078519,
+            "license": "MIT",
+            "pe": "",
+            "pn": "initramfs-ostree",
+            "pr": "r9",
+            "provides": "initramfs-ostree ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Basic init for initramfs to mount ostree and pivot root",
+            "updated": "2026-10-14T20:10:43+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "This not a full theme for desktop environment, only includes                windriver branded desktop wallpapers and lxdm login theme. ",
+            "filename": "wr-themes_1.0.bb",
+            "filepath": "recipes-graphics/wr-themes",
+            "homepage": "http://www.windriver.com",
+            "id": 2467292,
+            "inherits": "features_check gcc gcc-native",
+            "layerbranch": 1078519,
+            "license": "MIT & CC-BY-ND-3.0",
+            "pe": "",
+            "pn": "wr-themes",
+            "pr": "r0",
+            "provides": "wr-themes ",
+            "pv": "1.0",
+            "section": "x11",
+            "srcrev": "",
+            "summary": "Wind River Linux Desktop Themes",
+            "updated": "2026-10-14T20:10:43+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "initramfs-nfs-boot_1.0.bb",
+            "filepath": "recipes-core/initrdscripts",
+            "homepage": "",
+            "id": 2467293,
+            "inherits": "gcc gcc-native systemd",
+            "layerbranch": 1078519,
+            "license": "MIT",
+            "pe": "",
+            "pn": "initramfs-nfs-boot",
+            "pr": "r0",
+            "provides": "initramfs-nfs-boot ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "initramfs for NFS boot",
+            "updated": "2026-10-14T20:10:44+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "OSTree initramfs image",
+            "filename": "initramfs-ostree-image.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 2467294,
+            "inherits": "core-image create-spdx-image-3.0 create-spdx-sdk-3.0 gcc gcc-native image image-artifact-names image-postinst-intercepts image_types image_types_ostree image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext q",
+            "layerbranch": 1078519,
+            "license": "MIT",
+            "pe": "",
+            "pn": "initramfs-ostree-image",
+            "pr": "r0",
+            "provides": "initramfs-ostree-image ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-10-14T20:10:44+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "A list of commonly used native packages.",
+            "filename": "wr-common-packages-native.bb",
+            "filepath": "recipes-base/wr-common-packages-native",
+            "homepage": "",
+            "id": 2467295,
+            "inherits": "gcc gcc-native native nopackages relocatable",
+            "layerbranch": 1078519,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wr-common-packages-native",
+            "pr": "r2",
+            "provides": "wr-common-packages-native ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-10-14T20:10:44+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "Add openssl-fips to the image",
+            "id": 136844,
+            "layerbranch": 1078519,
+            "name": "feature/openssl-fips",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Enable archiver class and original src mode",
+            "id": 136845,
+            "layerbranch": 1078519,
+            "name": "feature/archiver",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add aws to the filesystem",
+            "id": 136846,
+            "layerbranch": 1078519,
+            "name": "feature/aws",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add netplan to the image",
+            "id": 136847,
+            "layerbranch": 1078519,
+            "name": "feature/netplan",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add dev packages to image",
+            "id": 136848,
+            "layerbranch": 1078519,
+            "name": "feature/dev-pkgs",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Set aarch64's max-page-size to ${AARCH64_LINKER_MAX_PAGE_SIZE}",
+            "id": 136849,
+            "layerbranch": 1078519,
+            "name": "feature/aarch64-linker-max-page-size",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Adds unit testing frameworks",
+            "id": 136850,
+            "layerbranch": 1078519,
+            "name": "feature/unit-test",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "install podman into image",
+            "id": 136851,
+            "layerbranch": 1078519,
+            "name": "feature/podman",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Adds qt6 to the image",
+            "id": 136852,
+            "layerbranch": 1078519,
+            "name": "feature/qt-essentials",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add LAPACK and LAPACKE to the image",
+            "id": 136853,
+            "layerbranch": 1078519,
+            "name": "feature/lapack",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add kubernetes to the image",
+            "id": 136854,
+            "layerbranch": 1078519,
+            "name": "feature/kubernetes",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "This template allows the build to use the linux-dummy kernel, which provides no real kernel, but satisfies dependancies on virtual/kernel. This is useful when the build does not require a kernel, such as when building containers, saving build time as a re",
+            "id": 136855,
+            "layerbranch": 1078519,
+            "name": "feature/empty-kernel",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add valgrind to the image",
+            "id": 136856,
+            "layerbranch": 1078519,
+            "name": "feature/valgrind",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Instructs RPM to enforce package signature verification on the target.",
+            "id": 136857,
+            "layerbranch": 1078519,
+            "name": "feature/rpm-required-sig",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "install buildah into image",
+            "id": 136858,
+            "layerbranch": 1078519,
+            "name": "feature/buildah",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add docker-registry to the image",
+            "id": 136859,
+            "layerbranch": 1078519,
+            "name": "feature/container-registry",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Force users to update passwords when next time serial or graphical login",
+            "id": 136860,
+            "layerbranch": 1078519,
+            "name": "feature/passwd-expire",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add vsomeip to the image",
+            "id": 136861,
+            "layerbranch": 1078519,
+            "name": "feature/vsomeip",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Adds grpc to the image",
+            "id": 136862,
+            "layerbranch": 1078519,
+            "name": "feature/grpc",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Enable f2fs kernel options and user-space utility",
+            "id": 136863,
+            "layerbranch": 1078519,
+            "name": "feature/f2fstools",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Enable Xwayland image",
+            "id": 136864,
+            "layerbranch": 1078519,
+            "name": "feature/weston-demo",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Enable on-target software development",
+            "id": 136865,
+            "layerbranch": 1078519,
+            "name": "feature/target-toolchain",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "",
+            "id": 136866,
+            "layerbranch": 1078519,
+            "name": "feature/tcpslice",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Preserve buildtime of packages.",
+            "id": 136867,
+            "layerbranch": 1078519,
+            "name": "feature/preserve-buildtime",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Enable dm-verity support",
+            "id": 136868,
+            "layerbranch": 1078519,
+            "name": "feature/dm-verity",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "",
+            "id": 136869,
+            "layerbranch": 1078519,
+            "name": "feature/ostree",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add tensorflow to the image",
+            "id": 136870,
+            "layerbranch": 1078519,
+            "name": "feature/tensorflow",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add gdbserver to image",
+            "id": 136871,
+            "layerbranch": 1078519,
+            "name": "feature/gdbserver",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Enable Data Plane Development Kit (DPDK)",
+            "id": 136872,
+            "layerbranch": 1078519,
+            "name": "feature/dpdk",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add on-target package management to image",
+            "id": 136873,
+            "layerbranch": 1078519,
+            "name": "feature/package-management",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Enable ipmi",
+            "id": 136874,
+            "layerbranch": 1078519,
+            "name": "feature/ipmi",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Enable common Managed Build Project (mbp) settings",
+            "id": 136875,
+            "layerbranch": 1078519,
+            "name": "feature/mbp-project",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add gdb and gdbserver to image",
+            "id": 136876,
+            "layerbranch": 1078519,
+            "name": "feature/gdb",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add opencv to the image",
+            "id": 136877,
+            "layerbranch": 1078519,
+            "name": "feature/opencv",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add system and process monitoring utilities to the image",
+            "id": 136878,
+            "layerbranch": 1078519,
+            "name": "feature/system-stats",
+            "updated": "2026-05-26T03:05:19+0000"
+        },
+        {
+            "description": "Add nftables to the image",
+            "id": 136879,
+            "layerbranch": 1078519,
+            "name": "feature/nftables",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "",
+            "id": 136880,
+            "layerbranch": 1078519,
+            "name": "feature/ntp",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Add libmbim to the image",
+            "id": 136881,
+            "layerbranch": 1078519,
+            "name": "feature/mbim",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "",
+            "id": 136882,
+            "layerbranch": 1078519,
+            "name": "feature/posix_26",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Enable package-test functionality",
+            "id": 136883,
+            "layerbranch": 1078519,
+            "name": "feature/ptest",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "",
+            "id": 136884,
+            "layerbranch": 1078519,
+            "name": "feature/ecryptfs",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "enable Distro Feature usrmerge",
+            "id": 136885,
+            "layerbranch": 1078519,
+            "name": "feature/usrmerge",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "",
+            "id": 136886,
+            "layerbranch": 1078519,
+            "name": "feature/wr-profiling-kernel-overrides",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Add gcc-sanitizers to image",
+            "id": 136887,
+            "layerbranch": 1078519,
+            "name": "feature/gcc-sanitizers",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Enable systemd-bootchart and generate bootchart-*.svg and",
+            "id": 136888,
+            "layerbranch": 1078519,
+            "name": "feature/systemd-bootchart",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Add docker-moby to the image",
+            "id": 136889,
+            "layerbranch": 1078519,
+            "name": "feature/docker-moby",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Enable net-snmp-support",
+            "id": 136890,
+            "layerbranch": 1078519,
+            "name": "feature/snmp",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "",
+            "id": 136891,
+            "layerbranch": 1078519,
+            "name": "feature/gperftools",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Adds qt6 examples to the image",
+            "id": 136892,
+            "layerbranch": 1078519,
+            "name": "feature/qt-examples",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Kernel Hardening Features",
+            "id": 136893,
+            "layerbranch": 1078519,
+            "name": "feature/kernel-hardening",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Enable readonly-root filesystem",
+            "id": 136894,
+            "layerbranch": 1078519,
+            "name": "feature/readonly-root",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Install busybox to rootfs",
+            "id": 136895,
+            "layerbranch": 1078519,
+            "name": "feature/busybox",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Add sftp-server and the OpenSSH SSH server to the image",
+            "id": 136896,
+            "layerbranch": 1078519,
+            "name": "feature/sftp-server",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "",
+            "id": 136897,
+            "layerbranch": 1078519,
+            "name": "feature/chrony",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Instructs RPM to look for Armored PGP keys on the local disk when needed.",
+            "id": 136898,
+            "layerbranch": 1078519,
+            "name": "feature/rpm-local-keys",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Adds clang support in SDK",
+            "id": 136899,
+            "layerbranch": 1078519,
+            "name": "feature/clang-sdk",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Set the default syslog to sysklogd",
+            "id": 136900,
+            "layerbranch": 1078519,
+            "name": "feature/sysklogd",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "",
+            "id": 136901,
+            "layerbranch": 1078519,
+            "name": "feature/installer-support",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Enable FORTRAN support from gcc",
+            "id": 136902,
+            "layerbranch": 1078519,
+            "name": "feature/fortran",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Enable kiosk mode for epiphany",
+            "id": 136903,
+            "layerbranch": 1078519,
+            "name": "feature/web-kiosk",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "use podman and skopeo to support cosign based signed container",
+            "id": 136904,
+            "layerbranch": 1078519,
+            "name": "feature/signed-container",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Adds additional qt6 modules to the image",
+            "id": 136905,
+            "layerbranch": 1078519,
+            "name": "feature/qt-addons",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Add packagegroup-self-hosted to the image",
+            "id": 136906,
+            "layerbranch": 1078519,
+            "name": "feature/self-hosted",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Intel Open Visual Inference and Neural network Optimization (OpenVINO)",
+            "id": 136907,
+            "layerbranch": 1078519,
+            "name": "feature/openvino",
+            "updated": "2026-05-26T23:05:44+0000"
+        },
+        {
+            "description": "Add nerdctl to the image",
+            "id": 136908,
+            "layerbranch": 1078519,
+            "name": "feature/nerdctl",
+            "updated": "2026-05-26T03:05:20+0000"
+        },
+        {
+            "description": "Add wireguard to the image",
+            "id": 136909,
+            "layerbranch": 1078519,
+            "name": "feature/wireguard",
+            "updated": "2026-05-26T03:05:20+0000"
+        }
+    ]
+}

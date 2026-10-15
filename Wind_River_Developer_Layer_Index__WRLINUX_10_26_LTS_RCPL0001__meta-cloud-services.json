@@ -1,0 +1,1561 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_26_LTS_RCPL0001",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44223,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44224,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44226,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44227,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44228,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44229,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0"
+        },
+        {
+            "description": "",
+            "id": 44230,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44231,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44232,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44234,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44235,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44236,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 6.0"
+        },
+        {
+            "description": "",
+            "id": 44237,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44239,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44240,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1"
+        },
+        {
+            "description": "",
+            "id": 44241,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 6.1"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_26_LTS_RCPL0001",
+            "comparison": false,
+            "hidden": false,
+            "id": 497,
+            "name": "WRLINUX_10_26_LTS_RCPL0001",
+            "short_description": "WRLinux 10_26 LTS RCPL 0001",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2026-10-14T00:10:10+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "core",
+            "id": 1078463,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2026-10-14T20:10:16+0000",
+            "vcs_last_commit": "2026-10-10T07:10:34+0000",
+            "vcs_last_fetch": "2026-10-14T20:10:16+0000",
+            "vcs_last_rev": "2acc0d0060bf962d486c867c1d40f2cb0267190b",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44226
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "networking-layer",
+            "id": 1078498,
+            "layer": 11,
+            "local_path": "",
+            "updated": "2026-09-15T13:09:27+0000",
+            "vcs_last_commit": "2026-08-27T15:08:38+0000",
+            "vcs_last_fetch": "2026-09-15T13:09:27+0000",
+            "vcs_last_rev": "3a2e1f9649b2b13a4bef311ee17bb2ad1ac5fc19",
+            "vcs_subdir": "meta-networking",
+            "version": "1",
+            "yp_compatible_version": 44228
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "filesystems-layer",
+            "id": 1078510,
+            "layer": 8,
+            "local_path": "",
+            "updated": "2026-09-15T13:09:57+0000",
+            "vcs_last_commit": "2026-08-11T07:08:00+0000",
+            "vcs_last_fetch": "2026-09-15T13:09:57+0000",
+            "vcs_last_rev": "3ad895fb6a4bdd3778df337b35aa25e728ccc7b8",
+            "vcs_subdir": "meta-filesystems",
+            "version": "1",
+            "yp_compatible_version": 44228
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "virtualization-layer",
+            "id": 1078511,
+            "layer": 45,
+            "local_path": "",
+            "updated": "2026-09-23T23:09:22+0000",
+            "vcs_last_commit": "2026-09-16T14:09:29+0000",
+            "vcs_last_fetch": "2026-09-23T23:09:22+0000",
+            "vcs_last_rev": "159b4559f493b9cbd10dc54d3de207ed6b826752",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 44229
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "cloud-services-layer",
+            "id": 1078512,
+            "layer": 141,
+            "local_path": "",
+            "updated": "2026-10-07T23:10:13+0000",
+            "vcs_last_commit": "2026-09-24T11:09:34+0000",
+            "vcs_last_fetch": "2026-10-07T23:10:13+0000",
+            "vcs_last_rev": "a712d2facfed50d9f577fcf6e00539bda25b3f93",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44229
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 155860,
+            "layerbranch": 1078512,
+            "required": true
+        },
+        {
+            "dependency": 8,
+            "id": 155861,
+            "layerbranch": 1078512,
+            "required": true
+        },
+        {
+            "dependency": 11,
+            "id": 155862,
+            "layerbranch": 1078512,
+            "required": true
+        },
+        {
+            "dependency": 45,
+            "id": 155863,
+            "layerbranch": 1078512,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "filesystems-layer",
+            "comparison": false,
+            "description": "Filesystem related libraries and programs.  Includes support for FUSE and related components.",
+            "id": 8,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-filesystems",
+            "status": "P",
+            "summary": "Filesystem related libraries and programs",
+            "updated": "2018-05-30T22:05:59+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "networking-layer",
+            "comparison": false,
+            "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
+            "id": 11,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-networking",
+            "status": "P",
+            "summary": "Networking-related packages and configuration",
+            "updated": "2018-05-30T22:05:09+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "virtualization-layer",
+            "comparison": false,
+            "description": "This layer provides lxc package build for Wind River Linux.  It\r\nis required by most other layers that Wind River provides.",
+            "id": 45,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-virtualization",
+            "status": "P",
+            "summary": "Virtualization related components",
+            "updated": "2018-05-30T22:05:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-virtualization",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "cloud-services-layer",
+            "comparison": false,
+            "description": "meta cloud services",
+            "id": 141,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-cloud-services",
+            "status": "P",
+            "summary": "meta cloud services",
+            "updated": "2018-05-30T22:05:35+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "sigdump_0.2.4.bb",
+            "filepath": "recipes-devtools/ruby",
+            "homepage": "https://github.com/frsyuki/sigdump",
+            "id": 2466986,
+            "inherits": "gcc gcc-native ruby",
+            "layerbranch": 1078512,
+            "license": "MIT",
+            "pe": "",
+            "pn": "sigdump",
+            "pr": "r0",
+            "provides": "sigdump ",
+            "pv": "0.2.4",
+            "section": "base",
+            "srcrev": "57570f04456560512e4efc1c6fa695b76c17dc0d",
+            "summary": "Use signal to show stacktrace of a Ruby process without restarting it",
+            "updated": "2026-05-26T03:05:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "http-parser.rb_0.8.0.bb",
+            "filepath": "recipes-devtools/ruby",
+            "homepage": "https://rubygems.org/gems/http_parser.rb",
+            "id": 2466987,
+            "inherits": "gcc gcc-native rubyv2",
+            "layerbranch": 1078512,
+            "license": "MIT",
+            "pe": "",
+            "pn": "http-parser.rb",
+            "pr": "r0",
+            "provides": "http-parser.rb ",
+            "pv": "0.8.0",
+            "section": "base",
+            "srcrev": "71ecce2a498f87ba83ea3d77322a001132610a6e",
+            "summary": "simple callback-based HTTP request/response parser",
+            "updated": "2026-05-26T03:05:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "yajl-ruby_1.4.0.bb",
+            "filepath": "recipes-devtools/ruby",
+            "homepage": "http://rdoc.info/projects/brianmario/yajl-ruby",
+            "id": 2466988,
+            "inherits": "gcc gcc-native rubyv2",
+            "layerbranch": 1078512,
+            "license": "MIT",
+            "pe": "",
+            "pn": "yajl-ruby",
+            "pr": "r0",
+            "provides": "yajl-ruby ",
+            "pv": "1.4.0",
+            "section": "base",
+            "srcrev": "8830754ac1ca04a0c14f71f6e7c1d240934366fe",
+            "summary": "A streaming JSON parsing and encoding library for Ruby (C bindings to yajl)",
+            "updated": "2026-05-26T03:05:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "fluentd_1.19.2.bb",
+            "filepath": "recipes-devtools/ruby",
+            "homepage": "https://www.fluentd.org/",
+            "id": 2466989,
+            "inherits": "gcc gcc-native ruby",
+            "layerbranch": 1078512,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "fluentd",
+            "pr": "r0",
+            "provides": "fluentd ",
+            "pv": "1.19.2",
+            "section": "base",
+            "srcrev": "76841666b4e4aade23f0c100a7e048995f7d52c8",
+            "summary": "Fluentdu Open-Source Log Collector",
+            "updated": "2026-05-26T03:05:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "concurrent-ruby_1.1.9.bb",
+            "filepath": "recipes-devtools/ruby",
+            "homepage": "http://www.concurrent-ruby.com",
+            "id": 2466990,
+            "inherits": "gcc gcc-native ruby",
+            "layerbranch": 1078512,
+            "license": "MIT",
+            "pe": "",
+            "pn": "concurrent-ruby",
+            "pr": "r0",
+            "provides": "concurrent-ruby ",
+            "pv": "1.1.9",
+            "section": "base",
+            "srcrev": "52c08fca13cc3811673ea2f6fdb244a0e42e0ebe",
+            "summary": "Modern concurrency tools including agents, futures, promises, thread pools, supervisors, and more. Inspired by Erlang, Clojure, Scala, Go, Java, JavaScript, and classic concurrency patterns.",
+            "updated": "2026-05-26T03:05:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "tzinfo_2.0.6.bb",
+            "filepath": "recipes-devtools/ruby",
+            "homepage": "https://tzinfo.github.io/",
+            "id": 2466991,
+            "inherits": "gcc gcc-native ruby",
+            "layerbranch": 1078512,
+            "license": "MIT",
+            "pe": "",
+            "pn": "tzinfo",
+            "pr": "r0",
+            "provides": "tzinfo ",
+            "pv": "2.0.6",
+            "section": "base",
+            "srcrev": "5fc278676efde3c85a788fa85ddabddcd91b846f",
+            "summary": "TZInfo - Ruby Timezone Library",
+            "updated": "2026-05-26T03:05:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "cool.io_1.9.0.bb",
+            "filepath": "recipes-devtools/ruby",
+            "homepage": "http://coolio.github.com",
+            "id": 2466992,
+            "inherits": "gcc gcc-native rubyv2",
+            "layerbranch": 1078512,
+            "license": "MIT",
+            "pe": "",
+            "pn": "cool.io",
+            "pr": "r0",
+            "provides": "cool.io ",
+            "pv": "1.9.0",
+            "section": "base",
+            "srcrev": "6f85a2a104488e5c7cb128b9a83058d28ba16d37",
+            "summary": "Simple evented I/O for Ruby (but please check out Celluloid::IO instead)",
+            "updated": "2026-05-26T03:05:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "msgpack_1.7.3.bb",
+            "filepath": "recipes-devtools/ruby",
+            "homepage": "http://msgpack.org/",
+            "id": 2466993,
+            "inherits": "gcc gcc-native rubyv2",
+            "layerbranch": 1078512,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "msgpack",
+            "pr": "r0",
+            "provides": "msgpack ",
+            "pv": "1.7.3",
+            "section": "base",
+            "srcrev": "6bbaa97600430c438675540e1f970d61ce5ccd9e",
+            "summary": "MessagePack implementation for Ruby",
+            "updated": "2026-05-26T03:05:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "strptime_0.2.5.bb",
+            "filepath": "recipes-devtools/ruby",
+            "homepage": "https://github.com/nurse/strptime",
+            "id": 2466994,
+            "inherits": "gcc gcc-native rubyv2",
+            "layerbranch": 1078512,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "strptime",
+            "pr": "r0",
+            "provides": "strptime ",
+            "pv": "0.2.5",
+            "section": "base",
+            "srcrev": "1583aaa510cae4660907b22c8262ab31b1eb1864",
+            "summary": "a fast strpitme engine",
+            "updated": "2026-05-26T03:05:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "tzinfo-data_1.2024.2.bb",
+            "filepath": "recipes-devtools/ruby",
+            "homepage": "https://tzinfo.github.io/",
+            "id": 2466995,
+            "inherits": "gcc gcc-native ruby",
+            "layerbranch": 1078512,
+            "license": "MIT",
+            "pe": "",
+            "pn": "tzinfo-data",
+            "pr": "r0",
+            "provides": "tzinfo-data ",
+            "pv": "1.2024.2",
+            "section": "base",
+            "srcrev": "7645b92dccf2c13e3958fedff7b0d105e1c6bb72",
+            "summary": "TZInfo::Data - Timezone Data for TZInfo",
+            "updated": "2026-05-26T03:05:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "serverengine_2.2.1.bb",
+            "filepath": "recipes-devtools/ruby",
+            "homepage": "https://rubygems.org/gems/serverengine",
+            "id": 2466996,
+            "inherits": "gcc gcc-native ruby",
+            "layerbranch": 1078512,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "serverengine",
+            "pr": "r0",
+            "provides": "serverengine ",
+            "pv": "2.2.1",
+            "section": "base",
+            "srcrev": "99d44a0989ab3e64e14ac0367aadf76aa13b3583",
+            "summary": "A framework to implement robust multiprocess servers like Unicorn",
+            "updated": "2026-05-26T03:05:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Ansible is a radically simple model-driven configuration management, multi-node deployment, and remote task execution system. Ansible works over SSH and does not require any software or daemons to be installed on remote nodes. Extension modules can be written in any language and are transferred to managed machines automatically. This package provides a curated set of Ansible collections included in addition to ansible-core.",
+            "filename": "python3-ansible-collections_9.4.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://pypi.org/project/ansible/",
+            "id": 2466997,
+            "inherits": "gcc gcc-native pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 1078512,
+            "license": "GPL-3.0-or-later",
+            "pe": "",
+            "pn": "python3-ansible-collections",
+            "pr": "r0",
+            "provides": "python3-ansible-collections ",
+            "pv": "9.4.0",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "Curated set of Ansible collections included in addition to ansible-core",
+            "updated": "2026-05-26T03:05:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Ansible is a simple IT automation platform that makes your applications and systems easier to deploy.",
+            "filename": "python3-ansible_2.17.7.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/ansible/ansible/",
+            "id": 2466998,
+            "inherits": "gcc gcc-native python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 1078512,
+            "license": "GPL-3.0-only",
+            "pe": "",
+            "pn": "python3-ansible",
+            "pr": "r0",
+            "provides": "python3-ansible ",
+            "pv": "2.17.7",
+            "section": "devel/python",
+            "srcrev": "dc0e3bd16cc7ded081bc46c88e4e3d1997ca9bb0",
+            "summary": "",
+            "updated": "2026-05-26T03:05:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "puppet-vswitch_git.bb",
+            "filepath": "recipes-support/puppet-vswitch",
+            "homepage": "https://github.com/openstack/puppet-vswitch",
+            "id": 2466999,
+            "inherits": "gcc gcc-native rubyv2",
+            "layerbranch": 1078512,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "puppet-vswitch",
+            "pr": "r0",
+            "provides": "puppet-vswitch ",
+            "pv": "21.1.0",
+            "section": "base",
+            "srcrev": "43ee6e8d174c2748376f5e166a25c7143747b3b9",
+            "summary": "Puppet provider for virtual switches.",
+            "updated": "2026-05-26T03:05:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "ac_cv_c_endian=little",
+            "description": " memcached optimizes specific high-load serving applications that are designed  to take advantage of its versatile no-locking memory access system. Clients  are available in several different programming languages, to suit the needs  of the specific application. Traditionally this has been used in mod_perl  apps to avoid storing large chunks of data in Apache memory, and to share  this burden across several machines.",
+            "filename": "memcached_1.6.41.bb",
+            "filepath": "recipes-support/memcached",
+            "homepage": "http://memcached.org/",
+            "id": 2467000,
+            "inherits": "autotools gcc gcc-native pkgconfig siteinfo systemd update-rc.d",
+            "layerbranch": 1078512,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "memcached",
+            "pr": "r0",
+            "provides": "memcached ",
+            "pv": "1.6.41",
+            "section": "web",
+            "srcrev": "",
+            "summary": "A high-performance memory object caching system",
+            "updated": "2026-05-26T03:05:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "hiera_3.12.0.bb",
+            "filepath": "recipes-support/hiera",
+            "homepage": "https://projects.puppetlabs.com/projects/hiera",
+            "id": 2467001,
+            "inherits": "gcc gcc-native ruby",
+            "layerbranch": 1078512,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "hiera",
+            "pr": "r0",
+            "provides": "hiera ",
+            "pv": "3.12.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "A simple pluggable Hierarchical Database",
+            "updated": "2026-05-26T03:05:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "\t--disable-pynslcd \t--libdir=/usr/lib \t--with-pam-seclib-dir=/usr/lib/security \t --disable-static ",
+            "description": " daemon for NSS and PAM lookups using LDAP  This package provides a daemon for retrieving user accounts and similar  system information from LDAP. It is used by the libnss-ldapd and  libpam-ldapd packages but is not very useful by itself.  ",
+            "filename": "nss-pam-ldapd_0.9.13.bb",
+            "filepath": "recipes-support/nss-pam-ldapd",
+            "homepage": "http://arthurdejong.org/nss-pam-ldapd/",
+            "id": 2467002,
+            "inherits": "autotools features_check gcc gcc-native siteinfo systemd update-rc.d",
+            "layerbranch": 1078512,
+            "license": "LGPL-2.1-only",
+            "pe": "",
+            "pn": "nss-pam-ldapd",
+            "pr": "r0",
+            "provides": "nss-pam-ldapd ",
+            "pv": "0.9.13",
+            "section": "base",
+            "srcrev": "",
+            "summary": "NSS and PAM module for using LDAP as a naming service",
+            "updated": "2026-05-26T03:05:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "facter_4.10.0.bb",
+            "filepath": "recipes-support/facter",
+            "homepage": "http://puppetlabs.com/facter",
+            "id": 2467003,
+            "inherits": "gcc gcc-native ruby",
+            "layerbranch": 1078512,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "facter",
+            "pr": "r0",
+            "provides": "facter ",
+            "pv": "4.10.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Facter gathers basic facts about nodes (systems)",
+            "updated": "2026-05-26T03:05:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "puppet_7.34.0.bb",
+            "filepath": "recipes-support/puppet",
+            "homepage": "https://puppetlabs.com/puppet/puppet-open-source",
+            "id": 2467004,
+            "inherits": "gcc gcc-native ruby systemd update-rc.d",
+            "layerbranch": 1078512,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "puppet",
+            "pr": "r0",
+            "provides": "puppet ",
+            "pv": "7.34.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Open source Puppet is a configuration management system",
+            "updated": "2026-05-26T03:05:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "puppetlabs-stdlib_git.bb",
+            "filepath": "recipes-support/puppetlabs-stdlib",
+            "homepage": "https://github.com/puppetlabs/puppetlabs-stdlib",
+            "id": 2467005,
+            "inherits": "gcc gcc-native rubyv2",
+            "layerbranch": 1078512,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "puppetlabs-stdlib",
+            "pr": "r0",
+            "provides": "puppetlabs-stdlib ",
+            "pv": "v9.7.0",
+            "section": "base",
+            "srcrev": "52740b7c3570b1828ed78c02a566b92a8c2b7329",
+            "summary": "Puppet Labs Standard Library module",
+            "updated": "2026-05-26T03:05:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static  --without-valgrind",
+            "description": "User space RDMA 'socket' protocol and libraries for establising RDMAcommunication.  Includes both Infiniband specific and general RDMAcommunication management libraries for unreliable datagram, reliableconnected, and multicast data transfers.Also includes ACM (communication management assistant) service.",
+            "filename": "librdmacm_1.1.0.bb",
+            "filepath": "recipes-extended/librdmacm",
+            "homepage": "http://www.openfabrics.org/downloads/rdmacm/",
+            "id": 2467006,
+            "inherits": "autotools gcc gcc-native siteinfo",
+            "layerbranch": 1078512,
+            "license": "BSD-2-Clause | GPL-2.0-only",
+            "pe": "",
+            "pn": "librdmacm",
+            "pr": "r0",
+            "provides": "librdmacm ",
+            "pv": "1.1.0",
+            "section": "libs/devel",
+            "srcrev": "",
+            "summary": "Userspace RDMA Connection Manager",
+            "updated": "2026-05-26T03:05:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "ac_cv_file__etc_debian_version=no                 ac_cv_file__etc_SuSE_release=no                 ac_cv_file__etc_redhat_release=no \t\tac_cv_file__etc_centos_release=no                 ac_cv_file__etc_os_release=no                 --with-mountutildir=/usr/sbin                 --disable-fusermount                 TARGET_PYTHON=/usr/bin/python3                 PYTHON=/tmp/tmpdsw39e6l/tmp/work/core2-32-oe-linux/glusterfs/11.2/recipe-sysroot-native/usr/bin/python3-native/python3 \t\tSSL_CERTS_DIR=\"/etc/ssl/certs\"                 BUILD_PYTHON_INC=/tmp/tmpdsw39e6l/tmp/work/core2-32-oe-linux/glusterfs/11.2/recipe-sysroot/usr/include/python3.14                 BUILD_PYTHON_LIB=python3.14                 BUILD_PYTHON_SITE_PACKAGES=/usr/lib/python3.14/site-packages                 --disable-static  --disable-debug --enable-georeplication --without-ocf --without-tcmalloc --disable-valgrind",
+            "description": "GlusterFS is an open source, distributed file system capable of scaling to several petabytes (actually, 72 brontobytes!) and handling thousands of clients.  GlusterFS clusters together storage building blocks over Infiniband RDMA or TCP/IP interconnect, aggregating disk and memory resources and managing data in a single global namespace.",
+            "filename": "glusterfs_11.2.bb",
+            "filepath": "recipes-extended/glusterfs",
+            "homepage": "http://www.gluster.org/",
+            "id": 2467007,
+            "inherits": "autotools bash-completion gcc gcc-native pkgconfig python3-dir python3native python3targetconfig setuptools3-base siteinfo systemd update-rc.d",
+            "layerbranch": 1078512,
+            "license": "(LGPL-3.0-or-later | GPL-2.0-only) & GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later & LGPL-2.0-or-later & LGPL-2.1-or-later & Apache-2.0",
+            "pe": "",
+            "pn": "glusterfs",
+            "pr": "r0",
+            "provides": "glusterfs ",
+            "pv": "11.2",
+            "section": "console/network",
+            "srcrev": "15d3c0f8435814fdb7242a8a82fa5db140013d0a",
+            "summary": "Glusterfs distributed filesystem",
+            "updated": "2026-05-26T03:05:05+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "Serf is a decentralized solution for service discovery and orchestration that is lightweight, highly available, and fault tolerant.Serf runs on Linux, Mac OS X, and Windows. An efficient and lightweight gossip protocol is used to communicate with other nodes. Serf can detect node failures and notify the rest of the cluster. An event system is built on top of Serf, letting you use Serf's gossip protocol to propagate events such as deploys, configuration changes, etc. Serf is completely masterless with no single point of failure.",
+            "filename": "hashicorp-serf_0.9.4.bb",
+            "filepath": "recipes-connectivity/serf",
+            "homepage": "https://www.serf.io/",
+            "id": 2467008,
+            "inherits": "gcc gcc-native go goarch linuxloader",
+            "layerbranch": 1078512,
+            "license": "Apache-2.0 & BSD-3-Clause & MIT & MPL-2.0",
+            "pe": "",
+            "pn": "hashicorp-serf",
+            "pr": "r0",
+            "provides": "hashicorp-serf ",
+            "pv": "0.8.5+gitX",
+            "section": "network",
+            "srcrev": "1d3fdf93bbe5002c5023da50402368a817488691",
+            "summary": "Decentralized Cluster Membership, Failure Detection, and Orchestration.",
+            "updated": "2026-10-07T23:10:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "A tool for discovering and configuring services in your infrastructure",
+            "filename": "consul_git.bb",
+            "filepath": "recipes-connectivity/consul",
+            "homepage": "https://www.consul.io/",
+            "id": 2467009,
+            "inherits": "gcc gcc-native go goarch linuxloader systemd",
+            "layerbranch": 1078512,
+            "license": "MPL-2.0 & BSD & Apache-2.0 & BSD-2-Clause & MIT",
+            "pe": "",
+            "pn": "consul",
+            "pr": "r0",
+            "provides": "consul ",
+            "pv": "git",
+            "section": "base",
+            "srcrev": "944cc71026c007e7de9467ec3f38f0ad14464fcc",
+            "summary": "",
+            "updated": "2026-10-07T23:10:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " --disable-static",
+            "description": "",
+            "filename": "consul-migrate_git.bb",
+            "filepath": "recipes-connectivity/consul",
+            "homepage": "https://github.com/hashicorp/consul-migrate",
+            "id": 2467010,
+            "inherits": "gcc gcc-native go goarch linuxloader",
+            "layerbranch": 1078512,
+            "license": "BSD & MPL-2.0 & MIT",
+            "pe": "",
+            "pn": "consul-migrate",
+            "pr": "r0",
+            "provides": "consul-migrate ",
+            "pv": "git",
+            "section": "base",
+            "srcrev": "678fb10cdeae25ab309e99e655148f0bf65f9710",
+            "summary": "Provides data migration for Consul server nodes",
+            "updated": "2026-10-07T23:10:13+0000"
+        }
+    ],
+    "wrtemplates": []
+}

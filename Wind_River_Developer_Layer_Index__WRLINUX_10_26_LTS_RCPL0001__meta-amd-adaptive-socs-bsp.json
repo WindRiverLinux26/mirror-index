@@ -1,0 +1,1414 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_26_LTS_RCPL0001",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44223,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44224,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44226,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44227,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44228,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44229,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0"
+        },
+        {
+            "description": "",
+            "id": 44230,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44231,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44232,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44234,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44235,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44236,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 6.0"
+        },
+        {
+            "description": "",
+            "id": 44237,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1"
+        },
+        {
+            "description": "",
+            "id": 44238,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44239,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44240,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1"
+        },
+        {
+            "description": "",
+            "id": 44241,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 6.1"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_26_LTS_RCPL0001",
+            "comparison": false,
+            "hidden": false,
+            "id": 497,
+            "name": "WRLINUX_10_26_LTS_RCPL0001",
+            "short_description": "WRLinux 10_26 LTS RCPL 0001",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2026-10-14T00:10:10+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "core",
+            "id": 1078463,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2026-10-14T20:10:16+0000",
+            "vcs_last_commit": "2026-10-10T07:10:34+0000",
+            "vcs_last_fetch": "2026-10-14T20:10:16+0000",
+            "vcs_last_rev": "2acc0d0060bf962d486c867c1d40f2cb0267190b",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44226
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "xilinx-microblaze",
+            "id": 1078486,
+            "layer": 438,
+            "local_path": "",
+            "updated": "2026-09-23T23:09:48+0000",
+            "vcs_last_commit": "2026-08-28T00:08:17+0000",
+            "vcs_last_fetch": "2026-09-23T23:09:48+0000",
+            "vcs_last_rev": "9c46953056c26ff7eb11f98eaab558140d3c8ee2",
+            "vcs_subdir": "meta-microblaze",
+            "version": null,
+            "yp_compatible_version": 44236
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "xilinx-multimedia",
+            "id": 1078495,
+            "layer": 575,
+            "local_path": "",
+            "updated": "2026-09-23T23:09:19+0000",
+            "vcs_last_commit": "2026-08-28T07:08:21+0000",
+            "vcs_last_fetch": "2026-09-23T23:09:19+0000",
+            "vcs_last_rev": "cacd60195f30a374a406dd96ae7867ad4ea2c9e8",
+            "vcs_subdir": "meta-xilinx-multimedia",
+            "version": null,
+            "yp_compatible_version": 44236
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "xilinx",
+            "id": 1078514,
+            "layer": 436,
+            "local_path": "",
+            "updated": "2026-09-23T23:09:07+0000",
+            "vcs_last_commit": "2026-09-22T06:09:13+0000",
+            "vcs_last_fetch": "2026-09-23T23:09:07+0000",
+            "vcs_last_rev": "bdd17304edf8cc26644d56beafd225ea50c235e8",
+            "vcs_subdir": "meta-xilinx-core",
+            "version": null,
+            "yp_compatible_version": 44236
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "xilinx-standalone",
+            "id": 1078523,
+            "layer": 435,
+            "local_path": "",
+            "updated": "2026-09-23T23:09:18+0000",
+            "vcs_last_commit": "2026-08-28T07:08:21+0000",
+            "vcs_last_fetch": "2026-09-23T23:09:18+0000",
+            "vcs_last_rev": "87e9720005303add471ee1e840bc09fa3d94dba9",
+            "vcs_subdir": "meta-xilinx-standalone",
+            "version": null,
+            "yp_compatible_version": 44236
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "xilinx-standalone-sdt",
+            "id": 1078528,
+            "layer": 572,
+            "local_path": "",
+            "updated": "2026-09-23T23:09:22+0000",
+            "vcs_last_commit": "2026-08-28T07:08:21+0000",
+            "vcs_last_fetch": "2026-09-23T23:09:22+0000",
+            "vcs_last_rev": "9d1e0fdb4792ba43f933e2ca765bbc3c642e7db0",
+            "vcs_subdir": "meta-xilinx-standalone-sdt",
+            "version": null,
+            "yp_compatible_version": 44236
+        },
+        {
+            "actual_branch": "",
+            "branch": 497,
+            "collection": "amd-adaptive-socs-bsp",
+            "id": 1078529,
+            "layer": 576,
+            "local_path": "",
+            "updated": "2026-09-23T23:09:35+0000",
+            "vcs_last_commit": "2026-09-17T08:09:18+0000",
+            "vcs_last_fetch": "2026-09-23T23:09:35+0000",
+            "vcs_last_rev": "609ec6fc154ef02329f0a4fcd8c56255c88719a7",
+            "vcs_subdir": "meta-amd-adaptive-socs-bsp",
+            "version": null,
+            "yp_compatible_version": 44239
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 155951,
+            "layerbranch": 1078529,
+            "required": true
+        },
+        {
+            "dependency": 436,
+            "id": 155952,
+            "layerbranch": 1078529,
+            "required": true
+        },
+        {
+            "dependency": 438,
+            "id": 155953,
+            "layerbranch": 1078529,
+            "required": true
+        },
+        {
+            "dependency": 575,
+            "id": 155954,
+            "layerbranch": 1078529,
+            "required": true
+        },
+        {
+            "dependency": 435,
+            "id": 155955,
+            "layerbranch": 1078529,
+            "required": true
+        },
+        {
+            "dependency": 572,
+            "id": 155956,
+            "layerbranch": 1078529,
+            "required": true
+        },
+        {
+            "dependency": 18,
+            "id": 155957,
+            "layerbranch": 1078529,
+            "required": false
+        },
+        {
+            "dependency": 45,
+            "id": 155958,
+            "layerbranch": 1078529,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-standalone",
+            "comparison": false,
+            "description": "This layer is meant to augment Yocto/OE functionality to provide a\r\nBaremetal/Standalone Toolchain as well as a generic version of various\r\nfirmware that is required to boot a ZynqMP or Versal system.\r\n\r\nFor optimized versions of the firmware and additional components you must\r\nuse the meta-xilinx-tools layer.",
+            "id": 435,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-standalone",
+            "status": "P",
+            "summary": "This layer provides a Baremetal/Standalone Toolchain as well as a generic version of various firmware that is required to boot a ZynqMP or Versal system.",
+            "updated": "2022-03-03T00:03:58+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx",
+            "comparison": false,
+            "description": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
+            "id": 436,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-core",
+            "status": "P",
+            "summary": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
+            "updated": "2022-03-03T00:03:48+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-microblaze",
+            "comparison": false,
+            "description": "This layer provides support specific to the MicroBlaze architecture",
+            "id": 438,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-microblaze",
+            "status": "P",
+            "summary": "This layer provides support specific to the MicroBlaze architecture",
+            "updated": "2025-10-24T00:10:04+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-standalone-sdt",
+            "comparison": false,
+            "description": "This layer contains System Device Tree build metadata such as multiconfig operating\r\nenvironment(baremetal, freertos etc) boot firmware drivers, libraries and \r\napplications recipes.",
+            "id": 572,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-standalone-sdt",
+            "status": "P",
+            "summary": "meta-xilinx-standalone-sdt",
+            "updated": "2025-10-24T00:10:51+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-multimedia",
+            "comparison": false,
+            "description": "This layer contains multimedia related recipes and bbappends for AMD Adaptive\r\nSoC's and specific FPGA targets.",
+            "id": 575,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-multimedia",
+            "status": "P",
+            "summary": "meta-xilinx-multimedia",
+            "updated": "2025-12-16T21:12:38+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "amd-adaptive-socs-bsp",
+            "comparison": false,
+            "description": "This layer enables AMD Adaptive SoC's bsp features such as evaluation board\r\nsystem device tree build metadata such as machine configurations files, multiconfig\r\nfiles, system device tree files, boot pdi, kernel configuration fragments, series\r\nconfiguration compiler(.scc) files etc. This layer also supports to enable Xen \r\nhypervisor.",
+            "id": 576,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-amd-adaptive-socs-bsp",
+            "status": "P",
+            "summary": "meta-amd-adaptive-socs-bsp",
+            "updated": "2025-12-25T01:12:32+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-amd-adaptive-socs",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": "AMP/multidomain machine for the AMD Versal Gen 2 VEK386 evaluation kit: Cortex-A78 Linux, Cortex-R52 baremetal/Zephyr, and MicroBlaze PMC sub-machines built from system device tree.",
+            "id": 113211,
+            "layerbranch": 1078529,
+            "name": "versal-2ve-2vm-vek386-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal Premium VPK360 evaluation kit: Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 113212,
+            "layerbranch": 1078529,
+            "name": "versal-2vp-vpk360-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": " a generic riscv32",
+            "id": 113213,
+            "layerbranch": 1078529,
+            "name": "qemu-microblaze-v-32",
+            "updated": "2026-05-26T03:05:49+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal VM-P-M1369-00 Rev A system-on-module on the X-PRC-01 Rev A carrier card: Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 113214,
+            "layerbranch": 1078529,
+            "name": "versal-vm-p-m1369-00-reva-x-prc-01-reva-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Zynq UltraScale+ MPSoC ZCU106 evaluation kit: Cortex-A53 Linux plus Cortex-A53 FSBL and MicroBlaze PMU sub-machines built from system device tree.",
+            "id": 113215,
+            "layerbranch": 1078529,
+            "name": "zynqmp-zcu106-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Zynq UltraScale+ RFSoC ZCU111 evaluation kit: Cortex-A53 Linux plus Cortex-A53 FSBL and MicroBlaze PMU sub-machines built from system device tree.",
+            "id": 113216,
+            "layerbranch": 1078529,
+            "name": "zynqmp-zcu111-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal AI Core VCK190 evaluation kit: Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 113217,
+            "layerbranch": 1078529,
+            "name": "versal-vck190-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Versal RF VRK160 evaluation kit: Cortex-A72 Linux, Cortex-R5 FreeRTOS/baremetal, and MicroBlaze PMC/PSM sub-machines built from system device tree.",
+            "id": 113218,
+            "layerbranch": 1078529,
+            "name": "versal-vrk160-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal Premium VPK120 evaluation kit: Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 113219,
+            "layerbranch": 1078529,
+            "name": "versal-vpk120-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Versal Premium VPK180 evaluation kit: Cortex-A72 Linux, Cortex-R5 FreeRTOS/baremetal, and MicroBlaze PMC/PSM sub-machines built from system device tree.",
+            "id": 113220,
+            "layerbranch": 1078529,
+            "name": "versal-vpk180-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal Premium VPK180 evaluation kit: Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 113221,
+            "layerbranch": 1078529,
+            "name": "versal-vpk180-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Zynq UltraScale+ MPSoC ZCU104 evaluation kit: Cortex-A53 Linux plus Cortex-A53 FSBL and MicroBlaze PMU sub-machines built from system device tree.",
+            "id": 113222,
+            "layerbranch": 1078529,
+            "name": "zynqmp-zcu104-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Alveo V80 Compute Accelerator Card (Versal Premium): Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 113223,
+            "layerbranch": 1078529,
+            "name": "versal-v80-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": " AMD Zynq UltraScale+ MPSoC ZCU104 evaluation kit (Cortex-A53 Linux plus FSBL and MicroBlaze PMU sub-machines), built from system device tree.",
+            "id": 113224,
+            "layerbranch": 1078529,
+            "name": "zynqmp-zcu104-sdt-full",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal Gen 2 VEK385 (Rev B) evaluation kit: Cortex-A78 Linux plus MicroBlaze PMC firmware sub-machine.",
+            "id": 113225,
+            "layerbranch": 1078529,
+            "name": "versal-2ve-2vm-vek385-revb-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": " AMD Zynq-7000 ZC706 evaluation kit (Cortex-A9 Linux plus FSBL sub-machine), built from system device tree.",
+            "id": 113226,
+            "layerbranch": 1078529,
+            "name": "zynq-zc706-sdt-full",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Versal AI Core VCK190 evaluation kit: Cortex-A72 Linux, Cortex-R5 FreeRTOS/baremetal, and MicroBlaze PMC/PSM sub-machines built from system device tree.",
+            "id": 113227,
+            "layerbranch": 1078529,
+            "name": "versal-vck190-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal Gen 2 VEK386 evaluation kit: Cortex-A78 Linux plus MicroBlaze PMC firmware sub-machine.",
+            "id": 113228,
+            "layerbranch": 1078529,
+            "name": "versal-2ve-2vm-vek386-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": " a generic riscv64",
+            "id": 113229,
+            "layerbranch": 1078529,
+            "name": "qemu-microblaze-v-64",
+            "updated": "2026-05-26T03:05:49+0000"
+        },
+        {
+            "description": " AMD SCU200 board running a 64-bit AMD MicroBlaze V processor (soft-core RISC-V processor IP), built from system device tree.",
+            "id": 113230,
+            "layerbranch": 1078529,
+            "name": "mbv64-scu200-sdt",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Versal Gen 2 VEK385 evaluation kit: Cortex-A78 Linux, Cortex-R52 baremetal/Zephyr, and MicroBlaze PMC sub-machines built from system device tree.",
+            "id": 113231,
+            "layerbranch": 1078529,
+            "name": "versal-2ve-2vm-vek385-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": " AMD Zynq UltraScale+ RFSoC ZCU111 evaluation kit (Cortex-A53 Linux plus FSBL and MicroBlaze PMU sub-machines), built from system device tree.",
+            "id": 113232,
+            "layerbranch": 1078529,
+            "name": "zynqmp-zcu111-sdt-full",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Versal Premium VPK120 evaluation kit: Cortex-A72 Linux, Cortex-R5 FreeRTOS/baremetal, and MicroBlaze PMC/PSM sub-machines built from system device tree.",
+            "id": 113233,
+            "layerbranch": 1078529,
+            "name": "versal-vpk120-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal RF VRK165 evaluation kit: Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 113234,
+            "layerbranch": 1078529,
+            "name": "versal-vrk165-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal Gen 2 VMK365 evaluation kit: Cortex-A78 Linux plus MicroBlaze PMC firmware sub-machine.",
+            "id": 113235,
+            "layerbranch": 1078529,
+            "name": "versal-2ve-2vm-vmk365-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal AI Edge VEK280 evaluation kit: Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 113236,
+            "layerbranch": 1078529,
+            "name": "versal-vek280-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal RF VRK160 evaluation kit: Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 113237,
+            "layerbranch": 1078529,
+            "name": "versal-vrk160-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": " AMD SCU200 RevB board running a 64-bit AMD MicroBlaze V processor (soft-core RISC-V processor IP), built from system device tree.",
+            "id": 113238,
+            "layerbranch": 1078529,
+            "name": "mbv64-scu200-revb-sdt",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal Gen 2 VEK385 evaluation kit: Cortex-A78 Linux plus MicroBlaze PMC firmware sub-machine.",
+            "id": 113239,
+            "layerbranch": 1078529,
+            "name": "versal-2ve-2vm-vek385-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal Gen 2 VMK365 evaluation kit: Cortex-A78 Linux plus MicroBlaze PMC firmware sub-machine.",
+            "id": 113240,
+            "layerbranch": 1078529,
+            "name": "versal-2ve-2vm-vmk365-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": " AMD Zynq UltraScale+ MPSoC ZCU106 evaluation kit (Cortex-A53 Linux plus FSBL and MicroBlaze PMU sub-machines), built from system device tree.",
+            "id": 113241,
+            "layerbranch": 1078529,
+            "name": "zynqmp-zcu106-sdt-full",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": " AMD Zynq UltraScale+ MPSoC ZCU102 evaluation kit (Cortex-A53 Linux plus FSBL and MicroBlaze PMU sub-machines), built from system device tree.",
+            "id": 113242,
+            "layerbranch": 1078529,
+            "name": "zynqmp-zcu102-sdt-full",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Versal Prime VMK180 evaluation kit: Cortex-A72 Linux, Cortex-R5 FreeRTOS/baremetal, and MicroBlaze PMC/PSM sub-machines built from system device tree.",
+            "id": 113243,
+            "layerbranch": 1078529,
+            "name": "versal-vmk180-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Zynq UltraScale+ MPSoC ZCU102 evaluation kit: Cortex-A53 Linux plus Cortex-A53 FSBL and MicroBlaze PMU sub-machines built from system device tree.",
+            "id": 113244,
+            "layerbranch": 1078529,
+            "name": "zynqmp-zcu102-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Versal Gen 2 VEK385 (Rev B) evaluation kit: Cortex-A78 Linux, Cortex-R52 baremetal/Zephyr, and MicroBlaze PMC sub-machines built from system device tree.",
+            "id": 113245,
+            "layerbranch": 1078529,
+            "name": "versal-2ve-2vm-vek385-revb-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal Prime VMK180 evaluation kit: Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 113246,
+            "layerbranch": 1078529,
+            "name": "versal-vmk180-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Zynq UltraScale+ RFSoC ZCU208 evaluation kit: Cortex-A53 Linux plus Cortex-A53 FSBL and MicroBlaze PMU sub-machines built from system device tree.",
+            "id": 113247,
+            "layerbranch": 1078529,
+            "name": "zynqmp-zcu208-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Versal RF VRK165 evaluation kit: Cortex-A72 Linux, Cortex-R5 FreeRTOS/baremetal, and MicroBlaze PMC/PSM sub-machines built from system device tree.",
+            "id": 113248,
+            "layerbranch": 1078529,
+            "name": "versal-vrk165-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Versal VM-P-M1369-00 Rev A system-on-module on the X-PRC-01 Rev A carrier card: Cortex-A72 Linux, Cortex-R5 FreeRTOS/baremetal, and MicroBlaze PMC/PSM sub-machines built from system device tree.",
+            "id": 113249,
+            "layerbranch": 1078529,
+            "name": "versal-vm-p-m1369-00-reva-x-prc-01-reva-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": " AMD Zynq UltraScale+ RFSoC ZCU208 evaluation kit (Cortex-A53 Linux plus FSBL and MicroBlaze PMU sub-machines), built from system device tree.",
+            "id": 113250,
+            "layerbranch": 1078529,
+            "name": "zynqmp-zcu208-sdt-full",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Alveo V80 Compute Accelerator Card (Versal Premium): Cortex-A72 Linux, Cortex-R5 FreeRTOS/baremetal, and MicroBlaze PMC/PSM sub-machines built from system device tree.",
+            "id": 113251,
+            "layerbranch": 1078529,
+            "name": "versal-v80-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Versal AI Edge VEK280 evaluation kit: Cortex-A72 Linux, Cortex-R5 FreeRTOS/baremetal, and MicroBlaze PMC/PSM sub-machines built from system device tree.",
+            "id": 113252,
+            "layerbranch": 1078529,
+            "name": "versal-vek280-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": " AMD Zynq-7000 ZC702 evaluation kit (Cortex-A9 Linux plus FSBL sub-machine), built from system device tree.",
+            "id": 113253,
+            "layerbranch": 1078529,
+            "name": "zynq-zc702-sdt-full",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal Premium VPK360 evaluation kit: Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 117582,
+            "layerbranch": 1078529,
+            "name": "versal-2vp-vpk360-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Versal RF VRK160 REVB evaluation kit: Cortex-A72 Linux, Cortex-R5 FreeRTOS/baremetal, and MicroBlaze PMC/PSM sub-machines built from system device tree.",
+            "id": 117583,
+            "layerbranch": 1078529,
+            "name": "versal-vrk160-revb-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal RF VRK160 REVB evaluation kit: Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 117584,
+            "layerbranch": 1078529,
+            "name": "versal-vrk160-revb-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "AMP/multidomain machine for the AMD Versal RF VRK165 REVB evaluation kit: Cortex-A72 Linux, Cortex-R5 FreeRTOS/baremetal, and MicroBlaze PMC/PSM sub-machines built from system device tree.",
+            "id": 117585,
+            "layerbranch": 1078529,
+            "name": "versal-vrk165-revb-multidomain",
+            "updated": "2026-09-23T23:09:35+0000"
+        },
+        {
+            "description": "Segmented SDT machine for the AMD Versal RF VRK165 REVB evaluation kit: Cortex-A72 Linux plus MicroBlaze PMC/PSM firmware sub-machines.",
+            "id": 117586,
+            "layerbranch": 1078529,
+            "name": "versal-vrk165-revb-sdt-seg",
+            "updated": "2026-09-23T23:09:35+0000"
+        }
+    ],
+    "recipes": [],
+    "wrtemplates": []
+}
